@@ -1,0 +1,67 @@
+{
+  "search_metadata": {
+    "search_id": "Pune_Bangalore_NA_20251001_152935",
+    "src": "Pune",
+    "dst": "Bangalore",
+    "travel_date": null,
+    "earliest_departure": "2025-10-01T12:00:00+05:30",
+    "latest_arrival": "2025-10-01T21:00:00+05:30",
+    "timestamp_utc": "2025-10-01T15:29:35.085939",
+    "query_primary": "Pune to Bangalore bus tickets price duration site:redbus.in OR site:abhibus.com OR site:intrcity.com OR site:zingbus.com OR site:paytm.com/bus-tickets OR site:makemytrip.com/bus-tickets OR site:yatra.com/bus",
+    "distance_km": 735.2269425849163
+  },
+  "options": [
+    {
+      "mode": "bus",
+      "src": "Pune",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T12:00:00+05:30",
+      "arrive": "2025-10-02T04:00:00+05:30",
+      "duration_hours": 16.0,
+      "price_inr": 799,
+      "ref": "B01",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/bus-tickets/pune-to-bangalore"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Pune",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T14:00:00+05:30",
+      "arrive": "2025-10-02T07:40:12+05:30",
+      "duration_hours": 17.67,
+      "price_inr": null,
+      "ref": "B02",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.makemytrip.com/bus-tickets/pune-bangalore-bus-ticket-booking.html"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10",
+    "drop_by_la: https://www.redbus.in/bus-tickets/pune-to-bangalore",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/pune-bangalore-bus-ticket-booking.html",
+    "drop_by_la: https://www.abhibus.com/buses/54/Pune-Bangalore",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/volvo-ac-buses-from-pune-to-bangalore-online-ticket-booking.html",
+    "drop_by_la: https://www.intrcity.com/bus-booking/pune-to-bangalore-buses",
+    "drop_by_la: https://www.yatra.com/bus-tickets/pune-to-bangalore",
+    "drop_by_la: https://www.redbus.in/online-bus/pune-to-bangalore-operator-vrl-travels",
+    "drop_by_la: https://www.redbus.in/online-bus/pune-to-bangalore-operator-orange-travels-orange",
+    "drop_by_la: https://www.redbus.in/bus-tickets/nigdi-to-bangalore",
+    "drop_by_la: https://www.redbus.in/online-bus/pune-to-bangalore-operator-srs-travels-srs",
+    "pass2_organic: 10",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/pune-bangalore-bus-ticket-booking.html",
+    "drop_by_la: https://www.yatra.com/bus-tickets/pune-to-bangalore",
+    "drop_by_la: https://www.redbus.in/bus-tickets/pune-to-bangalore",
+    "drop_by_la: https://www.abhibus.com/buses/54/Pune-Bangalore",
+    "drop_by_la: https://www.intrcity.com/bus-booking/pune-to-bangalore-buses",
+    "drop_by_la: https://www.zingbus.com/bus-tickets/pune-to-bangalore-bus-route",
+    "drop_by_la: https://www.goibibo.com/bus/pune-to-bangalore-bus-tickets/",
+    "drop_by_la: https://www.cleartrip.com/bus-tickets/pune-to-bangalore/",
+    "drop_by_la: https://www.flixbus.in/bus-routes/pune-bengaluru",
+    "no_options_due_to_latest_arrival; relaxing LA constraint for 2 items"
+  ]
+}

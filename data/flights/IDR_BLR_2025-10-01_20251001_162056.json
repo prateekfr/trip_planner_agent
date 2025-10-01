@@ -1,0 +1,440 @@
+{
+  "search_metadata": {
+    "search_id": "IDR_BLR_2025-10-01_20251001_162056",
+    "route": "IDR->BLR",
+    "outbound_date": "2025-10-01",
+    "return_date": null,
+    "adults": 1,
+    "children": 0,
+    "infants_in_seat": 0,
+    "infants_on_lap": 0,
+    "class": 1,
+    "currency": "INR",
+    "gl": "in",
+    "hl": "en",
+    "timestamp_utc": "2025-10-01T16:20:56.709660"
+  },
+  "best_flights": [],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-10-01 21:55"
+          },
+          "arrival_airport": {
+            "name": "Pune International Airport",
+            "id": "PNQ",
+            "time": "2025-10-01 23:15"
+          },
+          "duration": 80,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 147",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 52 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Pune International Airport",
+            "id": "PNQ",
+            "time": "2025-10-02 06:40"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-02 08:20"
+          },
+          "duration": 100,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 391",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 61 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 445,
+          "name": "Pune International Airport",
+          "id": "PNQ",
+          "overnight": true
+        }
+      ],
+      "total_duration": 625,
+      "carbon_emissions": {
+        "this_flight": 114000,
+        "typical_for_this_route": 93000,
+        "difference_percent": 23
+      },
+      "price": 8765,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJZHpSS1NIUktUalJLYjJOQlJIbFVSV2RDUnkwdExTMHRMUzB0TFc5NWNIZ3hNVUZCUVVGQlIycGtWRVk0UkVWR1VWZEJFZ3MyUlRFME4zdzJSVE01TVJvS0NMMUVFQUFhQTBsT1VqZ2NjSjFOIixbWyJJRFIiLCIyMDI1LTEwLTAxIiwiUE5RIixudWxsLCI2RSIsIjE0NyJdLFsiUE5RIiwiMjAyNS0xMC0wMiIsIkJMUiIsbnVsbCwiNkUiLCIzOTEiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-10-01 21:55"
+          },
+          "arrival_airport": {
+            "name": "Pune International Airport",
+            "id": "PNQ",
+            "time": "2025-10-01 23:15"
+          },
+          "duration": 80,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 147",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 52 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Pune International Airport",
+            "id": "PNQ",
+            "time": "2025-10-02 00:45"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-02 02:20"
+          },
+          "duration": 95,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 361",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 61 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 90,
+          "name": "Pune International Airport",
+          "id": "PNQ"
+        }
+      ],
+      "total_duration": 265,
+      "carbon_emissions": {
+        "this_flight": 114000,
+        "typical_for_this_route": 93000,
+        "difference_percent": 23
+      },
+      "price": 9145,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJZHpSS1NIUktUalJLYjJOQlJIbFVSV2RDUnkwdExTMHRMUzB0TFc5NWNIZ3hNVUZCUVVGQlIycGtWRVk0UkVWR1VWZEJFZ3MyUlRFME4zdzJSVE0yTVJvS0NMbEhFQUFhQTBsT1VqZ2NjTXBRIixbWyJJRFIiLCIyMDI1LTEwLTAxIiwiUE5RIixudWxsLCI2RSIsIjE0NyJdLFsiUE5RIiwiMjAyNS0xMC0wMiIsIkJMUiIsbnVsbCwiNkUiLCIzNjEiXV1d"
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 8765,
+    "price_level": "high",
+    "typical_price_range": [
+      5000,
+      8600
+    ],
+    "price_history": [
+      [
+        1754073000,
+        6192
+      ],
+      [
+        1754159400,
+        6192
+      ],
+      [
+        1754245800,
+        6192
+      ],
+      [
+        1754332200,
+        6192
+      ],
+      [
+        1754418600,
+        6192
+      ],
+      [
+        1754505000,
+        6192
+      ],
+      [
+        1754591400,
+        6192
+      ],
+      [
+        1754677800,
+        6192
+      ],
+      [
+        1754764200,
+        6192
+      ],
+      [
+        1754850600,
+        5131
+      ],
+      [
+        1754937000,
+        5131
+      ],
+      [
+        1755023400,
+        5131
+      ],
+      [
+        1755109800,
+        5131
+      ],
+      [
+        1755196200,
+        6192
+      ],
+      [
+        1755282600,
+        6192
+      ],
+      [
+        1755369000,
+        6192
+      ],
+      [
+        1755455400,
+        6192
+      ],
+      [
+        1755541800,
+        6192
+      ],
+      [
+        1755628200,
+        6037
+      ],
+      [
+        1755714600,
+        6037
+      ],
+      [
+        1755801000,
+        6037
+      ],
+      [
+        1755887400,
+        6192
+      ],
+      [
+        1755973800,
+        6192
+      ],
+      [
+        1756060200,
+        6192
+      ],
+      [
+        1756146600,
+        6192
+      ],
+      [
+        1756233000,
+        6192
+      ],
+      [
+        1756319400,
+        6192
+      ],
+      [
+        1756405800,
+        5600
+      ],
+      [
+        1756492200,
+        5600
+      ],
+      [
+        1756578600,
+        5600
+      ],
+      [
+        1756665000,
+        4693
+      ],
+      [
+        1756751400,
+        5600
+      ],
+      [
+        1756837800,
+        5600
+      ],
+      [
+        1756924200,
+        5600
+      ],
+      [
+        1757010600,
+        6000
+      ],
+      [
+        1757097000,
+        6806
+      ],
+      [
+        1757183400,
+        6806
+      ],
+      [
+        1757269800,
+        6806
+      ],
+      [
+        1757356200,
+        6806
+      ],
+      [
+        1757442600,
+        6000
+      ],
+      [
+        1757529000,
+        6000
+      ],
+      [
+        1757615400,
+        6000
+      ],
+      [
+        1757701800,
+        6000
+      ],
+      [
+        1757788200,
+        6000
+      ],
+      [
+        1757874600,
+        4930
+      ],
+      [
+        1757961000,
+        4930
+      ],
+      [
+        1758047400,
+        4930
+      ],
+      [
+        1758133800,
+        4930
+      ],
+      [
+        1758220200,
+        4930
+      ],
+      [
+        1758306600,
+        4930
+      ],
+      [
+        1758393000,
+        4930
+      ],
+      [
+        1758479400,
+        4930
+      ],
+      [
+        1758565800,
+        4930
+      ],
+      [
+        1758652200,
+        4930
+      ],
+      [
+        1758738600,
+        4930
+      ],
+      [
+        1758825000,
+        4930
+      ],
+      [
+        1758911400,
+        4930
+      ],
+      [
+        1758997800,
+        4930
+      ],
+      [
+        1759084200,
+        4930
+      ],
+      [
+        1759170600,
+        4930
+      ],
+      [
+        1759257000,
+        8765
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "IDR",
+            "name": "Devi Ahilyabai Holkar International Airport, Indore"
+          },
+          "city": "Indore",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7-ZgN2kaBwax506bxU8Z9kQoCEN7z731rPBQVtcHXo0zdL3sHBNxmIpQsBqnv6bInZjNmqX0JgmyABg",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTFNIoHCCJrb7y-bwBoPRD1QiNo0c_VvKZq_Xta1MjnkKTKjltm7BF352MZDu3UlntRyQtuX8b0WAfkbD9FwcZLiXKwMM5mZskS0BcC9RA"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "BLR",
+            "name": "Kempegowda International Airport Bengaluru"
+          },
+          "city": "Bengaluru",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQIQIUfZg6v3rdHMVD96D5vTNuXwVO7zsdZy0l7s2uiyV-xuK8nJlokAp_ChoLy9r0vjJWcOOBkEvBI2g",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSFrS_QMxzjURYrYSPiuRW9uR9imYuBAhdE49jwKag7Ucgl0en4CNAtP0hf1MDSGdvhAw2s1-2w71_b-pcIyFOM1F1yMSPQLO5_XlgJc_4"
+        }
+      ]
+    }
+  ]
+}

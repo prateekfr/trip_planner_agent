@@ -1,0 +1,110 @@
+{
+  "cheapest": {
+    "mode": "train",
+    "src": "Indore",
+    "dst": "Mumbai",
+    "depart": "2025-10-14 21:00",
+    "arrive": "2025-10-15 04:18",
+    "duration_hours": 7.3,
+    "price_inr": 290,
+    "ref": "T02",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.confirmtkt.com/trains/indore-to-mumbai-train-tickets"
+    },
+    "duration_note": "duration_unreliable",
+    "booking_link": "https://www.irctc.co.in/nget/train-search?from=Indore&to=Mumbai"
+  },
+  "fastest": {
+    "mode": "flight",
+    "src": "IDR",
+    "dst": "BOM",
+    "depart": "2025-10-14 08:30",
+    "arrive": "2025-10-14 09:45",
+    "duration_hours": 1.2,
+    "price_inr": 5429.0,
+    "ref": "",
+    "provider": {
+      "name": "SerpAPI GoogleFlights"
+    },
+    "booking_link": "https://www.makemytrip.com/flight/search?itinerary=IDR-BOM-14/10/2025&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E"
+  },
+  "value": {
+    "mode": "train",
+    "src": "Indore",
+    "dst": "Mumbai",
+    "depart": "2025-10-14 21:00",
+    "arrive": "2025-10-15 04:18",
+    "duration_hours": 7.3,
+    "price_inr": 290,
+    "ref": "T02",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.confirmtkt.com/trains/indore-to-mumbai-train-tickets"
+    },
+    "duration_note": "duration_unreliable",
+    "booking_link": "https://www.irctc.co.in/nget/train-search?from=Indore&to=Mumbai"
+  },
+  "hotels_top5": [
+    {
+      "name": "Grand Hyatt Mumbai Hotel & Residences",
+      "price_inr": 16102.0,
+      "distance_km": null,
+      "rating": 4.5,
+      "city": "Mumbai",
+      "near": "Hyatt",
+      "checkin": "2025-10-15T09:00:00+05:30",
+      "checkout": "2025-10-15T11:00:00+05:30",
+      "ref": "ChcIrIOvg-jjophAGgsvbS8wMTA5N19udBAB",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.hyatt.com/grand-hyatt/en-US/mumgh-grand-hyatt-mumbai/?src=corp_lclb_gmb_seo_mumgh"
+      }
+    },
+    {
+      "name": "Hyatt Regency Mumbai",
+      "price_inr": null,
+      "distance_km": null,
+      "rating": 4.5,
+      "city": "Mumbai",
+      "near": "Hyatt",
+      "checkin": "2025-10-15T09:00:00+05:30",
+      "checkout": "2025-10-15T11:00:00+05:30",
+      "ref": "ChgI27Sf7JnPtryMARoLL2cvMXRocWY2eXYQAQ",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.hyatt.com/en-US/hotel/india/hyatt-regency-mumbai/mumba?src=corp_lclb_gmb_seo_mumba"
+      }
+    },
+    {
+      "name": "Hyatt Centric Juhu Mumbai",
+      "price_inr": 15318.0,
+      "distance_km": null,
+      "rating": 4.5,
+      "city": "Mumbai",
+      "near": "Hyatt",
+      "checkin": "2025-10-15T09:00:00+05:30",
+      "checkout": "2025-10-15T11:00:00+05:30",
+      "ref": "ChoI1cDO1vqLtp_6ARoNL2cvMTF0N2hwMTFoeBAB",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.hyatt.com/hyatt-centric/en-US/mumct-hyatt-centric-juhu-mumbai?src=corp_lclb_google_seo_mumct&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+      }
+    }
+  ],
+  "debug": [
+    "IATA resolved: Indore → IDR (as Indore)",
+    "IATA resolved: Mumbai → BOM (as Mumbai)",
+    "Flights: 7 options on 2025-10-14.",
+    "Trains: 2 options.",
+    "Buses: 3 options.",
+    "Hotels: 3 options.",
+    "LLM itinerary generated (1829 chars)."
+  ],
+  "iata": {
+    "from": "IDR",
+    "to": "BOM"
+  },
+  "base_city": "Indore",
+  "destination_city": "Mumbai"
+}

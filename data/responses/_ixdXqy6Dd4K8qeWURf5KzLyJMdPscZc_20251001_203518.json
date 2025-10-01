@@ -1,0 +1,66 @@
+{
+  "cheapest": {
+    "mode": "bus",
+    "src": "Indore",
+    "dst": "Mumbai",
+    "depart": "2025-10-02 12:34",
+    "arrive": "2025-10-02 19:34",
+    "duration_hours": 7.0,
+    "price_inr": 500,
+    "ref": "B03",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.abhibus.com/buses/138/Indore-Mumbai"
+    },
+    "duration_note": "duration_unreliable",
+    "booking_link": "https://www.abhibus.com/buses/138/Indore-Mumbai"
+  },
+  "fastest": {
+    "mode": "flight",
+    "src": "IDR",
+    "dst": "BOM",
+    "depart": "2025-10-02 08:30",
+    "arrive": "2025-10-02 09:45",
+    "duration_hours": 1.2,
+    "price_inr": 5324.0,
+    "ref": "",
+    "provider": {
+      "name": "SerpAPI GoogleFlights"
+    },
+    "booking_link": "https://www.makemytrip.com/flight/search?itinerary=IDR-BOM-02/10/2025&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E"
+  },
+  "value": {
+    "mode": "bus",
+    "src": "Indore",
+    "dst": "Mumbai",
+    "depart": "2025-10-02 12:34",
+    "arrive": "2025-10-02 19:34",
+    "duration_hours": 7.0,
+    "price_inr": 500,
+    "ref": "B03",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.abhibus.com/buses/138/Indore-Mumbai"
+    },
+    "duration_note": "duration_unreliable",
+    "booking_link": "https://www.abhibus.com/buses/138/Indore-Mumbai"
+  },
+  "hotels_top5": [],
+  "hotel_value": {},
+  "hotel_cheapest": {},
+  "debug": [
+    "IATA resolved: Indore → IDR (as Indore)",
+    "IATA resolved: Mumbai → BOM (as Mumbai)",
+    "Flights: 7 options on 2025-10-02.",
+    "Trains: 10 options.",
+    "Buses: 10 options.",
+    "Hotels search returned no search_id: {'error': '400 Client Error: Bad Request for url: https://serpapi.com/search?engine=google_hotels&api_key=e3a02156b80f82fea7ac89783564872f14d8823c48c6bbfc3f56726a09a903e8&q=hotels+in+Mumbai&gl=in&hl=en&currency=INR&adults=1'}",
+    "LLM itinerary generated (1618 chars)."
+  ],
+  "iata": {
+    "from": "IDR",
+    "to": "BOM"
+  },
+  "base_city": "Indore",
+  "destination_city": "Mumbai"
+}

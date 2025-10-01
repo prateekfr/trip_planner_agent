@@ -1,0 +1,56 @@
+{
+  "search_metadata": {
+    "search_id": "Plan_Bangalore_NA_20251001_153807",
+    "src": "Plan",
+    "dst": "Bangalore",
+    "travel_date": null,
+    "earliest_departure": "2025-10-01T12:00:00+05:30",
+    "latest_arrival": "2025-10-01T21:00:00+05:30",
+    "timestamp_utc": "2025-10-01T15:38:07.913486",
+    "query_primary": "Plan to Bangalore trains time table fare duration site:ixigo.com/trains OR site:trainman.in OR site:confirmtkt.com OR site:railyatri.in OR site:etrain.info OR site:yatra.com/trains OR site:paytm.com/train-tickets OR site:irctc.co.in",
+    "distance_km": null
+  },
+  "options": [
+    {
+      "mode": "train",
+      "src": "Plan",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T12:00:00+05:30",
+      "arrive": "2025-10-01T18:00:00+05:30",
+      "duration_hours": 6.0,
+      "price_inr": null,
+      "ref": "T02",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.railyatri.in/dhone-to-bangalore-cant-trains"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Plan",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T12:00:00+05:30",
+      "arrive": "2025-10-01T19:10:12+05:30",
+      "duration_hours": 7.17,
+      "price_inr": null,
+      "ref": "T06",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.makemytrip.com/railways/bangalore-mangalore-train-tickets.html"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10",
+    "drop_by_la: https://www.railyatri.in/tiruvalla-to-bangalore-cant-trains",
+    "drop_by_la: https://www.railyatri.in/latur-road-to-bangalore-cant-trains",
+    "drop_by_la: https://www.railyatri.in/thrissur-to-bangalore-cant-trains",
+    "drop_by_la: https://www.railyatri.in/bhalki-to-bangalore-cant-trains",
+    "drop_by_la: https://www.railyatri.in/kannur-to-bangalore-cant-trains",
+    "drop_by_la: https://www.railyatri.in/mangalore-jn-to-bangalore-cant-trains",
+    "pass2_organic: 10",
+    "drop_by_la: https://www.railyatri.in/nagpur-to-bangalore-cant-trains",
+    "drop_by_la: https://www.redbus.in/train-tickets/hyderabad-to-bengaluru-trains",
+    "drop_by_la: https://www.easemytrip.com/railways/chennai-to-bengaluru-train-tickets/"
+  ]
+}

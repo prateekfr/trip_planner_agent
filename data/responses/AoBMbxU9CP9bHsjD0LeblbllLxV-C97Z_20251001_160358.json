@@ -1,0 +1,152 @@
+{
+  "cheapest": {
+    "mode": "bus",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "depart": "2025-10-01T14:00:00+05:30",
+    "arrive": "2025-10-02T20:30:00+05:30",
+    "duration_hours": 30.5,
+    "price_inr": 3050,
+    "ref": "B04",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.redbus.in/online-bus/indore-to-bangalore-operator-humsafar-travels"
+    },
+    "notes": [
+      "arrives_after_latest_arrival"
+    ],
+    "after_window": true,
+    "booking_link": "https://www.redbus.in/bus-tickets/indore-to-bangalore"
+  },
+  "fastest": {
+    "mode": "train",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "depart": "2025-10-01T12:00:00+05:30",
+    "arrive": "2025-10-02T01:00:00+05:30",
+    "duration_hours": 13.0,
+    "price_inr": null,
+    "ref": "T02",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.confirmtkt.com/trains/indore-to-bengaluru-train-tickets"
+    },
+    "notes": [
+      "arrives_after_latest_arrival"
+    ],
+    "after_window": true,
+    "booking_link": "https://www.irctc.co.in/nget/train-search?from=Indore&to=Bangalore"
+  },
+  "value": {
+    "mode": "bus",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "depart": "2025-10-01T14:00:00+05:30",
+    "arrive": "2025-10-02T20:30:00+05:30",
+    "duration_hours": 30.5,
+    "price_inr": 3050,
+    "ref": "B04",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.redbus.in/online-bus/indore-to-bangalore-operator-humsafar-travels"
+    },
+    "notes": [
+      "arrives_after_latest_arrival"
+    ],
+    "after_window": true,
+    "booking_link": "https://www.redbus.in/bus-tickets/indore-to-bangalore"
+  },
+  "hotels_top5": [
+    {
+      "name": "Regenta Inn Grand Koramangala",
+      "price_inr": 2267.0,
+      "distance_km": null,
+      "rating": 4.5,
+      "city": "Bangalore",
+      "near": "Koramangala",
+      "checkin": "2025-10-02T00:00:00+05:30",
+      "checkout": "2025-10-02T02:00:00+05:30",
+      "ref": "ChkIqsnhjISphshhGg0vZy8xMWxzejhfcTA2EAE",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": null
+      }
+    },
+    {
+      "name": "Regenta Inn 4th Block Koramanagla",
+      "price_inr": 2182.0,
+      "distance_km": null,
+      "rating": 4.2,
+      "city": "Bangalore",
+      "near": "Koramangala",
+      "checkin": "2025-10-02T00:00:00+05:30",
+      "checkout": "2025-10-02T02:00:00+05:30",
+      "ref": "ChkIgIyVkqPoqOkMGg0vZy8xMXRnZ3BjcTU5EAE",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://regentarewards.com/hotel/regenta-inn-4th-block-koramangala"
+      }
+    },
+    {
+      "name": "BluPetal Hotel",
+      "price_inr": 3018.0,
+      "distance_km": null,
+      "rating": 4.3,
+      "city": "Bangalore",
+      "near": "Koramangala",
+      "checkin": "2025-10-02T00:00:00+05:30",
+      "checkout": "2025-10-02T02:00:00+05:30",
+      "ref": "ChgI4Ieigvan7NOqARoLL2cvMXRtMTExODQQAQ",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "http://www.blupetalhotel.com/"
+      }
+    },
+    {
+      "name": "Octave Studio Hotel",
+      "price_inr": 1192.0,
+      "distance_km": null,
+      "rating": 4.1,
+      "city": "Bangalore",
+      "near": "Koramangala",
+      "checkin": "2025-10-02T00:00:00+05:30",
+      "checkout": "2025-10-02T02:00:00+05:30",
+      "ref": "ChoIy-eqxN-U7cm4ARoNL2cvMTFmNG03amg1chAB",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.octavehotels.com/"
+      }
+    },
+    {
+      "name": "The Grand Krishna Rooms",
+      "price_inr": 1091.0,
+      "distance_km": null,
+      "rating": 4.1,
+      "city": "Bangalore",
+      "near": "Koramangala",
+      "checkin": "2025-10-02T00:00:00+05:30",
+      "checkout": "2025-10-02T02:00:00+05:30",
+      "ref": "ChgIzrXo982jlt-nARoLL2cvMXRua192bGQQAQ",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.grandkrishna.com/meetings-events/banquet-hall.html"
+      }
+    }
+  ],
+  "debug": [
+    "IATA resolved: Indore → IDR (as Indore)",
+    "IATA resolved: Bangalore → BLR (as Bangalore)",
+    "Flights: 2 options on 2025-10-01.",
+    "Trains: 2 options.",
+    "Buses: 2 options.",
+    "Hotels: 20 options.",
+    "Relaxed latest_arrival for bus/train to expose cheaper surface options.",
+    "LLM itinerary generated (2105 chars)."
+  ],
+  "iata": {
+    "from": "IDR",
+    "to": "BLR"
+  },
+  "base_city": "Indore",
+  "destination_city": "Bangalore"
+}

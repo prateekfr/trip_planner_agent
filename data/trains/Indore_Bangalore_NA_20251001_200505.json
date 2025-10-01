@@ -1,0 +1,66 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_Bangalore_NA_20251001_200505",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "travel_date": null,
+    "earliest_departure": "2025-10-15T03:00:00+05:30",
+    "latest_arrival": "2025-10-15T12:00:00+05:30",
+    "timestamp_utc": "2025-10-01T20:05:05.416252",
+    "query_primary": "Indore to Bangalore trains time table fare duration site:ixigo.com/trains OR site:trainman.in OR site:confirmtkt.com OR site:railyatri.in OR site:etrain.info OR site:yatra.com/trains OR site:paytm.com/train-tickets OR site:irctc.co.in",
+    "distance_km": 1099.3592986000965
+  },
+  "options": [
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-15T03:00:00+05:30",
+      "arrive": "2025-10-15T16:00:00+05:30",
+      "duration_hours": 13.0,
+      "price_inr": null,
+      "ref": "T02",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.confirmtkt.com/trains/indore-to-bengaluru-train-tickets"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-15T06:00:00+05:30",
+      "arrive": "2025-10-16T02:27:00+05:30",
+      "duration_hours": 20.45,
+      "price_inr": null,
+      "ref": "T04",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.confirmtkt.com/train-schedule/19301-DADN-YPR-EXP"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10",
+    "drop_by_la: https://www.confirmtkt.com/trains/indore-to-bengaluru-train-tickets",
+    "drop_by_la: https://www.confirmtkt.com/train-schedule/19301-DADN-YPR-EXP",
+    "drop_by_la: https://www.trainman.in/train/19301",
+    "drop_by_la: https://www.confirmtkt.com/train-schedule/19302-YPR-DADN-EXP",
+    "drop_by_la: https://www.ixigo.com/trains/19301",
+    "drop_by_la: https://www.confirmtkt.com/train-schedule/09301-BDTS-DADN-SPL",
+    "drop_by_la: https://www.railyatri.in/ksr-bengaluru-to-indore-jn%20bg-trains",
+    "drop_by_la: https://www.railyatri.in/indore-jn%20bg-to-bangalore-cant-trains",
+    "pass2_organic: 10",
+    "drop_by_la: https://www.railyatri.in/indore-jn%20bg-to-ksr-bengaluru-trains",
+    "drop_by_la: https://www.confirmtkt.com/trains/indore-to-bengaluru-train-tickets",
+    "drop_by_la: https://www.railyatri.in/indore-jn%20bg-to-bangalore-cant-trains",
+    "drop_by_la: https://www.goibibo.com/trains/indore-to-bangalore-trains/",
+    "drop_by_la: https://www.ixigo.com/by-train-rail/indore-to-bengaluru-by-train",
+    "drop_by_la: https://tickets.paytm.com/trains/indore-to-bangalore-trains",
+    "drop_by_la: https://www.easemytrip.com/railways/indore-jn-bg-to-yesvantpur-jn-(bangalore)-train-tickets/",
+    "drop_by_la: https://www.ixigo.com/hi/by-train-rail/indore-to-bangalore-by-train",
+    "drop_by_la: https://www.redbus.in/train-tickets/indore-to-bengaluru-trains",
+    "drop_by_la: https://www.makemytrip.com/railways/indore-bangalore-train-tickets.html",
+    "no_options_due_to_latest_arrival; relaxing LA constraint for 2 items"
+  ]
+}

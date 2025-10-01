@@ -1,0 +1,158 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_Mumbai_NA_20251001_160510",
+    "src": "Indore",
+    "dst": "Mumbai",
+    "travel_date": null,
+    "earliest_departure": null,
+    "latest_arrival": null,
+    "timestamp_utc": "2025-10-01T16:05:10.833507",
+    "query_primary": "Indore to Mumbai bus tickets price duration site:redbus.in OR site:abhibus.com OR site:intrcity.com OR site:zingbus.com OR site:paytm.com/bus-tickets OR site:makemytrip.com/bus-tickets OR site:yatra.com/bus",
+    "distance_km": 509.8300522466904
+  },
+  "options": [
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T04:05:07.874076",
+      "arrive": "2025-10-02T23:24:55.874076",
+      "duration_hours": 19.33,
+      "price_inr": 4218,
+      "ref": "B01",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/bus-tickets/indore-to-mumbai"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T06:05:07.874076",
+      "arrive": "2025-10-02T14:09:55.874076",
+      "duration_hours": 8.08,
+      "price_inr": null,
+      "ref": "B02",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.makemytrip.com/bus-tickets/indore-mumbai-bus-ticket-booking.html"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T08:05:07.874076",
+      "arrive": "2025-10-02T15:05:07.874076",
+      "duration_hours": 7.0,
+      "price_inr": 500,
+      "ref": "B03",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.abhibus.com/buses/138/Indore-Mumbai"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T10:05:07.874076",
+      "arrive": "2025-10-02T21:35:07.874076",
+      "duration_hours": 11.5,
+      "price_inr": null,
+      "ref": "B04",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/online-bus/indore-to-mumbai-operator-dolphin-travel-house"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T12:05:07.874076",
+      "arrive": "2025-10-02T21:53:07.874076",
+      "duration_hours": 9.8,
+      "price_inr": null,
+      "ref": "B05",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.makemytrip.com/bus-tickets/volvo-ac-buses-from-indore-to-mumbai-online-ticket-booking.html"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T14:05:07.874076",
+      "arrive": "2025-10-02T23:53:07.874076",
+      "duration_hours": 9.8,
+      "price_inr": 720,
+      "ref": "B06",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/online-bus/indore-to-mumbai-operator-raj-ratan-tours-and-travels"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T16:05:07.874076",
+      "arrive": "2025-10-03T01:53:07.874076",
+      "duration_hours": 9.8,
+      "price_inr": null,
+      "ref": "B07",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.makemytrip.com/bus-tickets/non-ac-seater-sleeper-buses-from-indore-to-mumbai-online-ticket-booking.html"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T18:05:07.874076",
+      "arrive": "2025-10-03T03:53:07.874076",
+      "duration_hours": 9.8,
+      "price_inr": null,
+      "ref": "B08",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.makemytrip.com/bus-tickets/ac-sleeper-buses-from-indore-to-mumbai-online-ticket-booking.html"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T20:05:07.874076",
+      "arrive": "2025-10-03T05:53:07.874076",
+      "duration_hours": 9.8,
+      "price_inr": 2499,
+      "ref": "B09",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/online-bus/indore-to-mumbai-operator-rajmandir-travels-madhya-pradesh-indore"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T22:05:07.874076",
+      "arrive": "2025-10-03T07:53:07.874076",
+      "duration_hours": 9.8,
+      "price_inr": null,
+      "ref": "B10",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/online-bus/indore-to-mumbai-operator-rts-royal-tourist-service-pvt-ltd"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10"
+  ]
+}

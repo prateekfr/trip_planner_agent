@@ -1,0 +1,158 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_Mumbai_NA_20251001_160504",
+    "src": "Indore",
+    "dst": "Mumbai",
+    "travel_date": null,
+    "earliest_departure": null,
+    "latest_arrival": null,
+    "timestamp_utc": "2025-10-01T16:05:04.177094",
+    "query_primary": "Indore to Mumbai trains time table fare duration site:ixigo.com/trains OR site:trainman.in OR site:confirmtkt.com OR site:railyatri.in OR site:etrain.info OR site:yatra.com/trains OR site:paytm.com/train-tickets OR site:irctc.co.in",
+    "distance_km": 509.8300522466904
+  },
+  "options": [
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T04:04:58.583175",
+      "arrive": "2025-10-02T17:04:58.583175",
+      "duration_hours": 13.0,
+      "price_inr": null,
+      "ref": "T01",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.railyatri.in/indore-jn%20bg-to-mumbai-central-trains"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T07:04:58.583175",
+      "arrive": "2025-10-03T03:04:58.583175",
+      "duration_hours": 20.0,
+      "price_inr": null,
+      "ref": "T02",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.confirmtkt.com/trains/indore-to-mumbai-train-tickets"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T10:04:58.583175",
+      "arrive": "2025-10-02T23:04:58.583175",
+      "duration_hours": 13.0,
+      "price_inr": null,
+      "ref": "T03",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.railyatri.in/indore-jn%20bg-to-mumbai-bandra%20terminus-trains"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T13:04:58.583175",
+      "arrive": "2025-10-03T01:04:58.583175",
+      "duration_hours": 12.0,
+      "price_inr": null,
+      "ref": "T04",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.ixigo.com/trains/12228"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T16:04:58.583175",
+      "arrive": "2025-10-03T02:04:58.583175",
+      "duration_hours": 10.0,
+      "price_inr": null,
+      "ref": "T05",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.railyatri.in/trains/route-09086-indore-mumbai-central-tejas-special"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T19:04:58.583175",
+      "arrive": "2025-10-03T06:04:58.583175",
+      "duration_hours": 11.0,
+      "price_inr": null,
+      "ref": "T06",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.railyatri.in/indore-jn-mg-to-mumbai-central-trains?utm_source=tbs_mweb_result_seo&to_code=mmct"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-02T22:04:58.583175",
+      "arrive": "2025-10-03T07:04:58.583175",
+      "duration_hours": 9.0,
+      "price_inr": null,
+      "ref": "T07",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.ixigo.com/trains/09086"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-03T01:04:58.583175",
+      "arrive": "2025-10-03T12:04:58.583175",
+      "duration_hours": 11.0,
+      "price_inr": null,
+      "ref": "T08",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.ixigo.com/trains/12962"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-03T04:04:58.583175",
+      "arrive": "2025-10-04T04:04:58.583175",
+      "duration_hours": 24.0,
+      "price_inr": null,
+      "ref": "T09",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.trainman.in/train/09086"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-03T07:04:58.583175",
+      "arrive": "2025-10-03T23:34:58.583175",
+      "duration_hours": 16.5,
+      "price_inr": null,
+      "ref": "T10",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.railyatri.in/indore-jn%20mg-to-mumbai-bandra%20terminus-trains"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10"
+  ]
+}

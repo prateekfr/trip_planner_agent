@@ -1,0 +1,127 @@
+{
+  "cheapest": {
+    "mode": "bus",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "depart": "2025-10-15 05:00",
+    "arrive": "2025-10-16 11:30",
+    "duration_hours": 30.5,
+    "price_inr": 3050,
+    "ref": "B03",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.redbus.in/online-bus/indore-to-bangalore-operator-humsafar-travels"
+    },
+    "notes": [
+      "arrives_after_latest_arrival"
+    ],
+    "after_window": true,
+    "booking_link": "https://www.redbus.in/bus-tickets/indore-to-bangalore"
+  },
+  "fastest": {
+    "mode": "flight",
+    "src": "IDR",
+    "dst": "BLR",
+    "depart": "2025-10-15 10:00",
+    "arrive": "2025-10-15 11:55",
+    "duration_hours": 1.9,
+    "price_inr": 4930.0,
+    "ref": "",
+    "provider": {
+      "name": "SerpAPI GoogleFlights"
+    },
+    "booking_link": "https://www.makemytrip.com/flight/search?itinerary=IDR-BLR-15/10/2025&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E"
+  },
+  "value": {
+    "mode": "flight",
+    "src": "IDR",
+    "dst": "BLR",
+    "depart": "2025-10-15 10:00",
+    "arrive": "2025-10-15 11:55",
+    "duration_hours": 1.9,
+    "price_inr": 4930.0,
+    "ref": "",
+    "provider": {
+      "name": "SerpAPI GoogleFlights"
+    },
+    "booking_link": "https://www.makemytrip.com/flight/search?itinerary=IDR-BLR-15/10/2025&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E"
+  },
+  "hotels_top5": [
+    {
+      "name": "Vivanta Bengaluru, Residency Road",
+      "price_inr": 15691.0,
+      "distance_km": null,
+      "rating": 4.4,
+      "city": "Bangalore",
+      "near": "Vivanta by Taj",
+      "checkin": "2025-10-15T15:00:00+05:30",
+      "checkout": "2025-10-15T17:00:00+05:30",
+      "ref": "ChgI-ciDsp7OvNNMGgwvZy8xMXhtMGZ4cW0QAQ",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.vivantahotels.com/en-in/hotels/vivanta-bengaluru-residency-road?utm_source=google&utm_medium=local&utm_campaign=vivanta-bengaluru-residency-road&utm_content=vivanta-bengaluru-residency-road-gmb"
+      }
+    },
+    {
+      "name": "Vivanta Bengaluru, Whitefield",
+      "price_inr": 18585.0,
+      "distance_km": null,
+      "rating": 4.3,
+      "city": "Bangalore",
+      "near": "Vivanta by Taj",
+      "checkin": "2025-10-15T15:00:00+05:30",
+      "checkout": "2025-10-15T17:00:00+05:30",
+      "ref": "ChgIstb3tOvXvoudARoLL2cvMXRjdGs2cGYQAQ",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.vivantahotels.com/en-in/hotels/vivanta-bengaluru-whitefield?utm_source=google&utm_medium=local&utm_campaign=vivanta-bengaluru-whitefield&utm_content=vivanta-bengaluru-whitefield-gmb"
+      }
+    }
+  ],
+  "hotel_value": {
+    "name": "Vivanta Bengaluru, Residency Road",
+    "price_inr": 15691.0,
+    "distance_km": null,
+    "rating": 4.4,
+    "city": "Bangalore",
+    "near": "Vivanta by Taj",
+    "checkin": "2025-10-15T15:00:00+05:30",
+    "checkout": "2025-10-15T17:00:00+05:30",
+    "ref": "ChgI-ciDsp7OvNNMGgwvZy8xMXhtMGZ4cW0QAQ",
+    "provider": {
+      "name": "SerpAPI GoogleHotels",
+      "link": "https://www.vivantahotels.com/en-in/hotels/vivanta-bengaluru-residency-road?utm_source=google&utm_medium=local&utm_campaign=vivanta-bengaluru-residency-road&utm_content=vivanta-bengaluru-residency-road-gmb"
+    }
+  },
+  "hotel_cheapest": {
+    "name": "Vivanta Bengaluru, Residency Road",
+    "price_inr": 15691.0,
+    "distance_km": null,
+    "rating": 4.4,
+    "city": "Bangalore",
+    "near": "Vivanta by Taj",
+    "checkin": "2025-10-15T15:00:00+05:30",
+    "checkout": "2025-10-15T17:00:00+05:30",
+    "ref": "ChgI-ciDsp7OvNNMGgwvZy8xMXhtMGZ4cW0QAQ",
+    "provider": {
+      "name": "SerpAPI GoogleHotels",
+      "link": "https://www.vivantahotels.com/en-in/hotels/vivanta-bengaluru-residency-road?utm_source=google&utm_medium=local&utm_campaign=vivanta-bengaluru-residency-road&utm_content=vivanta-bengaluru-residency-road-gmb"
+    }
+  },
+  "debug": [
+    "IATA resolved: Indore → IDR (as Indore)",
+    "IATA resolved: Bangalore → BLR (as Bangalore)",
+    "Flights: 8 options on 2025-10-15.",
+    "Trains: 2 options.",
+    "Buses: 2 options.",
+    "Hotels: 2 options.",
+    "Relaxed latest_arrival for bus/train to expose cheaper surface options.",
+    "LLM itinerary generated (2591 chars)."
+  ],
+  "iata": {
+    "from": "IDR",
+    "to": "BLR"
+  },
+  "base_city": "Indore",
+  "destination_city": "Bangalore"
+}

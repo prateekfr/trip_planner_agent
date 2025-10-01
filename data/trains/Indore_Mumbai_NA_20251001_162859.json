@@ -1,0 +1,64 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_Mumbai_NA_20251001_162859",
+    "src": "Indore",
+    "dst": "Mumbai",
+    "travel_date": null,
+    "earliest_departure": "2025-10-14T21:00:00+05:30",
+    "latest_arrival": "2025-10-15T06:00:00+05:30",
+    "timestamp_utc": "2025-10-01T16:28:59.707213",
+    "query_primary": "Indore to Mumbai trains time table fare duration site:ixigo.com/trains OR site:trainman.in OR site:confirmtkt.com OR site:railyatri.in OR site:etrain.info OR site:yatra.com/trains OR site:paytm.com/train-tickets OR site:irctc.co.in",
+    "distance_km": 509.8300522466904
+  },
+  "options": [
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-14T21:00:00+05:30",
+      "arrive": "2025-10-15T06:00:00+05:30",
+      "duration_hours": 9.0,
+      "price_inr": null,
+      "ref": "T07",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.ixigo.com/trains/09086"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-10-14T21:00:00+05:30",
+      "arrive": "2025-10-15T04:18:00+05:30",
+      "duration_hours": 7.3,
+      "price_inr": 290,
+      "ref": "T02",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.confirmtkt.com/trains/indore-to-mumbai-train-tickets"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10",
+    "drop_by_la: https://www.railyatri.in/indore-jn%20bg-to-mumbai-central-trains",
+    "drop_by_la: https://www.confirmtkt.com/trains/indore-to-mumbai-train-tickets",
+    "drop_by_la: https://www.railyatri.in/indore-jn%20bg-to-mumbai-bandra%20terminus-trains",
+    "drop_by_la: https://www.ixigo.com/trains/12228",
+    "drop_by_la: https://www.railyatri.in/trains/route-09086-indore-mumbai-central-tejas-special",
+    "drop_by_la: https://www.railyatri.in/indore-jn-mg-to-mumbai-central-trains?utm_source=tbs_mweb_result_seo&to_code=mmct",
+    "drop_by_la: https://www.ixigo.com/trains/12962",
+    "drop_by_la: https://www.trainman.in/train/09086",
+    "drop_by_la: https://www.railyatri.in/indore-jn%20mg-to-mumbai-bandra%20terminus-trains",
+    "pass2_organic: 10",
+    "drop_by_la: https://www.railyatri.in/indore-jn%20bg-to-mumbai-central-trains",
+    "drop_by_la: https://www.ixigo.com/by-train-rail/indore-to-mumbai-by-train",
+    "drop_by_la: https://www.goibibo.com/trains/indore-to-mumbai-trains/",
+    "drop_by_la: https://www.easemytrip.com/railways/indore-to-mumbai-train-tickets/",
+    "drop_by_la: https://www.goibibo.com/trains/02962-detail/",
+    "drop_by_la: https://www.redbus.in/train-tickets/indore-to-mumbai-trains",
+    "drop_by_la: https://tickets.paytm.com/trains/indore-to-mumbai-trains",
+    "drop_by_la: https://www.makemytrip.com/railways/indore-jn-bg-mumbai-central-mumbai-duronto-12228-train.html"
+  ]
+}

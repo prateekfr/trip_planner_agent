@@ -1,0 +1,625 @@
+{
+  "search_metadata": {
+    "search_id": "Mumbai_Hyatt_20251015T090000_20251015T110000_20251001_162914",
+    "city": "Mumbai",
+    "near": "Hyatt",
+    "checkin": "2025-10-15T09:00:00+05:30",
+    "checkout": "2025-10-15T11:00:00+05:30",
+    "adults": 1,
+    "children": 0,
+    "children_ages": null,
+    "currency": "INR",
+    "gl": "in",
+    "hl": "en",
+    "query": "hotels near Hyatt Mumbai",
+    "filters": {
+      "sort_by": null,
+      "hotel_class": null,
+      "amenities": null,
+      "property_types": null,
+      "brands": null,
+      "free_cancellation": false,
+      "special_offers": false,
+      "vacation_rentals": false,
+      "bedrooms": null
+    },
+    "timestamp_utc": "2025-10-01T16:29:14.103831"
+  },
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "Grand Hyatt Mumbai Hotel & Residences",
+      "description": "Luxe lodging with a spa & 2 outdoor pools, plus a shopping center & international restaurants.",
+      "link": "https://www.hyatt.com/grand-hyatt/en-US/mumgh-grand-hyatt-mumbai/?src=corp_lclb_gmb_seo_mumgh",
+      "property_token": "ChcIrIOvg-jjophAGgsvbS8wMTA5N19udBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-15T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-15T11%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChcIrIOvg-jjophAGgsvbS8wMTA5N19udBAB&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0768067,
+        "longitude": 72.8511248
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹16,102",
+        "extracted_lowest": 16102,
+        "before_taxes_fees": "₹13,719",
+        "extracted_before_taxes_fees": 13719
+      },
+      "total_rate": {
+        "lowest": "₹16,102",
+        "extracted_lowest": 16102,
+        "before_taxes_fees": "₹13,719",
+        "extracted_before_taxes_fees": 13719
+      },
+      "nearby_places": [
+        {
+          "name": "Vakola Police Station",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "12 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "22 min"
+            }
+          ]
+        },
+        {
+          "name": "Grand The Dining Bar",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "6 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMYi11ChpDFpEngxYvHWl_hljIRfeh5aXlPhwEg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMYi11ChpDFpEngxYvHWl_hljIRfeh5aXlPhwEg=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/8Z2y29mvoEfGeJpV9dNzFftxVziukNIVwsYHfLwTlg-YLp00FlHD7AXOrR8esV5E86sFN4XIiD3hf1r8Ks20E5lKwRfwvVKsnVCjBeuymAskaATjpPitlJpOOBaZ148tGTiYmpcTjjSEjA2F13axE9rFNbYK9NI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-49871-f85040522_XXLejpg/India/MUMBAI/GRAND-HYATT-MUMBAI/Photo/GRAND-HYATT-MUMBAI-MUMBAI-Undefined-Pool.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/ktxBJfegt1bBw8SQ7hzfxyb26kD0jBMFsPbGswhb0FUbPYHPmuyBHyCCFwlG0mTUY0v1L8KJtyVIp7MCF3B7Sm4Ru-X2mK6EeKb0g8TXqHvOr8YLCu2mu2DFy2Z_U2AdYEsBsbZV3DbOWz_DdjCMo0fM_aknRks=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-49871-f85040802_XXLejpg/India/MUMBAI/GRAND-HYATT-MUMBAI/Photo/GRAND-HYATT-MUMBAI-MUMBAI-Undefined-Guest-Room.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNMtHof_UU_0SxGDCI7Nq8plbHWAkRssEzWZzTy=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNMtHof_UU_0SxGDCI7Nq8plbHWAkRssEzWZzTy=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPHpnZ9puNQbbugvAUc1u7jCvCItXS3Xd-LFRGj=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPHpnZ9puNQbbugvAUc1u7jCvCItXS3Xd-LFRGj=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPrf5hJrXgxC6A2XcLxBLEeuIgrwlb1NVSRlY7K=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPrf5hJrXgxC6A2XcLxBLEeuIgrwlb1NVSRlY7K=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ORd9Q42xta12nvjccHtp1xwmuFm--l_1UiLIUHfhEupoRGJOYkt4TQ-zv7wn1qUMz-_lstk-_uK0xqBDOWeImIcZKLjR5WaZjKzsfC0-aTlnjV9MJYAnFACSyQAOicG1M7mvea1FXw8DPCtqMK-Ea4_mwpu34g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-49871-f85040978_XXLejpg/India/MUMBAI/GRAND-HYATT-MUMBAI/Photo/GRAND-HYATT-MUMBAI-MUMBAI-Undefined-Guest-Room.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMgZ_v0uJNpEP_UpBa0H45t3e_eqQsLGTOKteD0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMgZ_v0uJNpEP_UpBa0H45t3e_eqQsLGTOKteD0=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/PrwF8lxsPdVqlP_vEY-SLgV49KBUqPLgNByKA2LbSjktGpu1G7z2NeJtsgyzKzy_hEyJxFwhbqSghemQYskvwSOaNeWGYK7o7NSLFHk8wrhMPyAoUI_0Gydi9KhjhJb8JUXhQizsktjeS1EV2adNbcs8t9lpcg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-49871-f85040842_XXLejpg/India/MUMBAI/GRAND-HYATT-MUMBAI/Photo/GRAND-HYATT-MUMBAI-MUMBAI-Undefined-Guest-Room.jpg"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 27655,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 18861
+        },
+        {
+          "stars": 4,
+          "count": 6252
+        },
+        {
+          "stars": 3,
+          "count": 1400
+        },
+        {
+          "stars": 2,
+          "count": 370
+        },
+        {
+          "stars": 1,
+          "count": 772
+        }
+      ],
+      "location_rating": 3.4,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 1332,
+          "positive": 1087,
+          "negative": 177,
+          "neutral": 68
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 626,
+          "positive": 493,
+          "negative": 46,
+          "neutral": 87
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 3573,
+          "positive": 3295,
+          "negative": 155,
+          "neutral": 123
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 1153,
+          "positive": 1108,
+          "negative": 17,
+          "neutral": 28
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 2269,
+          "positive": 1895,
+          "negative": 289,
+          "neutral": 85
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 613,
+          "positive": 523,
+          "negative": 61,
+          "neutral": 29
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hyatt Regency Mumbai",
+      "description": "Posh quarters in a refined airport lodging with 2 restaurants, plus a bar, an outdoor pool & a spa.",
+      "link": "https://www.hyatt.com/en-US/hotel/india/hyatt-regency-mumbai/mumba?src=corp_lclb_gmb_seo_mumba",
+      "property_token": "ChgI27Sf7JnPtryMARoLL2cvMXRocWY2eXYQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-15T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-15T11%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChgI27Sf7JnPtryMARoLL2cvMXRocWY2eXYQAQ&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.103683999999998,
+        "longitude": 72.87136799999999
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearby_places": [
+        {
+          "name": "Indian Oil (Sahar)",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "8 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Peshwa Pavilion",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/JCPlWXTGTVNswwquS8bdxVUYB9sAaAa83G6BeJrYZsMwaF7z8NfBMTxd4jP13Zr56x9iAshSklJyzhuy7gGrx_Em864nSZ4I2XQhU4iT_Tz2Il4GaWlN_V1h_1sgVHCCFlOZUTCJ4Wf_y4u-s-BBSsmZXnRpPzE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/82/5f/8c/hyatt-regency-mumbai.jpg?w=1500&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noOtfyzh-V7Mawu6sPJKB-mVoE9MgXnxI2DSugoOuxqXkq4BczsJXpn_HiHRjzCFbPRrbXJNAH6s-OeQrCSO2Wea5hgjET5Wb_0CvxQkSjFr6o4HhypuM7-dFhhDctysBrFOqD8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICK2rS1PA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrbDceawfPB-WQpUwDycCobdjaVMLUAGIWjX5YHZWX2vH4dZkwrHi4jMpsI6wpyvkgODzkryv8Y7Kbpq23-BTl8sSjqVYDf_fivFdCEtiE16fxrVQomE8iNTLyLWrhZOOL4lJdk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDykKD-Jg=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/40Fsk3CjiQDAJYHTM73JUGtUSOYoB_pC3Gf5vRd6BYPrA6GRuB-SSgDPKJiHgP9DtRDKffaty29ABqs63KlhT2jdmX7IhDYaclpYGhjt74AsBiEM9VuHZlCLsajsAd9FlkzxexDmHV3lDuw73zhc1bsDg8VACw0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6d/10/15/hyatt-regency-mumbai.jpg?w=2100&h=1200&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNyqpLcBMzhQGCdtorojpnrtmJfvul9v4KwcPrK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNyqpLcBMzhQGCdtorojpnrtmJfvul9v4KwcPrK=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noRDDXTZ_KzkaTegUuICLNbMBZJEpViJoPa7Mtds-L29Xw5LmxPtwu6I_cKDGNXOcDL6EfuyxGZgyAdniZrIWZmiqMXFhz9I-pkoksPENK6oKcY-cPHAfG_0pPQ25_XUy0I9NHT=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDK2u2JtQE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq_FjfDBArYzXSoa_AM670of92icHUpasM8IU_KI4kBPG0h94TUPV3iy-bE94KZGLqG8fsXpoTGT4t7RVss6FsWOmq8y3NTcLDkB-sGx66ERV7Q5bg3HdseOho6KvVOw0TXQvFN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICyj9WUrgE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noEVBavRSdqN5njlc9USRzNelfg7XVK1ZVrqd8hhnvCuLRa0BXlnaOt3UWOPrGSCeSuyT0tS16GlMzBeFSUfuZJND6kuhEiv1hDH7W3tpS_GzkYTMJHPP8yjmqbBg9m8XwO7tot=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICM8J-cmQE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqnfrW2JWdpNYSTgvjquutDpb-I0V16nEAFoaCR1U4bOGModHW27qBMdU9GI_UU3tkvK4PHovQQiiFlHDZUY1ncjMwYrQJFLbP8uM5UgNPJkuO0fhoOIBHfN_Avb1zLXVtw5B-N=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDKxeHStgE=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 14779,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 9696
+        },
+        {
+          "stars": 4,
+          "count": 3597
+        },
+        {
+          "stars": 3,
+          "count": 852
+        },
+        {
+          "stars": 2,
+          "count": 231
+        },
+        {
+          "stars": 1,
+          "count": 403
+        }
+      ],
+      "location_rating": 4.2,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 660,
+          "positive": 544,
+          "negative": 76,
+          "neutral": 40
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 296,
+          "positive": 233,
+          "negative": 11,
+          "neutral": 52
+        },
+        {
+          "name": "Transport",
+          "description": "Public transit",
+          "total_mentioned": 374,
+          "positive": 302,
+          "negative": 14,
+          "neutral": 58
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 1695,
+          "positive": 1597,
+          "negative": 60,
+          "neutral": 38
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 555,
+          "positive": 543,
+          "negative": 7,
+          "neutral": 5
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 330,
+          "positive": 273,
+          "negative": 31,
+          "neutral": 26
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hyatt Centric Juhu Mumbai",
+      "description": "Upscale hotel offering sea views & a rooftop pool, plus a chic restaurant & a 24-hour gym.",
+      "link": "https://www.hyatt.com/hyatt-centric/en-US/mumct-hyatt-centric-juhu-mumbai?src=corp_lclb_google_seo_mumct&utm_source=google&utm_medium=organic&utm_campaign=lmr",
+      "property_token": "ChoI1cDO1vqLtp_6ARoNL2cvMTF0N2hwMTFoeBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-15T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-15T11%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoI1cDO1vqLtp_6ARoNL2cvMTF0N2hwMTFoeBAB&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0917028,
+        "longitude": 72.8279529
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹15,318",
+        "extracted_lowest": 15318,
+        "before_taxes_fees": "₹12,982",
+        "extracted_before_taxes_fees": 12982
+      },
+      "total_rate": {
+        "lowest": "₹15,318",
+        "extracted_lowest": 15318,
+        "before_taxes_fees": "₹12,982",
+        "extracted_before_taxes_fees": 12982
+      },
+      "nearby_places": [
+        {
+          "name": "Royal Hotel",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "26 min"
+            }
+          ]
+        },
+        {
+          "name": "NEW GRAND FAMILY RESTAURANT & BAR",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMD5a9mfCYNiSJF5lVsUBwbmBnB8ue0NcHab2R9=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMD5a9mfCYNiSJF5lVsUBwbmBnB8ue0NcHab2R9=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNSq1Scuo6Q1ie0MO6BCueHUgaA_d5qukypcGh_=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNSq1Scuo6Q1ie0MO6BCueHUgaA_d5qukypcGh_=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP8WmDhghjzXZDEsLgshEShnEnXoGWWj0Y90ruF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP8WmDhghjzXZDEsLgshEShnEnXoGWWj0Y90ruF=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNn8qLqr_lCFc_DjEzSMW1RLEZr7_BaQe1s2Unx=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNn8qLqr_lCFc_DjEzSMW1RLEZr7_BaQe1s2Unx=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO-W6TbX7lN-opi73F6V2vZ02-GZ9hqenS5BWdN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO-W6TbX7lN-opi73F6V2vZ02-GZ9hqenS5BWdN=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/dzTSrFPQDoF-KRa3KQSQklCG0NureJxQmZJq1GrBNz5JB-nAPAdz1NPs-ZOiSrowjOxVeDijgPfAA05870JdYoNfDoCKbjCFviGrHwDXwSA4Uh7V8OHWuKERbCgZTAqjsSyKlMI96kBsXMAzb_uBeJ_Y5eTsF1M=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-148305-f74743027_XXLejpg/India/MUMBAI/HYATT-CENTRIC-JUHU-MUMBAI/Photo/HYATT-CENTRIC-JUHU-MUMBAI-MUMBAI-Undefined.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNzoNgjCTjABMukLU8NjtzqFkmA_HRgfU2Qv17x=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNzoNgjCTjABMukLU8NjtzqFkmA_HRgfU2Qv17x=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMlPVvIlN9cPmYpEdD7U34seCE5e8EEVLuigBsP=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMlPVvIlN9cPmYpEdD7U34seCE5e8EEVLuigBsP=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipONt_Ar3EHBG0ReEkdkqujpy9vMfyTT4tGSvRnS=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipONt_Ar3EHBG0ReEkdkqujpy9vMfyTT4tGSvRnS=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 1303,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 980
+        },
+        {
+          "stars": 4,
+          "count": 155
+        },
+        {
+          "stars": 3,
+          "count": 54
+        },
+        {
+          "stars": 2,
+          "count": 22
+        },
+        {
+          "stars": 1,
+          "count": 92
+        }
+      ],
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 39,
+          "positive": 30,
+          "negative": 4,
+          "neutral": 5
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 298,
+          "positive": 267,
+          "negative": 28,
+          "neutral": 3
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 62,
+          "positive": 53,
+          "negative": 7,
+          "neutral": 2
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 77,
+          "positive": 64,
+          "negative": 10,
+          "neutral": 3
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 24,
+          "positive": 14,
+          "negative": 8,
+          "neutral": 2
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 261,
+          "positive": 232,
+          "negative": 24,
+          "neutral": 5
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Pool",
+        "Air conditioning",
+        "Fitness center",
+        "Beach access",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Accessible",
+        "Smoke-free property"
+      ]
+    }
+  ],
+  "serpapi_context": {
+    "search_metadata": {
+      "id": "68dd56d948c7917e7a8acab9",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/876df9da96991602/68dd56d948c7917e7a8acab9.json",
+      "created_at": "2025-10-01T16:29:13.260Z",
+      "processed_at": "2025-10-01T16:29:13.261Z",
+      "google_hotels_url": "https://www.google.com/_/TravelFrontendUi/data/batchexecute?rpcids=AtySUc&source-path=/travel/search&hl=en&gl=in&rt=c&soc-app=162&soc-platform=1&soc-device=1",
+      "raw_html_file": "https://serpapi.com/searches/876df9da96991602/68dd56d948c7917e7a8acab9.html",
+      "prettify_html_file": "https://serpapi.com/searches/876df9da96991602/68dd56d948c7917e7a8acab9.prettify",
+      "total_time_taken": {
+        "float": 1.8169620037078857
+      }
+    },
+    "search_parameters": {
+      "engine": "google_hotels",
+      "q": "hotels near Hyatt Mumbai",
+      "gl": "in",
+      "hl": "en",
+      "currency": "INR",
+      "check_in_date": "2025-10-15T09:00:00+05:30",
+      "check_out_date": "2025-10-15T11:00:00+05:30",
+      "adults": 1,
+      "children": 0
+    },
+    "search_information": {
+      "total_results": 3
+    }
+  }
+}

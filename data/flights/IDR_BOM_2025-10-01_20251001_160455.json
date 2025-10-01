@@ -1,0 +1,50 @@
+{
+  "search_metadata": {
+    "search_id": "IDR_BOM_2025-10-01_20251001_160455",
+    "route": "IDR->BOM",
+    "outbound_date": "2025-10-01",
+    "return_date": null,
+    "adults": 1,
+    "children": 0,
+    "infants_in_seat": 0,
+    "infants_on_lap": 0,
+    "class": 1,
+    "currency": "INR",
+    "gl": "in",
+    "hl": "en",
+    "timestamp_utc": "2025-10-01T16:04:55.162970"
+  },
+  "best_flights": [],
+  "other_flights": [],
+  "price_insights": null,
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "IDR",
+            "name": "Devi Ahilyabai Holkar International Airport, Indore"
+          },
+          "city": "Indore",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7-ZgN2kaBwax506bxU8Z9kQoCEN7z731rPBQVtcHXo0zdL3sHBNxmIpQsBqnv6bInZjNmqX0JgmyABg",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTFNIoHCCJrb7y-bwBoPRD1QiNo0c_VvKZq_Xta1MjnkKTKjltm7BF352MZDu3UlntRyQtuX8b0WAfkbD9FwcZLiXKwMM5mZskS0BcC9RA"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "BOM",
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai"
+          },
+          "city": "Mumbai",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJ5Q0R5IIxjWsuWKt6lnlBIOlNfNwTqC8yBtOP_uMdzFrluYmn3jZ-6dyEWo6AbIH3x57scrUgF3gvWA",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMqVWevN4qkQ8u4HrxtHbv2Oy7UigPckL8bgZUJQWQgjvmJxG7oggYxd2Rw5MwjiBYzZFpr939opSbON9CxkwdD-7DK9it3TPq1ea8pxU"
+        }
+      ]
+    }
+  ]
+}

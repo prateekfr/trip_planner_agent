@@ -1,0 +1,65 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_Bangalore_NA_20251001_201412",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "travel_date": null,
+    "earliest_departure": "2025-10-15T03:00:00+05:30",
+    "latest_arrival": "2025-10-15T12:00:00+05:30",
+    "timestamp_utc": "2025-10-01T20:14:12.703381",
+    "query_primary": "Indore to Bangalore bus tickets price duration site:redbus.in OR site:abhibus.com OR site:intrcity.com OR site:zingbus.com OR site:paytm.com/bus-tickets OR site:makemytrip.com/bus-tickets OR site:yatra.com/bus",
+    "distance_km": 1099.3592986000965
+  },
+  "options": [
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-15T03:00:00+05:30",
+      "arrive": "2025-10-16T00:30:00+05:30",
+      "duration_hours": 21.5,
+      "price_inr": 6550,
+      "ref": "B01",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/bus-tickets/indore-to-bangalore"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-15T05:00:00+05:30",
+      "arrive": "2025-10-16T11:30:00+05:30",
+      "duration_hours": 30.5,
+      "price_inr": 3050,
+      "ref": "B03",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/online-bus/indore-to-bangalore-operator-humsafar-travels"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10",
+    "drop_by_la: https://www.redbus.in/bus-tickets/indore-to-bangalore",
+    "drop_by_la: https://www.redbus.in/online-bus/indore-to-bangalore-operator-humsafar-travels",
+    "drop_by_la: https://www.abhibus.com/buses/19749/Indore-Bangalore",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/ac-buses-from-indore-to-bangalore-online-ticket-booking.html",
+    "drop_by_la: https://www.intrcity.com/bus-booking/indore-to-bangalore-buses",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/sleeper-buses-from-indore-to-bangalore-online-ticket-booking.html",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/ac-sleeper-buses-from-indore-to-bangalore-online-ticket-booking.html",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/non-ac-buses-from-indore-to-bangalore-online-ticket-booking.html",
+    "drop_by_la: https://www.redbus.in/online-bus/indore-to-bangalore-operator-ntc-nagpur-travels",
+    "pass2_organic: 10",
+    "drop_by_la: https://www.redbus.in/bus-tickets/indore-to-bangalore",
+    "drop_by_la: https://www.redbus.in/online-bus/indore-to-bangalore-operator-humsafar-travels",
+    "drop_by_la: https://www.abhibus.com/buses/19749/Indore-Bangalore",
+    "drop_by_la: https://www.intrcity.com/bus-booking/indore-to-bangalore-buses",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/ac-buses-from-indore-to-bangalore-online-ticket-booking.html",
+    "drop_by_la: https://www.easemytrip.com/bus/indore-to-bengaluru-bus-tickets/",
+    "drop_by_la: https://in.via.com/bus-tickets/srs-travels-buses-from-indore-to-bangalore",
+    "drop_by_la: https://www.cleartrip.com/bus-tickets/indore-to-bangalore/",
+    "no_options_due_to_latest_arrival; relaxing LA constraint for 2 items"
+  ]
+}
