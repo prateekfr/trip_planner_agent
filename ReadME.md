@@ -129,9 +129,9 @@ Create a `.env` in the repo root:
 
 ```env
 # OpenRouter (LLM via openrouter.ai)
-OPENROUTER_API_KEY=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
+OPENROUTER_API_KEY=insert your openrouter api
 # Flights (SerpAPI Google Flights engine)
-SERPAPI_KEY=e3a02156b80f82fea7ac89783564872f14d8823c48c6bbfc3f56726a09a903e8
+SERPAPI_KEY=insert your serpapi
 # Optional: where to store snapshots
 DATA_ROOT=./data
 
