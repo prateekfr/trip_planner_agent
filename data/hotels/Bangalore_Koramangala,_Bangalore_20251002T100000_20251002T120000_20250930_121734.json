@@ -1,0 +1,3489 @@
+{
+  "search_metadata": {
+    "search_id": "Bangalore_Koramangala,_Bangalore_20251002T100000_20251002T120000_20250930_121734",
+    "city": "Bangalore",
+    "near": "Koramangala, Bangalore",
+    "checkin": "2025-10-02T10:00:00+00:00",
+    "checkout": "2025-10-02T12:00:00+00:00",
+    "adults": 1,
+    "children": 0,
+    "children_ages": null,
+    "currency": "INR",
+    "gl": "in",
+    "hl": "en",
+    "query": "hotels near Koramangala, Bangalore Bangalore",
+    "filters": {
+      "sort_by": null,
+      "hotel_class": null,
+      "amenities": null,
+      "property_types": null,
+      "brands": null,
+      "free_cancellation": false,
+      "special_offers": false,
+      "vacation_rentals": false,
+      "bedrooms": null
+    },
+    "timestamp_utc": "2025-09-30T12:17:34.658814"
+  },
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "BluPetal Hotel",
+      "description": "Contemporary business hotel with 2 restaurants & a fitness centre, as well as breakfast.",
+      "link": "http://www.blupetalhotel.com/",
+      "property_token": "ChgI4Ieigvan7NOqARoLL2cvMXRtMTExODQQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChgI4Ieigvan7NOqARoLL2cvMXRtMTExODQQAQ&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.933503499999999,
+        "longitude": 77.615209
+      },
+      "check_in_time": "12:30 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹2,937",
+        "extracted_lowest": 2937,
+        "before_taxes_fees": "₹2,757",
+        "extracted_before_taxes_fees": 2757
+      },
+      "total_rate": {
+        "lowest": "₹2,937",
+        "extracted_lowest": 2937,
+        "before_taxes_fees": "₹2,757",
+        "extracted_before_taxes_fees": 2757
+      },
+      "nearby_places": [
+        {
+          "name": "Madiwala Checkpost.",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 12 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 55 min"
+            }
+          ]
+        },
+        {
+          "name": "Xero Degrees",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPsmLOHjo2EQmesQGoP2ptLtPMXe9StIqpAK8s3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPsmLOHjo2EQmesQGoP2ptLtPMXe9StIqpAK8s3=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPAetYBtuy2EBzPZmaxH_xau5CN1L9iJvYvbHbP=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPAetYBtuy2EBzPZmaxH_xau5CN1L9iJvYvbHbP=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPYfo3IyU-8rsr5YKEwoGsRYgMkdY4---i4FfAe=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPYfo3IyU-8rsr5YKEwoGsRYgMkdY4---i4FfAe=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMJAiRXNKlgSYpwqDQdvRXmf9x58_UqHbn9rfgx=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMJAiRXNKlgSYpwqDQdvRXmf9x58_UqHbn9rfgx=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no7tO25ZiyLpP95zYRJHuUIVjieCJchFezp8CZjE9_QsxeE79TJFuTWOJ2NzBcbQdLP04hCRd7L9WEzNGvDBXEEpFTL9_Bmb0A2l7j_k4iDjueeXmB0jzjYEXassPyWffE2WKTq0DZuy-c=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhBDAjoHeK56MkD-JCeQ89OO=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOvRT4zbIIHg3dpCNywwIMil9pSFaVNqiaRAjb7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOvRT4zbIIHg3dpCNywwIMil9pSFaVNqiaRAjb7=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOgUr2fyrhMXzRL62XV6Z8Fq3wnpEAhuSpstS4L=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOgUr2fyrhMXzRL62XV6Z8Fq3wnpEAhuSpstS4L=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/YoLoMj-fvIqEnM1AxCda3Hg1rBqsXMgpQPWaLuzK4S_XNY3F_thyDJ7jlAHt4einSDhV4whPCrhteXEYc4Z13VDJGsT22Dd77-8UMW_RP-2tWzTbCiftOGkU8_7Q_ojazZfzYSwecFfznaNwe0aoGX5YcuTg8Gc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/45/d4/bb/blupetal-a-business-hotel.jpg?w=2000&h=1300&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOhzlSAxesuySQCJdrsrNXQNpCKgDsvxRaenvpF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOhzlSAxesuySQCJdrsrNXQNpCKgDsvxRaenvpF=s10000"
+        }
+      ],
+      "overall_rating": 4.3,
+      "reviews": 3501,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1732
+        },
+        {
+          "stars": 4,
+          "count": 1227
+        },
+        {
+          "stars": 3,
+          "count": 396
+        },
+        {
+          "stars": 2,
+          "count": 73
+        },
+        {
+          "stars": 1,
+          "count": 73
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 365,
+          "positive": 294,
+          "negative": 47,
+          "neutral": 24
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 195,
+          "positive": 166,
+          "negative": 14,
+          "neutral": 15
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 85,
+          "positive": 57,
+          "negative": 10,
+          "neutral": 18
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 401,
+          "positive": 348,
+          "negative": 45,
+          "neutral": 8
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 386,
+          "positive": 334,
+          "negative": 30,
+          "neutral": 22
+        },
+        {
+          "name": "Restaurant",
+          "description": "Restaurant",
+          "total_mentioned": 59,
+          "positive": 49,
+          "negative": 1,
+          "neutral": 9
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Regenta Inn Grand Koramangala",
+      "description": "Polished hotel featuring a rooftop restaurant, a cafe/wine bar & an exercise room.",
+      "property_token": "ChkIqsnhjISphshhGg0vZy8xMWxzejhfcTA2EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkIqsnhjISphshhGg0vZy8xMWxzejhfcTA2EAE&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.943409599999999,
+        "longitude": 77.6214482
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,695",
+        "extracted_lowest": 2695,
+        "before_taxes_fees": "₹2,430",
+        "extracted_before_taxes_fees": 2430
+      },
+      "total_rate": {
+        "lowest": "₹2,695",
+        "extracted_lowest": 2695,
+        "before_taxes_fees": "₹2,430",
+        "extracted_before_taxes_fees": 2430
+      },
+      "nearby_places": [
+        {
+          "name": "Indoor Stadium",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 5 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 1 min"
+            }
+          ]
+        },
+        {
+          "name": "Zubaan - Middle-Eastern Kitchen",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPqHRG-ItI0F43cjsd_kow7ie91JrNKnxwhFlxG=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPqHRG-ItI0F43cjsd_kow7ie91JrNKnxwhFlxG=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPdA9OpPkaS20jbXS0iTJVjQ1FA2ZuJZsZfVsai=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPdA9OpPkaS20jbXS0iTJVjQ1FA2ZuJZsZfVsai=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOO278o9SbuTnqwsIK839rYGp1EKWWilupnSFyo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOO278o9SbuTnqwsIK839rYGp1EKWWilupnSFyo=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN-HpKN_tHgLqf38s7xjHjwJZYk4MkOfTWlrlUv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN-HpKN_tHgLqf38s7xjHjwJZYk4MkOfTWlrlUv=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOf21qOtzCDYXHgKHvrUpepPYHb0uRBHWdVUgsi=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOf21qOtzCDYXHgKHvrUpepPYHb0uRBHWdVUgsi=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNnxr5LayMX1kWVFSTlR3ZnTKP_TbWXnQ9c-1o6=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNnxr5LayMX1kWVFSTlR3ZnTKP_TbWXnQ9c-1o6=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNOJAnCt7FV6miDARirtamxAMOAm_7XikhcyVdI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNOJAnCt7FV6miDARirtamxAMOAm_7XikhcyVdI=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPGiU0SUL60XWWw-it2ZisFswwt8VgWXRxARQZ8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPGiU0SUL60XWWw-it2ZisFswwt8VgWXRxARQZ8=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOgQ0TpFV7LAQ2ONv2pdvrVQhozq1xjUFmHmNQk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOgQ0TpFV7LAQ2ONv2pdvrVQhozq1xjUFmHmNQk=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 1209,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 856
+        },
+        {
+          "stars": 4,
+          "count": 232
+        },
+        {
+          "stars": 3,
+          "count": 65
+        },
+        {
+          "stars": 2,
+          "count": 20
+        },
+        {
+          "stars": 1,
+          "count": 36
+        }
+      ],
+      "location_rating": 3.4,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 107,
+          "positive": 81,
+          "negative": 17,
+          "neutral": 9
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 337,
+          "positive": 312,
+          "negative": 23,
+          "neutral": 2
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 413,
+          "positive": 377,
+          "negative": 26,
+          "neutral": 10
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 113,
+          "positive": 101,
+          "negative": 6,
+          "neutral": 6
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 121,
+          "positive": 105,
+          "negative": 8,
+          "neutral": 8
+        },
+        {
+          "name": "Restaurant",
+          "description": "Restaurant",
+          "total_mentioned": 50,
+          "positive": 36,
+          "negative": 10,
+          "neutral": 4
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Fitness center",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Park Avenue Hotel Koramangala, Bangalore",
+      "link": "https://parkavenuehotel.in/bengaluru/",
+      "property_token": "ChkIy_vlpeWGkuYuGg0vZy8xMXk1enRmNmpmEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkIy_vlpeWGkuYuGg0vZy8xMXk1enRmNmpmEAE&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.935598200000001,
+        "longitude": 77.6080827
+      },
+      "check_in_time": "1:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,334",
+        "extracted_lowest": 2334,
+        "before_taxes_fees": "₹2,334",
+        "extracted_before_taxes_fees": 2334
+      },
+      "total_rate": {
+        "lowest": "₹2,334",
+        "extracted_lowest": 2334,
+        "before_taxes_fees": "₹2,334",
+        "extracted_before_taxes_fees": 2334
+      },
+      "nearby_places": [
+        {
+          "name": "Muneshwara Temple",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 9 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 52 min"
+            }
+          ]
+        },
+        {
+          "name": "Imperio Restaurant Koramangala",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOZ9yQIuMnuERiwVdBesvgu0K97Rc_E_N4o8ePz=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOZ9yQIuMnuERiwVdBesvgu0K97Rc_E_N4o8ePz=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOo38gOB91Brh1uhIX_qToX8tMZL65fySm43c6-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOo38gOB91Brh1uhIX_qToX8tMZL65fySm43c6-=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPSqLUBQt5O-sC10j8_GT80Gk5G6XB1EJAQl6nd=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPSqLUBQt5O-sC10j8_GT80Gk5G6XB1EJAQl6nd=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPOwlvCd9D25iMXljefFne41rlXs84w9ujntxCW=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPOwlvCd9D25iMXljefFne41rlXs84w9ujntxCW=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN75OS9puz_JbDVJaFNrrM3MBjVua_Aby4zC8tV=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN75OS9puz_JbDVJaFNrrM3MBjVua_Aby4zC8tV=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPPWiNrfSgllKV03t8OxbDHYgx-4uGLyrf5JLOo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPPWiNrfSgllKV03t8OxbDHYgx-4uGLyrf5JLOo=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPKpRzVEwRMx9JkZrCOcIgqUqeFZKiw0_piy7er=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPKpRzVEwRMx9JkZrCOcIgqUqeFZKiw0_piy7er=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPmC9aiRvvrv7jeOde-KehbsWCFVzFumb2cD_XW=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPmC9aiRvvrv7jeOde-KehbsWCFVzFumb2cD_XW=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOCCgku8-8oxIgNBkwO6wi7xthVajd3ViWCXzOJ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOCCgku8-8oxIgNBkwO6wi7xthVajd3ViWCXzOJ=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 270,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 208
+        },
+        {
+          "stars": 4,
+          "count": 41
+        },
+        {
+          "stars": 3,
+          "count": 14
+        },
+        {
+          "stars": 2,
+          "count": 3
+        },
+        {
+          "stars": 1,
+          "count": 4
+        }
+      ],
+      "location_rating": 4.3,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 28,
+          "positive": 26,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 93,
+          "positive": 86,
+          "negative": 7,
+          "neutral": 0
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 43,
+          "positive": 38,
+          "negative": 1,
+          "neutral": 4
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 83,
+          "positive": 73,
+          "negative": 4,
+          "neutral": 6
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 16,
+          "positive": 5,
+          "negative": 9,
+          "neutral": 2
+        },
+        {
+          "name": "Restaurant",
+          "description": "Restaurant",
+          "total_mentioned": 14,
+          "positive": 13,
+          "negative": 0,
+          "neutral": 1
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Fitness center",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "The Grand Krishna Rooms",
+      "description": "Unfussy rooms & suites, some with air-conditioning, in a relaxed hotel offering a restaurant.",
+      "link": "https://www.grandkrishna.com/meetings-events/banquet-hall.html",
+      "property_token": "ChgIzrXo982jlt-nARoLL2cvMXRua192bGQQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChgIzrXo982jlt-nARoLL2cvMXRua192bGQQAQ&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.923381899999999,
+        "longitude": 77.6187486
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹2,205",
+        "extracted_lowest": 2205,
+        "before_taxes_fees": "₹1,995",
+        "extracted_before_taxes_fees": 1995
+      },
+      "total_rate": {
+        "lowest": "₹2,205",
+        "extracted_lowest": 2205,
+        "before_taxes_fees": "₹1,995",
+        "extracted_before_taxes_fees": 1995
+      },
+      "nearby_places": [
+        {
+          "name": "Madivala Masidi",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 12 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 59 min"
+            }
+          ]
+        },
+        {
+          "name": "Pooram Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN6USEnPxM0DtnOJ3ozgV_fyZxlp0LaTCdjAWK4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN6USEnPxM0DtnOJ3ozgV_fyZxlp0LaTCdjAWK4=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNmRmgRdKfhtxDDmFGlO4s01bmDsZhNiXJT61IN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNmRmgRdKfhtxDDmFGlO4s01bmDsZhNiXJT61IN=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrBPEFyg9g2pS1hDMGjsleWsGx4uhfawOZD_Iz4CFTJL9VrsYwnLkPf-_9WUwqTf0NmCp4qm79I2pRXVy0hPcvURBtHYiS4vj1tzsBly5iPCk5_GnGGrlVgtytMhLzk0dmHlFnA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDm1-7WYw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOp_T1hUv_MFj035dZCwWx1i_xlH-5NuOXLlbQ5=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOp_T1hUv_MFj035dZCwWx1i_xlH-5NuOXLlbQ5=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM8mXUiAqAEZO2X_wmrwwN4_8j5MRxrimBNMNKv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM8mXUiAqAEZO2X_wmrwwN4_8j5MRxrimBNMNKv=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/lY5wh9A3gjQR3QuGY9xXoN0A24Po9bGx8mrokbaov8bT8EFh7hW52J4Tc7o19GvEaUZqmAVbI8PIpkzL-GKIESz1ABfh9mqSESuxo3nzoyR3WexMEthZJTTtbynaFaeZXMzSY2CNZf_CpmeS4ORc68RKUtr2qA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/110000000/109020000/109019500/109019488/b3df6d4a_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN9zra1Wuf4RaaX-cnw1-9fLzUGpO4JS8NPgHvy=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN9zra1Wuf4RaaX-cnw1-9fLzUGpO4JS8NPgHvy=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMbOgxyIScLXu1dlI4QrSCHQRcrDhwCt-r2dNQ-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMbOgxyIScLXu1dlI4QrSCHQRcrDhwCt-r2dNQ-=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMTabZ3y3ByWHzOmrAzbXQG7ZDTGHMjc8zhGGc9=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMTabZ3y3ByWHzOmrAzbXQG7ZDTGHMjc8zhGGc9=s10000"
+        }
+      ],
+      "overall_rating": 4.1,
+      "reviews": 1553,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 660
+        },
+        {
+          "stars": 4,
+          "count": 535
+        },
+        {
+          "stars": 3,
+          "count": 224
+        },
+        {
+          "stars": 2,
+          "count": 61
+        },
+        {
+          "stars": 1,
+          "count": 73
+        }
+      ],
+      "location_rating": 4.3,
+      "reviews_breakdown": [
+        {
+          "name": "Parking",
+          "description": "Parking",
+          "total_mentioned": 37,
+          "positive": 26,
+          "negative": 6,
+          "neutral": 5
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 207,
+          "positive": 172,
+          "negative": 23,
+          "neutral": 12
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 55,
+          "positive": 29,
+          "negative": 16,
+          "neutral": 10
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 65,
+          "positive": 45,
+          "negative": 19,
+          "neutral": 1
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 103,
+          "positive": 86,
+          "negative": 12,
+          "neutral": 5
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 25,
+          "positive": 15,
+          "negative": 6,
+          "neutral": 4
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Regenta Inn 4th Block Koramanagla",
+      "link": "https://regentarewards.com/hotel/regenta-inn-4th-block-koramangala",
+      "property_token": "ChkIgIyVkqPoqOkMGg0vZy8xMXRnZ3BjcTU5EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkIgIyVkqPoqOkMGg0vZy8xMXRnZ3BjcTU5EAE&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.934593,
+        "longitude": 77.63038259999999
+      },
+      "check_in_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹2,721",
+        "extracted_lowest": 2721,
+        "before_taxes_fees": "₹2,591",
+        "extracted_before_taxes_fees": 2591
+      },
+      "total_rate": {
+        "lowest": "₹2,721",
+        "extracted_lowest": 2721,
+        "before_taxes_fees": "₹2,591",
+        "extracted_before_taxes_fees": 2591
+      },
+      "deal": "25% less than usual",
+      "deal_description": "Deal",
+      "nearby_places": [
+        {
+          "name": "Maharaja Signal",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 13 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 58 min"
+            }
+          ]
+        },
+        {
+          "name": "The Hole In The Wall Cafe",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPOBcLYd9POrAWU4Kz-FtMl95Ww6jvYJ4RuttiH=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPOBcLYd9POrAWU4Kz-FtMl95Ww6jvYJ4RuttiH=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN3KUjkwmbiht3MQiF5E3WBkeSooLLSAMLBABvv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN3KUjkwmbiht3MQiF5E3WBkeSooLLSAMLBABvv=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/sxJDyGDoVK4lRyB_uXqugFDgavIkF8HEMVT88tuGhJ8fRtS-R_7vtOvLqS6kXSIqYeWPCm158EWY75JBjpeRLvG7qBMAqpr-axlSzoDl2gZHvWaSZTjCNKDjDaRDpq4T5X24EqWvbgSYgDsMphaJvC5byg8cL3I=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/94000000/93180000/93170900/93170845/e047721f_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/IwVfn0IQMH38yIOeRYB6g1GO9POkBCtuxsVm9Y34_M1wYtONawcTrY79CpZsEDRSZLK6UXIaPtJk6q79--JST7D6ai553atFjysia7aVo_O_WZoeWbXC6GLRVyeN2vQtqmguZXYhQpx396CPJ-LRBlN6p6bXig=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/94000000/93180000/93170900/93170845/90e9af2e_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/koRvUzIDDuLdKPw160lcKOoTV6HH6pbB0wPEIafb1w-vaUn2-wAVRvPMdz7cGdm_cEI4_9N_EQu3BOXQ5c_yl-eZ4YHDg_bomEoRa2vCBrZKyFX9UKlVVf__W_Mummt949mizuxstgucy0Bedpwpvqjmja64Ww=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/a2/71/d5/sehr-sauberes-kleines.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMIb2TW7rO1LPLQVYR2sBP37vx9TLX1PTQ0QnyN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMIb2TW7rO1LPLQVYR2sBP37vx9TLX1PTQ0QnyN=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMZtw_sBCWAohyn9DjL7sGDAWDzUcXFlU37YjcU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMZtw_sBCWAohyn9DjL7sGDAWDzUcXFlU37YjcU=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNXFslgH16vxzdV-dJCZDUGPKdp-hT8EKjkN88Z=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNXFslgH16vxzdV-dJCZDUGPKdp-hT8EKjkN88Z=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPo25Il-kvPToQEfhP3PpIqBTboZCt_KxQYlmVq=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPo25Il-kvPToQEfhP3PpIqBTboZCt_KxQYlmVq=s10000"
+        }
+      ],
+      "overall_rating": 4.2,
+      "reviews": 75,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 41
+        },
+        {
+          "stars": 4,
+          "count": 23
+        },
+        {
+          "stars": 3,
+          "count": 4
+        },
+        {
+          "stars": 2,
+          "count": 2
+        },
+        {
+          "stars": 1,
+          "count": 5
+        }
+      ],
+      "location_rating": 4.2,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 9,
+          "positive": 9,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 9,
+          "positive": 8,
+          "negative": 1,
+          "neutral": 0
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 12,
+          "positive": 8,
+          "negative": 3,
+          "neutral": 1
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 24,
+          "positive": 20,
+          "negative": 3,
+          "neutral": 1
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 24,
+          "positive": 21,
+          "negative": 2,
+          "neutral": 1
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 11,
+          "positive": 8,
+          "negative": 1,
+          "neutral": 2
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Octave Studio Hotel",
+      "description": "Low-key hotel offering simply furnished quarters, plus complimentary parking & Wi-Fi.",
+      "link": "https://www.octavehotels.com/",
+      "property_token": "ChoIy-eqxN-U7cm4ARoNL2cvMTFmNG03amg1chAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoIy-eqxN-U7cm4ARoNL2cvMTFmNG03amg1chAB&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.9370876,
+        "longitude": 77.6147043
+      },
+      "check_in_time": "1:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹1,212",
+        "extracted_lowest": 1212,
+        "before_taxes_fees": "₹1,154",
+        "extracted_before_taxes_fees": 1154
+      },
+      "total_rate": {
+        "lowest": "₹1,212",
+        "extracted_lowest": 1212,
+        "before_taxes_fees": "₹1,154",
+        "extracted_before_taxes_fees": 1154
+      },
+      "nearby_places": [
+        {
+          "name": "Jyothi Nivas College",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 9 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 58 min"
+            }
+          ]
+        },
+        {
+          "name": "Babylonia - Global Food and Cocktails",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNO1JzLVsTP-e3R5JBnHyB8WzRW75_eMuOepHMM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNO1JzLVsTP-e3R5JBnHyB8WzRW75_eMuOepHMM=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ZNyFVINtXWpiivhxirvrvP1oymfpFGq0noHOBogK9A7XYdy1rRMxuSvN8RHOoNqn65zScp6jyUtpFmp9NudZ-IUkO2Z4AWNtJP_Mm9IYZV4su7Bw9Wmi905D-RBQun0HaGIW9zHLXHud7zl1Y7rGg5vWDEIZG1E=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/24000000/23070000/23063700/23063653/f59cdc2b_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/fk2D1qCfVwuQ-xmaQGCcP1jI0p6CFt2D2BX-WlerUQNqofYqTepnu0MIvEEj0HnoQi9CoCy1GolAozcZl3BlXZc81ez-659j0nL_RmFL1qmZPheRFkDG3K-NIYzNfZXa-DqcEPW46rAay_h2FG9NhcU-L4C1Pe4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/76/12/7612f76dd77766566e4ee1edd6f50620b039d574.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNIEEURD5VUWNJqEwJLLKEuvAjNlhSmRwoHWi3Z=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNIEEURD5VUWNJqEwJLLKEuvAjNlhSmRwoHWi3Z=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNtC0g21WiMNeeJ_Cqd63-lOXDMj1vksrGSp_5_=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNtC0g21WiMNeeJ_Cqd63-lOXDMj1vksrGSp_5_=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMuKH44by7W53IcXQkwxdzcC94krZQTE4HP2Bt_=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMuKH44by7W53IcXQkwxdzcC94krZQTE4HP2Bt_=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPBrVBG3Gvs4XnstlWqaFm6l9ecOuUuSU_O0nU8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPBrVBG3Gvs4XnstlWqaFm6l9ecOuUuSU_O0nU8=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMgKBbCIZxT0rXl-QL1KE8_HAOa-nqoyw5JDKZw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMgKBbCIZxT0rXl-QL1KE8_HAOa-nqoyw5JDKZw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPGRYd_t-A_lGapdHRKtBqK3jly_0qQUYXIquS1=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPGRYd_t-A_lGapdHRKtBqK3jly_0qQUYXIquS1=s10000"
+        }
+      ],
+      "overall_rating": 4.1,
+      "reviews": 1632,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 952
+        },
+        {
+          "stars": 4,
+          "count": 283
+        },
+        {
+          "stars": 3,
+          "count": 166
+        },
+        {
+          "stars": 2,
+          "count": 81
+        },
+        {
+          "stars": 1,
+          "count": 150
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 177,
+          "positive": 154,
+          "negative": 10,
+          "neutral": 13
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 360,
+          "positive": 255,
+          "negative": 83,
+          "neutral": 22
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 294,
+          "positive": 240,
+          "negative": 48,
+          "neutral": 6
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 150,
+          "positive": 99,
+          "negative": 49,
+          "neutral": 2
+        },
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 71,
+          "positive": 12,
+          "negative": 55,
+          "neutral": 4
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 35,
+          "positive": 7,
+          "negative": 25,
+          "neutral": 3
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Parking",
+        "Pet-friendly",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "HOTEL PEARLINN KORAMANGALA",
+      "description": "Casual hotel offering a fitness centre & event space, plus Wi-Fi, parking & train station transfers.",
+      "property_token": "ChcIzIyYzfaK9MswGgsvZy8xdGtuejczZhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChcIzIyYzfaK9MswGgsvZy8xdGtuejczZhAB&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.938055900000002,
+        "longitude": 77.6311946
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹1,422",
+        "extracted_lowest": 1422,
+        "before_taxes_fees": "₹1,355",
+        "extracted_before_taxes_fees": 1355
+      },
+      "total_rate": {
+        "lowest": "₹1,422",
+        "extracted_lowest": 1422,
+        "before_taxes_fees": "₹1,355",
+        "extracted_before_taxes_fees": 1355
+      },
+      "nearby_places": [
+        {
+          "name": "Ejipura Signal (Srinivagilu)",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 13 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 55 min"
+            }
+          ]
+        },
+        {
+          "name": "Bangalore Food Paradise",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "4 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "9 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNKXy_GtaWYqgVYHXsdpJmRuSvos15d3YyMx9Uu=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNKXy_GtaWYqgVYHXsdpJmRuSvos15d3YyMx9Uu=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOc0c9cL5ntElc-yOGEGm1v3q9sPgqUaUNk4Qyd=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOc0c9cL5ntElc-yOGEGm1v3q9sPgqUaUNk4Qyd=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMBqLb7xNBU_Flw0kQKVauqK_ZKib421ekAJ23h=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMBqLb7xNBU_Flw0kQKVauqK_ZKib421ekAJ23h=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMYDKVGFkz7vJ8pBWoKfN72LVcRmV1iptWQ0aum=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMYDKVGFkz7vJ8pBWoKfN72LVcRmV1iptWQ0aum=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNFTEqv-ZZPkrCi1kR1tF6ai2No-IcYzbUi26rI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNFTEqv-ZZPkrCi1kR1tF6ai2No-IcYzbUi26rI=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMq96T60w_2IOz8i3xgOk39pwv032GIgeHwlUOv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMq96T60w_2IOz8i3xgOk39pwv032GIgeHwlUOv=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMpR4_FgmXJyBahJlGy_GwP60GesPVHvGArOG40=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMpR4_FgmXJyBahJlGy_GwP60GesPVHvGArOG40=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPgtbZcCunjNRszmwwTjUv-68womTwBgl6O_l3O=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPgtbZcCunjNRszmwwTjUv-68womTwBgl6O_l3O=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMl5NS_C5oOVl44SDbLXkyyT4I7kWrlr75F5FwX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMl5NS_C5oOVl44SDbLXkyyT4I7kWrlr75F5FwX=s10000"
+        }
+      ],
+      "overall_rating": 3.4,
+      "reviews": 585,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 194
+        },
+        {
+          "stars": 4,
+          "count": 135
+        },
+        {
+          "stars": 3,
+          "count": 101
+        },
+        {
+          "stars": 2,
+          "count": 48
+        },
+        {
+          "stars": 1,
+          "count": 107
+        }
+      ],
+      "location_rating": 3.7,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 102,
+          "positive": 50,
+          "negative": 47,
+          "neutral": 5
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 101,
+          "positive": 46,
+          "negative": 46,
+          "neutral": 9
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 45,
+          "positive": 17,
+          "negative": 23,
+          "neutral": 5
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 18,
+          "positive": 0,
+          "negative": 16,
+          "neutral": 2
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 15,
+          "positive": 5,
+          "negative": 7,
+          "neutral": 3
+        },
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 19,
+          "positive": 1,
+          "negative": 17,
+          "neutral": 1
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Fitness center",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Astra Hotels & Suites - Koramangala | One of the Best Hotels in Koramangala",
+      "link": "https://www.astrahotels.in/koramangala-bangalore/",
+      "property_token": "ChoIzenencfnka7mARoNL2cvMTF2NWJiMWcycRAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoIzenencfnka7mARoNL2cvMTF2NWJiMWcycRAB&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.925800299999999,
+        "longitude": 77.6184546
+      },
+      "check_in_time": "2:00 PM",
+      "rate_per_night": {
+        "lowest": "₹2,139",
+        "extracted_lowest": 2139,
+        "before_taxes_fees": "₹2,039",
+        "extracted_before_taxes_fees": 2039
+      },
+      "total_rate": {
+        "lowest": "₹2,139",
+        "extracted_lowest": 2139,
+        "before_taxes_fees": "₹2,039",
+        "extracted_before_taxes_fees": 2039
+      },
+      "nearby_places": [
+        {
+          "name": "Madivala Masidi",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 13 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 1 min"
+            }
+          ]
+        },
+        {
+          "name": "Heaven's food",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNOZN5hEmCdzgPvOUt1pZawvjDTGtrzIUGeFgoY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNOZN5hEmCdzgPvOUt1pZawvjDTGtrzIUGeFgoY=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMzCzyQmcUF9hyYNxeAP-J_UMZ7iDCL0cnZlqiT=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMzCzyQmcUF9hyYNxeAP-J_UMZ7iDCL0cnZlqiT=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/sFDJuHG7ewUYrUxFmWwRwi3vMJ-ga3OvCTE5LtVRe78D73Cr649YenVYfbf3llWHjlqUyMLbnVyb6GbzZ3i2ooNGiqaOnAMN2DmwZYYsEZMwafF7HDywqRwJTHOJDTTEQzp-Ki9-fWS1Jycf0bxlPgp6SHTs62M=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/b9/98/b9987e60d1e4474d3f6432042c0eb4e2e90bb6a8.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO2CcC7iBVm1mVGLv7BpnnnO0ArUXBqwxYo0pMb=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO2CcC7iBVm1mVGLv7BpnnnO0ArUXBqwxYo0pMb=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOQ_ILiT_MGd0r3MfbqNEbsNVlp3OlS65oJe2YR=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOQ_ILiT_MGd0r3MfbqNEbsNVlp3OlS65oJe2YR=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/bxTc59HwABZQjrSjobJNQ_7QUoCYKEpIDfxWUjAZ38a20ec2b2rxhfdcMhioxvDCHvgxbEo6yZilUGfIV1hJ8RiswZShdvsb3AqIcQ-TvxNl3zP8p9oaW4C1TL6uN2PF8-2bIvRoBtbvKqXGKmehaumrBXV-1Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111190000/111180400/111180340/fe98bafc_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP_JFmOo53QKZzt85LKtm7svOOcRtQr3tlEbiuA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP_JFmOo53QKZzt85LKtm7svOOcRtQr3tlEbiuA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPuzU1S7xv-Yo1KMmf-2n2gvqLiRIhertWPBltF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPuzU1S7xv-Yo1KMmf-2n2gvqLiRIhertWPBltF=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN-wyi5RiD3Z8bWop63SLM-SkeSUJYSIPMJ8Y1e=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN-wyi5RiD3Z8bWop63SLM-SkeSUJYSIPMJ8Y1e=s10000"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 512,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 389
+        },
+        {
+          "stars": 4,
+          "count": 90
+        },
+        {
+          "stars": 3,
+          "count": 14
+        },
+        {
+          "stars": 2,
+          "count": 5
+        },
+        {
+          "stars": 1,
+          "count": 14
+        }
+      ],
+      "location_rating": 4.3,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 81,
+          "positive": 70,
+          "negative": 9,
+          "neutral": 2
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 98,
+          "positive": 91,
+          "negative": 4,
+          "neutral": 3
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 47,
+          "positive": 45,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 32,
+          "positive": 30,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 27,
+          "positive": 26,
+          "negative": 0,
+          "neutral": 1
+        },
+        {
+          "name": "Safety",
+          "description": "Safety",
+          "total_mentioned": 7,
+          "positive": 6,
+          "negative": 1,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Royal Flora Koramangala",
+      "description": "Straightforward hotel featuring simply furnished rooms, plus breakfast & a lobby with seating.",
+      "property_token": "ChgIkLid86_iuZIcGgwvZy8xaGY1d3o4bncQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChgIkLid86_iuZIcGgwvZy8xaGY1d3o4bncQAQ&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.935648599999999,
+        "longitude": 77.6087376
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹1,700",
+        "extracted_lowest": 1700,
+        "before_taxes_fees": "₹1,615",
+        "extracted_before_taxes_fees": 1615
+      },
+      "total_rate": {
+        "lowest": "₹1,700",
+        "extracted_lowest": 1700,
+        "before_taxes_fees": "₹1,615",
+        "extracted_before_taxes_fees": 1615
+      },
+      "nearby_places": [
+        {
+          "name": "Fortis Hospital Cunningham Road",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 11 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 52 min"
+            }
+          ]
+        },
+        {
+          "name": "Avon Bar And Kitchen",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNh5ia4Ll3AlS_sSW9zhldjL5Ober5fTFF62LFk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNh5ia4Ll3AlS_sSW9zhldjL5Ober5fTFF62LFk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM4uMNUc0_j8ia56j2kaKq4fIvdOtrOJoMiU-v3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM4uMNUc0_j8ia56j2kaKq4fIvdOtrOJoMiU-v3=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/HsxqX9Ji88TVJFVKHOY_mOWDWXnCZkCYeE1SE2w2WGxfvgdFSBQUbWn6xYieWsYLwsW_ViuMAnwUNVzpa2qzayQ6pzXAGG7er2CNOGK5lPs8_RUnPLN2Y3wjvtfo79eK5mW50umhYtsFMKY3afV4BA14dpHNmQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/c8/ac/7d/img-20181212-174912720.jpg?w=1000&h=800&s=1"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/QgUSkhMgT7ZVYiAkOj5QoP__SU2CfL9ipPBrj8HS6y3JYuj608zbx1fjRDUqw7NshOdVWAaDT5m9M0kXpnpSLUwbsV7KsWqRZ1Cd9ViQ4qn84PYCgYdoQvyxmIGjlG1s26G8iF8XVi4MESg49hjmKYWPkbQxWg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/c8/ac/78/img-20181212-173448275.jpg?w=1000&h=800&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOOiUGM2E1psyy-a6vYAtilWqz3sceXIOlXjGZu=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOOiUGM2E1psyy-a6vYAtilWqz3sceXIOlXjGZu=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN8JTNJwyR577NVLfiIYc1qW-XlmO-AVNmm2zAk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN8JTNJwyR577NVLfiIYc1qW-XlmO-AVNmm2zAk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOf4lT3nd6BXModlejE1keltDK5GczMK3--Fw70=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOf4lT3nd6BXModlejE1keltDK5GczMK3--Fw70=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/zrbm1_gnnaLC6G4kgPH5a9MkLu2SUUf5MGAArP1DJKrAP8cj1TVSqzHbhWUxPrdkyPuxcYOkSB8hWxOE_5jUDijCLc5Jok1KrdSni92rduWBCjd96NmGlFCMadddJytZ3eGTZuMqYi6o5LwR88vRi_O4g7ID1Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/c8/ac/7f/img-20181212-173826505.jpg?w=1000&h=800&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOyxKf9KXXH5cqZzC8j0i3tsNZLEzayLSwH1FFV=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOyxKf9KXXH5cqZzC8j0i3tsNZLEzayLSwH1FFV=s10000"
+        }
+      ],
+      "overall_rating": 3.7,
+      "reviews": 298,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 138
+        },
+        {
+          "stars": 4,
+          "count": 54
+        },
+        {
+          "stars": 3,
+          "count": 45
+        },
+        {
+          "stars": 2,
+          "count": 15
+        },
+        {
+          "stars": 1,
+          "count": 46
+        }
+      ],
+      "location_rating": 4.3,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 47,
+          "positive": 34,
+          "negative": 11,
+          "neutral": 2
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 23,
+          "positive": 14,
+          "negative": 2,
+          "neutral": 7
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 16,
+          "positive": 14,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 13,
+          "positive": 2,
+          "negative": 8,
+          "neutral": 3
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 46,
+          "positive": 28,
+          "negative": 16,
+          "neutral": 2
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 7,
+          "positive": 2,
+          "negative": 5,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Savoury Business Hotel",
+      "description": "Down-to-earth rooms in a hotel with a restaurant & 24/7 room service, plus free Wi-Fi & breakfast.",
+      "link": "http://www.savouryhotels.com/",
+      "property_token": "ChoI7p-ru7Kh7I6_ARoNL2cvMTFienQ2YjF4cRAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoI7p-ru7Kh7I6_ARoNL2cvMTFienQ2YjF4cRAB&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.9260187,
+        "longitude": 77.6169853
+      },
+      "check_in_time": "12:00 AM",
+      "check_out_time": "12:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,004",
+        "extracted_lowest": 2004,
+        "before_taxes_fees": "₹1,877",
+        "extracted_before_taxes_fees": 1877
+      },
+      "total_rate": {
+        "lowest": "₹2,004",
+        "extracted_lowest": 2004,
+        "before_taxes_fees": "₹1,877",
+        "extracted_before_taxes_fees": 1877
+      },
+      "nearby_places": [
+        {
+          "name": "Bengaluru - Madiwala (N)",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 11 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 54 min"
+            }
+          ]
+        },
+        {
+          "name": "Kairali Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqLX5B6MoDyjjDfaN41tG_FFJwVmWouunTyTci07E_G0GtWq07bbtEAevkPyDtbPqR2FiOqKBFEwdRwVMC3GgqfMdS0X3cXf2s_DWroyFt0HzPD8sXZG7q07wBxHDusocKybuWh=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIC4uuTx4AE=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/2zki0C4keWlI_KsNeCP2j-9ihOls6kOG_qFzIMzvVfeUCrhYy153pantMhmg0Jhqo-ot1x7PnQmrtTWSHij2ujiZBAzSs6fXa429so7MMjyEAhhG4dkl6kIzEbKiGF57BvMkFMUg0i0uumSCwfZ-ae0Iwj0lvg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/f8/55/40/savoury-business-hotel.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNbBlGv_rNBI1xsWwuCgzer5QEPJGfHZVo2CfY6=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNbBlGv_rNBI1xsWwuCgzer5QEPJGfHZVo2CfY6=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqspS01x2Rfnx6BLD_9Y0aBixr5hB4TXefREfxYj0oT8-gQ9lzFaoM66sgKsrXb7gIgulnYnZmYhlCiLNf3mh5kQqmXAZp570Gkegd8wKKqVOcA9ZlKHYazI8RGMF9t7bhQrBjuKw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICEor_i7wE=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/glrt-VWii9LVAWDnB5AJ-gvSctnZxMDoPUSH8oK_xjO3Z2eRRjcHSIiCXlGRmvJ6uvsaTy2s6NLczpqknIPoW0qh_2340YGO6vuHsqxbpzXCQMpmc1ISNqUWuA1mOvDeQHH8dGizGmx1EDvux6N-pu3QDPc5TJU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/f8/55/72/savoury-business-hotel.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noXrYcXp9UfWVP4qQNejpiNblg9FOJgu3SKKmyYRLqNNXvRBe74hPk4-3zjsJJsN8nX5SshpoqrKOYZNHV18TVELP50UhVUE0jp6IGTbhQyTlk3Osb6f7VZjz0CatpAYX8EK-hk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICcmszm5gE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npYIQFEXHG9ueTw9ATe3MdpNWgW-PiN-nFbyi8DQrL2yLwJE6GEJo9zgg2WXZ4_TlDLYdfYon6u74WJ39-ms9KEUiOEDuiq7cRBBqfUnXJ2QkUEF7SN5dbHFc6SRnVoAEC1VB8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICK2Kr1Ng=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nroueTemXNBqt6GQcZTNNRzpEUSSP6t3SowPeESEsGmKBjviIRfISh2PKC2rZFh1fL_J79GF8ektO0iZU2AWcvcudWvfPz3ARLZHX-21nsHhSyuSP8drne8Gk9UGZkZRW-1yRk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDMxszJFQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqletpiqSBbOcncQqwjaGa78TNGr5AkpY_8xnF_WSqsrJS7ZRAV4wOBg2QUX5srIVoZEZrHAAZ1rK7s8kle94HMvPROgf0j8fTVxMF36t22xJs_9o_S3z_J-nR-A5thlrY0tM4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDj7KKfYA=s10000"
+        }
+      ],
+      "overall_rating": 4.1,
+      "reviews": 13314,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 5601
+        },
+        {
+          "stars": 4,
+          "count": 4762
+        },
+        {
+          "stars": 3,
+          "count": 1876
+        },
+        {
+          "stars": 2,
+          "count": 424
+        },
+        {
+          "stars": 1,
+          "count": 651
+        }
+      ],
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 1419,
+          "positive": 1143,
+          "negative": 205,
+          "neutral": 71
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 428,
+          "positive": 356,
+          "negative": 45,
+          "neutral": 27
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 145,
+          "positive": 116,
+          "negative": 12,
+          "neutral": 17
+        },
+        {
+          "name": "Transport",
+          "description": "Public transit",
+          "total_mentioned": 122,
+          "positive": 74,
+          "negative": 16,
+          "neutral": 32
+        },
+        {
+          "name": "Parking",
+          "description": "Parking",
+          "total_mentioned": 129,
+          "positive": 65,
+          "negative": 48,
+          "neutral": 16
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 689,
+          "positive": 451,
+          "negative": 202,
+          "neutral": 36
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Tulip Inn, Koramangala",
+      "description": "Warmly furnished rooms & suites in an informal hotel offering a restaurant, a bar & a gym.",
+      "link": "https://www.sarovarhotels.com/tulip-inn-koramangala/",
+      "property_token": "ChkIvdy0t_KWnLFHGg0vZy8xMXNubTk0MzI2EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkIvdy0t_KWnLFHGg0vZy8xMXNubTk0MzI2EAE&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.9386963,
+        "longitude": 77.62994309999999
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹2,647",
+        "extracted_lowest": 2647,
+        "before_taxes_fees": "₹2,647",
+        "extracted_before_taxes_fees": 2647
+      },
+      "total_rate": {
+        "lowest": "₹2,647",
+        "extracted_lowest": 2647,
+        "before_taxes_fees": "₹2,647",
+        "extracted_before_taxes_fees": 2647
+      },
+      "nearby_places": [
+        {
+          "name": "Domlur",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 11 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 53 min"
+            }
+          ]
+        },
+        {
+          "name": "Elite Kitchen",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/czZbcQbBXIG-_KNbGPo5lhZxHWHapshibikIOjFVovjkXPgZBN8TjTYtNghBT8w5MGwfw2dqgWiRAaoupWoIJrvtGtRxzIIUZf80BecxyEUCBgyuq2XrhRmdEo5Dfc7DWBQt3bcgTveBaIeBVBiBFP2RvpgaDQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/32/18/1e/tulip-inn-koramangala.jpg?w=1500&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/LzIDn9goC5DyfbIpaViVUhZVStqRmuNavfdrpHJKZH4Q1wUF7pTlII0nBPIhmTwwLHA9xDx2TadLdNEDGQodIhWt_PbTjq9WCkTFM4qrliP1dPQvLwOnW-yZnUUGDGcO-GnPUTL4BGRoU7DNGHRsEzudQP5qPA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://i.giatamedia.com/m.php?m=AQABAAAAla4KABOraAcFAPDPPnYHWzq0gc0IFo4PiIM"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/DR8hcmX3udDWCzKpvdgyegMfTHkeOfgJoZ44bNwCNZmrKqnoxx_OtfsG1T4KIemTRIN2hVVxELf2uBtuFnbyqpXKRSNqBK03yniL7f7xzUuwjbGAB9a_jBtMFWiR-YeEYGMm7myTofsMaRgPni3LnAHiCqlV77U=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://i.giatamedia.com/m.php?m=AQABAAAAla4KABeraAcFAJKDbGPk-ftw8sOC_KuVYww"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/n0Af8h5LwcVPUk5H6hsylEqfsUyn2i6W_o0G0ZCQjieef-oDVmlK4T4MDyzLs-j8FLAI1TWHZsRmtsKY9dmxqBpeFyXPX83Pj2D7Tb_DgJdaT1C76HGExx2MSMQUjjyN4CNi4hFiZg516_MY7YtDFxX-qLe6Ww=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/32/1c/b5/tulip-inn-koramangala.jpg?w=1600&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/pHFVmJn9X5J0AdVCouOyDCVWy8vtwnQKKuG3DqSMcOR0CZfj3YDDMKapVtFFBJUm-eNJ17M6YA5ZYHBMzoibJo4QVLWk49SK6nCWAfCniPFtkrD5pUJ7Wdib9WCmWy0RliAo3Ri7TAo8QA6mGh6Jswb8plN0Kw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://i.giatamedia.com/m.php?m=AQABAAAAla4KABqraAcFAB7ZDfQE5YrIjOQLR415f-E"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/Ls01RrY2rDvGyAzCEUvW6sta_So2tny8K8Mca3pt9HqCLpPpt4jnrBCyEGwBJrhUD4GqaJQYXy8LO8eRRrjdjZYNa7q6l-QyRTidob_jIHgxWvksbOx63KI9BHUeklTK6Q1ZMRF5wRY2e97vl2ciFH0pt_reSxk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/75000000/74750000/74741600/74741538/b70290cc_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/W70OkCukdy7075DK1DM1-chKAUt4ZE2PBhOoSJl1OboXf3OQ7hC_zZHkLXb8KZqBq4XkgZJUK7wTyJgpEs5ztbiQWPogG5LUq39bJUznX_-93WsqTkRyL3eEviM1vf5WdTsF50rbXQXh6e_XKTnvY2sAcqDU8l0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/75000000/74750000/74741600/74741538/912533b3_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/MXQHBw3OcP8ZYfuMKiTpmFN2SvUW1-iH0L0ODYVi2usheDZUzFzigrHxfZpv-t1gSoerRR-LlOthqWgHgAygrwXz8UWOnkIH6kd8BdsUnJk1nqDmgwueAf7-C6ZYMycjv3bKqqZduFqj8VIn-x-I7FYwez78Ijk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/32/1c/63/tulip-inn-koramangala.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/p8Hg9mZIx3j3WR8Cm6fEAFWVjCHvpFSQF43qhwNqzFJKlUDKg6WrK6NxoEWqJMWvt5Duiroh6gda9cnl-ZzDXnypC1FGEZqFdB_oMpQT6ge-VFZ_paNkfrfBVDvYRwfV0Cs_39qFDFqajoUPC8E6s5MBzVOrEw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/75000000/74750000/74741600/74741538/729f6b0c_z.jpg"
+        }
+      ],
+      "overall_rating": 4.2,
+      "reviews": 547,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 302
+        },
+        {
+          "stars": 4,
+          "count": 145
+        },
+        {
+          "stars": 3,
+          "count": 48
+        },
+        {
+          "stars": 2,
+          "count": 19
+        },
+        {
+          "stars": 1,
+          "count": 33
+        }
+      ],
+      "location_rating": 4.0,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 155,
+          "positive": 126,
+          "negative": 24,
+          "neutral": 5
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 41,
+          "positive": 37,
+          "negative": 4,
+          "neutral": 0
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 42,
+          "positive": 33,
+          "negative": 9,
+          "neutral": 0
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 17,
+          "positive": 14,
+          "negative": 1,
+          "neutral": 2
+        },
+        {
+          "name": "Restaurant",
+          "description": "Restaurant",
+          "total_mentioned": 20,
+          "positive": 18,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 106,
+          "positive": 85,
+          "negative": 14,
+          "neutral": 7
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Airport shuttle",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "FabHotel Crown Suites - Hotel in Koramangala, Bangalore",
+      "description": "Low-key rooms with flat-screens in a budget hotel offering free breakfast & Wi-Fi, plus parking.",
+      "link": "https://www.fabhotels.com/hotels-in-bangalore/fabhotel-corporate-crown-ii.html?utm_source=GMB&utm_medium=organic&utm_campaign=GMB_Traffic",
+      "property_token": "ChkI27KMzp-1sK9RGg0vZy8xMWcwZ3BubjdmEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkI27KMzp-1sK9RGg0vZy8xMWcwZ3BubjdmEAE&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.9380483,
+        "longitude": 77.62533920000001
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹1,421",
+        "extracted_lowest": 1421,
+        "before_taxes_fees": "₹1,353",
+        "extracted_before_taxes_fees": 1353
+      },
+      "total_rate": {
+        "lowest": "₹1,421",
+        "extracted_lowest": 1421,
+        "before_taxes_fees": "₹1,353",
+        "extracted_before_taxes_fees": 1353
+      },
+      "nearby_places": [
+        {
+          "name": "Koramangala",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 9 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 55 min"
+            }
+          ]
+        },
+        {
+          "name": "CHAMPAK - Champaran | The best North Indian restaurant in Bangalore",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNlBuc_P7nEUgWyDzN4NEUwSLG3qQ9k4y4nXwYF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNlBuc_P7nEUgWyDzN4NEUwSLG3qQ9k4y4nXwYF=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO2skOEiDIm6GkdWXey9BOkkjmqBWE8kUBtXYvr=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO2skOEiDIm6GkdWXey9BOkkjmqBWE8kUBtXYvr=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNOHegzU2ydObxqFaGJ5qwvH2Jh9Bb2ETyJWt04=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNOHegzU2ydObxqFaGJ5qwvH2Jh9Bb2ETyJWt04=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNjXRGN3hyJ9aKFnL0It0eVp9EVByhwiKmlp_05=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNjXRGN3hyJ9aKFnL0It0eVp9EVByhwiKmlp_05=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN3CgEvAdjDwlUCgGqUcbuF3FYvq2eefKRc_EKh=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN3CgEvAdjDwlUCgGqUcbuF3FYvq2eefKRc_EKh=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipORFS-sne-gip_aBFe8eaOftipDSQ20iYWhCLG-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipORFS-sne-gip_aBFe8eaOftipDSQ20iYWhCLG-=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP4jYEe63Pw1c45pqlWWEtLx2BDel-7knM0zzKR=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP4jYEe63Pw1c45pqlWWEtLx2BDel-7knM0zzKR=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMDkv21I6Cd2CikrRWCbMEB7_xWd7c6tqRXABk6=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMDkv21I6Cd2CikrRWCbMEB7_xWd7c6tqRXABk6=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOOlm7E3dlrKKLmjrGam8MGUm4_JCU5w_wgGkXt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOOlm7E3dlrKKLmjrGam8MGUm4_JCU5w_wgGkXt=s10000"
+        }
+      ],
+      "overall_rating": 3.5,
+      "reviews": 428,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 178
+        },
+        {
+          "stars": 4,
+          "count": 68
+        },
+        {
+          "stars": 3,
+          "count": 55
+        },
+        {
+          "stars": 2,
+          "count": 43
+        },
+        {
+          "stars": 1,
+          "count": 84
+        }
+      ],
+      "location_rating": 4.3,
+      "reviews_breakdown": [
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 41,
+          "positive": 2,
+          "negative": 38,
+          "neutral": 1
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 103,
+          "positive": 67,
+          "negative": 32,
+          "neutral": 4
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 30,
+          "positive": 5,
+          "negative": 23,
+          "neutral": 2
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 127,
+          "positive": 63,
+          "negative": 53,
+          "neutral": 11
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 56,
+          "positive": 15,
+          "negative": 38,
+          "neutral": 3
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 38,
+          "positive": 25,
+          "negative": 6,
+          "neutral": 7
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Room service",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "FabHotel Corporate Crown - Hotel in Koramangala, Bangalore",
+      "description": "Modest budget hotel offering pared-back, simply decorated rooms, plus free breakfast.",
+      "link": "https://www.fabhotels.com/hotels-in-bangalore/fabhotel-corporate-crown-koramangala.html?utm_source=GMB&utm_medium=organic&utm_campaign=GMB_Traffic",
+      "property_token": "ChoIgqmnldvww6e7ARoNL2cvMTFjMzB3ZHBseBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoIgqmnldvww6e7ARoNL2cvMTFjMzB3ZHBseBAB&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.9346918,
+        "longitude": 77.6178264
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹1,470",
+        "extracted_lowest": 1470,
+        "before_taxes_fees": "₹1,400",
+        "extracted_before_taxes_fees": 1400
+      },
+      "total_rate": {
+        "lowest": "₹1,470",
+        "extracted_lowest": 1470,
+        "before_taxes_fees": "₹1,400",
+        "extracted_before_taxes_fees": 1400
+      },
+      "nearby_places": [
+        {
+          "name": "Koramangla Kalyana Mantapa",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 10 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 1 min"
+            }
+          ]
+        },
+        {
+          "name": "The Little Calicut",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNZzp3tQN0nFbdO_w9i68UIzW99PsGgep7SBR8s=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNZzp3tQN0nFbdO_w9i68UIzW99PsGgep7SBR8s=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPTAKvvu6bpVZbsslNoYtaJfLJP9JpwBb3U8Eg_=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPTAKvvu6bpVZbsslNoYtaJfLJP9JpwBb3U8Eg_=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOOqBKpcEic-_3ZHBAHZIzOsllWKSRalFTBWO7C=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOOqBKpcEic-_3ZHBAHZIzOsllWKSRalFTBWO7C=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOEfYAUF_7lY2VnbTTfCdplbu0fXeXE-NNPsDlZ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOEfYAUF_7lY2VnbTTfCdplbu0fXeXE-NNPsDlZ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMyySp5Z11uAjvFZzSbUkJmD6a3IMZIu9WYlUut=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMyySp5Z11uAjvFZzSbUkJmD6a3IMZIu9WYlUut=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNqxY_CwghGLOe7tFS2T7mc84K7onQPSwE3OUU4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNqxY_CwghGLOe7tFS2T7mc84K7onQPSwE3OUU4=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPNHtYRaV8Y3eufIYRcHjKjh9ocTRD3rF0QDe7S=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPNHtYRaV8Y3eufIYRcHjKjh9ocTRD3rF0QDe7S=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPRiNkFKgAkRP_SPczmy7ucnNPNnIOBU1s8NXdG=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPRiNkFKgAkRP_SPczmy7ucnNPNnIOBU1s8NXdG=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPKeY6KOoPXmHudVOyz-WhSxZ_5dJYVutPUcurD=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPKeY6KOoPXmHudVOyz-WhSxZ_5dJYVutPUcurD=s10000"
+        }
+      ],
+      "overall_rating": 3.6,
+      "reviews": 656,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 260
+        },
+        {
+          "stars": 4,
+          "count": 156
+        },
+        {
+          "stars": 3,
+          "count": 81
+        },
+        {
+          "stars": 2,
+          "count": 49
+        },
+        {
+          "stars": 1,
+          "count": 110
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 147,
+          "positive": 88,
+          "negative": 52,
+          "neutral": 7
+        },
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 44,
+          "positive": 6,
+          "negative": 36,
+          "neutral": 2
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 36,
+          "positive": 9,
+          "negative": 22,
+          "neutral": 5
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 163,
+          "positive": 89,
+          "negative": 59,
+          "neutral": 15
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 52,
+          "positive": 40,
+          "negative": 6,
+          "neutral": 6
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 31,
+          "positive": 3,
+          "negative": 25,
+          "neutral": 3
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Room service",
+        "Full-service laundry",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "TGI Oberon",
+      "link": "https://www.tgihotels.com/oberon-koramangala/",
+      "property_token": "ChoImrmzxMLU6vHOARoNL2cvMTFtNnMxZjg3aBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoImrmzxMLU6vHOARoNL2cvMTFtNnMxZjg3aBAB&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.940147000000001,
+        "longitude": 77.625387
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹3,176",
+        "extracted_lowest": 3176,
+        "before_taxes_fees": "₹3,025",
+        "extracted_before_taxes_fees": 3025
+      },
+      "total_rate": {
+        "lowest": "₹3,176",
+        "extracted_lowest": 3176,
+        "before_taxes_fees": "₹3,025",
+        "extracted_before_taxes_fees": 3025
+      },
+      "nearby_places": [
+        {
+          "name": "Koramangala TTMC",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 9 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 56 min"
+            }
+          ]
+        },
+        {
+          "name": "The Bier Library Brewery & Kitchen, Koramangala",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM7zx1VTB8iWrByK8FPJLUN7UF7JiLUofVsaRk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM7zx1VTB8iWrByK8FPJLUN7UF7JiLUofVsaRk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOuj7ZeittKdB6jg7JXji4VQDHC8Y2dCTsiL-E=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOuj7ZeittKdB6jg7JXji4VQDHC8Y2dCTsiL-E=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP8pnrxZAxo9WAp1ZDik89aF4OftrnhtybYgg4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP8pnrxZAxo9WAp1ZDik89aF4OftrnhtybYgg4=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMaMVBDY0d0huIxhlZS87HsnH9Z7NyZOKJdc98=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMaMVBDY0d0huIxhlZS87HsnH9Z7NyZOKJdc98=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN_2y0eAAKG2ozkp0hGtEk-H-ZHhycknyfcKuA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN_2y0eAAKG2ozkp0hGtEk-H-ZHhycknyfcKuA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPp5V9SeYKFtMlzK5dsthm1RddF8nOAZRGSZt8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPp5V9SeYKFtMlzK5dsthm1RddF8nOAZRGSZt8=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNDAnN7yKE-Wp41wpw5FQU1rapPlSIqrtvvkQ4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNDAnN7yKE-Wp41wpw5FQU1rapPlSIqrtvvkQ4=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPyJMJBr-r0ma1sRyKKrMhflV1XwFwGAIOlNsc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPyJMJBr-r0ma1sRyKKrMhflV1XwFwGAIOlNsc=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMNM8BBieolaxM8E1KvdIDJNE1kGWjDmYcnKWo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMNM8BBieolaxM8E1KvdIDJNE1kGWjDmYcnKWo=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 52,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 40
+        },
+        {
+          "stars": 4,
+          "count": 6
+        },
+        {
+          "stars": 3,
+          "count": 1
+        },
+        {
+          "stars": 2,
+          "count": 1
+        },
+        {
+          "stars": 1,
+          "count": 4
+        }
+      ],
+      "location_rating": 4.1,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 6,
+          "positive": 4,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 22,
+          "positive": 18,
+          "negative": 4,
+          "neutral": 0
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 18,
+          "positive": 15,
+          "negative": 2,
+          "neutral": 1
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 5,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 6,
+          "positive": 5,
+          "negative": 1,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Wi-Fi",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Seasons Suites Koramangala",
+      "description": "Warm units with kitchenettes in an informal apartment hotel offering breakfast & parking.",
+      "link": "https://www.seasonssuites.com/koramangala",
+      "property_token": "ChoIgrDv8OXnjeP-ARoNL2cvMTFxbmNfa2p4NRAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoIgrDv8OXnjeP-ARoNL2cvMTFxbmNfa2p4NRAB&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.9374399,
+        "longitude": 77.6197492
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,310",
+        "extracted_lowest": 2310,
+        "before_taxes_fees": "₹2,090",
+        "extracted_before_taxes_fees": 2090
+      },
+      "total_rate": {
+        "lowest": "₹2,310",
+        "extracted_lowest": 2310,
+        "before_taxes_fees": "₹2,090",
+        "extracted_before_taxes_fees": 2090
+      },
+      "nearby_places": [
+        {
+          "name": "Koramangala",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 11 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 58 min"
+            }
+          ]
+        },
+        {
+          "name": "Maffei Kitchen",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNqeBA29SPNPylOXYS7iuMAvJCmXagOaLupxj73=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNqeBA29SPNPylOXYS7iuMAvJCmXagOaLupxj73=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNQol3DkDUNC14AfhEOgQDv3R-CtCvBs2RCdZun=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNQol3DkDUNC14AfhEOgQDv3R-CtCvBs2RCdZun=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/57ArM7uoRDNnuuNrq6VeK-Myv_nGKG7GHzdxOw2ra4wSSbAo_moP03n-I0RzwVWQvKjDDxCslpdMp6fIYha3W_ywvE00EAKDupUYIinMO4IcA0E4Ciw0f_cMUh1-n9JxErZM678-xnGZCCfu7J3G7B_nOavdcZA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/11/80/1180b925ecd8430d442de21f346266aad7060f07.png"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNYJo6NMkfXf8UfqsuzAeZBdXElRGibaKihqwQh=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNYJo6NMkfXf8UfqsuzAeZBdXElRGibaKihqwQh=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOsh1t5nV2o2qksNfxNQ70-6BYbcskRj4gLmZUp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOsh1t5nV2o2qksNfxNQ70-6BYbcskRj4gLmZUp=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/Y9ikxcrO-Nc9vvYUIIS6WP2PytC9pEG1aDxWSmBR4z4qqdjb6epa0Tn_6TSHBnTfNWxeOXuirmxWfJm6TqABWyBwNBhVbyalhUK2PzIoBUAGd307BoF0LofDzNgNqJ1ZfTWHqcCxrMczjLIwNDTqiKY21tFhnUI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/29000000/28860000/28859300/28859270/694f6d48_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/5nN2kbiHPWjVSV0uhMnt6InaQFZpW4onNfqaYTzRUYkAJGKFKVhDHVNkzsvV1-cQQjh1wwsM5CNFFup2glX3QvSLMSZlaM1mXySZmerXgTf2CTPN1BIHfl4Rd2g5mgolSqh-zqDTAMa3Y7traK74lRI24XBM8oA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/29000000/28860000/28859300/28859270/c84e41bd_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/2XsF5iGTw-tUrzD3skiywimX2LFg4B_8hnaJjL_302LJTPPbJOsgSSGGh7VKL_b8m2imaeJiI_AFwb0kZOV73_6tLB5qZoYtGwwzo-WdldgembhPz7w7I70_gd6mBUI12xQINU7BDx2uB_haiDYoWrMU-azO7A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/29000000/28860000/28859300/28859270/80a06516_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPXwiV_ILKl5f5n-4grSZCEHIGk87KSpu1mrP_D=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPXwiV_ILKl5f5n-4grSZCEHIGk87KSpu1mrP_D=s10000"
+        }
+      ],
+      "overall_rating": 3.9,
+      "reviews": 708,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 337
+        },
+        {
+          "stars": 4,
+          "count": 154
+        },
+        {
+          "stars": 3,
+          "count": 87
+        },
+        {
+          "stars": 2,
+          "count": 35
+        },
+        {
+          "stars": 1,
+          "count": 95
+        }
+      ],
+      "location_rating": 4.3,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 139,
+          "positive": 88,
+          "negative": 48,
+          "neutral": 3
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 29,
+          "positive": 8,
+          "negative": 18,
+          "neutral": 3
+        },
+        {
+          "name": "Pets",
+          "description": "Pets",
+          "total_mentioned": 6,
+          "positive": 4,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 64,
+          "positive": 48,
+          "negative": 11,
+          "neutral": 5
+        },
+        {
+          "name": "Kitchen",
+          "description": "Kitchen",
+          "total_mentioned": 15,
+          "positive": 5,
+          "negative": 9,
+          "neutral": 1
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 134,
+          "positive": 80,
+          "negative": 48,
+          "neutral": 6
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Room service",
+        "Accessible",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Alchemy Suites Koramanagala",
+      "link": "https://alchemysuites.in/",
+      "property_token": "ChkInuCS4raP6KVEGg0vZy8xMXJ5aF9xeF9kEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkInuCS4raP6KVEGg0vZy8xMXJ5aF9xeF9kEAE&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.935261599999999,
+        "longitude": 77.6310187
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,017",
+        "extracted_lowest": 2017,
+        "before_taxes_fees": "₹1,893",
+        "extracted_before_taxes_fees": 1893
+      },
+      "total_rate": {
+        "lowest": "₹2,017",
+        "extracted_lowest": 2017,
+        "before_taxes_fees": "₹1,893",
+        "extracted_before_taxes_fees": 1893
+      },
+      "nearby_places": [
+        {
+          "name": "Maharaja Signal",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 13 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 57 min"
+            }
+          ]
+        },
+        {
+          "name": "Pasta Street Koramangala",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNsmjh-JP_jO7kazNVc1gnjtV0TmXDGwOIvghu5=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNsmjh-JP_jO7kazNVc1gnjtV0TmXDGwOIvghu5=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMJgh1aAHkjn54TLybVhGXwN2CZjEgDYybxsz_N=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMJgh1aAHkjn54TLybVhGXwN2CZjEgDYybxsz_N=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNkr1cF-J9W9XHJ-nBWFSdfpmZryowMgNuDMSQx=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNkr1cF-J9W9XHJ-nBWFSdfpmZryowMgNuDMSQx=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMuTuMS_a-Bf9Jy0QBphf8GJHCbA7uGytB623eM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMuTuMS_a-Bf9Jy0QBphf8GJHCbA7uGytB623eM=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMh9KXZhT6nUOZCjZhQ5v21jR-_khc51qujEDlC=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMh9KXZhT6nUOZCjZhQ5v21jR-_khc51qujEDlC=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/cRBb35--KbJ0_YFx7XLWDvqBlp04b8adNt-97FKjyYbUxCbWv2XYwMPHzteF4b7FNGf9mlw0Vg-oyPyCkSTGjw4JUqFVb8E9eiVJbPmcvQzR_sl6C8pAcrBleWpkkGUqlPJB1eZUf4FPz3iJIhS5At7gn2Bg4eQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/103000000/102460000/102456700/102456626/c7352b5d_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOfSe3rCebrcx-SxUZ2bQGi45jDjj6RmTBg7-R1=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOfSe3rCebrcx-SxUZ2bQGi45jDjj6RmTBg7-R1=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMYEapZybdOHz65Qal7KrhP4a6MTXqe9PocTC5J=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMYEapZybdOHz65Qal7KrhP4a6MTXqe9PocTC5J=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOlSXHfbHdOS--WCBfKjwPj5y8tRk-pwBtZ-Mk2=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOlSXHfbHdOS--WCBfKjwPj5y8tRk-pwBtZ-Mk2=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 1550,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1266
+        },
+        {
+          "stars": 4,
+          "count": 217
+        },
+        {
+          "stars": 3,
+          "count": 41
+        },
+        {
+          "stars": 2,
+          "count": 14
+        },
+        {
+          "stars": 1,
+          "count": 12
+        }
+      ],
+      "location_rating": 4.1,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 428,
+          "positive": 415,
+          "negative": 7,
+          "neutral": 6
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 87,
+          "positive": 79,
+          "negative": 4,
+          "neutral": 4
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 280,
+          "positive": 266,
+          "negative": 6,
+          "neutral": 8
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 75,
+          "positive": 66,
+          "negative": 4,
+          "neutral": 5
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 122,
+          "positive": 116,
+          "negative": 4,
+          "neutral": 2
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 77,
+          "positive": 74,
+          "negative": 1,
+          "neutral": 2
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Housr 24 Coliving in Koramangala",
+      "link": "https://housr.in/bangalore/coliving-in-koramangala/Housr-24-Koramangala",
+      "property_token": "ChkIrMe7-pb6ztRSGg0vZy8xMXc5bjdoNzlfEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkIrMe7-pb6ztRSGg0vZy8xMXc5bjdoNzlfEAE&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.934796500000001,
+        "longitude": 77.6282628
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,103",
+        "extracted_lowest": 2103,
+        "before_taxes_fees": "₹2,002",
+        "extracted_before_taxes_fees": 2002
+      },
+      "total_rate": {
+        "lowest": "₹2,103",
+        "extracted_lowest": 2103,
+        "before_taxes_fees": "₹2,002",
+        "extracted_before_taxes_fees": 2002
+      },
+      "deal": "32% less than usual",
+      "deal_description": "Great Deal",
+      "nearby_places": [
+        {
+          "name": "CS-Chinmaya Vidyalaya Koramangala",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 12 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 56 min"
+            }
+          ]
+        },
+        {
+          "name": "The Hole In The Wall Cafe",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Vw2j32jfY20cUe_d_XyDYw&cb_client=search.estubs.gps&w=287&h=192&yaw=231.10014&pitch=0&thumbfov=100&scale=2",
+          "original_image": "https://lh5.googleusercontent.com/p/Vw2j32jfY20cUe_d_XyDYw=s10000"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 13,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 11
+        },
+        {
+          "stars": 4,
+          "count": 1
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 1
+        }
+      ],
+      "location_rating": 4.3
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Davanam Sarovar Portico Suites",
+      "description": "High-end hotel featuring stylish restaurants, a contemporary lounge & a rooftop pool.",
+      "link": "https://www.sarovarhotels.com/davanam-sarovar-portico-suites-bangalore/",
+      "property_token": "ChkI9ezercak_oqKARoML2cvMXB0emYydHZ3EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkI9ezercak_oqKARoML2cvMXB0emYydHZ3EAE&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.921618599999999,
+        "longitude": 77.6207146
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹5,583",
+        "extracted_lowest": 5583,
+        "before_taxes_fees": "₹5,583",
+        "extracted_before_taxes_fees": 5583
+      },
+      "total_rate": {
+        "lowest": "₹5,583",
+        "extracted_lowest": 5583,
+        "before_taxes_fees": "₹5,583",
+        "extracted_before_taxes_fees": 5583
+      },
+      "nearby_places": [
+        {
+          "name": "Madiwala",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 18 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 1 min"
+            }
+          ]
+        },
+        {
+          "name": "Nahdi Mandi Restaurant Bangalore",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOrkr7scsRWm9QWcTR07mfYznhuFuk3mcqyBAv0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOrkr7scsRWm9QWcTR07mfYznhuFuk3mcqyBAv0=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrm2q7ot3NaJUs0FFnb7Fg_u18kX7TzZX9kZ9VEuebUWa9duzsabxfg-nNwZmUM4BrS0nkaw_kOP9erXa45WMXDw3MbRUz9pT6IPCgePVW6gMJ0etswq2SHXvyzK0lgoi4WHP_H5g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICui7LSnAE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPE2f1G_W5tvllhc0wBMAoSt6td68o6AQJSHOJ6=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPE2f1G_W5tvllhc0wBMAoSt6td68o6AQJSHOJ6=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqM81hk43MVmZUprEULVqNWt-znxKC4XqrbYbEJFvUJiR2PJkbhGwdnl2tLdRLd8lralgUYZCFvyk1zsnQagHNWAQtULsvs9TLLxrxDmosyECZjtVoQt8P9FMthwLmHPBGcnb6m=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICui7LSbA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNbvfbj_fKeUX85oicmYoT5aVmbV5uz5gAa0V64=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNbvfbj_fKeUX85oicmYoT5aVmbV5uz5gAa0V64=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNY4iQ2QRQyQWokC7dSG1aMjAOpgbOftR24jXWr=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNY4iQ2QRQyQWokC7dSG1aMjAOpgbOftR24jXWr=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/9Rk3GOHy-aPuPN3ED-4BGVqiYwCsOa4QGOj0Cy2yTpy2eRlAeK5qyZKARvYbdxYw4RGjVKhs6gcj4RjkTgUdOjU50m3-7ngV1xGzOpI2YWSQChd5md09p_R-ulN4gCLjgOaz1dcU_2dHGfpMsW6r7RYzSpAb4A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-125040-f67746392_XXLejpg/India/Bengaluru/Davanam-Sarovar-Portico-Suites-Bengaluru/Photo/Davanam-Sarovar-Portico-Suites-Bengaluru-Bengaluru-Undefined-Suite-Deluxe.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/oFyszTYdE4MOHyFuhJqVyNRlSWRPK00-zZFQtBGXymsLMU_qd_wZLd44KusKRqsvD_WDn_8cpgkDrfQthjHR_Tr3estGZs0so3n_-UzL39ESHXrGs9eMUH6NeSq1n3TFpsZV5JqP1ZjATGzCsbSu9bxxE-J50Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/6000000/5300000/5295500/5295439/9a080cb9_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/YNTfWgV3ZOhC0oYz6wKEPxUprEDCIYsReL8KTXjwP624sVdACoJjNdsGjstmcYW9s4rvqKhlgEF-xkVH-URPMfAvQ51sK9IP2IjMsRl6RWLVXolfA07EHHiL-kR_yOGEH5D0PJRkcxrcSDyzZ3q6qpbvQ_W7GMU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/ec/99/ec99023c862b0eba2f50ab6e6722616bf1b32679.jpeg"
+        }
+      ],
+      "overall_rating": 4.2,
+      "reviews": 13119,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 6300
+        },
+        {
+          "stars": 4,
+          "count": 4186
+        },
+        {
+          "stars": 3,
+          "count": 1609
+        },
+        {
+          "stars": 2,
+          "count": 424
+        },
+        {
+          "stars": 1,
+          "count": 600
+        }
+      ],
+      "location_rating": 3.3,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 1021,
+          "positive": 776,
+          "negative": 169,
+          "neutral": 76
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 587,
+          "positive": 498,
+          "negative": 44,
+          "neutral": 45
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 240,
+          "positive": 184,
+          "negative": 18,
+          "neutral": 38
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 1088,
+          "positive": 894,
+          "negative": 147,
+          "neutral": 47
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 118,
+          "positive": 99,
+          "negative": 13,
+          "neutral": 6
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 1159,
+          "positive": 1027,
+          "negative": 80,
+          "neutral": 52
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Premium Stays at Koramangala",
+      "link": "https://www.us.despegar.com/hotels/h-6593012",
+      "property_token": "ChoQgcrUh5b05NfMARoNL2cvMTF4ZDJ0bHl4cRAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQgcrUh5b05NfMARoNL2cvMTF4ZDJ0bHl4cRAC&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.939743041992188,
+        "longitude": 77.62422180175781
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,055",
+        "extracted_lowest": 2055,
+        "before_taxes_fees": "₹2,055",
+        "extracted_before_taxes_fees": 2055
+      },
+      "total_rate": {
+        "lowest": "₹2,055",
+        "extracted_lowest": 2055,
+        "before_taxes_fees": "₹2,055",
+        "extracted_before_taxes_fees": 2055
+      },
+      "prices": [
+        {
+          "source": "Despegar",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/e1b47118-73f3-4ceb-b4f6-2302280889e4.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "₹2,055",
+            "extracted_lowest": 2055
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 15 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 5 min"
+            }
+          ]
+        },
+        {
+          "name": "Zubaan - Middle-Eastern Kitchen",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/6rmRLgg-Og3kHd3Eo166wC11Dk-V9jtJAT6Aa4qP98jqUOlBIBmpl-jJOq100o8u3ZaUVFE6u0LovWaA7smziikGzgkK4l4VqnESg9pSbEA8SyMg6o6RT6I0JhRGJeh8Xq84w8Hdj1PPsLmS6kCv_e8fL5Zp1A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/6541f573-9612-47bc-9790-cf638df23cbd"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/9szQCsSwb0EoiP6CC7xm498_g9XLqGIRsrCVZL885kl_imAnE-hM6ENTa3IAPKgN3ayWmlzdW3Zf_SVnPvbRmUofdu3H645vVH23lP7Uxz9dUgbR4xxc9NBKD2l5f2Cr9Ar8cjlw1D7qJFxvP52tuJFeI0aLJw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/6b79ba63-326f-40a2-b4fb-8d0252273a20"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/2dLFZaYdmvzTd6jQdIvD87O2rpnPaXzlaSWLcz9alIFXJJV3A1GYtQIhA3m49RqlZlccprUhDhgwOD3BPJRyW9vVZhQzSBRg_RTCIKBvn2qxjrAB6MLlXR93B2K1rjVnfxV_71fPlZIF2DdW0L99RVXS7aON7w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/0819f452-71f4-4545-aa3d-5c119f420017"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/3KGXkWANtZv-wuTLrGkhbJmUqG4ZQG9U88otykxADZek2Y-YxwRIij5WKRO8sSlz4LQcUBHrcPopBE1uM7j1baSdLkS69Qjs2EodqZZQdld2s2wUIS3yHnYdKSHRyBdRuSL2Ubhf4rz2EN_m0CUZ5LrIKdN001E=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/fb1de367-5689-4be3-b0c5-0683fddaf816"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/MvyjwcyLp2UgKhmDhjD04AG6GJX7l3xuiQbneYM6tbgaFAbgPLFDU-r2zHKgT0Ts8_f7Ssay1Lg-2FIcIymRgHb4k8xlM7fdmYGhzbp9n2zbdrBvw7nqfY0Rkah7PmHcH1RPO5zT82tIYzsyUoegImLF9BNVmN4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/d577ba7f-3ab2-463a-8e49-6636b6224435"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/yoDFfg3JqHrFxxJdVWoLtCgSUAVDYOgw4hpwlsT9L5tONgNZHbmuYKr43XdSvNj6gBk7jAm_tgyjLl8cCR-16SHgJTYK_Tkv_MNIT2feQ-8-LLLZ7BcVu6oyET9rIUMORJQNJT0_8DsSk-quRlpaGvqnFqSpnfU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/fd37a9d6-8002-4a46-a780-1c0c9f7911cb"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/lLqhNMm8wxh2RgMTH0d-DKuAYJ_-wUlHrnSP8fqlGhwLaN3SY1EIgyXgfn-gzBC9eZA9nBU-y4-nUE6smOiVnyQrkVpeCyT-pF_Qe0kZjCh16y65qoPV6hpNSF0Aozx5DtzZcmkdYsMqsZWLl826GqQa_bI6fg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/ebac7ec8-b101-49c0-a05a-5ecfffd51cc0"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/zyWTPWyUVioM5W51yYP8DBMzcB35jcFiq3vTlKVLRUkjEnE0_L5aZAJU3wOQhuEXCmXZEG7Zf3eA-3bVcdRyBwxHQJrwAmC_DdgN7t_jHhKbuN5CfA9PiaAdnMuwSVv8nHPM6yesQ7GJGPP41tgs4tISHxtl_Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/5d692761-a0a7-46fa-8f96-217b0d399fd9"
+        }
+      ],
+      "location_rating": 4.1,
+      "amenities": [
+        "Air conditioning"
+      ],
+      "excluded_amenities": [
+        "Not pet-friendly"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 2"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "278 Home Tales by Tipiverse, Koramangala",
+      "link": "https://www.bluepillow.com/search/67a23f98905c444f2d09170f?dest=ago&cat=Vacation+rental+(other)&lat=12.92931&lng=77.6381&language=en",
+      "property_token": "ChoQhde4w4iN6NXGARoNL2cvMTF4ZDNqa3E5axAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-02T10%3A00%3A00%2B00%3A00&check_out_date=2025-10-02T12%3A00%3A00%2B00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQhde4w4iN6NXGARoNL2cvMTF4ZDNqa3E5axAC&q=hotels+near+Koramangala%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.929309844970703,
+        "longitude": 77.63809967041016
+      },
+      "rate_per_night": {
+        "lowest": "₹1,532",
+        "extracted_lowest": 1532,
+        "before_taxes_fees": "₹1,532",
+        "extracted_before_taxes_fees": 1532
+      },
+      "total_rate": {
+        "lowest": "₹1,532",
+        "extracted_lowest": 1532,
+        "before_taxes_fees": "₹1,532",
+        "extracted_before_taxes_fees": 1532
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹1,532",
+            "extracted_lowest": 1532
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 17 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 10 min"
+            }
+          ]
+        },
+        {
+          "name": "Roots Restaurant",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/dWFbR_DZ7JZdS6amRjDe7x1SVLJ8A8ql6pt3vg7BYyx9Jo_RQH8oIk65ao6ahHKU2OTdFBP7cVIy_h9z__x9aj4P-YzBIiqE1z72EUxn8lXu_d_MhpmVUdt10a9SVEub27j9uyBi5RLaozG_IZxibTDPSl5uAg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594220670.jpg?k=3bb8e43d4e3b9a5a53259b4fadb210e3229f9850592c3ea0d982027385b5866f&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/tASfJUtRnyn9iXdxXZmca8joAhL9_dkkxcYxGJ3iKgEiR7donnt8Se3UhRQgY4LSRiMoPDu47CSL0iAme3SX_boIyyKPDCkTIAuJ0L0HXXafydANHiUIfsa8K3JkBwvcPLIu41YE5xp9HNdg1_BtnkTtYsIt5C4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594215989.jpg?k=f969c1cf651b241d32193c27eb7fde106189449990ceca2ee345f5c50267e2a7&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/zyCwY8JTkC5QU_JQQsycjmlQ1IObzj1WjjMiIMCqekDGh07wAUb2rF1lsopQDaSaO-GgeMcgxZbySgZx8LPMnqbNxQ6BvChAej9e3NLu-iShubQN-OQDBSkFoU9JD7lO5npN-9SSa-sO7LS7Zkk8RowNoZTRETY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594216416.jpg?k=6f58c569f750865f8a174beeddca9cd4295593c9aacbe7bad8a1942e515c3af5&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/fRgQrl0oF0QXIZIYcZ46R0w-6K_jOxBMBv3b_auGXU1CUfylQ5OV2Q8pC97yAkLSftqc_bTXHT9Td78WGSlX_4PeRVWTwFISIYvsUsE_G1tqLpIWNd4PMkMqnftTCoz_sjrJj5RFZBWrMLbiKg0GfYLPOx8ZZLA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594220861.jpg?k=5420526cbe854ae5768a7332708da4e1363baa21c80f088a2b2c2bc478888bc0&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/FGi0SW-FTz069uqRxQWO_2cdwOp2FnJcRbqYV8ms56np8PLzC5zYulNBvXAHPLSA0gU23gZgIP3Eh3VWCDkdFtXBYNchqtRgDLKshqmtRJhjV7d3pW1cZAQ-_e-5l2RKTGyyUYo_57oFTOytI2QI9KO_lwFo0w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594216349.jpg?k=20b76011ff22286f181fd6f0e99d463c8147c1ae858f2741e3800c549ffe6cec&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/NB9isM4_A5gjqIQwiMaIaLKc8PGRFf5h2cJWnyQCDqQRt6ckQPSYIZoeZYaGQAXY3Uy6R-ltacgFUhe5lQlDm_mQNpI_Cjd2n1YCuLahzDrC7IotucNhZhRKCQRFPmy_xAjo2RdMEAdMCX_XQb6GM_ouWCrWgg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594216037.jpg?k=ad0d5ee69a68b928f13e4d2a1c06b98decbc54cd3521e8418998a358f9664342&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/0E-K5ng8LbRmQ-aemal-6LA2FR25MjrJGYeLDmMB3OoqOAOuZ9ukomqIiccM2gRiNMy67jdISiC6YrtgHbSvXb_5zMAqfYKDfkU1itIavDzgTjMi8ZzwLI52PTo5BgpX_BN6j0D6vRK8WknkbYpwE0uCxU-HcQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594221007.jpg?k=97239f40039bd9d7bb82094557f3ece2d124ed7fad45e811c64b2cfae35b45e0&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/aVq24SXHTE_d6DStlXXfvHMAlSL_vlstA2zbX2zRBEk7Dv1o6wybRpiCsa8f5YaQPdBQt8TMp-EGE0FO61hdACd6Rnxia12tNnqYdwguamHc10k3ijKMWDWEDKhMdATPowG-PwK0WUWFzZiLr1vB0zKtxIwFwO4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594216038.jpg?k=fa6bdb87435684837ca9dd55e1f77ce75748b6d62ae9eb692e6ec9c97876dc55&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/wr6ECoiws1KU_AgWaYLORFKA7hBhkMjy1LacLlJI6FqY95rWx9Qtl1QbfpwAYFrIYnhAEWNXg0qeoecmrHi0o4puEdoPtPeyR3xOahYCQn9qOdFYfm6qeka4gssjf3-9bGOafdtltqRerqTmFrMT_HAe7CEu0A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594220935.jpg?k=7d7bceec4d4ec618967c133ca195c0da2409fe34b4678540234445be598053a4&o=&s=312x"
+        }
+      ],
+      "location_rating": 3.7,
+      "amenities": [
+        "Smoke-free",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No parking"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "10 bedrooms",
+        "10 bathrooms",
+        "1 bed"
+      ]
+    }
+  ],
+  "serpapi_context": {
+    "search_metadata": {
+      "id": "68dbca5c3d40b677f540873d",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/876df9da96991602/68dbca5c3d40b677f540873d.json",
+      "created_at": "2025-09-30T12:17:32.303Z",
+      "processed_at": "2025-09-30T12:17:32.304Z",
+      "google_hotels_url": "https://www.google.com/_/TravelFrontendUi/data/batchexecute?rpcids=AtySUc&source-path=/travel/search&hl=en&gl=in&rt=c&soc-app=162&soc-platform=1&soc-device=1",
+      "raw_html_file": "https://serpapi.com/searches/876df9da96991602/68dbca5c3d40b677f540873d.html",
+      "prettify_html_file": "https://serpapi.com/searches/876df9da96991602/68dbca5c3d40b677f540873d.prettify",
+      "total_time_taken": {
+        "float": 1.911724328994751
+      }
+    },
+    "search_parameters": {
+      "engine": "google_hotels",
+      "q": "hotels near Koramangala, Bangalore Bangalore",
+      "gl": "in",
+      "hl": "en",
+      "currency": "INR",
+      "check_in_date": "2025-10-02T10:00:00+00:00",
+      "check_out_date": "2025-10-02T12:00:00+00:00",
+      "adults": 1,
+      "children": 0
+    },
+    "search_information": {
+      "total_results": 377
+    }
+  }
+}

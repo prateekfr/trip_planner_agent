@@ -1,0 +1,35 @@
+{
+  "search_metadata": {
+    "search_id": "indore_bangalore_20250928_053636",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "earliest_departure": "2025-10-28T03:00:00",
+    "latest_arrival": "2025-10-28T12:00:00",
+    "timestamp_utc": "2025-09-28T05:36:36.655046",
+    "query": "Indore to Bangalore bus tickets price duration site:redbus.in OR site:abhibus.com OR site:zingbus.com OR site:paytm.com OR site:msrtc.maharashtra.gov.in OR site:gsrtc.in",
+    "distance_km": 1099.3592986000965
+  },
+  "options": [],
+  "serpapi_context": {
+    "search_metadata": {
+      "id": "68d8c962998aad58c610e054",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/37a91274bd01539a/68d8c962998aad58c610e054.json",
+      "pixel_position_endpoint": "https://serpapi.com/searches/37a91274bd01539a/68d8c962998aad58c610e054.json_with_pixel_position",
+      "created_at": "2025-09-28 05:36:34 UTC",
+      "processed_at": "2025-09-28 05:36:34 UTC",
+      "google_url": "https://www.google.com/search?q=Indore+to+Bangalore+bus+tickets+price+duration+site%3Aredbus.in+OR+site%3Aabhibus.com+OR+site%3Azingbus.com+OR+site%3Apaytm.com+OR+site%3Amsrtc.maharashtra.gov.in+OR+site%3Agsrtc.in&oq=Indore+to+Bangalore+bus+tickets+price+duration+site%3Aredbus.in+OR+site%3Aabhibus.com+OR+site%3Azingbus.com+OR+site%3Apaytm.com+OR+site%3Amsrtc.maharashtra.gov.in+OR+site%3Agsrtc.in&hl=en&gl=in&num=10&sourceid=chrome&ie=UTF-8",
+      "raw_html_file": "https://serpapi.com/searches/37a91274bd01539a/68d8c962998aad58c610e054.html",
+      "total_time_taken": 3.05
+    },
+    "search_parameters": {
+      "engine": "google",
+      "q": "Indore to Bangalore bus tickets price duration site:redbus.in OR site:abhibus.com OR site:zingbus.com OR site:paytm.com OR site:msrtc.maharashtra.gov.in OR site:gsrtc.in",
+      "google_domain": "google.com",
+      "hl": "en",
+      "gl": "in",
+      "num": "10",
+      "device": "desktop"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_Bangalore_NA_20250928_055824",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "travel_date": null,
+    "earliest_departure": "2025-10-28T03:00:00",
+    "latest_arrival": "2025-10-28T12:00:00",
+    "timestamp_utc": "2025-09-28T05:58:24.982269",
+    "query": "Indore to Bangalore trains time table fare duration site:ixigo.com/trains OR site:trainman.in OR site:confirmtkt.com OR site:railyatri.in OR site:etrain.info OR site:yatra.com/trains OR site:paytm.com/train-tickets OR site:irctc.co.in",
+    "distance_km": 1099.3592986000965
+  },
+  "options": [],
+  "serpapi_context": {
+    "search_metadata": {
+      "id": "68d8ce80dd2e16c74826d68c",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/141b3db8e6634b08/68d8ce80dd2e16c74826d68c.json",
+      "pixel_position_endpoint": "https://serpapi.com/searches/141b3db8e6634b08/68d8ce80dd2e16c74826d68c.json_with_pixel_position",
+      "created_at": "2025-09-28 05:58:24 UTC",
+      "processed_at": "2025-09-28 05:58:24 UTC",
+      "google_url": "https://www.google.com/search?q=Indore+to+Bangalore+trains+time+table+fare+duration+site%3Aixigo.com%2Ftrains+OR+site%3Atrainman.in+OR+site%3Aconfirmtkt.com+OR+site%3Arailyatri.in+OR+site%3Aetrain.info+OR+site%3Ayatra.com%2Ftrains+OR+site%3Apaytm.com%2Ftrain-tickets+OR+site%3Airctc.co.in&oq=Indore+to+Bangalore+trains+time+table+fare+duration+site%3Aixigo.com%2Ftrains+OR+site%3Atrainman.in+OR+site%3Aconfirmtkt.com+OR+site%3Arailyatri.in+OR+site%3Aetrain.info+OR+site%3Ayatra.com%2Ftrains+OR+site%3Apaytm.com%2Ftrain-tickets+OR+site%3Airctc.co.in&hl=en&gl=in&num=20&sourceid=chrome&ie=UTF-8",
+      "raw_html_file": "https://serpapi.com/searches/141b3db8e6634b08/68d8ce80dd2e16c74826d68c.html",
+      "total_time_taken": 0.9
+    },
+    "search_parameters": {
+      "engine": "google",
+      "q": "Indore to Bangalore trains time table fare duration site:ixigo.com/trains OR site:trainman.in OR site:confirmtkt.com OR site:railyatri.in OR site:etrain.info OR site:yatra.com/trains OR site:paytm.com/train-tickets OR site:irctc.co.in",
+      "google_domain": "google.com",
+      "hl": "en",
+      "gl": "in",
+      "num": "20",
+      "device": "desktop"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_Bangalore_NA_20250930_125004",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "travel_date": null,
+    "earliest_departure": null,
+    "latest_arrival": null,
+    "timestamp_utc": "2025-09-30T12:50:04.693049",
+    "query_primary": "Indore to Bangalore bus tickets price duration site:redbus.in OR site:abhibus.com OR site:intrcity.com OR site:zingbus.com OR site:paytm.com/bus-tickets OR site:makemytrip.com/bus-tickets OR site:yatra.com/bus",
+    "distance_km": 1099.3592986000965
+  },
+  "options": [
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T00:50:00.286415",
+      "arrive": "2025-10-02T10:50:00.286415",
+      "duration_hours": 34.0,
+      "price_inr": null,
+      "ref": "B01",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/bus-tickets/indore-to-bangalore"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T02:50:00.286415",
+      "arrive": "2025-10-02T09:20:00.286415",
+      "duration_hours": 30.5,
+      "price_inr": 3050,
+      "ref": "B04",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/online-bus/indore-to-bangalore-operator-humsafar-travels"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T04:50:00.286415",
+      "arrive": "2025-10-02T01:56:00.286415",
+      "duration_hours": 21.1,
+      "price_inr": null,
+      "ref": "B05",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.makemytrip.com/bus-tickets/ac-buses-from-indore-to-bangalore-online-ticket-booking.html"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T06:50:00.286415",
+      "arrive": "2025-10-02T03:56:00.286415",
+      "duration_hours": 21.1,
+      "price_inr": null,
+      "ref": "B06",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.intrcity.com/bus-booking/indore-to-bangalore-buses"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T08:50:00.286415",
+      "arrive": "2025-10-02T05:56:00.286415",
+      "duration_hours": 21.1,
+      "price_inr": null,
+      "ref": "B07",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.makemytrip.com/bus-tickets/ac-sleeper-buses-from-indore-to-bangalore-online-ticket-booking.html"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T10:50:00.286415",
+      "arrive": "2025-10-02T07:56:00.286415",
+      "duration_hours": 21.1,
+      "price_inr": null,
+      "ref": "B08",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.makemytrip.com/bus-tickets/sleeper-buses-from-indore-to-bangalore-online-ticket-booking.html"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T12:50:00.286415",
+      "arrive": "2025-10-02T09:56:00.286415",
+      "duration_hours": 21.1,
+      "price_inr": 3000,
+      "ref": "B09",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/online-bus/indore-to-bangalore-operator-ntc-nagpur-travels"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T14:50:00.286415",
+      "arrive": "2025-10-02T11:56:00.286415",
+      "duration_hours": 21.1,
+      "price_inr": null,
+      "ref": "B10",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.makemytrip.com/bus-tickets/non-ac-buses-from-indore-to-bangalore-online-ticket-booking.html"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "cheapest": {
+    "mode": "bus",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "depart": "2025-10-29T03:00:00",
+    "arrive": "2025-10-30T02:00:00",
+    "duration_hours": 23.0,
+    "price_inr": 3050,
+    "ref": "B01",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.redbus.in/bus-tickets/indore-to-bangalore"
+    },
+    "booking_link": "https://www.redbus.in/bus-tickets/indore-to-bangalore?utm_source=tripplanner&utm_medium=chatbot&utm_campaign=trip_planning",
+    "booking_platform": "RedBus",
+    "notes": [
+      "arrives_after_latest_arrival"
+    ]
+  },
+  "fastest": {
+    "mode": "flight",
+    "src": "IDR",
+    "dst": "BLR",
+    "depart": "2025-10-29 07:10",
+    "arrive": "2025-10-29 09:15",
+    "duration_hours": 2.08,
+    "price_inr": 8185.0,
+    "ref": "",
+    "provider": {
+      "name": "SerpAPI GoogleFlights"
+    }
+  },
+  "value": {
+    "mode": "flight",
+    "src": "IDR",
+    "dst": "BLR",
+    "depart": "2025-10-29 07:10",
+    "arrive": "2025-10-29 09:15",
+    "duration_hours": 2.08,
+    "price_inr": 8185.0,
+    "ref": "",
+    "provider": {
+      "name": "SerpAPI GoogleFlights"
+    }
+  },
+  "hotels_top5": [
+    {
+      "name": "Vivanta Bengaluru, Residency Road",
+      "price_inr": 17818.0,
+      "distance_km": null,
+      "rating": 4.4,
+      "city": "Bangalore",
+      "near": "Vivanta by Taj, Bangalore",
+      "checkin": "2025-10-29T15:00:00",
+      "checkout": "2025-10-29T17:00:00",
+      "ref": "ChgI-ciDsp7OvNNMGgwvZy8xMXhtMGZ4cW0QAQ",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.vivantahotels.com/en-in/hotels/vivanta-bengaluru-residency-road?utm_source=google&utm_medium=local&utm_campaign=vivanta-bengaluru-residency-road&utm_content=vivanta-bengaluru-residency-road-gmb"
+      },
+      "booking_link": "https://www.vivantahotels.com/en-in/hotels/vivanta-bengaluru-residency-road?utm_source=google&utm_medium=local&utm_campaign=vivanta-bengaluru-residency-road&utm_content=vivanta-bengaluru-residency-road-gmb&utm_source=tripplanner&utm_medium=chatbot&utm_campaign=trip_planning",
+      "booking_platform": "Book Now"
+    },
+    {
+      "name": "Vivanta Bengaluru, Whitefield",
+      "price_inr": 18279.0,
+      "distance_km": null,
+      "rating": 4.3,
+      "city": "Bangalore",
+      "near": "Vivanta by Taj, Bangalore",
+      "checkin": "2025-10-29T15:00:00",
+      "checkout": "2025-10-29T17:00:00",
+      "ref": "ChgIstb3tOvXvoudARoLL2cvMXRjdGs2cGYQAQ",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.vivantahotels.com/en-in/hotels/vivanta-bengaluru-whitefield?utm_source=google&utm_medium=local&utm_campaign=vivanta-bengaluru-whitefield&utm_content=vivanta-bengaluru-whitefield-gmb"
+      },
+      "booking_link": "https://www.vivantahotels.com/en-in/hotels/vivanta-bengaluru-whitefield?utm_source=google&utm_medium=local&utm_campaign=vivanta-bengaluru-whitefield&utm_content=vivanta-bengaluru-whitefield-gmb&utm_source=tripplanner&utm_medium=chatbot&utm_campaign=trip_planning",
+      "booking_platform": "Book Now"
+    }
+  ],
+  "debug": [
+    "Flights: 10 options on 2025-10-29.",
+    "Trains: 2 options.",
+    "Buses: 2 options.",
+    "Hotels: 2 options.",
+    "Relaxed latest_arrival for bus/train to expose cheaper surface options.",
+    "LLM itinerary generated (1893 chars)."
+  ]
+}

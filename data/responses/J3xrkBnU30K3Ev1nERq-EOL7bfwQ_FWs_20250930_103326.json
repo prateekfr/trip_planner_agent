@@ -1,0 +1,15 @@
+{
+  "cheapest": {},
+  "fastest": {},
+  "value": {},
+  "hotels_top5": [],
+  "debug": [
+    "Flights skipped: missing IATA (src=Bengaluru→BLR, dst=None→None).",
+    "Trains search returned no search_id: 'Error executing tool search_trains: 1 validation error for search_trainsArguments\\ndst_city\\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\\n    For further information visit https://errors.pydantic.dev/2.11/v/string_type'",
+    "Buses search returned no search_id: 'Error executing tool search_buses: 1 validation error for search_busesArguments\\ndst_city\\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\\n    For further information visit https://errors.pydantic.dev/2.11/v/string_type'",
+    "Hotels search returned no search_id: 'Error executing tool search_hotels: 1 validation error for search_hotelsArguments\\ncity\\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\\n    For further information visit https://errors.pydantic.dev/2.11/v/string_type'",
+    "No routes within latest_arrival; fully relaxed arrival constraint for ranking.",
+    "No routes merged after filters (all empty).",
+    "LLM itinerary generated (749 chars)."
+  ]
+}

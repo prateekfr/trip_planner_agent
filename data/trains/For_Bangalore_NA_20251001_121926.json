@@ -1,0 +1,55 @@
+{
+  "search_metadata": {
+    "search_id": "For_Bangalore_NA_20251001_121926",
+    "src": "For",
+    "dst": "Bangalore",
+    "travel_date": null,
+    "earliest_departure": "2025-10-01T05:00:00",
+    "latest_arrival": "2025-10-01T14:00:00",
+    "timestamp_utc": "2025-10-01T12:19:26.720735",
+    "query_primary": "For to Bangalore trains time table fare duration site:ixigo.com/trains OR site:trainman.in OR site:confirmtkt.com OR site:railyatri.in OR site:etrain.info OR site:yatra.com/trains OR site:paytm.com/train-tickets OR site:irctc.co.in",
+    "distance_km": null
+  },
+  "options": [
+    {
+      "mode": "train",
+      "src": "For",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T05:00:00",
+      "arrive": "2025-10-01T12:00:00",
+      "duration_hours": 7.0,
+      "price_inr": null,
+      "ref": "T04",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.railyatri.in/raichur-to-bangalore-east-trains"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "For",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T05:00:00",
+      "arrive": "2025-10-01T11:00:00",
+      "duration_hours": 6.0,
+      "price_inr": 235,
+      "ref": "T03",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/train-tickets/chennai-to-bengaluru-trains"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10",
+    "drop_by_la: https://www.railyatri.in/tanuku-to-bangalore-cant-trains",
+    "drop_by_la: https://www.railyatri.in/bhalki-to-bangalore-cant-trains",
+    "drop_by_la: https://www.railyatri.in/kannur-to-bangalore-cant-trains",
+    "drop_by_la: https://www.confirmtkt.com/trains/chennai-to-bengaluru-train-tickets",
+    "drop_by_la: https://www.confirmtkt.com/trains/hyderabad-to-bengaluru-train-tickets",
+    "pass2_organic: 10",
+    "drop_by_la: https://www.redbus.in/train-tickets/guwahati-to-bengaluru-trains",
+    "drop_by_la: https://www.ixigo.com/by-train-rail/new-delhi-to-bengaluru-by-train",
+    "drop_by_la: https://www.ixigo.com/by-train-rail/kolkata-to-bengaluru-by-train"
+  ]
+}

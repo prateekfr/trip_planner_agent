@@ -1,0 +1,36 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_Bangalore_NA_20250928_055830",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "travel_date": null,
+    "earliest_departure": "2025-10-28T03:00:00",
+    "latest_arrival": "2025-10-28T12:00:00",
+    "timestamp_utc": "2025-09-28T05:58:30.292265",
+    "query": "Indore to Bangalore bus tickets price duration site:redbus.in OR site:abhibus.com OR site:intrcity.com OR site:zingbus.com OR site:paytm.com/bus-tickets OR site:makemytrip.com/bus-tickets OR site:yatra.com/bus OR site:ksrtc.in OR site:msrtc.maharashtra.gov.in OR site:gsrtc.in",
+    "distance_km": 1099.3592986000965
+  },
+  "options": [],
+  "serpapi_context": {
+    "search_metadata": {
+      "id": "68d8ce8571a90d812dd9a2d0",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/e6b6946d77cb6d96/68d8ce8571a90d812dd9a2d0.json",
+      "pixel_position_endpoint": "https://serpapi.com/searches/e6b6946d77cb6d96/68d8ce8571a90d812dd9a2d0.json_with_pixel_position",
+      "created_at": "2025-09-28 05:58:29 UTC",
+      "processed_at": "2025-09-28 05:58:29 UTC",
+      "google_url": "https://www.google.com/search?q=Indore+to+Bangalore+bus+tickets+price+duration+site%3Aredbus.in+OR+site%3Aabhibus.com+OR+site%3Aintrcity.com+OR+site%3Azingbus.com+OR+site%3Apaytm.com%2Fbus-tickets+OR+site%3Amakemytrip.com%2Fbus-tickets+OR+site%3Ayatra.com%2Fbus+OR+site%3Aksrtc.in+OR+site%3Amsrtc.maharashtra.gov.in+OR+site%3Agsrtc.in&oq=Indore+to+Bangalore+bus+tickets+price+duration+site%3Aredbus.in+OR+site%3Aabhibus.com+OR+site%3Aintrcity.com+OR+site%3Azingbus.com+OR+site%3Apaytm.com%2Fbus-tickets+OR+site%3Amakemytrip.com%2Fbus-tickets+OR+site%3Ayatra.com%2Fbus+OR+site%3Aksrtc.in+OR+site%3Amsrtc.maharashtra.gov.in+OR+site%3Agsrtc.in&hl=en&gl=in&num=20&sourceid=chrome&ie=UTF-8",
+      "raw_html_file": "https://serpapi.com/searches/e6b6946d77cb6d96/68d8ce8571a90d812dd9a2d0.html",
+      "total_time_taken": 0.7
+    },
+    "search_parameters": {
+      "engine": "google",
+      "q": "Indore to Bangalore bus tickets price duration site:redbus.in OR site:abhibus.com OR site:intrcity.com OR site:zingbus.com OR site:paytm.com/bus-tickets OR site:makemytrip.com/bus-tickets OR site:yatra.com/bus OR site:ksrtc.in OR site:msrtc.maharashtra.gov.in OR site:gsrtc.in",
+      "google_domain": "google.com",
+      "hl": "en",
+      "gl": "in",
+      "num": "20",
+      "device": "desktop"
+    }
+  }
+}

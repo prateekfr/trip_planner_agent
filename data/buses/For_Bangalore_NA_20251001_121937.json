@@ -1,0 +1,52 @@
+{
+  "search_metadata": {
+    "search_id": "For_Bangalore_NA_20251001_121937",
+    "src": "For",
+    "dst": "Bangalore",
+    "travel_date": null,
+    "earliest_departure": "2025-10-01T05:00:00",
+    "latest_arrival": "2025-10-01T14:00:00",
+    "timestamp_utc": "2025-10-01T12:19:37.708351",
+    "query_primary": "For to Bangalore bus tickets price duration site:redbus.in OR site:abhibus.com OR site:intrcity.com OR site:zingbus.com OR site:paytm.com/bus-tickets OR site:makemytrip.com/bus-tickets OR site:yatra.com/bus",
+    "distance_km": null
+  },
+  "options": [
+    {
+      "mode": "bus",
+      "src": "For",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T05:00:00",
+      "arrive": "2025-10-01T11:00:00",
+      "duration_hours": 6.0,
+      "price_inr": 300,
+      "ref": "B01",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/buses/bangalore-bus-tickets"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "For",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T05:00:00",
+      "arrive": "2025-10-01T11:00:00",
+      "duration_hours": 6.0,
+      "price_inr": 300,
+      "ref": "B01",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/buses/bangalore-bus-tickets"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/bangalore-city-online-booking.html",
+    "drop_by_la: https://www.redbus.in/bus-tickets/pune-to-bangalore",
+    "drop_by_la: https://www.redbus.in/bus-tickets/goa-to-bangalore",
+    "pass2_organic: 10",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/bangalore-city-online-booking.html",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/nellore_andhra_pradesh-bangalore-bus-ticket-booking.html"
+  ]
+}

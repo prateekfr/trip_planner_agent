@@ -1,0 +1,3354 @@
+{
+  "search_metadata": {
+    "search_id": "Mumbai_Hyatt,_Mumbai_20250929T090000_20250929T110000_20250928_190654",
+    "city": "Mumbai",
+    "near": "* Hyatt, Mumbai",
+    "checkin": "2025-09-29T09:00:00",
+    "checkout": "2025-09-29T11:00:00",
+    "adults": 1,
+    "children": 0,
+    "children_ages": null,
+    "currency": "INR",
+    "gl": "in",
+    "hl": "en",
+    "query": "hotels near * Hyatt, Mumbai Mumbai",
+    "filters": {
+      "sort_by": null,
+      "hotel_class": null,
+      "amenities": null,
+      "property_types": null,
+      "brands": null,
+      "free_cancellation": false,
+      "special_offers": false,
+      "vacation_rentals": false,
+      "bedrooms": null
+    },
+    "timestamp_utc": "2025-09-28T19:06:54.531584"
+  },
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "Grand Hyatt Mumbai Hotel & Residences",
+      "description": "Luxe lodging with a spa & 2 outdoor pools, plus a shopping center & international restaurants.",
+      "link": "https://www.hyatt.com/grand-hyatt/en-US/mumgh-grand-hyatt-mumbai/?src=corp_lclb_gmb_seo_mumgh",
+      "property_token": "ChcIrIOvg-jjophAGgsvbS8wMTA5N19udBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChcIrIOvg-jjophAGgsvbS8wMTA5N19udBAB&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0768067,
+        "longitude": 72.8511248
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹11,172",
+        "extracted_lowest": 11172,
+        "before_taxes_fees": "₹9,468",
+        "extracted_before_taxes_fees": 9468
+      },
+      "total_rate": {
+        "lowest": "₹11,172",
+        "extracted_lowest": 11172,
+        "before_taxes_fees": "₹9,468",
+        "extracted_before_taxes_fees": 9468
+      },
+      "deal": "35% less than usual",
+      "deal_description": "Great Deal",
+      "nearby_places": [
+        {
+          "name": "Vakola Police Station",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "12 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "22 min"
+            }
+          ]
+        },
+        {
+          "name": "Grand The Dining Bar",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "6 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMYi11ChpDFpEngxYvHWl_hljIRfeh5aXlPhwEg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMYi11ChpDFpEngxYvHWl_hljIRfeh5aXlPhwEg=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/8Z2y29mvoEfGeJpV9dNzFftxVziukNIVwsYHfLwTlg-YLp00FlHD7AXOrR8esV5E86sFN4XIiD3hf1r8Ks20E5lKwRfwvVKsnVCjBeuymAskaATjpPitlJpOOBaZ148tGTiYmpcTjjSEjA2F13axE9rFNbYK9NI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-49871-f85040522_XXLejpg/India/MUMBAI/GRAND-HYATT-MUMBAI/Photo/GRAND-HYATT-MUMBAI-MUMBAI-Undefined-Pool.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/UAo33s-JViU2Rvm22ThGbKMHnXDYwDgHiliLpBLiYxr0CDyVm7rSQ3e7sf-KkeSBQbZwwF0M8e5xp_a-UCtFjxEON9gHE3zs93ESk2781sfK8tU87XwdQJfairEStxcR910dgDbu6qE8ucODLAZyBWvHEGGJR7I=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-49871-f85040942_XXLejpg/India/MUMBAI/GRAND-HYATT-MUMBAI/Photo/GRAND-HYATT-MUMBAI-MUMBAI-Undefined-Guest-Room.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNMtHof_UU_0SxGDCI7Nq8plbHWAkRssEzWZzTy=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNMtHof_UU_0SxGDCI7Nq8plbHWAkRssEzWZzTy=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPHpnZ9puNQbbugvAUc1u7jCvCItXS3Xd-LFRGj=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPHpnZ9puNQbbugvAUc1u7jCvCItXS3Xd-LFRGj=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPrf5hJrXgxC6A2XcLxBLEeuIgrwlb1NVSRlY7K=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPrf5hJrXgxC6A2XcLxBLEeuIgrwlb1NVSRlY7K=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ORd9Q42xta12nvjccHtp1xwmuFm--l_1UiLIUHfhEupoRGJOYkt4TQ-zv7wn1qUMz-_lstk-_uK0xqBDOWeImIcZKLjR5WaZjKzsfC0-aTlnjV9MJYAnFACSyQAOicG1M7mvea1FXw8DPCtqMK-Ea4_mwpu34g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-49871-f85040978_XXLejpg/India/MUMBAI/GRAND-HYATT-MUMBAI/Photo/GRAND-HYATT-MUMBAI-MUMBAI-Undefined-Guest-Room.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMgZ_v0uJNpEP_UpBa0H45t3e_eqQsLGTOKteD0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMgZ_v0uJNpEP_UpBa0H45t3e_eqQsLGTOKteD0=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/PrwF8lxsPdVqlP_vEY-SLgV49KBUqPLgNByKA2LbSjktGpu1G7z2NeJtsgyzKzy_hEyJxFwhbqSghemQYskvwSOaNeWGYK7o7NSLFHk8wrhMPyAoUI_0Gydi9KhjhJb8JUXhQizsktjeS1EV2adNbcs8t9lpcg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-49871-f85040842_XXLejpg/India/MUMBAI/GRAND-HYATT-MUMBAI/Photo/GRAND-HYATT-MUMBAI-MUMBAI-Undefined-Guest-Room.jpg"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 27627,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 18833
+        },
+        {
+          "stars": 4,
+          "count": 6251
+        },
+        {
+          "stars": 3,
+          "count": 1400
+        },
+        {
+          "stars": 2,
+          "count": 370
+        },
+        {
+          "stars": 1,
+          "count": 773
+        }
+      ],
+      "location_rating": 3.4,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 1332,
+          "positive": 1087,
+          "negative": 177,
+          "neutral": 68
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 626,
+          "positive": 493,
+          "negative": 46,
+          "neutral": 87
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 3575,
+          "positive": 3296,
+          "negative": 157,
+          "neutral": 122
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 1153,
+          "positive": 1108,
+          "negative": 17,
+          "neutral": 28
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 2271,
+          "positive": 1897,
+          "negative": 290,
+          "neutral": 84
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 613,
+          "positive": 523,
+          "negative": 61,
+          "neutral": 29
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "TIM Santacruz Mumbai Airport",
+      "property_token": "ChoQl66voM6QiJmhARoNL2cvMTF3d3QwX3N5bBAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQl66voM6QiJmhARoNL2cvMTF3d3QwX3N5bBAC&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.08171272277832,
+        "longitude": 72.8458480834961
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "10:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,837",
+        "extracted_lowest": 2837,
+        "before_taxes_fees": "₹2,703",
+        "extracted_before_taxes_fees": 2703
+      },
+      "total_rate": {
+        "lowest": "₹2,837",
+        "extracted_lowest": 2837,
+        "before_taxes_fees": "₹2,703",
+        "extracted_before_taxes_fees": 2703
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹2,837",
+            "extracted_lowest": 2837
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Vakola Police Station",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "20 min"
+            }
+          ]
+        },
+        {
+          "name": "Grand The Dining Bar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/e6cJbP8DHU64kkTkP-rPV4uUsx_0hFVj52eNEy4b2f9j50I98AjX_CZYKRW5JeX1fet22SRye5na9lW_Fe7wcngOQ4JuqhxMBp0VagfS79nY-2TNnJzLI5DfMzRwfpDrkGksm340HxKnLpkHeEOs1UmbrD97xw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1920x1080/content/76/77/7677281d4f7d1468c4df8ba518f57cfad6d55d19.JPEG"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/NMMK35xS_5DE4LkMsNl-fsBVK2PZwKJlvhonBKZbJQaVeZeEl0F_alalF772_r9sJc9zXnVDpkGMy26PMu14go5fSRznRH36n8PnoaYfNYrRf9Wj3gzqq2Y34P4z7BoncXqAzuzs5UFT7TpK6JQUIoCPl0oSOg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/6ae2c1e6-1493-4984-a1e1-8d2047c95077"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/WqZxF8DdZUioazcYmbE1gZBsD2wX-5H5QlrTV-L8-sM10p9MobS1QvHo5bCdA2f23R3oAjKNJlqEwOax2Jny2mjlXSo-NQQwkSGS3Spl_m3ISu1Qvd5NUlzQQeth79cYjFwVcIK_urJ6WuYafUqNS7dnoC9WGQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111080000/111076300/111076244/675ee672.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/0s8Yo_kZmpFjz9Nie6uNFhsj-j4I2eMdH3vFU5rv683xqeyZsJc9frk2Qi1Z_6As4_BE5Xt0G_5J9sPdF7jwBBZDz5zj5DRVnMW0E3ahIC8_zp0Vhfl-uSb9_XI8SZAWvE6s3khU5iCTU6gNxKQMsmr5_SpuyA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/069cb8f3-6993-48dd-b11d-3e75a38a41b6"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/00QMa-xjtebao1RHgoPCf1b7bfIpdL6kZcR45tOQtyjJjmsDPeh9zaNt_eR3AEImLKYOxiXsaxzsqsaPTUT7n0SHuxgm7lBnw4C9eJ0J1OYi1InO_Trsa6HwXSFFryQbHcYk51RPuTA5ND0oF_N6-7ZBLxK2iYU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1920x1080/content/6e/32/6e32d8e1f72a167f6a2f88d91d984f9be7f5fc1f.JPEG"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/FZWvBQLnLlj-3Udqy2ioOv_ug-jv-HExMxwoxciui6pqS1J-0s-WJZkffVC27C_mkXuEJNACWAAxHUTtoVpEOE42OdtXTNGTnDWhyxeR1GNzIxFeKB_fHGg96ZHVB3lKMhUmNx8UqRFyWhuNe9d6iChjvRoyEg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/681001522.jpg?k=bd45f5504d2f4a511b3d651f66228adb442f596e25c485a87820e83a98b6a913&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/zfLSF3z7Dcar_LamHfkbL04oWitYCUSCf4VbCAj4E5emY1GZt6VI3v3rHpQQE5oKwGi4S-DdPoq3ZqgdKBOBAuckNfoS4gxG2vnFFNADppVn68hGLcbBtW-EVWxGhu8Fgpc-T4BibE_gDZGRGcafy7VaFXgeFA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/dd16b4b1-0f77-4474-956c-d713d1f1293d"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/wdV7hI4_2gSg0eIPfgr_6ebHoRyvuObZlnsrPpcApmfTzff4jn8Ubd4TvoqVffG2QLjA1cuLQey6Cj--5P8GHtEjfotZSKQQbLhSIpzs-HtCIPjzRSrwiNsgpbfpaOq4L2kFzD1aTXG5wz5ZHfeX7Wc0o9TgZn4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111080000/111076300/111076244/08835e57.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/oMyPnaZx_ALPjJp3n-WGsyWt_b7gOFETvufyrQPAUlZ11f2QrHoeu55bdkK4l2hDeW0oeXZvGiJqIYhHS0E7zlKa0jvvzGYKjS9gjFn2znx_IuFCbgya-CDQZIjc9LochX4jaHexMtq7s0eCSzwh5J4fnnQXPyY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1920x1080/content/22/ac/22ac225b007c545fa7536cf71bd19913bb7f76a8.JPEG"
+        }
+      ],
+      "location_rating": 3.9,
+      "amenities": [
+        "Air conditioning",
+        "Crib",
+        "Elevator",
+        "Ironing board",
+        "Kitchen",
+        "Microwave",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No indoor pool",
+        "No outdoor pool",
+        "Not pet-friendly"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 2",
+        "1 bedroom",
+        "1 bathroom",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Milan International",
+      "link": "http://www.milanintl.com/",
+      "property_token": "ChkImNHux_zZi9R3Gg0vZy8xMXM2cDQzX190EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkImNHux_zZi9R3Gg0vZy8xMXM2cDQzX190EAE&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0882082,
+        "longitude": 72.8420096
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹1,858",
+        "extracted_lowest": 1858,
+        "before_taxes_fees": "₹1,858",
+        "extracted_before_taxes_fees": 1858
+      },
+      "total_rate": {
+        "lowest": "₹1,858",
+        "extracted_lowest": 1858,
+        "before_taxes_fees": "₹1,858",
+        "extracted_before_taxes_fees": 1858
+      },
+      "nearby_places": [
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "12 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            }
+          ]
+        },
+        {
+          "name": "Fat Choy",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOpK5XrWKQOnNpGigfXNmHSVuHau1Fcq0ANzNCb=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOpK5XrWKQOnNpGigfXNmHSVuHau1Fcq0ANzNCb=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP7paBnmlwxPMEbkJqnnP061q75pPhAVzfdUqrS=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP7paBnmlwxPMEbkJqnnP061q75pPhAVzfdUqrS=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMC5IaMwj353R4b0utcAgibRmIdw-DtUgHxkDcy=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMC5IaMwj353R4b0utcAgibRmIdw-DtUgHxkDcy=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNHG_WPZet334VWlBCw9ipbn9J0lKV6eOfA57qL=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNHG_WPZet334VWlBCw9ipbn9J0lKV6eOfA57qL=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNeuVnJHqvmPuhScUgXTa_f-kWP-KkMZnMmBgUU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNeuVnJHqvmPuhScUgXTa_f-kWP-KkMZnMmBgUU=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM7HEtSigfDTz7BnZTS_eWymaJKNBBT4fY0hkv1=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM7HEtSigfDTz7BnZTS_eWymaJKNBBT4fY0hkv1=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMKKHXhhL0tnpSaXcfvoaVDGv22PZ3GlB2NmLgx=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMKKHXhhL0tnpSaXcfvoaVDGv22PZ3GlB2NmLgx=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMbJ05nqBbKR6_WA88ENZ6YFMDVDDwpoF_Ou-BB=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMbJ05nqBbKR6_WA88ENZ6YFMDVDDwpoF_Ou-BB=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOob1WvgAW2vj58J2hn6CGhidruKE2Yu5PZcPNK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOob1WvgAW2vj58J2hn6CGhidruKE2Yu5PZcPNK=s10000"
+        }
+      ],
+      "overall_rating": 3.8,
+      "reviews": 2381,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1257
+        },
+        {
+          "stars": 4,
+          "count": 345
+        },
+        {
+          "stars": 3,
+          "count": 281
+        },
+        {
+          "stars": 2,
+          "count": 143
+        },
+        {
+          "stars": 1,
+          "count": 355
+        }
+      ],
+      "location_rating": 3.3,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 581,
+          "positive": 411,
+          "negative": 151,
+          "neutral": 19
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 459,
+          "positive": 326,
+          "negative": 122,
+          "neutral": 11
+        },
+        {
+          "name": "Transport",
+          "description": "Public transit",
+          "total_mentioned": 98,
+          "positive": 57,
+          "negative": 19,
+          "neutral": 22
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 208,
+          "positive": 116,
+          "negative": 88,
+          "neutral": 4
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 185,
+          "positive": 128,
+          "negative": 30,
+          "neutral": 27
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 84,
+          "positive": 13,
+          "negative": 67,
+          "neutral": 4
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "FabExpress Orange Suites - Hotel in Santacruz East, Mumbai",
+      "description": "Unpretentious hotel featuring snug, warmly decorated rooms with Wi-Fi & cable TV, plus breakfast.",
+      "link": "https://www.fabhotels.com/hotels-in-mumbai/fabexpress-orange-suites.html?utm_source=GMB&utm_medium=organic&utm_campaign=GMB_Traffic",
+      "property_token": "ChkI6OXP5a6h38NCGg0vZy8xMWgycGxkXzhzEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkI6OXP5a6h38NCGg0vZy8xMWgycGxkXzhzEAE&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0800856,
+        "longitude": 72.8487036
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹1,639",
+        "extracted_lowest": 1639,
+        "before_taxes_fees": "₹1,546",
+        "extracted_before_taxes_fees": 1546
+      },
+      "total_rate": {
+        "lowest": "₹1,639",
+        "extracted_lowest": 1639,
+        "before_taxes_fees": "₹1,546",
+        "extracted_before_taxes_fees": 1546
+      },
+      "nearby_places": [
+        {
+          "name": "Vakola Police Station",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "5 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "18 min"
+            }
+          ]
+        },
+        {
+          "name": "Kokan Sagar Resturant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPuBjDeFBPKFbKdv5KCvHCG5Xr8eMz-0BwvfQdX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPuBjDeFBPKFbKdv5KCvHCG5Xr8eMz-0BwvfQdX=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMxHGu-J8dfBHZShXqa0E4fQDg1yre6DwMFKPZu=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMxHGu-J8dfBHZShXqa0E4fQDg1yre6DwMFKPZu=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNu9JPkZtjZ8iLPr1dRpp9Y065R-gaee3IkBo_F=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNu9JPkZtjZ8iLPr1dRpp9Y065R-gaee3IkBo_F=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqfAS2rX22oFyspf75QyNimwi4koQJKkQUoCMgYcf7wJ-5dP7-77rS3b81UU64JdbtQgt4jRjXwpzM3zCQ4kyC4Ej2n7mRmEu3Sn7nT4gVKh_TP3FG1Fy3l_EA6JsYAqIt4ICoJ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDf0tCGMw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN1KgJlw1EUJPkUDcsWIiVoTouNhMNbMPGSpj8d=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN1KgJlw1EUJPkUDcsWIiVoTouNhMNbMPGSpj8d=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNgEQv7H2Gdo2MNx-r-XYBngVv3EFG30BYjozsW=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNgEQv7H2Gdo2MNx-r-XYBngVv3EFG30BYjozsW=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMoOZHwy6tFZCYwLMnqVxo-VgTE5FjlQr8IeNhE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMoOZHwy6tFZCYwLMnqVxo-VgTE5FjlQr8IeNhE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM0m3j1n1fawgvUw8NHQewi8rF7t8cRBGTlahuu=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM0m3j1n1fawgvUw8NHQewi8rF7t8cRBGTlahuu=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOFaKy6HRw5hogXZ-BuvIJ8JWx_8baClUcep6He=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOFaKy6HRw5hogXZ-BuvIJ8JWx_8baClUcep6He=s10000"
+        }
+      ],
+      "overall_rating": 3.1,
+      "reviews": 769,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 235
+        },
+        {
+          "stars": 4,
+          "count": 137
+        },
+        {
+          "stars": 3,
+          "count": 112
+        },
+        {
+          "stars": 2,
+          "count": 75
+        },
+        {
+          "stars": 1,
+          "count": 210
+        }
+      ],
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 67,
+          "positive": 7,
+          "negative": 57,
+          "neutral": 3
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 158,
+          "positive": 73,
+          "negative": 77,
+          "neutral": 8
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 202,
+          "positive": 68,
+          "negative": 123,
+          "neutral": 11
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 41,
+          "positive": 2,
+          "negative": 37,
+          "neutral": 2
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 80,
+          "positive": 27,
+          "negative": 50,
+          "neutral": 3
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 32,
+          "positive": 7,
+          "negative": 23,
+          "neutral": 2
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Wi-Fi",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Home2 Suites and Service Apartment - Near Mumbai Airport & BKC",
+      "link": "https://www.home2india.com/suites-service-apartments-mumbai-airport/",
+      "property_token": "ChoI8v2KmKb_3JG_ARoNL2cvMTFoNTE5bV84cRAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoI8v2KmKb_3JG_ARoNL2cvMTFoNTE5bV84cRAB&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0806893,
+        "longitude": 72.85369109999999
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹3,570",
+        "extracted_lowest": 3570,
+        "before_taxes_fees": "₹3,400",
+        "extracted_before_taxes_fees": 3400
+      },
+      "total_rate": {
+        "lowest": "₹3,570",
+        "extracted_lowest": 3570,
+        "before_taxes_fees": "₹3,400",
+        "extracted_before_taxes_fees": 3400
+      },
+      "deal": "19% less than usual",
+      "deal_description": "Deal",
+      "nearby_places": [
+        {
+          "name": "Vakola Pipe Line",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "3 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            }
+          ]
+        },
+        {
+          "name": "Shree Chakra Restaurant And Bar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM1F2MBqtwhFQUJaXaLGmCIXZHTzIZJdfDGjtzu=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM1F2MBqtwhFQUJaXaLGmCIXZHTzIZJdfDGjtzu=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPViKJkj7Nii0IBF0ZTnQ5_n1nl_UZ1tR8QGH-u=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPViKJkj7Nii0IBF0ZTnQ5_n1nl_UZ1tR8QGH-u=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNMUwa5qOc-pytd4UBs4gZYtO6ltaNB9ipoPCuB=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNMUwa5qOc-pytd4UBs4gZYtO6ltaNB9ipoPCuB=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNM9bg3MVEzdebAIFKslnjcsy7DD0RGne2S93k3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNM9bg3MVEzdebAIFKslnjcsy7DD0RGne2S93k3=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOvp4n6TcfPwjYcaUVNP3_t58RkrM53jWS9R2hv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOvp4n6TcfPwjYcaUVNP3_t58RkrM53jWS9R2hv=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM7-jhfLXfGsr0XI1d7UkbmtnrZ7bZn-Ko238x0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM7-jhfLXfGsr0XI1d7UkbmtnrZ7bZn-Ko238x0=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMp-xv8FF1vOLHfRk98xYouzo9NFa46fVKZq3m8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMp-xv8FF1vOLHfRk98xYouzo9NFa46fVKZq3m8=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/7OwhYma9eV5H_DrMu16BkAXf3NI-0-BIcP2IwriMI4PPk4LzUcuWzHImTUZiDPC6Ls9WV0oA4CFL2AIbn07wimKdFwkzbLlq-qduCf9PHucCL6tRqJG0N9yKy8rgaJRQgDf_dWWHXXb-kKp8TjBGZYNdyufIhw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/26/cb/34/room.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNMjheLU9dU1bt-kyLE-KaRtM5l4tAyPKhSAcBl=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNMjheLU9dU1bt-kyLE-KaRtM5l4tAyPKhSAcBl=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 533,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 376
+        },
+        {
+          "stars": 4,
+          "count": 98
+        },
+        {
+          "stars": 3,
+          "count": 22
+        },
+        {
+          "stars": 2,
+          "count": 7
+        },
+        {
+          "stars": 1,
+          "count": 30
+        }
+      ],
+      "location_rating": 3.6,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 70,
+          "positive": 57,
+          "negative": 8,
+          "neutral": 5
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 200,
+          "positive": 180,
+          "negative": 18,
+          "neutral": 2
+        },
+        {
+          "name": "Kitchen",
+          "description": "Kitchen",
+          "total_mentioned": 23,
+          "positive": 15,
+          "negative": 5,
+          "neutral": 3
+        },
+        {
+          "name": "Family",
+          "description": "Family friendly",
+          "total_mentioned": 43,
+          "positive": 39,
+          "negative": 0,
+          "neutral": 4
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 101,
+          "positive": 92,
+          "negative": 6,
+          "neutral": 3
+        },
+        {
+          "name": "Restaurant",
+          "description": "Restaurant",
+          "total_mentioned": 30,
+          "positive": 28,
+          "negative": 1,
+          "neutral": 1
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Green park rooms",
+      "description": "Simple rooms in a relaxed hotel offering a restaurant & a low-key bar, plus breakfast.",
+      "property_token": "ChgI_Ir95a2M0qXVARoLL2cvMXZxbWd2ODgQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChgI_Ir95a2M0qXVARoLL2cvMXZxbWd2ODgQAQ&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0799643,
+        "longitude": 72.84995769999999
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,800",
+        "extracted_lowest": 2800,
+        "before_taxes_fees": "₹2,660",
+        "extracted_before_taxes_fees": 2660
+      },
+      "total_rate": {
+        "lowest": "₹2,800",
+        "extracted_lowest": 2800,
+        "before_taxes_fees": "₹2,660",
+        "extracted_before_taxes_fees": 2660
+      },
+      "nearby_places": [
+        {
+          "name": "Vakola Police Station",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "4 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "18 min"
+            }
+          ]
+        },
+        {
+          "name": "Cafe Cheezzila [Pure Veg & Jain]",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/dxfpEEEOEZ58euYR9SQaKIh0dxMn4O9hwAW7qkohYWgNU0VTAT12uMUn7JMNIk_fnB8u9WUYDeNCVvYLZI9kfpOVjclaZ_XgSVQS5XkldRG3w4eUDt59PnHTquOYCLOCk6wz6rmd3VstMEcx-hGFz6W2FyKX8A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/c2/a6/c2a65845a923c69a90fa7250320220d82d782ddc.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/TXRA1fNonqBkVyo6EnZ0KZWC138Ya_uh9m0nZD65v2KlzhCmJ8BkEOYNpYfdr-rbNPty5nXFiy82PxcKJ8OXS6ghPbb2vU3FiWRqLn6pivT2RtEQQWHSPgawfO7bLALBe_5GAecSkwaYh9GirHt9yg04HPxUlg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/10/60/1060d9ce01d59c887247e6f63eae80ecc38141c9.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqi29UvcVci8Y-8v8O-a9fk3OtOaU2iL1ONPJq21Y_U9AqXGOjBLK2sCU4Lx7I0l7bDlsKXQGxDXSoh35ZYmNEFtY_3KSKXaPOl8fhd2afKf6b0xLy6H5c5APvDCTQ2L9rlKLs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDG6J67FA=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/7aXAYteW2UiCSvWF0JHzF6FM8IVE0_tyN0BfH7jLqZOS2fdGrNBGIHGMClbdrQtJG_vQsbdq8bCeIiyE14Sm-yCWcnNXExPYp2h52r2Db1IsBq0jJicInRtUPueMXohjAJ2kRGX7wrf-QTXCJ9L8TKKL7fO32w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/54/01/54011036fa9f442fb7b14516e4e27db3dc841a9b.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nplABZl_6K_VAGo7j0BPwQmrgFuDYg2SvZ21e8Yr2w6Lk_ah6W14mFe_xe43WmVBvTyVcTW-UlA3wsnk5hDR73ceGmBSPXUdrnC7FQvFprgMsxlldglgK_FxD5MHbqpL77iXyw_=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDh74vhWg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrPU5D32oIdLP1xLeWQJRZf4frbitSS3W0XDooyHkbjBz4AkEAHWx1zBMzuTxu1xMcNl4UMqklNXuMRfsSzZtUo_HYuAYlILre2anOdvMeFuW-0HNUfDo8DvhQQPGuU5Ub8RPXkHfkuyo8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhAGbyfQ8wRH42f8HwIACay0=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noNdg3D3gIXvAkS5uLTpRAIeRXfKck51w_6VakYqo0BOmLizso7tYKj8mydk4Ks5A7RdVWopJCYCPzsIYV7SHFXHrWXTVWd7DMlBSrfPdm-zYWlmYGZR45ub1i4AU7G4Mld98Jx=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgID45Oq1AQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npiCZSheOz0rSzMez0Ib686OFOvR1IIdYUCyqy5SZhc8HNh8vLWVD6nAMEY079xPJ3M4b7Ity4esDbCpkS5P18SucuhxTciqCKwYB-eyClh-0BIq4QRJwL-wbv7UKdhaYfTCV7e=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDE-OSTlwE=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/7565IBQKROxT1r6WxARX0Zt6149ZNcrJ0dXbj3C1gPyEYrgZfFTyKWAxKN3f0tmpVzkDRK1mjndIo6gQCpahAnwBZSwe3ECgrryhEo2ypSEVyPGpn2cFlRtzISFyHfFWuw85GtaHej7xCz_aFThEWsnEYnBqng=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/104000000/103740000/103731200/103731185/112ef695_z.jpg"
+        }
+      ],
+      "overall_rating": 3.9,
+      "reviews": 112,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 59
+        },
+        {
+          "stars": 4,
+          "count": 15
+        },
+        {
+          "stars": 3,
+          "count": 17
+        },
+        {
+          "stars": 2,
+          "count": 9
+        },
+        {
+          "stars": 1,
+          "count": 12
+        }
+      ],
+      "location_rating": 4.0,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 14,
+          "positive": 6,
+          "negative": 8,
+          "neutral": 0
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 10,
+          "positive": 7,
+          "negative": 3,
+          "neutral": 0
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 6,
+          "positive": 4,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 5,
+          "positive": 2,
+          "negative": 2,
+          "neutral": 1
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Time Gold",
+      "link": "https://admin.booking.com/hotel/hoteladmin/groups/home/index.html?ses=24bee467736d035d184e7d5ec1da06ba&lang=xu",
+      "property_token": "ChoI3JDTmaetrOioARoNL2cvMTFtY3ZkYnd4ZxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoI3JDTmaetrOioARoNL2cvMTFtY3ZkYnd4ZxAB&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0800983,
+        "longitude": 72.84848099999999
+      },
+      "check_in_time": "12:00 AM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹1,587",
+        "extracted_lowest": 1587,
+        "before_taxes_fees": "₹1,511",
+        "extracted_before_taxes_fees": 1511
+      },
+      "total_rate": {
+        "lowest": "₹1,587",
+        "extracted_lowest": 1587,
+        "before_taxes_fees": "₹1,511",
+        "extracted_before_taxes_fees": 1511
+      },
+      "nearby_places": [
+        {
+          "name": "Vakola Police Station",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "5 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "18 min"
+            }
+          ]
+        },
+        {
+          "name": "Kokan Sagar Resturant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMTza60FNMUl5zls5bvxjAh44HP5nGkrR8OIYDH=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMTza60FNMUl5zls5bvxjAh44HP5nGkrR8OIYDH=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMhJXmu7LEJj6FdjFGzWwXGP1xTeXW_IViofgrC=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMhJXmu7LEJj6FdjFGzWwXGP1xTeXW_IViofgrC=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOaOEmdU0UGcwLmGxQheZk_KO9ufvHNVgv9XN8o=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOaOEmdU0UGcwLmGxQheZk_KO9ufvHNVgv9XN8o=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPS88YW6bdOggBuVuatBt00_FhUhbnY7ZrTJlTt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPS88YW6bdOggBuVuatBt00_FhUhbnY7ZrTJlTt=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOxT1EP2Ezf8YmRfCgy0kADBd00qWhFlBf25fTE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOxT1EP2Ezf8YmRfCgy0kADBd00qWhFlBf25fTE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPixxh55NXQJwixbN0crwqM6WCbaacRVMljhq6b=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPixxh55NXQJwixbN0crwqM6WCbaacRVMljhq6b=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNjuAr9NnRIYAyZBdyPzVqNil2Jl7SOTygfyxZ8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNjuAr9NnRIYAyZBdyPzVqNil2Jl7SOTygfyxZ8=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNdDOloF5BVHIxQ4wCdAHvFdcSeE38ABJ4Us4lm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNdDOloF5BVHIxQ4wCdAHvFdcSeE38ABJ4Us4lm=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMGXpg7UqV-Wp0niBJ5L-JqFf8awP9BnMjGitxk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMGXpg7UqV-Wp0niBJ5L-JqFf8awP9BnMjGitxk=s10000"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 22,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 20
+        },
+        {
+          "stars": 4,
+          "count": 0
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 2
+        }
+      ],
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 6,
+          "positive": 4,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 11,
+          "positive": 10,
+          "negative": 1,
+          "neutral": 0
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 6,
+          "positive": 6,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 9,
+          "positive": 8,
+          "negative": 1,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "TIM - BH - Santacruz Highway",
+      "link": "http://www.timhotels.in/",
+      "property_token": "ChkI1PnW1e275cpWGg0vZy8xMXNwenBwNGI3EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkI1PnW1e275cpWGg0vZy8xMXNwenBwNGI3EAE&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0816361,
+        "longitude": 72.84585820000001
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,837",
+        "extracted_lowest": 2837,
+        "before_taxes_fees": "₹2,703",
+        "extracted_before_taxes_fees": 2703
+      },
+      "total_rate": {
+        "lowest": "₹2,837",
+        "extracted_lowest": 2837,
+        "before_taxes_fees": "₹2,703",
+        "extracted_before_taxes_fees": 2703
+      },
+      "deal": "23% less than usual",
+      "deal_description": "Deal",
+      "nearby_places": [
+        {
+          "name": "Santacruz",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "14 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "16 min"
+            }
+          ]
+        },
+        {
+          "name": "Cozy Corner Restaurant & Bar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/W9diE74DTvC4hPCjvcgQPORZpTPYWIEUSRMR2q2cWMQr_8k6wyVOpgQZo0g9X_fZN0LwcNqOm8i-oXzU9x3sESIM2RdJeH0Jl4-eorXE4O_ng-wQh-zng9kH68iJra7FjNPiTfhRLdNxFAcByf0oqcvuFXX0UQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111080000/111076300/111076244/4c2e6b88_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npyqwpoy8TQLiPsLX8V9dWvc_Rk8TA7iPfcZg5YZ3S1TtPC2hDcNNyhiOM9s_zBJz8nVLmBS6XPLGmfLKPqP8A6mkOZkTE8LLQtPyG1JDZrFkP2VvrlAc149vibcioNsIGC18c=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEIqw4Z3HhZDHSQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/oNvxjMd6ZL-CNYcgqxMvHdQC-RETEhMs8EBqKWtX-Uqx-Ph634uchzU4D25L85mu7Rd62AguzVApZC_LfrXAvJFG6RgzxFBv4eHBxZckaeesRsi8GYzwLh11-dqyl_nDPXHTlaiWOQjvnVIDIblTsutkIq747g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111080000/111076300/111076244/f0f7fa7d_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/2cvegOF8tjhJ8O1NcBG0ZLle5zompdnrxVl3PH__V6IpVzJSzKxhETEZNUkh6YEPzTN1BdaXTl5L5oEUNVSN3G6jR-m8BTsLlS7cNGj2iZlDqymhrHrEaNuxkv_GqyF_EmYS1sDQhWaMG2p4Ja_D03l55XNoNQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111080000/111076300/111076244/08835e57_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/psh_noA9aIa5TUAUIFI8ByXxm2rCzvmCvzldVmO3EzTtCkdc8Cur47ytP2d5r1AQhr3kxr9Ap5eBC5afQSi4003GGPKbR9HJtfWvWxa3BHmHPtFGAzheMV9N7FeYIb-bwJ2j07zsvlpMucz6A9wFg7gGYxYcxw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111080000/111076300/111076244/f4042b4a_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/jZ65UqkYzLxM9CE20DuDUuyCmUnKIifR5_zbUdP3NBr8efak-Db4otUOy1LiOm-G733orRZ0NMCcOUjAaCYRG-FK5ipTi2hnRP_G3XMciQ7qgA1BwIUABLTMyY1i8YgYgznfy9T0A-3q0PYaS9rMqQlu_0IhFA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111080000/111076300/111076244/37faa04e_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/_p-Sncxx-oGeLueOHTlvXx0lzIWcwyccD1IJD9ij-0YHLXyJ85f--O3U4cM2kdHQziDWMdXxUgL1Bxd12ZcxcZdTjimsut8aiWbhWGr8um0fOUZFsl-8zV4O42CNXhQC1mlyRoM6gK2M7Vl1gfWJW0lz7PlvlXE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111080000/111076300/111076244/d8b08017_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/y4X1gct3EcnOXX97bz09rcB4GEW1NcvsquC30prCmNZPA958esu9C6gTxVNI6H4M6M3ogqs2PXYEbgHOXxcXQvEcfimWng6IJiHHTMkSzd755SdBeglzeJ00EiijaCfSsc7XYRvaj9PmvJQnKxzom6SyxvDjjw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111080000/111076300/111076244/675ee672_z.jpg"
+        },
+        {
+          "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=xTv1Tec34pPOeGjRbmq4Yw&cb_client=search.estubs.gps&w=287&h=192&yaw=176.11122&pitch=0&thumbfov=100&scale=2",
+          "original_image": "https://lh5.googleusercontent.com/p/xTv1Tec34pPOeGjRbmq4Yw=s10000"
+        }
+      ],
+      "overall_rating": 4.2,
+      "reviews": 19,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 11
+        },
+        {
+          "stars": 4,
+          "count": 5
+        },
+        {
+          "stars": 3,
+          "count": 1
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 2
+        }
+      ],
+      "location_rating": 3.9
+    },
+    {
+      "type": "hotel",
+      "name": "FabHotel Airport Palace",
+      "link": "https://www.fabhotels.com/hotels-in-mumbai/fabhotel-airport-palace-i.html?utm_source=GMB&utm_medium=organic&utm_campaign=GMB_Traffic",
+      "property_token": "ChcIkJ6L-_aV2_B5GgsvZy8xdnM1djU1axAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChcIkJ6L-_aV2_B5GgsvZy8xdnM1djU1axAB&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.079539999999998,
+        "longitude": 72.85006
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹1,995",
+        "extracted_lowest": 1995,
+        "before_taxes_fees": "₹1,900",
+        "extracted_before_taxes_fees": 1900
+      },
+      "total_rate": {
+        "lowest": "₹1,995",
+        "extracted_lowest": 1995,
+        "before_taxes_fees": "₹1,900",
+        "extracted_before_taxes_fees": 1900
+      },
+      "nearby_places": [
+        {
+          "name": "Vakola Police Station",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "5 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "19 min"
+            }
+          ]
+        },
+        {
+          "name": "Cafe Cheezzila [Pure Veg & Jain]",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPluQH2EY5C7fHVPMOohi0wSJryS8WMihsIb6EV=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPluQH2EY5C7fHVPMOohi0wSJryS8WMihsIb6EV=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMuCWRLJYSXUTwoIfMr6ugoahk0y71fpgLJ72zI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMuCWRLJYSXUTwoIfMr6ugoahk0y71fpgLJ72zI=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPqI4V7xWqgQY8Xe3Rmm40O4y0-X6Fc6U7JtO-O=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPqI4V7xWqgQY8Xe3Rmm40O4y0-X6Fc6U7JtO-O=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNFEX7z7KA4H35OerbBvkABdMi2z3eniFjj7q1R=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNFEX7z7KA4H35OerbBvkABdMi2z3eniFjj7q1R=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO-nTWIJJkBU_SKzqbWAXxoMNPgbss1Zl59eKUR=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO-nTWIJJkBU_SKzqbWAXxoMNPgbss1Zl59eKUR=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNFXI0rUf6WNFEEDougStBOuhpRcorCDaQvep43=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNFXI0rUf6WNFEEDougStBOuhpRcorCDaQvep43=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMkuN_aXzle8jl4tITe2gZ3ElHxv506Q3zWOogA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMkuN_aXzle8jl4tITe2gZ3ElHxv506Q3zWOogA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMJpUImKCxItI2tEmVIG09WJ3ekAQm67DRsLeA-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMJpUImKCxItI2tEmVIG09WJ3ekAQm67DRsLeA-=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipObHvt6Y1ZkwdVTmUKHwgSgmAnAn2jk-BWgrm_n=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipObHvt6Y1ZkwdVTmUKHwgSgmAnAn2jk-BWgrm_n=s10000"
+        }
+      ],
+      "overall_rating": 3.7,
+      "reviews": 167,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 80
+        },
+        {
+          "stars": 4,
+          "count": 29
+        },
+        {
+          "stars": 3,
+          "count": 19
+        },
+        {
+          "stars": 2,
+          "count": 9
+        },
+        {
+          "stars": 1,
+          "count": 30
+        }
+      ],
+      "location_rating": 4.1,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 16,
+          "positive": 5,
+          "negative": 10,
+          "neutral": 1
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 26,
+          "positive": 20,
+          "negative": 4,
+          "neutral": 2
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 33,
+          "positive": 25,
+          "negative": 6,
+          "neutral": 2
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 56,
+          "positive": 32,
+          "negative": 14,
+          "neutral": 10
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 43,
+          "positive": 28,
+          "negative": 14,
+          "neutral": 1
+        },
+        {
+          "name": "Transport",
+          "description": "Public transit",
+          "total_mentioned": 11,
+          "positive": 10,
+          "negative": 1,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Ajanta Continental-Mumbai Airport",
+      "link": "https://ajantacontinental.com/",
+      "property_token": "ChkI74vbp623r8lsGg0vZy8xMXYwYmQ2cXFjEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkI74vbp623r8lsGg0vZy8xMXYwYmQ2cXFjEAE&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0763732,
+        "longitude": 72.8426166
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹5,137",
+        "extracted_lowest": 5137,
+        "before_taxes_fees": "₹4,892",
+        "extracted_before_taxes_fees": 4892
+      },
+      "total_rate": {
+        "lowest": "₹5,137",
+        "extracted_lowest": 5137,
+        "before_taxes_fees": "₹4,892",
+        "extracted_before_taxes_fees": 4892
+      },
+      "nearby_places": [
+        {
+          "name": "Ghatkopar East",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "13 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            }
+          ]
+        },
+        {
+          "name": "Dakshin Garden Bar & Kitchen",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNgRqowdZ4hvLT2NvhX6diEzapIPx1HWLZu5VG5=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNgRqowdZ4hvLT2NvhX6diEzapIPx1HWLZu5VG5=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOauyQEpBF4u20NufU0BPbW4j7rq0mJqd-VNNKT=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOauyQEpBF4u20NufU0BPbW4j7rq0mJqd-VNNKT=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNiy61375IrhQWWZ53k4LSaLj1XQzhO1VMFh72t=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNiy61375IrhQWWZ53k4LSaLj1XQzhO1VMFh72t=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOD2OEBeU35752CA5uSh9lJZXsDUBzL9N2YbqSK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOD2OEBeU35752CA5uSh9lJZXsDUBzL9N2YbqSK=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM3_fLOuNklgPr-VVtwPkhaSgIekOsNffltkEbO=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM3_fLOuNklgPr-VVtwPkhaSgIekOsNffltkEbO=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOiyqGIy_-fNd0TcpOtaKRO7I4swR6QxCaykpCi=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOiyqGIy_-fNd0TcpOtaKRO7I4swR6QxCaykpCi=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN_IstOCjy1V8FjslshdWrDRvNRXLrcwnK3SE10=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN_IstOCjy1V8FjslshdWrDRvNRXLrcwnK3SE10=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMltItayNTkIFP1e9J-lcvwoSkqJti_h4HjSLaF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMltItayNTkIFP1e9J-lcvwoSkqJti_h4HjSLaF=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOiDSkk-HUrvN_DE42NGRt6uJ4C73bevJEhFD4o=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOiDSkk-HUrvN_DE42NGRt6uJ4C73bevJEhFD4o=s10000"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 96,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 59
+        },
+        {
+          "stars": 4,
+          "count": 19
+        },
+        {
+          "stars": 3,
+          "count": 14
+        },
+        {
+          "stars": 2,
+          "count": 1
+        },
+        {
+          "stars": 1,
+          "count": 3
+        }
+      ],
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 12,
+          "positive": 11,
+          "negative": 1,
+          "neutral": 0
+        },
+        {
+          "name": "Transport",
+          "description": "Public transit",
+          "total_mentioned": 8,
+          "positive": 7,
+          "negative": 0,
+          "neutral": 1
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 15,
+          "positive": 13,
+          "negative": 0,
+          "neutral": 2
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 26,
+          "positive": 21,
+          "negative": 4,
+          "neutral": 1
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 28,
+          "positive": 24,
+          "negative": 2,
+          "neutral": 2
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 15,
+          "positive": 12,
+          "negative": 1,
+          "neutral": 2
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Bloom Hotel - BKC Kalina",
+      "link": "https://staybloom.com/hotels/mumbai/bloom-hotel-bkc-kalina",
+      "property_token": "ChoI_9eDgeaKr9vvARoNL2cvMTFtZDN0Y3d5MBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoI_9eDgeaKr9vvARoNL2cvMTFtZDN0Y3d5MBAB&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0712458,
+        "longitude": 72.86295659999999
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹6,328",
+        "extracted_lowest": 6328,
+        "before_taxes_fees": "₹6,026",
+        "extracted_before_taxes_fees": 6026
+      },
+      "total_rate": {
+        "lowest": "₹6,328",
+        "extracted_lowest": 6328,
+        "before_taxes_fees": "₹6,026",
+        "extracted_before_taxes_fees": 6026
+      },
+      "nearby_places": [
+        {
+          "name": "Nafa",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "8 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "26 min"
+            }
+          ]
+        },
+        {
+          "name": "Nityanand Restaurant - Pure Veg",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNeNcnoPf7MgG2ldHKzfON8Y6DfEctXLIfTzpWX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNeNcnoPf7MgG2ldHKzfON8Y6DfEctXLIfTzpWX=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP1TlVSkbnHxbmFNXZXHIafYBRGKre72OEZu8qz=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP1TlVSkbnHxbmFNXZXHIafYBRGKre72OEZu8qz=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOmjGwKHjCbEzI3VsmdGkrwCVmACfo876lpU8aL=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOmjGwKHjCbEzI3VsmdGkrwCVmACfo876lpU8aL=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/fPmbAbTiFG5m3muljEx60iR_igXBD4BmdOuT_omoNB4ZmPhRG1N6PISlbIfHoZ1NKzrZHS4rwDPUrpAhAJE6tZd2Xyao1F0rrS8EdEbGulYJuV5OQMj62dmJ6Gnzhf1In__l9AD-zSlcNzmJkzjbwtZVhWRLsQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/117000000/116580000/116571900/116571826/e8b48577_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNZncruvhISTFnm6lhQ7yL4eTRGvpAX1O04geGC=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNZncruvhISTFnm6lhQ7yL4eTRGvpAX1O04geGC=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOJ2bYoPovNBKNs3Sw0o5fjJwFeACrfQqTJvd2q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOJ2bYoPovNBKNs3Sw0o5fjJwFeACrfQqTJvd2q=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM31qsP8zhbgoWgYqx5FwoVazpbHMkHPt7mOYRT=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM31qsP8zhbgoWgYqx5FwoVazpbHMkHPt7mOYRT=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP21gVbHNPQNafLiy6n3KnuxO0S_V4d83ne1H_L=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP21gVbHNPQNafLiy6n3KnuxO0S_V4d83ne1H_L=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPmG5ugGskCJbEJlUNGuXtwfgxMPnDNpCLjxPwr=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPmG5ugGskCJbEJlUNGuXtwfgxMPnDNpCLjxPwr=s10000"
+        }
+      ],
+      "overall_rating": 4.9,
+      "reviews": 417,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 375
+        },
+        {
+          "stars": 4,
+          "count": 33
+        },
+        {
+          "stars": 3,
+          "count": 5
+        },
+        {
+          "stars": 2,
+          "count": 2
+        },
+        {
+          "stars": 1,
+          "count": 2
+        }
+      ],
+      "location_rating": 4.0,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 106,
+          "positive": 104,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 224,
+          "positive": 221,
+          "negative": 3,
+          "neutral": 0
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 64,
+          "positive": 63,
+          "negative": 0,
+          "neutral": 1
+        },
+        {
+          "name": "Restaurant",
+          "description": "Restaurant",
+          "total_mentioned": 20,
+          "positive": 19,
+          "negative": 0,
+          "neutral": 1
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 90,
+          "positive": 86,
+          "negative": 1,
+          "neutral": 3
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 10,
+          "positive": 10,
+          "negative": 0,
+          "neutral": 0
+        }
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "MyOtel - Santacruz",
+      "link": "http://myotel.in/",
+      "property_token": "ChkIiaXxtp6RlcURGg0vZy8xMW02M2M0cHQyEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkIiaXxtp6RlcURGg0vZy8xMW02M2M0cHQyEAE&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0847029,
+        "longitude": 72.84463459999999
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "10:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,928",
+        "extracted_lowest": 2928,
+        "before_taxes_fees": "₹2,928",
+        "extracted_before_taxes_fees": 2928
+      },
+      "total_rate": {
+        "lowest": "₹2,928",
+        "extracted_lowest": 2928,
+        "before_taxes_fees": "₹2,928",
+        "extracted_before_taxes_fees": 2928
+      },
+      "nearby_places": [
+        {
+          "name": "New Agripada",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "9 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "16 min"
+            }
+          ]
+        },
+        {
+          "name": "New ideal family restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOz2oCHEbPa2U7fmJCaSCuPiygNNh06-pZRQhBs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOz2oCHEbPa2U7fmJCaSCuPiygNNh06-pZRQhBs=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOn2P-F6aOu_RzVn3aW7nPtv80Vlt4Y1z8e-cVm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOn2P-F6aOu_RzVn3aW7nPtv80Vlt4Y1z8e-cVm=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNSNjXKshr3x9wp-DbH0djK-Ez2tbDR4GshJYDk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNSNjXKshr3x9wp-DbH0djK-Ez2tbDR4GshJYDk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMP8roVQ4lIhwAxFt6F1_Wz94l9bPccjALFeD9t=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMP8roVQ4lIhwAxFt6F1_Wz94l9bPccjALFeD9t=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOKqA0Gu7vQKGRQMQhLvWRIFmMEIsD0cINaRAbZ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOKqA0Gu7vQKGRQMQhLvWRIFmMEIsD0cINaRAbZ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNfS2xI_R3FBLT_0MC3Le05LfAW1aZ9v1mzNHaH=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNfS2xI_R3FBLT_0MC3Le05LfAW1aZ9v1mzNHaH=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP7b1lJjdm2XUSuj68axXcGtVo5ZJEAwHWQMH-X=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP7b1lJjdm2XUSuj68axXcGtVo5ZJEAwHWQMH-X=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPoorVZ9E1Fy-NVu7e3IcYc8RrfEZlrp9jV4Aeo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPoorVZ9E1Fy-NVu7e3IcYc8RrfEZlrp9jV4Aeo=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOPUf9IAWzbpXoNemR0O5nfV-o2aDBjCUZpFN_Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOPUf9IAWzbpXoNemR0O5nfV-o2aDBjCUZpFN_Q=s10000"
+        }
+      ],
+      "overall_rating": 4.1,
+      "reviews": 90,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 59
+        },
+        {
+          "stars": 4,
+          "count": 8
+        },
+        {
+          "stars": 3,
+          "count": 8
+        },
+        {
+          "stars": 2,
+          "count": 1
+        },
+        {
+          "stars": 1,
+          "count": 14
+        }
+      ],
+      "location_rating": 3.5,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 12,
+          "positive": 4,
+          "negative": 7,
+          "neutral": 1
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 43,
+          "positive": 34,
+          "negative": 9,
+          "neutral": 0
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 24,
+          "positive": 18,
+          "negative": 3,
+          "neutral": 3
+        },
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 10,
+          "positive": 0,
+          "negative": 8,
+          "neutral": 2
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 8,
+          "positive": 2,
+          "negative": 6,
+          "neutral": 0
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 37,
+          "positive": 26,
+          "negative": 10,
+          "neutral": 1
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Orange International-SANTACRUZ",
+      "link": "https://www.bluepillow.com/search/66261e624338d48a8fc68775?dest=bkng&cat=House&lat=19.08003&lng=72.84878&language=en",
+      "property_token": "ChkQ9NqF-L7F1cF8Gg0vZy8xMXg2bHlsazF3EAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQ9NqF-L7F1cF8Gg0vZy8xMXg2bHlsazF3EAI&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.08003044128418,
+        "longitude": 72.8487777709961
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,015",
+        "extracted_lowest": 2015,
+        "before_taxes_fees": "₹2,015",
+        "extracted_before_taxes_fees": 2015
+      },
+      "total_rate": {
+        "lowest": "₹2,015",
+        "extracted_lowest": 2015,
+        "before_taxes_fees": "₹2,015",
+        "extracted_before_taxes_fees": 2015
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹2,015",
+            "extracted_lowest": 2015
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Vakola Police Station",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "5 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "18 min"
+            }
+          ]
+        },
+        {
+          "name": "Grand The Dining Bar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/LBBWsNHYHYhByZ8y9ph2yATxSTftVpdezstClF-HGrb8oLF68CTzNkPSDxYpxRBoFhVuxBdjYBDTll2LQlntxIueUms0xFn3dyntGJZw3PXwYaEceSVNSDcaLRpP5iKYFa14h1l4MrV9aVjOjKgwzN-Wvg9Zmg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/469288319.jpg?k=0f844f3453ba074069389241cd24fe3bdb3ea047be7a37c99acde8a2208edca8&o="
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/7SZbfEZfB9o1Ad7d0xRJpFKJM5AUAQR8aZIcnH2AFVDE7qCMbKyJcGKMHzNykHdpcsceLalKz1d6JoiOnSmnUvfI9bh_Bq0V-W_TRybq42M-nkJFr515LYlZUUzSl2ABMsdQ4Vx-MrAf1RLL7HidVgQ3ywWpSA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/469288314.jpg?k=26e301f5dfe2ba02106da090efe5e266fc620e69e1dbf823b5746ce4f5a45b2f&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/AZ5J6dGwVXV5qmF-NF2_smitd1pXH0Efq4RGYM9NUq5UwqciyDnPYojaTdmIPDRBsPc9oIbEqO6k3vl5a-m5N5ZFsW7xWcdffAm8SVuv5jR5ZNfcTIylt2U405WRK-4Lui--gnneHdDoWB6da-4tK-18uOz8luA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/469288322.jpg?k=953c29a15f2b281fab6dadd9b96ef7a90d6c67b37ae4bb9773ecf5feae34a81b&o="
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/D5yc_5RYEJia-XkT0nL5vBxrQycSwlHQAByoLWrCivM6EmwkO87NlRv4wMevwHKJvraF0seqzmVC6QDDLe_YyauH0qRMS9IqME2fAse6yDpOXH3CK9bGoby-R_t1zF9Fxus29FORx_-DfQhI6_6W2Vnz2273j2U=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/469288276.jpg?k=344ee92f76b2027654445b43e1156b8ac7b2404e5562b2e9f4f16dd647dc735d&o="
+        }
+      ],
+      "location_rating": 3.8,
+      "amenities": [
+        "Air conditioning",
+        "Kid-friendly",
+        "Smoke-free",
+        "Cable TV",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No parking"
+      ],
+      "health_and_safety": {
+        "groups": [
+          {
+            "title": "Minimized contact",
+            "list": [
+              {
+                "title": "No-contact check-in and check-out",
+                "available": true
+              }
+            ]
+          }
+        ]
+      },
+      "essential_info": [
+        "Entire house",
+        "Sleeps 5",
+        "11 bedrooms",
+        "2 bathrooms",
+        "3 beds"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Galaxy",
+      "description": "Polished rooms in a casual hotel offering a restaurant/bar & a terrace, plus Wi-Fi & breakfast.",
+      "link": "https://hotelgalaxygroup.in/",
+      "property_token": "ChoIiviS3PKJiPmkARoNL2cvMTFzamR0aDg3XxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoIiviS3PKJiPmkARoNL2cvMTFzamR0aDg3XxAB&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0843953,
+        "longitude": 72.844809
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹3,588",
+        "extracted_lowest": 3588,
+        "before_taxes_fees": "₹3,417",
+        "extracted_before_taxes_fees": 3417
+      },
+      "total_rate": {
+        "lowest": "₹3,588",
+        "extracted_lowest": 3588,
+        "before_taxes_fees": "₹3,417",
+        "extracted_before_taxes_fees": 3417
+      },
+      "deal": "18% less than usual",
+      "deal_description": "Deal",
+      "nearby_places": [
+        {
+          "name": "New Agripada",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "10 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "16 min"
+            }
+          ]
+        },
+        {
+          "name": "Golden Wave",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/zNhvhssS7fi8hPWkOqW_uEkqpvo_Hwz2L6bi4JAXjcwP9L3T0axCxkg4ENilFBedU3rMyiK1VMh5k-dIZzHR-p4Ei97Iln5_YBCj93KflrJZiQhuS4G4DNbym9cRxJdcEtmg-kQDYQEuoDWLpeB8v-PoRcq-6w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/110000000/109680000/109675500/109675429/e749d827_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/mIC-fXQCqLKcDyXrRU41l0cMv3XN2YhPs0erfJNx_Wa4PPTi12S9btxCh_x5vczEhZhTzq4OxHGVbTEwElkW9DzQx3aTjLkSlEpW_jmfRcyjga5nBSbYMHsB61Nn_8J2Kwl05l1-yd0OzMmulKi01EeZ6oeAmw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/110000000/109680000/109675500/109675429/66132660_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/CKTWbDj0XonWGze3FxQoylRzG-RMVnM89Pyw_vgLlr3s10JgKZtEHnLYBbPR9eP6AfIZ1BTyGcaJxdAUj5IU-L2lXK3aAFP0XcEpOM--w__BlWqpvb-RI0b-ygL5se0EHbz03L_hhfgGR7-SxMhZsWp975IykQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/110000000/109680000/109675500/109675429/5d9c52a6_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/WfQavB01wEERt5i8nsdOMeli6K0YLDRY8YAMmmRyGj-rYuY6qU0aYUD-BgJaBxsP5DV-i7ul2Y0AX4DU279wqjm-pY6xjCJThg7iL_A2QRecqdAhELkP5_Hu7Pnp23JhLNN6jxZq7erfVo7R1w8hMzKfPjFZZA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/83/3a/833af8e424ac11f7b6060bfd1fdd5eb3c26ce913.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/RRbiY7ADs5tOercaoOV1p9plrloSVA32bkaqvr_mpTXuRI7mBpusNE_72wJzrWTXTwUIUDWlV7K0Ln3OPs2Er7-sn_ehssYs00Sg71ypuxKkH_e-J3vYOYOE9TPQ4R4P8TA_a89acBtom06w2fTQHNvGDLgkJXE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/2d/3b/2d3b7a3d9154de5cc451e03c4f98f27cdddd68fd.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/bcm0Qjf9jzsVhePft18Fqo-s_JetoSJn9KELkYzjrDmAFu84Og7dMp4zkIlxclBwEBmlG3Nbw-3nvLDoq-lyj7iFpHN2EsovhSweIvULTBXoXAPPLgo9zQPVHdMz6ImoSLa-kocxgORRyik16UUyh_kX2jjpWA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/be/2f/be2ff5ad2e56a39486b129868ecaffa7393c621d.JPEG"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/gcN84tFMUtVN7nGcytXyzZ2mvoarWROPpkHVDjFQDpjBP8h9ubN4f8DM15lQ4W-LLgTN_n4gKX4BlUlzuueI-I8j0ONutx0koPBGncpntOPDtP8uV0K1c4AHY6QfiipyCT3OjZwzVlEcxwayKKdStzXrZmZ6JG0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/04/ba/04ba5db36e2cd40b9d4f66e8ba66fb37a4670d71.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/6VwE8RcO61mJMGfhTDL5WEyssT6XLSqUINfxwY6tkT56dyKq7evsmo1nMf302hnwoqBZRd8wEj6UkNWJe4dsfJMAegLymbaNRgHBNhXoCSMZkdNbmIpX9yZSgz4otjoSh95C8v70v0NGQpOd_nXQlYgaYPuDIQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/110000000/109680000/109675500/109675429/77226883_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/wxTCuBI16zOtWnW2kMd5rA_Op5nHwsyqDRux27nJ9l0yJ8PLBP7p8yt3x8ZYOo-FQ0iYX-eHUT2QtNSMLK0_xKDbm5YCC2ABK6JXYK2HDy5IjP4q92i6DHTRnmrcyNEyG0KheIxwyCao2ZZMeUd_5BYOk04bNA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/110000000/109680000/109675500/109675429/6719d4a9_z.jpg"
+        }
+      ],
+      "overall_rating": 3.9,
+      "reviews": 1269,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 522
+        },
+        {
+          "stars": 4,
+          "count": 345
+        },
+        {
+          "stars": 3,
+          "count": 231
+        },
+        {
+          "stars": 2,
+          "count": 71
+        },
+        {
+          "stars": 1,
+          "count": 100
+        }
+      ],
+      "location_rating": 3.5,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 68,
+          "positive": 53,
+          "negative": 14,
+          "neutral": 1
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 43,
+          "positive": 34,
+          "negative": 6,
+          "neutral": 3
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 183,
+          "positive": 139,
+          "negative": 29,
+          "neutral": 15
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 135,
+          "positive": 97,
+          "negative": 35,
+          "neutral": 3
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 55,
+          "positive": 44,
+          "negative": 4,
+          "neutral": 7
+        },
+        {
+          "name": "Transport",
+          "description": "Public transit",
+          "total_mentioned": 23,
+          "positive": 19,
+          "negative": 0,
+          "neutral": 4
+        }
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "FabHotel Corporate Rooms Vakola",
+      "link": "https://www.fabhotels.com/hotels-in-mumbai/fabhotel-corporate-rooms-xavuwila.html?utm_source=GMB&utm_medium=organic&utm_campaign=GMB_Traffic",
+      "property_token": "ChkIjtrjh4v-wL9ZGg0vZy8xMWx5cmJ4eWttEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkIjtrjh4v-wL9ZGg0vZy8xMWx5cmJ4eWttEAE&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0779219,
+        "longitude": 72.85824509999999
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,608",
+        "extracted_lowest": 2608,
+        "before_taxes_fees": "₹2,460",
+        "extracted_before_taxes_fees": 2460
+      },
+      "total_rate": {
+        "lowest": "₹2,608",
+        "extracted_lowest": 2608,
+        "before_taxes_fees": "₹2,460",
+        "extracted_before_taxes_fees": 2460
+      },
+      "nearby_places": [
+        {
+          "name": "Vakola Masjid",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "10 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "25 min"
+            }
+          ]
+        },
+        {
+          "name": "Geeta Vihar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNHy3OYybGGbLIRTgXancVphhiWjRzfHT4rym4b=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNHy3OYybGGbLIRTgXancVphhiWjRzfHT4rym4b=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPFodYHGp9kbfjUZqqIdt5bjwinDraUYooCl1WO=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPFodYHGp9kbfjUZqqIdt5bjwinDraUYooCl1WO=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/ntL3rxbves0XLbxt4i-ioaeSQUMowXVS8j23tsbqSsjf7azNzCLMTweRL3lRQnO_8PVvxFO6gRyZN-JGXkDxsHdRcfuoIeYgTqi9LYuDYJFkiKxgBCkiFpqWTgvAiZhdBuUl0us44LDkqFfRdfGqW1CHGKxmBw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111570000/111561400/111561360/acdd6aed_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOpLt3wamTMD59_Phsj_ThWRb014rBk-de_ZOXm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOpLt3wamTMD59_Phsj_ThWRb014rBk-de_ZOXm=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNG4QtPJ2guaMFYJRLH8roJGlhLKyaYH3bAhsL5=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNG4QtPJ2guaMFYJRLH8roJGlhLKyaYH3bAhsL5=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNYmgBbQiejT-FRfWym0RwB0ldJdso4wYW2xnRa=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNYmgBbQiejT-FRfWym0RwB0ldJdso4wYW2xnRa=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMKyutHFR7FPi4R5T1A4HvAsle4CGOPTWdKxlsU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMKyutHFR7FPi4R5T1A4HvAsle4CGOPTWdKxlsU=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOjjMPlwS_LKLXYWvoEIEd5pYYRi-yQcMCxHTJk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOjjMPlwS_LKLXYWvoEIEd5pYYRi-yQcMCxHTJk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPy0lnoxP82AXBT_4KDXPaDZRBCs6yhmRQMumEU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPy0lnoxP82AXBT_4KDXPaDZRBCs6yhmRQMumEU=s10000"
+        }
+      ],
+      "overall_rating": 4.3,
+      "reviews": 39,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 26
+        },
+        {
+          "stars": 4,
+          "count": 8
+        },
+        {
+          "stars": 3,
+          "count": 1
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 4
+        }
+      ],
+      "location_rating": 3.1,
+      "reviews_breakdown": [
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 5,
+          "positive": 4,
+          "negative": 1,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Apple inn",
+      "property_token": "ChkItvP-67PI57UEGg0vZy8xMXkycDdka2pkEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkItvP-67PI57UEGg0vZy8xMXkycDdka2pkEAE&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.080164999999997,
+        "longitude": 72.84770089999999
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,567",
+        "extracted_lowest": 2567,
+        "before_taxes_fees": "₹2,038",
+        "extracted_before_taxes_fees": 2038
+      },
+      "total_rate": {
+        "lowest": "₹2,567",
+        "extracted_lowest": 2567,
+        "before_taxes_fees": "₹2,038",
+        "extracted_before_taxes_fees": 2038
+      },
+      "nearby_places": [
+        {
+          "name": "Vakola Police Station",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "6 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "17 min"
+            }
+          ]
+        },
+        {
+          "name": "Kokan Sagar Resturant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOuxUgi9xqlhxqp9arYoD18UT2GhWBpFpHXuyUv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOuxUgi9xqlhxqp9arYoD18UT2GhWBpFpHXuyUv=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNhHn3C1P_Znoj_Pemcu2HAnhruUpfnYazRdutz=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNhHn3C1P_Znoj_Pemcu2HAnhruUpfnYazRdutz=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/CS5hUji2uItFV5eykInWW09z73wfFtFYpX8B_XwXRSqQDp33DCUPfuYjr-ESOmm6fIPC9kCOYGc2lKWWhsAsI6e5SkHFIivsVGxPhKebfz0_XhQzERCkUIjkQittq0SOPp5fbQDEt8ubdkmPcrVRsyhiFUIPdQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/103000000/102190000/102180900/102180839/211e0eea_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/EEm9W-JhHAh7LUeOgK1yVNqeYE4GVLLNovbEgYJmJX5UZSbzUovDX2rdsHh3RQfYJQNW_qfhSg41iKZamUgWPymEl5KN1FV6O7Vo6OeDNI1OmGtqXMaO9Jz_L0m9CJIQmJ7f_YXk_5szfZsweaGQn5t2cxAVMg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/fe/3d/fe3d6c8b4cfb611ccc22ede139a862341c72c638.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPfD6AK0Orz3LdjohBOpTmsHedBxjZIv2yfuhdO=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPfD6AK0Orz3LdjohBOpTmsHedBxjZIv2yfuhdO=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM53HJN3-HsczUvkqALdH0PVEG4nDXzeDxzgSx3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM53HJN3-HsczUvkqALdH0PVEG4nDXzeDxzgSx3=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMiibrYsicjNPfH_VUUdPveZK99SFVU-TxTkiUW=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMiibrYsicjNPfH_VUUdPveZK99SFVU-TxTkiUW=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO5UoQqwwjIc5QPDa39gQodkjWlP84aven9zEBI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO5UoQqwwjIc5QPDa39gQodkjWlP84aven9zEBI=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM5QLpGGzWN5oOZkebBQMYb0ZiHoCeB-A56eHAu=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM5QLpGGzWN5oOZkebBQMYb0ZiHoCeB-A56eHAu=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 31,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 25
+        },
+        {
+          "stars": 4,
+          "count": 2
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 1
+        },
+        {
+          "stars": 1,
+          "count": 3
+        }
+      ],
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 6,
+          "positive": 5,
+          "negative": 1,
+          "neutral": 0
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 5,
+          "positive": 4,
+          "negative": 1,
+          "neutral": 0
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 8,
+          "positive": 5,
+          "negative": 2,
+          "neutral": 1
+        }
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Golden Galaxy",
+      "description": "No-frills budget hotel offering simply furnished rooms featuring flat-screens & en suite wet rooms.",
+      "property_token": "ChkI24m4svyQ1MhaGg0vZy8xMWM2X3hjOXNnEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkI24m4svyQ1MhaGg0vZy8xMWM2X3hjOXNnEAE&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0801183,
+        "longitude": 72.8481106
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹1,527",
+        "extracted_lowest": 1527,
+        "before_taxes_fees": "₹1,454",
+        "extracted_before_taxes_fees": 1454
+      },
+      "total_rate": {
+        "lowest": "₹1,527",
+        "extracted_lowest": 1527,
+        "before_taxes_fees": "₹1,454",
+        "extracted_before_taxes_fees": 1454
+      },
+      "nearby_places": [
+        {
+          "name": "Vakola Police Station",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "6 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "17 min"
+            }
+          ]
+        },
+        {
+          "name": "Kokan Sagar Resturant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOVXEFOrf96asivNicVWmF_WfNX9JpXeIPpIaR-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOVXEFOrf96asivNicVWmF_WfNX9JpXeIPpIaR-=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOAEecbnNwIRBtBbiEU0xL6RhXWBGHHW8dObF4T=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOAEecbnNwIRBtBbiEU0xL6RhXWBGHHW8dObF4T=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP7GBuAJ-ytbxszasmuuIvGQ7M-cNEGHD97ENiM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP7GBuAJ-ytbxszasmuuIvGQ7M-cNEGHD97ENiM=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNWWFjQlx_jkQbGI5WHwQ03w-P5qH-9bEPbI-Jm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNWWFjQlx_jkQbGI5WHwQ03w-P5qH-9bEPbI-Jm=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMA4yQYS74qDxFqM0B_IFsXvdeiZQCd4dbMDxFs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMA4yQYS74qDxFqM0B_IFsXvdeiZQCd4dbMDxFs=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNjZcswrMLhhoy2blbOhya37MFowIEKNkkwrdPN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNjZcswrMLhhoy2blbOhya37MFowIEKNkkwrdPN=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMZSttLGJVCVSOqdVzZBZwpiF9SuJI1hwYgZDV3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMZSttLGJVCVSOqdVzZBZwpiF9SuJI1hwYgZDV3=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPlYj0AN7_iKicyzsUfrtt26Rtp1sjGMfurTYX6=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPlYj0AN7_iKicyzsUfrtt26Rtp1sjGMfurTYX6=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPK9SM8Vqwyhs_R1o1-W2SbomP4_pSqRqkimp5P=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPK9SM8Vqwyhs_R1o1-W2SbomP4_pSqRqkimp5P=s10000"
+        }
+      ],
+      "overall_rating": 3.5,
+      "reviews": 494,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 170
+        },
+        {
+          "stars": 4,
+          "count": 96
+        },
+        {
+          "stars": 3,
+          "count": 102
+        },
+        {
+          "stars": 2,
+          "count": 41
+        },
+        {
+          "stars": 1,
+          "count": 85
+        }
+      ],
+      "location_rating": 3.3,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 74,
+          "positive": 37,
+          "negative": 35,
+          "neutral": 2
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 37,
+          "positive": 15,
+          "negative": 20,
+          "neutral": 2
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 88,
+          "positive": 40,
+          "negative": 32,
+          "neutral": 16
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 15,
+          "positive": 0,
+          "negative": 15,
+          "neutral": 0
+        },
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 15,
+          "positive": 4,
+          "negative": 11,
+          "neutral": 0
+        },
+        {
+          "name": "Transport",
+          "description": "Public transit",
+          "total_mentioned": 12,
+          "positive": 6,
+          "negative": 3,
+          "neutral": 3
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Air conditioning",
+        "Fitness center",
+        "Room service",
+        "Kitchen in some rooms",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "HOTEL AARYA INTERNATIONAL",
+      "link": "https://theaarya.in/",
+      "property_token": "ChkI3uzN-N28tq18Gg0vZy8xMXZid3BiMWtsEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkI3uzN-N28tq18Gg0vZy8xMXZid3BiMWtsEAE&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.076252999999998,
+        "longitude": 72.8422071
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹3,358",
+        "extracted_lowest": 3358,
+        "before_taxes_fees": "₹3,358",
+        "extracted_before_taxes_fees": 3358
+      },
+      "total_rate": {
+        "lowest": "₹3,358",
+        "extracted_lowest": 3358,
+        "before_taxes_fees": "₹3,358",
+        "extracted_before_taxes_fees": 3358
+      },
+      "nearby_places": [
+        {
+          "name": "Ghatkopar East",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "14 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            }
+          ]
+        },
+        {
+          "name": "Food King",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/t9hqSNN6DnbT_wgDJFaLVrOxtahAieIE5Hivl7xmvWSAHq45vyKV3NmhbHH-WYwqXAZwU3sGgAEvUvU1nRXjNjs1jn3FjPfoPYlgNxCFEEwcw4vNJbiTrKg0JR6t5DyqyJR9wcDQr3SrGj84OvyvS-mcIutF-g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/69/92/60/hotel-aarya-international.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPnpkfVtXFWrFUpDHJ_rFh0FnwbMz0SZ3gpC2-N=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPnpkfVtXFWrFUpDHJ_rFh0FnwbMz0SZ3gpC2-N=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNJ9ETtCJeknG8r7MJU8NDCURj7K84MheU9baGH=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNJ9ETtCJeknG8r7MJU8NDCURj7K84MheU9baGH=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOi4J6LPGtVAu0SzPLs6p616vQlPiSt1RGRs2Mm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOi4J6LPGtVAu0SzPLs6p616vQlPiSt1RGRs2Mm=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNCeKXezqP75DgLPhTrfmAAtbzf_v970xd8ebsr=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNCeKXezqP75DgLPhTrfmAAtbzf_v970xd8ebsr=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/KB0olr1lktiFfLPpALurJ6wG2fB6z1c1m0Rid4XrR5_dN4B1mlVBKME4Nw_waK-nTD4eqfLLefpPwR3NDiEG5Y_YefjyH6GWgqDmT0NZznewPEKupZ_XHErZiwSuo0kzYqQvy-1AemZ6K8WwpR57zjDxwA08KA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/fd/46/fd46d2c7cd36cc72d048b9b756c66bcb030d8160.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOY4vVN02cwP5mVKx5Ap1dDjntjMpdaofJP1UpF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOY4vVN02cwP5mVKx5Ap1dDjntjMpdaofJP1UpF=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOvi_sSqF6Ra-aRfRZ2TpeP59QgsG9cHuc3iKvg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOvi_sSqF6Ra-aRfRZ2TpeP59QgsG9cHuc3iKvg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPjtyY_Nq4AITDXUfzqMwy09Ara4JarTlJpxiwn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPjtyY_Nq4AITDXUfzqMwy09Ara4JarTlJpxiwn=s10000"
+        }
+      ],
+      "overall_rating": 4.2,
+      "reviews": 71,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 40
+        },
+        {
+          "stars": 4,
+          "count": 17
+        },
+        {
+          "stars": 3,
+          "count": 7
+        },
+        {
+          "stars": 2,
+          "count": 2
+        },
+        {
+          "stars": 1,
+          "count": 5
+        }
+      ],
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 5,
+          "positive": 3,
+          "negative": 0,
+          "neutral": 2
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 12,
+          "positive": 10,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 16,
+          "positive": 12,
+          "negative": 4,
+          "neutral": 0
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 5,
+          "positive": 3,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 7,
+          "positive": 6,
+          "negative": 0,
+          "neutral": 1
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 6,
+          "positive": 3,
+          "negative": 3,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Airport shuttle",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Royal Park",
+      "property_token": "ChoItK-R4JnFkPqBARoNL2cvMTFramczMmZqahAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoItK-R4JnFkPqBARoNL2cvMTFramczMmZqahAB&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.080042499999998,
+        "longitude": 72.8488811
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,599",
+        "extracted_lowest": 2599,
+        "before_taxes_fees": "₹2,469",
+        "extracted_before_taxes_fees": 2469
+      },
+      "total_rate": {
+        "lowest": "₹2,599",
+        "extracted_lowest": 2599,
+        "before_taxes_fees": "₹2,469",
+        "extracted_before_taxes_fees": 2469
+      },
+      "nearby_places": [
+        {
+          "name": "Vakola Police Station",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "5 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "18 min"
+            }
+          ]
+        },
+        {
+          "name": "Kokan Sagar Resturant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM4Yna99zJyieODNybtDs4L43zhdN5ueSw_hJpD=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM4Yna99zJyieODNybtDs4L43zhdN5ueSw_hJpD=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOF1fUw_CoxoEAMpdkHV7ukLfXY8Ve9o1Su0hMn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOF1fUw_CoxoEAMpdkHV7ukLfXY8Ve9o1Su0hMn=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOk5pXWciuIx940d54qLzmKNuxZ9sthR5m0bjyv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOk5pXWciuIx940d54qLzmKNuxZ9sthR5m0bjyv=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP35TqZ3i90MwX5BVeAnhca7Fmq57EQxmux7YMp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP35TqZ3i90MwX5BVeAnhca7Fmq57EQxmux7YMp=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP5TF0VZVymtN-fEOlE2l4G8gb0rVfzfpAuCxSd=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP5TF0VZVymtN-fEOlE2l4G8gb0rVfzfpAuCxSd=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMdhv4VgJoAgWuzv038mU2exHSUz4Sxb8uemgYc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMdhv4VgJoAgWuzv038mU2exHSUz4Sxb8uemgYc=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNPTtej0mMwfZ2j2B1Q_9hUHXYYayBZk-N9di63=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNPTtej0mMwfZ2j2B1Q_9hUHXYYayBZk-N9di63=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMLJOsT1FjnsfIPso7z4mk6sYeG5WrZiyxzu5Ga=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMLJOsT1FjnsfIPso7z4mk6sYeG5WrZiyxzu5Ga=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipONVkYT8Iv_RUv1-qSefATMwuyIVyS7iTqj0bIp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipONVkYT8Iv_RUv1-qSefATMwuyIVyS7iTqj0bIp=s10000"
+        }
+      ],
+      "overall_rating": 3.4,
+      "reviews": 12,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 6
+        },
+        {
+          "stars": 4,
+          "count": 1
+        },
+        {
+          "stars": 3,
+          "count": 1
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 4
+        }
+      ],
+      "location_rating": 3.9
+    },
+    {
+      "type": "hotel",
+      "name": "Ramee Guestline Hotel Khar",
+      "description": "Warm quarters in casual lodging offering free breakfast, plus a trendy bar, a restaurant & a disco.",
+      "link": "https://www.rameehotels.com/ramee-guestline-hotel-khar/",
+      "property_token": "ChkI39Do1pinmfJeGg0vZy8xMWI2M2NfdjMwEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-09-29T09%3A00%3A00&check_out_date=2025-09-29T11%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkI39Do1pinmfJeGg0vZy8xMWI2M2NfdjMwEAE&q=hotels+near+%2A+Hyatt%2C+Mumbai+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0680177,
+        "longitude": 72.83752919999999
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹3,423",
+        "extracted_lowest": 3423,
+        "before_taxes_fees": "₹3,217",
+        "extracted_before_taxes_fees": 3217
+      },
+      "total_rate": {
+        "lowest": "₹3,423",
+        "extracted_lowest": 3423,
+        "before_taxes_fees": "₹3,217",
+        "extracted_before_taxes_fees": 3217
+      },
+      "nearby_places": [
+        {
+          "name": "Old Khar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "23 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "26 min"
+            }
+          ]
+        },
+        {
+          "name": "Khar Social",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMPcGpzwuv2bPI94rTa-Fs6BBQ2YdM3xkqLtCgj=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMPcGpzwuv2bPI94rTa-Fs6BBQ2YdM3xkqLtCgj=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/zD4mkFnQmBAphMR6xnjJG1dNNs0o_l_eUjwBmUV6RJLzgSWfo6aAsFZXAuQmqb60GMF5vyrlErAE2dkZMVs9D23at3u40unHB-srMq9ThJKOieb26suwXXQAOV0yJRgNa23ZH8cS1KTAftijPk_WCtMIHAiLWQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/2000000/1490000/1486600/1486546/65b8f4bb_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNspmlU5vlD_UAB4FaVrXpuohNI_xFCHCP9ocfY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNspmlU5vlD_UAB4FaVrXpuohNI_xFCHCP9ocfY=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNZyuPyHjZcNuQ3nroDY3tphC-bsYBiC8hdhSHb=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNZyuPyHjZcNuQ3nroDY3tphC-bsYBiC8hdhSHb=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/2KIlDEYIjOC6uTIUdtoNnF3L1MiPGpnwpeD4wKFLKHym7sMufGh4tvN27bqWBCajnW3y8aL65x619GqPvOPf37Bxn1GPApVNks_dxXnEc9w05mMfGOjGKhdRTl97OqiAS4P9o7h4IMm36k1hDUKWp-lGbHs5Xqk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/96/ef/96/ramee-guestline-hotel.jpg?w=1700&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/_xNuK0hVVhUbJHKwygKOqgEmDMDcwiw5g4biVM-9gC2Y2UTNDYNk3pLjnjUoK42cvf5rk7rt0n-Y63RzzFGbFCyDwlDcdD2qFJbt-XULqLpNTuZSybZTrApD3Jh5Zy3bUNmyURnMGRtcAJiN4Zi6dQ-Y6f9RhQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/2000000/1490000/1486600/1486546/w1096h589x0y4-978e1dbe_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/XNsdDBwhEW5kJ5s_TCWe2IKZsY39BIZRCe9xfn2hPGPx8AEZkpCdLcKLKgsI9yrGoHjLB1OpXu1rG5oZmiygf1HvgqQFDOqL_N5xJB5W0KZV8CX8Je7O3igapGCBYqcaNjW2JBNNkq98-0liTLnyzqbZNdmr1O8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/56/7d/567d393a2f87601c0979dca3c95b5184c36dac95.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM_PgOJiBQtsdtn9gjr6TY-1EZ_cpw9WfDysBaj=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM_PgOJiBQtsdtn9gjr6TY-1EZ_cpw9WfDysBaj=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNhH6oUnz3-s2UqLtrWA4jcZYOiQ3pMSlhrqN-j=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNhH6oUnz3-s2UqLtrWA4jcZYOiQ3pMSlhrqN-j=s10000"
+        }
+      ],
+      "overall_rating": 4.3,
+      "reviews": 1849,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1197
+        },
+        {
+          "stars": 4,
+          "count": 310
+        },
+        {
+          "stars": 3,
+          "count": 189
+        },
+        {
+          "stars": 2,
+          "count": 76
+        },
+        {
+          "stars": 1,
+          "count": 77
+        }
+      ],
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 544,
+          "positive": 498,
+          "negative": 37,
+          "neutral": 9
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 84,
+          "positive": 62,
+          "negative": 17,
+          "neutral": 5
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 104,
+          "positive": 88,
+          "negative": 12,
+          "neutral": 4
+        },
+        {
+          "name": "Nightlife",
+          "description": "Nightlife",
+          "total_mentioned": 25,
+          "positive": 5,
+          "negative": 14,
+          "neutral": 6
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 301,
+          "positive": 205,
+          "negative": 72,
+          "neutral": 24
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 118,
+          "positive": 96,
+          "negative": 7,
+          "neutral": 15
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Kid-friendly"
+      ]
+    }
+  ],
+  "serpapi_context": {
+    "search_metadata": {
+      "id": "68d97f703d34dd85eb680a21",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/876df9da96991602/68d97f703d34dd85eb680a21.json",
+      "created_at": "2025-09-28T18:33:20.474Z",
+      "processed_at": "2025-09-28T18:33:20.476Z",
+      "google_hotels_url": "https://www.google.com/_/TravelFrontendUi/data/batchexecute?rpcids=AtySUc&source-path=/travel/search&hl=en&gl=in&rt=c&soc-app=162&soc-platform=1&soc-device=1",
+      "raw_html_file": "https://serpapi.com/searches/876df9da96991602/68d97f703d34dd85eb680a21.html",
+      "prettify_html_file": "https://serpapi.com/searches/876df9da96991602/68d97f703d34dd85eb680a21.prettify",
+      "total_time_taken": {
+        "float": 1.4398622512817383
+      }
+    },
+    "search_parameters": {
+      "engine": "google_hotels",
+      "q": "hotels near * Hyatt, Mumbai Mumbai",
+      "gl": "in",
+      "hl": "en",
+      "currency": "INR",
+      "check_in_date": "2025-09-29T09:00:00",
+      "check_out_date": "2025-09-29T11:00:00",
+      "adults": 1,
+      "children": 0
+    },
+    "search_information": {
+      "total_results": 127
+    }
+  }
+}

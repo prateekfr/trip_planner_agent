@@ -1,0 +1,670 @@
+{
+  "search_metadata": {
+    "search_id": "IDR_BOM_2025-09-29_20250928_183253",
+    "route": "IDR->BOM",
+    "outbound_date": "2025-09-29",
+    "return_date": null,
+    "adults": 1,
+    "children": 0,
+    "infants_in_seat": 0,
+    "infants_on_lap": 0,
+    "class": 1,
+    "currency": "INR",
+    "gl": "in",
+    "hl": "en",
+    "timestamp_utc": "2025-09-28T18:32:53.607643"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-09-29 06:35"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2025-09-29 07:55"
+          },
+          "duration": 80,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6184",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 55 kg"
+          ]
+        }
+      ],
+      "total_duration": 80,
+      "carbon_emissions": {
+        "this_flight": 56000,
+        "typical_for_this_route": 52000,
+        "difference_percent": 8
+      },
+      "price": 4080,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTUVaek9EZ3pXRU5UWkZWQlNucDZRbWRDUnkwdExTMHRMUzB0TFhsc2FtY3hNRUZCUVVGQlIycGFaakZaUldwM1lrdEJFZ1kyUlRZeE9EUWFDZ2p3SHhBQUdnTkpUbEk0SEhENUl3PT0iLFtbIklEUiIsIjIwMjUtMDktMjkiLCJCT00iLG51bGwsIjZFIiwiNjE4NCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-09-29 16:15"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2025-09-29 17:50"
+          },
+          "duration": 95,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 2389",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 51 kg"
+          ]
+        }
+      ],
+      "total_duration": 95,
+      "carbon_emissions": {
+        "this_flight": 51000,
+        "typical_for_this_route": 52000,
+        "difference_percent": -2
+      },
+      "price": 4080,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTUVaek9EZ3pXRU5UWkZWQlNucDZRbWRDUnkwdExTMHRMUzB0TFhsc2FtY3hNRUZCUVVGQlIycGFaakZaUldwM1lrdEJFZ1kyUlRJek9Ea2FDZ2p3SHhBQUdnTkpUbEk0SEhENUl3PT0iLFtbIklEUiIsIjIwMjUtMDktMjkiLCJCT00iLG51bGwsIjZFIiwiMjM4OSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-09-29 16:40"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2025-09-29 18:15"
+          },
+          "duration": 95,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2592",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 57 kg"
+          ]
+        }
+      ],
+      "total_duration": 95,
+      "carbon_emissions": {
+        "this_flight": 58000,
+        "typical_for_this_route": 52000,
+        "difference_percent": 12
+      },
+      "price": 4101,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJTUVaek9EZ3pXRU5UWkZWQlNucDZRbWRDUnkwdExTMHRMUzB0TFhsc2FtY3hNRUZCUVVGQlIycGFaakZaUldwM1lrdEJFZ1pCU1RJMU9USWFDZ2lGSUJBQUdnTkpUbEk0SEhDUkpBPT0iLFtbIklEUiIsIjIwMjUtMDktMjkiLCJCT00iLG51bGwsIkFJIiwiMjU5MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-09-29 08:30"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2025-09-29 09:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5232",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 51 kg"
+          ]
+        }
+      ],
+      "total_duration": 75,
+      "carbon_emissions": {
+        "this_flight": 51000,
+        "typical_for_this_route": 52000,
+        "difference_percent": -2
+      },
+      "price": 4242,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTUVaek9EZ3pXRU5UWkZWQlNucDZRbWRDUnkwdExTMHRMUzB0TFhsc2FtY3hNRUZCUVVGQlIycGFaakZaUldwM1lrdEJFZ1kyUlRVeU16SWFDZ2lTSVJBQUdnTkpUbEk0SEhDd0pRPT0iLFtbIklEUiIsIjIwMjUtMDktMjkiLCJCT00iLG51bGwsIjZFIiwiNTIzMiJdXV0="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-09-29 22:00"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2025-09-29 23:35"
+          },
+          "duration": 95,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5378",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 51 kg"
+          ]
+        }
+      ],
+      "total_duration": 95,
+      "carbon_emissions": {
+        "this_flight": 51000,
+        "typical_for_this_route": 52000,
+        "difference_percent": -2
+      },
+      "price": 3927,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTUVaek9EZ3pXRU5UWkZWQlNucDZRbWRDUnkwdExTMHRMUzB0TFhsc2FtY3hNRUZCUVVGQlIycGFaakZaUldwM1lrdEJFZ1kyUlRVek56Z2FDZ2pYSGhBQUdnTkpUbEk0SEhETklnPT0iLFtbIklEUiIsIjIwMjUtMDktMjkiLCJCT00iLG51bGwsIjZFIiwiNTM3OCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-09-29 20:40"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2025-09-29 22:10"
+          },
+          "duration": 90,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 552",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 55 kg"
+          ]
+        }
+      ],
+      "total_duration": 90,
+      "carbon_emissions": {
+        "this_flight": 56000,
+        "typical_for_this_route": 52000,
+        "difference_percent": 8
+      },
+      "price": 4242,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTUVaek9EZ3pXRU5UWkZWQlNucDZRbWRDUnkwdExTMHRMUzB0TFhsc2FtY3hNRUZCUVVGQlIycGFaakZaUldwM1lrdEJFZ1UyUlRVMU1ob0tDSkloRUFBYUEwbE9VamdjY0xBbCIsW1siSURSIiwiMjAyNS0wOS0yOSIsIkJPTSIsbnVsbCwiNkUiLCI1NTIiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-09-29 22:10"
+          },
+          "arrival_airport": {
+            "name": "Sardar Vallabhbhai Patel International Airport",
+            "id": "AMD",
+            "time": "2025-09-29 23:15"
+          },
+          "duration": 65,
+          "airplane": "ATR 72",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 7168",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 38 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Sardar Vallabhbhai Patel International Airport",
+            "id": "AMD",
+            "time": "2025-09-30 04:30"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2025-09-30 06:10"
+          },
+          "duration": 100,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6285",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 53 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 315,
+          "name": "Sardar Vallabhbhai Patel International Airport",
+          "id": "AMD",
+          "overnight": true
+        }
+      ],
+      "total_duration": 480,
+      "carbon_emissions": {
+        "this_flight": 92000,
+        "typical_for_this_route": 52000,
+        "difference_percent": 77
+      },
+      "price": 6078,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTUVaek9EZ3pXRU5UWkZWQlNucDZRbWRDUnkwdExTMHRMUzB0TFhsc2FtY3hNRUZCUVVGQlIycGFaakZaUldwM1lrdEJFZzAyUlRjeE5qaDhOa1UyTWpnMUdnb0l2aThRQUJvRFNVNVNPQnh3eHpVPSIsW1siSURSIiwiMjAyNS0wOS0yOSIsIkFNRCIsbnVsbCwiNkUiLCI3MTY4Il0sWyJBTUQiLCIyMDI1LTA5LTMwIiwiQk9NIixudWxsLCI2RSIsIjYyODUiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-09-29 22:10"
+          },
+          "arrival_airport": {
+            "name": "Sardar Vallabhbhai Patel International Airport",
+            "id": "AMD",
+            "time": "2025-09-29 23:15"
+          },
+          "duration": 65,
+          "airplane": "ATR 72",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 7168",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 38 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Sardar Vallabhbhai Patel International Airport",
+            "id": "AMD",
+            "time": "2025-09-30 00:50"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2025-09-30 02:20"
+          },
+          "duration": 90,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 803",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 53 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 95,
+          "name": "Sardar Vallabhbhai Patel International Airport",
+          "id": "AMD"
+        }
+      ],
+      "total_duration": 250,
+      "carbon_emissions": {
+        "this_flight": 92000,
+        "typical_for_this_route": 52000,
+        "difference_percent": 77
+      },
+      "price": 6866,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTUVaek9EZ3pXRU5UWkZWQlNucDZRbWRDUnkwdExTMHRMUzB0TFhsc2FtY3hNRUZCUVVGQlIycGFaakZaUldwM1lrdEJFZ3cyUlRjeE5qaDhOa1U0TURNYUNnalNOUkFBR2dOSlRsSTRISEMvUEE9PSIsW1siSURSIiwiMjAyNS0wOS0yOSIsIkFNRCIsbnVsbCwiNkUiLCI3MTY4Il0sWyJBTUQiLCIyMDI1LTA5LTMwIiwiQk9NIixudWxsLCI2RSIsIjgwMyJdXV0="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 3927,
+    "price_level": "typical",
+    "typical_price_range": [
+      3750,
+      4600
+    ],
+    "price_history": [
+      [
+        1753813800,
+        4746
+      ],
+      [
+        1753900200,
+        4746
+      ],
+      [
+        1753986600,
+        4746
+      ],
+      [
+        1754073000,
+        5481
+      ],
+      [
+        1754159400,
+        5481
+      ],
+      [
+        1754245800,
+        5481
+      ],
+      [
+        1754332200,
+        4814
+      ],
+      [
+        1754418600,
+        4814
+      ],
+      [
+        1754505000,
+        4814
+      ],
+      [
+        1754591400,
+        5481
+      ],
+      [
+        1754677800,
+        5481
+      ],
+      [
+        1754764200,
+        3671
+      ],
+      [
+        1754850600,
+        3564
+      ],
+      [
+        1754937000,
+        3564
+      ],
+      [
+        1755023400,
+        3564
+      ],
+      [
+        1755109800,
+        3564
+      ],
+      [
+        1755196200,
+        3671
+      ],
+      [
+        1755282600,
+        3671
+      ],
+      [
+        1755369000,
+        3671
+      ],
+      [
+        1755455400,
+        3671
+      ],
+      [
+        1755541800,
+        4558
+      ],
+      [
+        1755628200,
+        4558
+      ],
+      [
+        1755714600,
+        4558
+      ],
+      [
+        1755801000,
+        4558
+      ],
+      [
+        1755887400,
+        4558
+      ],
+      [
+        1755973800,
+        4558
+      ],
+      [
+        1756060200,
+        4558
+      ],
+      [
+        1756146600,
+        4558
+      ],
+      [
+        1756233000,
+        4558
+      ],
+      [
+        1756319400,
+        4558
+      ],
+      [
+        1756405800,
+        4558
+      ],
+      [
+        1756492200,
+        4558
+      ],
+      [
+        1756578600,
+        4558
+      ],
+      [
+        1756665000,
+        4558
+      ],
+      [
+        1756751400,
+        4558
+      ],
+      [
+        1756837800,
+        4558
+      ],
+      [
+        1756924200,
+        4143
+      ],
+      [
+        1757010600,
+        4143
+      ],
+      [
+        1757097000,
+        4143
+      ],
+      [
+        1757183400,
+        4143
+      ],
+      [
+        1757269800,
+        4143
+      ],
+      [
+        1757356200,
+        4143
+      ],
+      [
+        1757442600,
+        4143
+      ],
+      [
+        1757529000,
+        4143
+      ],
+      [
+        1757615400,
+        4143
+      ],
+      [
+        1757701800,
+        4143
+      ],
+      [
+        1757788200,
+        4143
+      ],
+      [
+        1757874600,
+        4143
+      ],
+      [
+        1757961000,
+        4143
+      ],
+      [
+        1758047400,
+        4143
+      ],
+      [
+        1758133800,
+        4143
+      ],
+      [
+        1758220200,
+        4143
+      ],
+      [
+        1758306600,
+        4143
+      ],
+      [
+        1758393000,
+        4143
+      ],
+      [
+        1758479400,
+        4143
+      ],
+      [
+        1758565800,
+        4101
+      ],
+      [
+        1758652200,
+        4101
+      ],
+      [
+        1758738600,
+        3927
+      ],
+      [
+        1758825000,
+        3927
+      ],
+      [
+        1758911400,
+        3927
+      ],
+      [
+        1758997800,
+        3927
+      ],
+      [
+        1759084200,
+        3927
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "IDR",
+            "name": "Devi Ahilyabai Holkar International Airport, Indore"
+          },
+          "city": "Indore",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7-ZgN2kaBwax506bxU8Z9kQoCEN7z731rPBQVtcHXo0zdL3sHBNxmIpQsBqnv6bInZjNmqX0JgmyABg",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTFNIoHCCJrb7y-bwBoPRD1QiNo0c_VvKZq_Xta1MjnkKTKjltm7BF352MZDu3UlntRyQtuX8b0WAfkbD9FwcZLiXKwMM5mZskS0BcC9RA"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "BOM",
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai"
+          },
+          "city": "Mumbai",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJ5Q0R5IIxjWsuWKt6lnlBIOlNfNwTqC8yBtOP_uMdzFrluYmn3jZ-6dyEWo6AbIH3x57scrUgF3gvWA",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMqVWevN4qkQ8u4HrxtHbv2Oy7UigPckL8bgZUJQWQgjvmJxG7oggYxd2Rw5MwjiBYzZFpr939opSbON9CxkwdD-7DK9it3TPq1ea8pxU"
+        }
+      ]
+    }
+  ]
+}

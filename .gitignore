@@ -1,0 +1,5 @@
+venv/
+client_secret_web.json
+cmd.txt
+__pycache__
+.env

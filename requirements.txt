@@ -1,0 +1,14 @@
+streamlit>=1.37
+python-dotenv>=1.0.1
+pydantic>=2.7
+requests>=2.32
+python-dateutil>=2.9.0.post0
+fastapi>=0.115
+uvicorn[standard]>=0.30
+google-api-python-client>=2.137.0
+google-auth>=2.33.0
+google-auth-oauthlib>=1.2.1
+langgraph 
+langchain-openai 
+pydantic 
+mcp

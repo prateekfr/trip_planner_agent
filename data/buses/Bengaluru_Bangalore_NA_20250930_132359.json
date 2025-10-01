@@ -1,0 +1,144 @@
+{
+  "search_metadata": {
+    "search_id": "Bengaluru_Bangalore_NA_20250930_132359",
+    "src": "Bengaluru",
+    "dst": "Bangalore",
+    "travel_date": null,
+    "earliest_departure": null,
+    "latest_arrival": null,
+    "timestamp_utc": "2025-09-30T13:23:59.940161",
+    "query_primary": "Bengaluru to Bangalore bus tickets price duration site:redbus.in OR site:abhibus.com OR site:intrcity.com OR site:zingbus.com OR site:paytm.com/bus-tickets OR site:makemytrip.com/bus-tickets OR site:yatra.com/bus",
+    "distance_km": 0.0
+  },
+  "options": [
+    {
+      "mode": "bus",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T01:23:57.433705",
+      "arrive": "2025-10-01T07:23:57.433705",
+      "duration_hours": 6.0,
+      "price_inr": 290,
+      "ref": "B01",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/buses/bangalore-bus-tickets"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T03:23:57.433705",
+      "arrive": "2025-10-01T13:23:57.433705",
+      "duration_hours": 10.0,
+      "price_inr": 80,
+      "ref": "B02",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.makemytrip.com/bus-tickets/bangalore-city-online-booking.html"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T05:23:57.433705",
+      "arrive": "2025-10-01T19:23:57.433705",
+      "duration_hours": 14.0,
+      "price_inr": 900,
+      "ref": "B03",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/bus-tickets/vitta-to-bangalore"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T07:23:57.433705",
+      "arrive": "2025-10-01T21:23:57.433705",
+      "duration_hours": 14.0,
+      "price_inr": null,
+      "ref": "B04",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/bus-tickets/pune-to-bangalore"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T09:23:57.433705",
+      "arrive": "2025-10-01T15:23:57.433705",
+      "duration_hours": 6.0,
+      "price_inr": null,
+      "ref": "B06",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/bus-tickets/chennai-to-bangalore"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T11:23:57.433705",
+      "arrive": "2025-10-02T07:58:45.433705",
+      "duration_hours": 20.58,
+      "price_inr": 750,
+      "ref": "B07",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/bus-tickets/nagara-karnataka-to-bangalore"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T13:23:57.433705",
+      "arrive": "2025-10-01T21:23:57.433705",
+      "duration_hours": 8.0,
+      "price_inr": 6000,
+      "ref": "B08",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/bus-tickets/hyderabad-to-bangalore"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T15:23:57.433705",
+      "arrive": "2025-10-01T23:23:57.433705",
+      "duration_hours": 8.0,
+      "price_inr": 500,
+      "ref": "B09",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.abhibus.com/"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T17:23:57.433705",
+      "arrive": "2025-10-02T01:23:57.433705",
+      "duration_hours": 8.0,
+      "price_inr": 3000,
+      "ref": "B10",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/travels/srs-travels-srs"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "cheapest": {
+    "mode": "train",
+    "src": "Indore",
+    "dst": "Mumbai",
+    "depart": "2025-09-28T21:00:00",
+    "arrive": "2025-09-29T04:18:00",
+    "duration_hours": 7.3,
+    "price_inr": 290,
+    "ref": "T02",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.confirmtkt.com/trains/indore-to-mumbai-train-tickets"
+    },
+    "booking_link": "https://www.confirmtkt.com/trains/indore-to-mumbai-train-tickets?utm_source=tripplanner&utm_medium=chatbot&utm_campaign=trip_planning",
+    "booking_platform": "ConfirmTkt"
+  },
+  "fastest": {
+    "mode": "bus",
+    "src": "Indore",
+    "dst": "Mumbai",
+    "depart": "2025-09-28T21:00:00",
+    "arrive": "2025-09-29T02:30:00",
+    "duration_hours": 5.5,
+    "price_inr": 1000,
+    "ref": "B24",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.yatra.com/bus-tickets/indore-to-mumbai-buses-non-ac-sleeper",
+      "quality_score": 0.6
+    },
+    "data_source": "enhanced_extraction",
+    "confidence": "high",
+    "booking_link": "https://www.yatra.com/bus-tickets/indore-to-mumbai-buses-non-ac-sleeper?utm_source=tripplanner&utm_medium=chatbot&utm_campaign=trip_planning",
+    "booking_platform": "Yatra"
+  },
+  "value": {
+    "mode": "train",
+    "src": "Indore",
+    "dst": "Mumbai",
+    "depart": "2025-09-28T21:00:00",
+    "arrive": "2025-09-29T04:18:00",
+    "duration_hours": 7.3,
+    "price_inr": 290,
+    "ref": "T02",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.confirmtkt.com/trains/indore-to-mumbai-train-tickets"
+    },
+    "booking_link": "https://www.confirmtkt.com/trains/indore-to-mumbai-train-tickets?utm_source=tripplanner&utm_medium=chatbot&utm_campaign=trip_planning",
+    "booking_platform": "ConfirmTkt"
+  },
+  "hotels_top5": [
+    {
+      "name": "Grand Hyatt Mumbai Hotel & Residences",
+      "price_inr": 11172.0,
+      "distance_km": null,
+      "rating": 4.5,
+      "city": "Mumbai",
+      "near": "* Hyatt, Mumbai",
+      "checkin": "2025-09-29T09:00:00",
+      "checkout": "2025-09-29T11:00:00",
+      "ref": "ChcIrIOvg-jjophAGgsvbS8wMTA5N19udBAB",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.hyatt.com/grand-hyatt/en-US/mumgh-grand-hyatt-mumbai/?src=corp_lclb_gmb_seo_mumgh"
+      },
+      "booking_link": "https://www.hyatt.com/grand-hyatt/en-US/mumgh-grand-hyatt-mumbai/?src=corp_lclb_gmb_seo_mumgh&utm_source=tripplanner&utm_medium=chatbot&utm_campaign=trip_planning",
+      "booking_platform": "Book Now"
+    },
+    {
+      "name": "TIM Santacruz Mumbai Airport",
+      "price_inr": 2837.0,
+      "distance_km": null,
+      "rating": null,
+      "city": "Mumbai",
+      "near": "* Hyatt, Mumbai",
+      "checkin": "2025-09-29T09:00:00",
+      "checkout": "2025-09-29T11:00:00",
+      "ref": "ChoQl66voM6QiJmhARoNL2cvMTF3d3QwX3N5bBAC",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": null
+      }
+    },
+    {
+      "name": "Hotel Milan International",
+      "price_inr": 1858.0,
+      "distance_km": null,
+      "rating": 3.8,
+      "city": "Mumbai",
+      "near": "* Hyatt, Mumbai",
+      "checkin": "2025-09-29T09:00:00",
+      "checkout": "2025-09-29T11:00:00",
+      "ref": "ChkImNHux_zZi9R3Gg0vZy8xMXM2cDQzX190EAE",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "http://www.milanintl.com/"
+      },
+      "booking_link": "http://www.milanintl.com/?utm_source=tripplanner&utm_medium=chatbot&utm_campaign=trip_planning",
+      "booking_platform": "Book Now"
+    },
+    {
+      "name": "FabExpress Orange Suites - Hotel in Santacruz East, Mumbai",
+      "price_inr": 1639.0,
+      "distance_km": null,
+      "rating": 3.1,
+      "city": "Mumbai",
+      "near": "* Hyatt, Mumbai",
+      "checkin": "2025-09-29T09:00:00",
+      "checkout": "2025-09-29T11:00:00",
+      "ref": "ChkI6OXP5a6h38NCGg0vZy8xMWgycGxkXzhzEAE",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.fabhotels.com/hotels-in-mumbai/fabexpress-orange-suites.html?utm_source=GMB&utm_medium=organic&utm_campaign=GMB_Traffic"
+      },
+      "booking_link": "https://www.fabhotels.com/hotels-in-mumbai/fabexpress-orange-suites.html?utm_source=GMB&utm_medium=organic&utm_campaign=GMB_Traffic&utm_source=tripplanner&utm_medium=chatbot&utm_campaign=trip_planning",
+      "booking_platform": "Book Now"
+    },
+    {
+      "name": "Home2 Suites and Service Apartment - Near Mumbai Airport & BKC",
+      "price_inr": 3570.0,
+      "distance_km": null,
+      "rating": 4.5,
+      "city": "Mumbai",
+      "near": "* Hyatt, Mumbai",
+      "checkin": "2025-09-29T09:00:00",
+      "checkout": "2025-09-29T11:00:00",
+      "ref": "ChoI8v2KmKb_3JG_ARoNL2cvMTFoNTE5bV84cRAB",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.home2india.com/suites-service-apartments-mumbai-airport/"
+      },
+      "booking_link": "https://www.home2india.com/suites-service-apartments-mumbai-airport/?utm_source=tripplanner&utm_medium=chatbot&utm_campaign=trip_planning",
+      "booking_platform": "Book Now"
+    }
+  ],
+  "debug": [
+    "Flights: 8 options on 2025-09-29.",
+    "Trains: 2 options.",
+    "Buses: 1 options.",
+    "Hotels: 20 options.",
+    "LLM itinerary generated (2822 chars)."
+  ]
+}

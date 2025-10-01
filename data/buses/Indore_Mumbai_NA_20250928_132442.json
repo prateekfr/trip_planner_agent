@@ -1,0 +1,67 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_Mumbai_NA_20250928_132442",
+    "src": "Indore",
+    "dst": "Mumbai",
+    "travel_date": null,
+    "earliest_departure": "2025-09-27T21:00:00",
+    "latest_arrival": "2025-09-28T06:00:00",
+    "timestamp_utc": "2025-09-28T13:24:42.462379",
+    "query_primary": "Indore to Mumbai bus tickets price duration site:redbus.in OR site:abhibus.com OR site:intrcity.com OR site:zingbus.com OR site:paytm.com/bus-tickets OR site:makemytrip.com/bus-tickets OR site:yatra.com/bus",
+    "distance_km": 509.8300522466904
+  },
+  "options": [
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-09-27T21:00:00",
+      "arrive": "2025-09-28T16:00:00",
+      "duration_hours": 19.0,
+      "price_inr": 699,
+      "ref": "B01",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.redbus.in/bus-tickets/indore-to-mumbai"
+      }
+    },
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Mumbai",
+      "depart": "2025-09-27T23:00:00",
+      "arrive": "2025-09-28T12:00:00",
+      "duration_hours": 13.0,
+      "price_inr": 500,
+      "ref": "B03",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.abhibus.com/buses/138/Indore-Mumbai"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10",
+    "drop_by_la: https://www.redbus.in/bus-tickets/indore-to-mumbai",
+    "drop_by_la: https://www.abhibus.com/buses/138/Indore-Mumbai",
+    "drop_by_la: https://www.redbus.in/online-bus/indore-to-mumbai-operator-dolphin-travel-house",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/volvo-ac-buses-from-indore-to-mumbai-online-ticket-booking.html",
+    "drop_by_la: https://www.redbus.in/online-bus/indore-to-mumbai-operator-raj-ratan-tours-and-travels",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/non-ac-seater-sleeper-buses-from-indore-to-mumbai-online-ticket-booking.html",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/ac-sleeper-buses-from-indore-to-mumbai-online-ticket-booking.html",
+    "drop_by_la: https://www.redbus.in/online-bus/indore-to-mumbai-operator-rajmandir-travels-madhya-pradesh-indore",
+    "drop_by_la: https://www.redbus.in/online-bus/indore-to-mumbai-operator-rts-royal-tourist-service-pvt-ltd",
+    "pass2_organic: 10",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/indore-mumbai-bus-ticket-booking.html",
+    "drop_by_la: https://www.abhibus.com/buses/138/Indore-Mumbai",
+    "drop_by_la: https://www.redbus.in/online-bus/indore-to-mumbai-operator-raj-ratan-tours-and-travels",
+    "drop_by_la: https://www.yatra.com/bus-tickets/indore-to-mumbai",
+    "drop_by_la: https://www.redbus.in/bus-tickets/indore-to-mumbai",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/volvo-ac-buses-from-indore-to-mumbai-online-ticket-booking.html",
+    "drop_by_la: https://www.easemytrip.com/bus/indore-to-mumbai-bus-tickets/",
+    "drop_by_la: https://www.goibibo.com/bus/indore-to-mumbai-bus-tickets/",
+    "drop_by_la: https://www.cleartrip.com/bus-tickets/indore-to-mumbai/",
+    "drop_by_la: https://www.flixbus.in/bus-routes/indore-mumbai",
+    "no_options_due_to_latest_arrival; relaxing LA constraint for 2 items"
+  ]
+}

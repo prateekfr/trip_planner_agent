@@ -1,0 +1,444 @@
+{
+  "search_metadata": {
+    "search_id": "Bangalore_Vivanta_by_Taj,_Bangalore_20251028T150000_20251028T170000_20250928_054946",
+    "city": "Bangalore",
+    "near": "Vivanta by Taj, Bangalore",
+    "checkin": "2025-10-28T15:00:00",
+    "checkout": "2025-10-28T17:00:00",
+    "adults": 1,
+    "children": 0,
+    "children_ages": null,
+    "currency": "INR",
+    "gl": "in",
+    "hl": "en",
+    "query": "hotels near Vivanta by Taj, Bangalore Bangalore",
+    "filters": {
+      "sort_by": null,
+      "hotel_class": null,
+      "amenities": null,
+      "property_types": null,
+      "brands": null,
+      "free_cancellation": false,
+      "special_offers": false,
+      "vacation_rentals": false,
+      "bedrooms": null
+    },
+    "timestamp_utc": "2025-09-28T05:49:46.119956"
+  },
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "Vivanta Bengaluru, Residency Road",
+      "description": "Warm, understated rooms & suites, plus multiple dining options, an outdoor pool & a spa.",
+      "link": "https://www.vivantahotels.com/en-in/hotels/vivanta-bengaluru-residency-road?utm_source=google&utm_medium=local&utm_campaign=vivanta-bengaluru-residency-road&utm_content=vivanta-bengaluru-residency-road-gmb",
+      "property_token": "ChgI-ciDsp7OvNNMGgwvZy8xMXhtMGZ4cW0QAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28T15%3A00%3A00&check_out_date=2025-10-28T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChgI-ciDsp7OvNNMGgwvZy8xMXhtMGZ4cW0QAQ&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.9722428,
+        "longitude": 77.6086284
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹16,981",
+        "extracted_lowest": 16981,
+        "before_taxes_fees": "₹14,391",
+        "extracted_before_taxes_fees": 14391
+      },
+      "total_rate": {
+        "lowest": "₹16,981",
+        "extracted_lowest": 16981,
+        "before_taxes_fees": "₹14,391",
+        "extracted_before_taxes_fees": 14391
+      },
+      "nearby_places": [
+        {
+          "name": "Mayo Hall",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "54 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 50 min"
+            }
+          ]
+        },
+        {
+          "name": "Karavalli - Vivanta Bengaluru, Residency Road",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/bvxYtxkBDu4yjjiOUxjQ3lNgZImcOWy0stGrLEE2d1krTw587eIL7D7yAN_yOOWxjAmHMlAfkzVouXNgM6Otx8lRTlBJi1Y6AkXcvAGEsX8GfBhGvU0hy6c-XG1REC57fpimy8i5BzaLTm1BEtO809d1_FC7hIY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/127/533/797/SWIRL_LOUNGE_ANGLE_1_16_MAIN_copy_1__O.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/GiuRPaq4wHcLksQ0eRQjjCguX86LEd4xFPbS3wHwg0EWFJqo8OZ68_cLnqQ3_QDaevs2kPPg9pO3RXWJ7Kq3TNsUiTomMtJPNgoOl8CqWNv5w9mS3LQoMPAw9xWn1alETiDjsdtzkwI_zuuORmeRBHQt28wtdg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/127/532/894/1KARAVALLI_PAVILLION_28_1__O.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/eVOXtRpL1a7eJIgQDUUWnr-4LMmw0t0aS5lV4j0UJ67cs7jP9psTm6_LAYYsdnFAEJbiU8XCxgRbdmYSoiCA9ckPtP148pHdFJkj5yOOPYbxyH9zNzHb7KY3ruI68mQTwlaX3291O5BiRSqTm6CMWR0gXaAwlYg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/127/534/115/WINK_ANGLE_2_76_MAIN_2_copy_1__O.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/neqDtRFUN4UIsWOm-IvX9Un3SDdVnar1xtcrxJeetwgOAUPOF5RFj3sodni449HTijqhRQCL6BbWWRReHBj3iOtvOetyN2MdV-lQA7sFgoRWMIGHj4rda5GgdtI2Ie5YiI8CXDEXgY5Aqo4fZBy-h83GSDpGtw4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/530000/526400/526359/2450e3bd_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNfhUPH268Vwo8j2bhoKO57oOEk__1GtMvPtf37=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNfhUPH268Vwo8j2bhoKO57oOEk__1GtMvPtf37=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM7V5y7i8tVa92W_1DhzmjrCAZceVJ7rbzUt05X=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM7V5y7i8tVa92W_1DhzmjrCAZceVJ7rbzUt05X=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/q_EOFon3OzPBA-nQDRtch8H9vq661olmnRYF9gehdz_Nizhgi4Xzh1uSJahg5oXogC7w_fBJ4mMav7wuKwNN5GtEaoxzQ6hsW_E8ZfPqqC0YZdtwcpebvpdJD4YUqOd2HZoo92QzohVNDZ7ehyStdiHfTRq9pA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/530000/526400/526359/93152ebc_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/64v8Fdp7yA7cooM-jGFB4sNO9sAxxNWOTVae8-gLCtIuEgaS0UUDpErYZUH5d9qWDF4XM9S1pCfet8nfDzMUas8MuR-e_Nz2BG8KlNQoRXFCC6g_B78TirdWhR1uEpDCEZL5fTH3_sP5Oq34YhoubxKN1KdIqw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/530000/526400/526359/d44f6173_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPFOSUeXcunnK37o5VBqLl3uquhyPCl4tGlGLA3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPFOSUeXcunnK37o5VBqLl3uquhyPCl4tGlGLA3=s10000"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 6930,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 4214
+        },
+        {
+          "stars": 4,
+          "count": 1875
+        },
+        {
+          "stars": 3,
+          "count": 550
+        },
+        {
+          "stars": 2,
+          "count": 121
+        },
+        {
+          "stars": 1,
+          "count": 170
+        }
+      ],
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 807,
+          "positive": 696,
+          "negative": 67,
+          "neutral": 44
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 1248,
+          "positive": 1143,
+          "negative": 76,
+          "neutral": 29
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 345,
+          "positive": 306,
+          "negative": 21,
+          "neutral": 18
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 179,
+          "positive": 127,
+          "negative": 16,
+          "neutral": 36
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 376,
+          "positive": 330,
+          "negative": 9,
+          "neutral": 37
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 1010,
+          "positive": 858,
+          "negative": 93,
+          "neutral": 59
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Pool",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "Vivanta Bengaluru, Whitefield",
+      "description": "Modern rooms & suites in an upmarket hotel offering 2 restaurants, a hip bar & a spa.",
+      "link": "https://www.vivantahotels.com/en-in/hotels/vivanta-bengaluru-whitefield?utm_source=google&utm_medium=local&utm_campaign=vivanta-bengaluru-whitefield&utm_content=vivanta-bengaluru-whitefield-gmb",
+      "property_token": "ChgIstb3tOvXvoudARoLL2cvMXRjdGs2cGYQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28T15%3A00%3A00&check_out_date=2025-10-28T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChgIstb3tOvXvoudARoLL2cvMXRjdGs2cGYQAQ&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.9871242,
+        "longitude": 77.7374904
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹19,559",
+        "extracted_lowest": 19559,
+        "before_taxes_fees": "₹16,575",
+        "extracted_before_taxes_fees": 16575
+      },
+      "total_rate": {
+        "lowest": "₹19,559",
+        "extracted_lowest": 19559,
+        "before_taxes_fees": "₹16,575",
+        "extracted_before_taxes_fees": 16575
+      },
+      "nearby_places": [
+        {
+          "name": "White Field",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 7 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 41 min"
+            }
+          ]
+        },
+        {
+          "name": "Mithai Mahal Veg Restaurant & Sweets ITPL, Whitefield",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/pxu5XkcLVYasIcdWKLaRcHRsUkC_tK_UnwaOhBuTHBH3Iex9X28eLh_rRAI7mnNJZrV6kv-tpdxLuWPsBoaH44KsVJTBbGZ-ZiQGfrknxJu6mvC-l8rRW-mwZCYtF_vvLjmVLptLwBn9c4cS4c_gjUzLbMNJSII=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/3000000/2370000/2367000/2366913/7ff9a9ba_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPXIBrGTRurhoSZOseb2Zi4rSMfwmlxBsywAyyk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPXIBrGTRurhoSZOseb2Zi4rSMfwmlxBsywAyyk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNqJOJ_Kd2761n4_DDXbz4bn0Nzxg66mrVVDfSx=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNqJOJ_Kd2761n4_DDXbz4bn0Nzxg66mrVVDfSx=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqIC1suOMtHOfB65zdOy4rJl-xaZX9_1YFuS7Fr6rPhKraEOSE6qAOQYFGJNIfXeKri4yW4UP2UjwPihhflm34nCIkkYHB-_ncRJ4h8tdAGZ3Pnp2nNY_A_pGwt8fS0sRkq1sJUul2x62cm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhD9hlu9zGXv6x7s8gLpEvX1=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/k-tOkgW9IKXWRjVBl_scc3-1tCigf1Ck5oDBskueGfyz6CfC6iL8FnkcMVl1cXZzAhRuSQZfAPIPBjO5Qnalo7UjUjtesXA7rwD_1Hp7keX0QF4QUFMef6sq3jAxz5oo2UObabOjIxdQGXzPmTvO7eYMPc9fLbA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/2/0/51/96/452/E_SZ95894_P.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNykvU_L-bdqYR20GpHwsbasakP3u8b1IUyyoMQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNykvU_L-bdqYR20GpHwsbasakP3u8b1IUyyoMQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP6eG5TEReu4nhZbUOIUKBa1Cj4fpTY-c2GWPzq=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP6eG5TEReu4nhZbUOIUKBa1Cj4fpTY-c2GWPzq=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNGDMc3pEQlxnCmbsPZd9Kn2bcDsb2K2tVJPDDC=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNGDMc3pEQlxnCmbsPZd9Kn2bcDsb2K2tVJPDDC=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOmkiKQabaherC1KHOrkNDNYnj37yIg-9lkO_4F=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOmkiKQabaherC1KHOrkNDNYnj37yIg-9lkO_4F=s10000"
+        }
+      ],
+      "overall_rating": 4.3,
+      "reviews": 6522,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 3570
+        },
+        {
+          "stars": 4,
+          "count": 1851
+        },
+        {
+          "stars": 3,
+          "count": 630
+        },
+        {
+          "stars": 2,
+          "count": 198
+        },
+        {
+          "stars": 1,
+          "count": 273
+        }
+      ],
+      "location_rating": 3.8,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 564,
+          "positive": 376,
+          "negative": 142,
+          "neutral": 46
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 311,
+          "positive": 219,
+          "negative": 58,
+          "neutral": 34
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 163,
+          "positive": 111,
+          "negative": 17,
+          "neutral": 35
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 65,
+          "positive": 61,
+          "negative": 1,
+          "neutral": 3
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 100,
+          "positive": 86,
+          "negative": 8,
+          "neutral": 6
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 824,
+          "positive": 678,
+          "negative": 119,
+          "neutral": 27
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "eco_certified": true
+    }
+  ],
+  "serpapi_context": {
+    "search_metadata": {
+      "id": "68d8c3e4a3f73039fde63a51",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/876df9da96991602/68d8c3e4a3f73039fde63a51.json",
+      "created_at": "2025-09-28T05:13:08.141Z",
+      "processed_at": "2025-09-28T05:13:08.142Z",
+      "google_hotels_url": "https://www.google.com/_/TravelFrontendUi/data/batchexecute?rpcids=AtySUc&source-path=/travel/search&hl=en&gl=in&rt=c&soc-app=162&soc-platform=1&soc-device=1",
+      "raw_html_file": "https://serpapi.com/searches/876df9da96991602/68d8c3e4a3f73039fde63a51.html",
+      "prettify_html_file": "https://serpapi.com/searches/876df9da96991602/68d8c3e4a3f73039fde63a51.prettify",
+      "total_time_taken": {
+        "float": 2.2013070583343506
+      }
+    },
+    "search_parameters": {
+      "engine": "google_hotels",
+      "q": "hotels near Vivanta by Taj, Bangalore Bangalore",
+      "gl": "in",
+      "hl": "en",
+      "currency": "INR",
+      "check_in_date": "2025-10-28T15:00:00",
+      "check_out_date": "2025-10-28T17:00:00",
+      "adults": 1,
+      "children": 0
+    },
+    "search_information": {
+      "total_results": 2
+    }
+  }
+}

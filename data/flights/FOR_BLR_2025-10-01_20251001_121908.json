@@ -1,0 +1,1032 @@
+{
+  "search_metadata": {
+    "search_id": "FOR_BLR_2025-10-01_20251001_121908",
+    "route": "FOR->BLR",
+    "outbound_date": "2025-10-01",
+    "return_date": null,
+    "adults": 1,
+    "children": 0,
+    "infants_in_seat": 0,
+    "infants_on_lap": 0,
+    "class": 1,
+    "currency": "INR",
+    "gl": "in",
+    "hl": "en",
+    "timestamp_utc": "2025-10-01T12:19:08.810830"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Pinto Martins – Fortaleza International Airport",
+            "id": "FOR",
+            "time": "2025-10-01 18:15"
+          },
+          "arrival_airport": {
+            "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+            "id": "GRU",
+            "time": "2025-10-01 22:00"
+          },
+          "duration": 225,
+          "airplane": "Boeing 737",
+          "airline": "Gol",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/G3.png",
+          "travel_class": "Economy",
+          "flight_number": "G3 1619",
+          "ticket_also_sold_by": [
+            "Ethiopian"
+          ],
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 199 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+            "id": "GRU",
+            "time": "2025-10-02 01:45"
+          },
+          "arrival_airport": {
+            "name": "Bole Addis Ababa International Airport",
+            "id": "ADD",
+            "time": "2025-10-02 19:45"
+          },
+          "duration": 720,
+          "airplane": "Boeing 777",
+          "airline": "Ethiopian",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ET.png",
+          "travel_class": "Economy",
+          "flight_number": "ET 507",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 641 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Bole Addis Ababa International Airport",
+            "id": "ADD",
+            "time": "2025-10-02 23:05"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-03 08:10"
+          },
+          "duration": 395,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Ethiopian",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ET.png",
+          "travel_class": "Economy",
+          "flight_number": "ET 690",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 315 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 225,
+          "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+          "id": "GRU"
+        },
+        {
+          "duration": 200,
+          "name": "Bole Addis Ababa International Airport",
+          "id": "ADD"
+        }
+      ],
+      "total_duration": 1765,
+      "carbon_emissions": {
+        "this_flight": 1156000,
+        "typical_for_this_route": 1069000,
+        "difference_percent": 8
+      },
+      "price": 170961,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJVVZWUWNXeHZhRkl6YVdkQlEyTXhhVUZDUnkwdExTMHRMUzB0TFhaM2JHOHlOVUZCUVVGQlIycGtTRVJWUkVaZmIxbEJFaEpITXpFMk1UbDhSVlExTURkOFJWUTJPVEFhQ3dqUnR3b1FBQm9EU1U1U09CeHdvZUVMIixbWyJGT1IiLCIyMDI1LTEwLTAxIiwiR1JVIixudWxsLCJHMyIsIjE2MTkiXSxbIkdSVSIsIjIwMjUtMTAtMDIiLCJBREQiLG51bGwsIkVUIiwiNTA3Il0sWyJBREQiLCIyMDI1LTEwLTAyIiwiQkxSIixudWxsLCJFVCIsIjY5MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Pinto Martins – Fortaleza International Airport",
+            "id": "FOR",
+            "time": "2025-10-01 19:35"
+          },
+          "arrival_airport": {
+            "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+            "id": "GRU",
+            "time": "2025-10-01 23:10"
+          },
+          "duration": 215,
+          "airplane": "Airbus A321",
+          "airline": "LATAM",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+          "travel_class": "Economy",
+          "flight_number": "LA 3507",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 195 kg"
+          ],
+          "plane_and_crew_by": "Latam Airlines Brasil"
+        },
+        {
+          "departure_airport": {
+            "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+            "id": "GRU",
+            "time": "2025-10-02 01:45"
+          },
+          "arrival_airport": {
+            "name": "Bole Addis Ababa International Airport",
+            "id": "ADD",
+            "time": "2025-10-02 19:45"
+          },
+          "duration": 720,
+          "airplane": "Boeing 777",
+          "airline": "Ethiopian",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ET.png",
+          "travel_class": "Economy",
+          "flight_number": "ET 507",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 641 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Bole Addis Ababa International Airport",
+            "id": "ADD",
+            "time": "2025-10-02 23:05"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-03 08:10"
+          },
+          "duration": 395,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Ethiopian",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ET.png",
+          "travel_class": "Economy",
+          "flight_number": "ET 690",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 315 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 155,
+          "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+          "id": "GRU"
+        },
+        {
+          "duration": 200,
+          "name": "Bole Addis Ababa International Airport",
+          "id": "ADD"
+        }
+      ],
+      "total_duration": 1685,
+      "carbon_emissions": {
+        "this_flight": 1152000,
+        "typical_for_this_route": 1069000,
+        "difference_percent": 8
+      },
+      "price": 170961,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJVVZWUWNXeHZhRkl6YVdkQlEyTXhhVUZDUnkwdExTMHRMUzB0TFhaM2JHOHlOVUZCUVVGQlIycGtTRVJWUkVaZmIxbEJFaEpNUVRNMU1EZDhSVlExTURkOFJWUTJPVEFhQ3dqUnR3b1FBQm9EU1U1U09CeHdvZUVMIixbWyJGT1IiLCIyMDI1LTEwLTAxIiwiR1JVIixudWxsLCJMQSIsIjM1MDciXSxbIkdSVSIsIjIwMjUtMTAtMDIiLCJBREQiLG51bGwsIkVUIiwiNTA3Il0sWyJBREQiLCIyMDI1LTEwLTAyIiwiQkxSIixudWxsLCJFVCIsIjY5MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Pinto Martins – Fortaleza International Airport",
+            "id": "FOR",
+            "time": "2025-10-01 12:45"
+          },
+          "arrival_airport": {
+            "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+            "id": "GRU",
+            "time": "2025-10-01 16:20"
+          },
+          "duration": 215,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Gol",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/G3.png",
+          "travel_class": "Economy",
+          "flight_number": "G3 1527",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 169 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+            "id": "GRU",
+            "time": "2025-10-01 20:20"
+          },
+          "arrival_airport": {
+            "name": "Hamad International Airport",
+            "id": "DOH",
+            "time": "2025-10-02 16:00"
+          },
+          "duration": 820,
+          "airplane": "Boeing 777",
+          "airline": "Qatar Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+          "travel_class": "Economy",
+          "flight_number": "QR 780",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 824 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hamad International Airport",
+            "id": "DOH",
+            "time": "2025-10-02 20:00"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-03 02:30"
+          },
+          "duration": 240,
+          "airplane": "Boeing 777",
+          "airline": "Qatar Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+          "travel_class": "Economy",
+          "flight_number": "QR 572",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 262 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 240,
+          "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+          "id": "GRU"
+        },
+        {
+          "duration": 240,
+          "name": "Hamad International Airport",
+          "id": "DOH"
+        }
+      ],
+      "total_duration": 1755,
+      "carbon_emissions": {
+        "this_flight": 1256000,
+        "typical_for_this_route": 1069000,
+        "difference_percent": 17
+      },
+      "price": 190353,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJVVZWUWNXeHZhRkl6YVdkQlEyTXhhVUZDUnkwdExTMHRMUzB0TFhaM2JHOHlOVUZCUVVGQlIycGtTRVJWUkVaZmIxbEJFaEpITXpFMU1qZDhVVkkzT0RCOFVWSTFOeklhQ3dpUnp3c1FBQm9EU1U1U09CeHdnSXdOIixbWyJGT1IiLCIyMDI1LTEwLTAxIiwiR1JVIixudWxsLCJHMyIsIjE1MjciXSxbIkdSVSIsIjIwMjUtMTAtMDEiLCJET0giLG51bGwsIlFSIiwiNzgwIl0sWyJET0giLCIyMDI1LTEwLTAyIiwiQkxSIixudWxsLCJRUiIsIjU3MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Pinto Martins – Fortaleza International Airport",
+            "id": "FOR",
+            "time": "2025-10-01 12:05"
+          },
+          "arrival_airport": {
+            "name": "Salvador International Airport",
+            "id": "SSA",
+            "time": "2025-10-01 13:55"
+          },
+          "duration": 110,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Gol",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/G3.png",
+          "travel_class": "Economy",
+          "flight_number": "G3 1493",
+          "ticket_also_sold_by": [
+            "Air France"
+          ],
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 86 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Salvador International Airport",
+            "id": "SSA",
+            "time": "2025-10-01 17:35"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2025-10-02 08:20"
+          },
+          "duration": 585,
+          "airplane": "Boeing 777",
+          "airline": "Air France",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+          "travel_class": "Economy",
+          "flight_number": "AF 465",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 490 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2025-10-02 10:20"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-02 23:45"
+          },
+          "duration": 595,
+          "airplane": "Boeing 777",
+          "airline": "Air France",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+          "travel_class": "Economy",
+          "flight_number": "AF 194",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 490 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 220,
+          "name": "Salvador International Airport",
+          "id": "SSA"
+        },
+        {
+          "duration": 120,
+          "name": "Paris Charles de Gaulle Airport",
+          "id": "CDG"
+        }
+      ],
+      "total_duration": 1630,
+      "carbon_emissions": {
+        "this_flight": 1068000,
+        "typical_for_this_route": 1069000,
+        "difference_percent": 0
+      },
+      "price": 194285,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJVVZWUWNXeHZhRkl6YVdkQlEyTXhhVUZDUnkwdExTMHRMUzB0TFhaM2JHOHlOVUZCUVVGQlIycGtTRVJWUkVaZmIxbEJFaEpITXpFME9UTjhRVVkwTmpWOFFVWXhPVFFhQ3dqdDdRc1FBQm9EU1U1U09CeHd6NjROIixbWyJGT1IiLCIyMDI1LTEwLTAxIiwiU1NBIixudWxsLCJHMyIsIjE0OTMiXSxbIlNTQSIsIjIwMjUtMTAtMDEiLCJDREciLG51bGwsIkFGIiwiNDY1Il0sWyJDREciLCIyMDI1LTEwLTAyIiwiQkxSIixudWxsLCJBRiIsIjE5NCJdXV0="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Pinto Martins – Fortaleza International Airport",
+            "id": "FOR",
+            "time": "2025-10-01 18:15"
+          },
+          "arrival_airport": {
+            "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+            "id": "GRU",
+            "time": "2025-10-01 22:00"
+          },
+          "duration": 225,
+          "airplane": "Boeing 737",
+          "airline": "Gol",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/G3.png",
+          "travel_class": "Economy",
+          "flight_number": "G3 1619",
+          "ticket_also_sold_by": [
+            "Emirates"
+          ],
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 199 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+            "id": "GRU",
+            "time": "2025-10-02 01:35"
+          },
+          "arrival_airport": {
+            "name": "Dubai International Airport",
+            "id": "DXB",
+            "time": "2025-10-02 23:00"
+          },
+          "duration": 865,
+          "airplane": "Airbus A380",
+          "airline": "Emirates",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+          "travel_class": "Economy",
+          "flight_number": "EK 262",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 874 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Dubai International Airport",
+            "id": "DXB",
+            "time": "2025-10-03 03:20"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-03 08:50"
+          },
+          "duration": 240,
+          "airplane": "Boeing 777",
+          "airline": "Emirates",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+          "travel_class": "Economy",
+          "flight_number": "EK 564",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 206 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 215,
+          "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+          "id": "GRU"
+        },
+        {
+          "duration": 260,
+          "name": "Dubai International Airport",
+          "id": "DXB",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1805,
+      "carbon_emissions": {
+        "this_flight": 1281000,
+        "typical_for_this_route": 1069000,
+        "difference_percent": 20
+      },
+      "price": 283427,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJVVZWUWNXeHZhRkl6YVdkQlEyTXhhVUZDUnkwdExTMHRMUzB0TFhaM2JHOHlOVUZCUVVGQlIycGtTRVJWUkVaZmIxbEJFaEpITXpFMk1UbDhSVXN5TmpKOFJVczFOalFhQ3dpanBoRVFBQm9EU1U1U09CeHd2cjhUIixbWyJGT1IiLCIyMDI1LTEwLTAxIiwiR1JVIixudWxsLCJHMyIsIjE2MTkiXSxbIkdSVSIsIjIwMjUtMTAtMDIiLCJEWEIiLG51bGwsIkVLIiwiMjYyIl0sWyJEWEIiLCIyMDI1LTEwLTAzIiwiQkxSIixudWxsLCJFSyIsIjU2NCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Pinto Martins – Fortaleza International Airport",
+            "id": "FOR",
+            "time": "2025-10-01 19:25"
+          },
+          "arrival_airport": {
+            "name": "RIOgaleão International Airport",
+            "id": "GIG",
+            "time": "2025-10-01 22:45"
+          },
+          "duration": 200,
+          "airplane": "Boeing 737",
+          "airline": "Gol",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/G3.png",
+          "travel_class": "Economy",
+          "flight_number": "G3 1975",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 184 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "RIOgaleão International Airport",
+            "id": "GIG",
+            "time": "2025-10-02 03:30"
+          },
+          "arrival_airport": {
+            "name": "Dubai International Airport",
+            "id": "DXB",
+            "time": "2025-10-03 00:30"
+          },
+          "duration": 840,
+          "airplane": "Boeing 777",
+          "airline": "Emirates",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+          "travel_class": "Economy",
+          "flight_number": "EK 248",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 812 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Dubai International Airport",
+            "id": "DXB",
+            "time": "2025-10-03 03:20"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-03 08:50"
+          },
+          "duration": 240,
+          "airplane": "Boeing 777",
+          "airline": "Emirates",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+          "travel_class": "Economy",
+          "flight_number": "EK 564",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 206 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 285,
+          "name": "RIOgaleão International Airport",
+          "id": "GIG",
+          "overnight": true
+        },
+        {
+          "duration": 170,
+          "name": "Dubai International Airport",
+          "id": "DXB",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1735,
+      "carbon_emissions": {
+        "this_flight": 1203000,
+        "typical_for_this_route": 1069000,
+        "difference_percent": 13
+      },
+      "price": 306990,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJVVZWUWNXeHZhRkl6YVdkQlEyTXhhVUZDUnkwdExTMHRMUzB0TFhaM2JHOHlOVUZCUVVGQlIycGtTRVJWUkVaZmIxbEJFaEpITXpFNU56VjhSVXN5TkRoOFJVczFOalFhQ3dpdTNoSVFBQm9EU1U1U09CeHcrWTRWIixbWyJGT1IiLCIyMDI1LTEwLTAxIiwiR0lHIixudWxsLCJHMyIsIjE5NzUiXSxbIkdJRyIsIjIwMjUtMTAtMDIiLCJEWEIiLG51bGwsIkVLIiwiMjQ4Il0sWyJEWEIiLCIyMDI1LTEwLTAzIiwiQkxSIixudWxsLCJFSyIsIjU2NCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Pinto Martins – Fortaleza International Airport",
+            "id": "FOR",
+            "time": "2025-10-01 14:20"
+          },
+          "arrival_airport": {
+            "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+            "id": "GRU",
+            "time": "2025-10-01 17:50"
+          },
+          "duration": 210,
+          "airplane": "Airbus A321",
+          "airline": "LATAM",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+          "travel_class": "Economy",
+          "flight_number": "LA 3883",
+          "ticket_also_sold_by": [
+            "Qatar Airways"
+          ],
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 195 kg"
+          ],
+          "plane_and_crew_by": "Latam Airlines Brasil"
+        },
+        {
+          "departure_airport": {
+            "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+            "id": "GRU",
+            "time": "2025-10-01 20:20"
+          },
+          "arrival_airport": {
+            "name": "Hamad International Airport",
+            "id": "DOH",
+            "time": "2025-10-02 16:00"
+          },
+          "duration": 820,
+          "airplane": "Boeing 777",
+          "airline": "Qatar Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+          "travel_class": "Economy",
+          "flight_number": "QR 780",
+          "ticket_also_sold_by": [
+            "LATAM"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 824 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hamad International Airport",
+            "id": "DOH",
+            "time": "2025-10-02 20:00"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-03 02:30"
+          },
+          "duration": 240,
+          "airplane": "Boeing 777",
+          "airline": "Qatar Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+          "travel_class": "Economy",
+          "flight_number": "QR 572",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 262 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 150,
+          "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+          "id": "GRU"
+        },
+        {
+          "duration": 240,
+          "name": "Hamad International Airport",
+          "id": "DOH"
+        }
+      ],
+      "total_duration": 1660,
+      "carbon_emissions": {
+        "this_flight": 1282000,
+        "typical_for_this_route": 1069000,
+        "difference_percent": 20
+      },
+      "price": 371809,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJVVZWUWNXeHZhRkl6YVdkQlEyTXhhVUZDUnkwdExTMHRMUzB0TFhaM2JHOHlOVUZCUVVGQlIycGtTRVJWUkVaZmIxbEJFaEpNUVRNNE9ETjhVVkkzT0RCOFVWSTFOeklhQ3dqaDJCWVFBQm9EU1U1U09CeHcxTWtaIixbWyJGT1IiLCIyMDI1LTEwLTAxIiwiR1JVIixudWxsLCJMQSIsIjM4ODMiXSxbIkdSVSIsIjIwMjUtMTAtMDEiLCJET0giLG51bGwsIlFSIiwiNzgwIl0sWyJET0giLCIyMDI1LTEwLTAyIiwiQkxSIixudWxsLCJRUiIsIjU3MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Pinto Martins – Fortaleza International Airport",
+            "id": "FOR",
+            "time": "2025-10-01 15:05"
+          },
+          "arrival_airport": {
+            "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+            "id": "GRU",
+            "time": "2025-10-01 18:30"
+          },
+          "duration": 205,
+          "airplane": "Boeing 787",
+          "airline": "LATAM",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+          "travel_class": "Premium Economy",
+          "flight_number": "LA 4625",
+          "extensions": [
+            "Carbon emissions estimate: 228 kg"
+          ],
+          "plane_and_crew_by": "Latam Airlines Brasil"
+        },
+        {
+          "departure_airport": {
+            "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+            "id": "GRU",
+            "time": "2025-10-01 20:20"
+          },
+          "arrival_airport": {
+            "name": "Hamad International Airport",
+            "id": "DOH",
+            "time": "2025-10-02 16:00"
+          },
+          "duration": 820,
+          "airplane": "Boeing 777",
+          "airline": "Qatar Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+          "travel_class": "Economy",
+          "flight_number": "QR 780",
+          "ticket_also_sold_by": [
+            "LATAM"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 824 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hamad International Airport",
+            "id": "DOH",
+            "time": "2025-10-02 20:00"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-03 02:30"
+          },
+          "duration": 240,
+          "airplane": "Boeing 777",
+          "airline": "Qatar Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+          "travel_class": "Economy",
+          "flight_number": "QR 572",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 262 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 110,
+          "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+          "id": "GRU"
+        },
+        {
+          "duration": 240,
+          "name": "Hamad International Airport",
+          "id": "DOH"
+        }
+      ],
+      "total_duration": 1615,
+      "carbon_emissions": {
+        "this_flight": 1315000,
+        "typical_for_this_route": 1069000,
+        "difference_percent": 23
+      },
+      "price": 371809,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJVVZWUWNXeHZhRkl6YVdkQlEyTXhhVUZDUnkwdExTMHRMUzB0TFhaM2JHOHlOVUZCUVVGQlIycGtTRVJWUkVaZmIxbEJFaEpNUVRRMk1qVjhVVkkzT0RCOFVWSTFOeklhQ3dqaDJCWVFBQm9EU1U1U09CeHcxTWtaIixbWyJGT1IiLCIyMDI1LTEwLTAxIiwiR1JVIixudWxsLCJMQSIsIjQ2MjUiXSxbIkdSVSIsIjIwMjUtMTAtMDEiLCJET0giLG51bGwsIlFSIiwiNzgwIl0sWyJET0giLCIyMDI1LTEwLTAyIiwiQkxSIixudWxsLCJRUiIsIjU3MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Pinto Martins – Fortaleza International Airport",
+            "id": "FOR",
+            "time": "2025-10-01 14:20"
+          },
+          "arrival_airport": {
+            "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+            "id": "GRU",
+            "time": "2025-10-01 17:50"
+          },
+          "duration": 210,
+          "airplane": "Airbus A321",
+          "airline": "LATAM",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+          "travel_class": "Economy",
+          "flight_number": "LA 3883",
+          "ticket_also_sold_by": [
+            "Qatar Airways"
+          ],
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 195 kg"
+          ],
+          "plane_and_crew_by": "Latam Airlines Brasil"
+        },
+        {
+          "departure_airport": {
+            "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+            "id": "GRU",
+            "time": "2025-10-01 20:20"
+          },
+          "arrival_airport": {
+            "name": "Hamad International Airport",
+            "id": "DOH",
+            "time": "2025-10-02 16:00"
+          },
+          "duration": 820,
+          "airplane": "Boeing 777",
+          "airline": "Qatar Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+          "travel_class": "Economy",
+          "flight_number": "QR 780",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 824 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hamad International Airport",
+            "id": "DOH",
+            "time": "2025-10-02 19:45"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-03 02:35"
+          },
+          "duration": 260,
+          "airplane": "Airbus A321",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 1302",
+          "ticket_also_sold_by": [
+            "Qatar Airways"
+          ],
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 201 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 150,
+          "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+          "id": "GRU"
+        },
+        {
+          "duration": 225,
+          "name": "Hamad International Airport",
+          "id": "DOH"
+        }
+      ],
+      "total_duration": 1665,
+      "carbon_emissions": {
+        "this_flight": 1222000,
+        "typical_for_this_route": 1069000,
+        "difference_percent": 14
+      },
+      "price": 619557,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJVVZWUWNXeHZhRkl6YVdkQlEyTXhhVUZDUnkwdExTMHRMUzB0TFhaM2JHOHlOVUZCUVVGQlIycGtTRVJWUkVaZmIxbEJFaE5NUVRNNE9ETjhVVkkzT0RCOE5rVXhNekF5R2dzSXBlZ2xFQUFhQTBsT1VqZ2NjSURQS2c9PSIsW1siRk9SIiwiMjAyNS0xMC0wMSIsIkdSVSIsbnVsbCwiTEEiLCIzODgzIl0sWyJHUlUiLCIyMDI1LTEwLTAxIiwiRE9IIixudWxsLCJRUiIsIjc4MCJdLFsiRE9IIiwiMjAyNS0xMC0wMiIsIkJMUiIsbnVsbCwiNkUiLCIxMzAyIl1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 170961,
+    "price_level": "high",
+    "typical_price_range": [
+      82000,
+      135000
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "FOR",
+            "name": "Pinto Martins – Fortaleza International Airport"
+          },
+          "city": "Fortaleza",
+          "country": "Brazil",
+          "country_code": "BR",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTNLP609rXlo-fzmCLrLwz1tDYE9VIWyzFeGcBwHWOyJAyxL8b55mj7Ofh3lpvnQA-M_J83eTer4WlLbw",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfFa55v3sfkwy7szHEIN0Z1ca4BHAJAx9FDbnAhtTAfM4TS83mmJw4G_vhMKtbwiL6zeXrNJmN53dFhzAXHOyOdN7fee2bS0nkcidmHlA"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "BLR",
+            "name": "Kempegowda International Airport Bengaluru"
+          },
+          "city": "Bengaluru",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQIQIUfZg6v3rdHMVD96D5vTNuXwVO7zsdZy0l7s2uiyV-xuK8nJlokAp_ChoLy9r0vjJWcOOBkEvBI2g",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSFrS_QMxzjURYrYSPiuRW9uR9imYuBAhdE49jwKag7Ucgl0en4CNAtP0hf1MDSGdvhAw2s1-2w71_b-pcIyFOM1F1yMSPQLO5_XlgJc_4"
+        }
+      ]
+    }
+  ]
+}

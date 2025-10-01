@@ -1,0 +1,116 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_Bangalore_NA_20250930_124956",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "travel_date": null,
+    "earliest_departure": null,
+    "latest_arrival": null,
+    "timestamp_utc": "2025-09-30T12:49:56.676216",
+    "query_primary": "Indore to Bangalore trains time table fare duration site:ixigo.com/trains OR site:trainman.in OR site:confirmtkt.com OR site:railyatri.in OR site:etrain.info OR site:yatra.com/trains OR site:paytm.com/train-tickets OR site:irctc.co.in",
+    "distance_km": 1099.3592986000965
+  },
+  "options": [
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T00:49:52.601514",
+      "arrive": "2025-10-01T13:49:52.601514",
+      "duration_hours": 13.0,
+      "price_inr": null,
+      "ref": "T02",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.confirmtkt.com/trains/indore-to-bengaluru-train-tickets"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T03:49:52.601514",
+      "arrive": "2025-10-03T03:49:52.601514",
+      "duration_hours": 48.0,
+      "price_inr": null,
+      "ref": "T03",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.trainman.in/train/19301"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T06:49:52.601514",
+      "arrive": "2025-10-02T03:16:52.601514",
+      "duration_hours": 20.45,
+      "price_inr": null,
+      "ref": "T05",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.confirmtkt.com/train-schedule/19301-DADN-YPR-EXP"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T09:49:52.601514",
+      "arrive": "2025-10-02T00:49:52.601514",
+      "duration_hours": 15.0,
+      "price_inr": null,
+      "ref": "T06",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.confirmtkt.com/train-schedule/19302-YPR-DADN-EXP"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T12:49:52.601514",
+      "arrive": "2025-10-02T09:16:52.601514",
+      "duration_hours": 20.45,
+      "price_inr": null,
+      "ref": "T07",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.ixigo.com/trains/19301"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T15:49:52.601514",
+      "arrive": "2025-10-02T07:34:52.601514",
+      "duration_hours": 15.75,
+      "price_inr": null,
+      "ref": "T08",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.confirmtkt.com/train-schedule/09301-BDTS-DADN-SPL"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T18:49:52.601514",
+      "arrive": "2025-10-02T10:31:52.601514",
+      "duration_hours": 15.7,
+      "price_inr": null,
+      "ref": "T10",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.railyatri.in/indore-jn%20bg-to-bangalore-cant-trains"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10"
+  ]
+}

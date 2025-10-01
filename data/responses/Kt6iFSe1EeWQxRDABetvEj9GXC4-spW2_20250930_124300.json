@@ -1,0 +1,129 @@
+{
+  "cheapest": {
+    "mode": "bus",
+    "src": "Bengaluru",
+    "dst": "Bangalore",
+    "depart": "2025-10-01T02:42:45.344365",
+    "arrive": "2025-10-01T12:42:45.344365",
+    "duration_hours": 10.0,
+    "price_inr": 80,
+    "ref": "B02",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.makemytrip.com/bus-tickets/bangalore-city-online-booking.html"
+    }
+  },
+  "fastest": {
+    "mode": "bus",
+    "src": "Bengaluru",
+    "dst": "Bangalore",
+    "depart": "2025-10-01T00:42:45.344365",
+    "arrive": "2025-10-01T06:42:45.344365",
+    "duration_hours": 6.0,
+    "price_inr": 290,
+    "ref": "B01",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.redbus.in/buses/bangalore-bus-tickets"
+    }
+  },
+  "value": {
+    "mode": "bus",
+    "src": "Bengaluru",
+    "dst": "Bangalore",
+    "depart": "2025-10-01T02:42:45.344365",
+    "arrive": "2025-10-01T12:42:45.344365",
+    "duration_hours": 10.0,
+    "price_inr": 80,
+    "ref": "B02",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.makemytrip.com/bus-tickets/bangalore-city-online-booking.html"
+    }
+  },
+  "hotels_top5": [
+    {
+      "name": "BluPetal Hotel",
+      "price_inr": 2937.0,
+      "distance_km": null,
+      "rating": 4.3,
+      "city": "Bangalore",
+      "near": "Koramangala, Bangalore",
+      "checkin": "2025-10-02T10:00:00+00:00",
+      "checkout": "2025-10-02T12:00:00+00:00",
+      "ref": "ChgI4Ieigvan7NOqARoLL2cvMXRtMTExODQQAQ",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "http://www.blupetalhotel.com/"
+      }
+    },
+    {
+      "name": "Regenta Inn Grand Koramangala",
+      "price_inr": 2695.0,
+      "distance_km": null,
+      "rating": 4.5,
+      "city": "Bangalore",
+      "near": "Koramangala, Bangalore",
+      "checkin": "2025-10-02T10:00:00+00:00",
+      "checkout": "2025-10-02T12:00:00+00:00",
+      "ref": "ChkIqsnhjISphshhGg0vZy8xMWxzejhfcTA2EAE",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": null
+      }
+    },
+    {
+      "name": "Park Avenue Hotel Koramangala, Bangalore",
+      "price_inr": 2334.0,
+      "distance_km": null,
+      "rating": 4.7,
+      "city": "Bangalore",
+      "near": "Koramangala, Bangalore",
+      "checkin": "2025-10-02T10:00:00+00:00",
+      "checkout": "2025-10-02T12:00:00+00:00",
+      "ref": "ChkIy_vlpeWGkuYuGg0vZy8xMXk1enRmNmpmEAE",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://parkavenuehotel.in/bengaluru/"
+      }
+    },
+    {
+      "name": "The Grand Krishna Rooms",
+      "price_inr": 2205.0,
+      "distance_km": null,
+      "rating": 4.1,
+      "city": "Bangalore",
+      "near": "Koramangala, Bangalore",
+      "checkin": "2025-10-02T10:00:00+00:00",
+      "checkout": "2025-10-02T12:00:00+00:00",
+      "ref": "ChgIzrXo982jlt-nARoLL2cvMXRua192bGQQAQ",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.grandkrishna.com/meetings-events/banquet-hall.html"
+      }
+    },
+    {
+      "name": "Regenta Inn 4th Block Koramanagla",
+      "price_inr": 2721.0,
+      "distance_km": null,
+      "rating": 4.2,
+      "city": "Bangalore",
+      "near": "Koramangala, Bangalore",
+      "checkin": "2025-10-02T10:00:00+00:00",
+      "checkout": "2025-10-02T12:00:00+00:00",
+      "ref": "ChkIgIyVkqPoqOkMGg0vZy8xMXRnZ3BjcTU5EAE",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://regentarewards.com/hotel/regenta-inn-4th-block-koramangala"
+      }
+    }
+  ],
+  "debug": [
+    "Flights: 0 options on 2025-10-02.",
+    "Trains: 8 options.",
+    "Buses: 9 options.",
+    "Hotels: 20 options.",
+    "LLM itinerary generated (1834 chars).",
+    "salvage_used: True"
+  ]
+}

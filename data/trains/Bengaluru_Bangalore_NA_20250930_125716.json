@@ -1,0 +1,130 @@
+{
+  "search_metadata": {
+    "search_id": "Bengaluru_Bangalore_NA_20250930_125716",
+    "src": "Bengaluru",
+    "dst": "Bangalore",
+    "travel_date": null,
+    "earliest_departure": null,
+    "latest_arrival": null,
+    "timestamp_utc": "2025-09-30T12:57:16.658976",
+    "query_primary": "Bengaluru to Bangalore trains time table fare duration site:ixigo.com/trains OR site:trainman.in OR site:confirmtkt.com OR site:railyatri.in OR site:etrain.info OR site:yatra.com/trains OR site:paytm.com/train-tickets OR site:irctc.co.in",
+    "distance_km": 0.0
+  },
+  "options": [
+    {
+      "mode": "train",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T00:57:16.271152",
+      "arrive": "2025-10-01T12:57:16.271152",
+      "duration_hours": 12.0,
+      "price_inr": null,
+      "ref": "T02",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.railyatri.in/bangalore-cant-to-ksr-bengaluru-trains"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T03:57:16.271152",
+      "arrive": "2025-10-01T18:57:16.271152",
+      "duration_hours": 15.0,
+      "price_inr": null,
+      "ref": "T03",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.confirmtkt.com/trains/hyderabad-to-bengaluru-train-tickets"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T06:57:16.271152",
+      "arrive": "2025-10-02T11:57:16.271152",
+      "duration_hours": 29.0,
+      "price_inr": null,
+      "ref": "T04",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.railyatri.in/surat-to-bangalore-cant-trains"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T09:57:16.271152",
+      "arrive": "2025-10-03T01:57:16.271152",
+      "duration_hours": 40.0,
+      "price_inr": null,
+      "ref": "T05",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.confirmtkt.com/trains/chennai-to-bengaluru-train-tickets"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T12:57:16.271152",
+      "arrive": "2025-10-01T22:57:16.271152",
+      "duration_hours": 10.0,
+      "price_inr": null,
+      "ref": "T06",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.railyatri.in/udupi-to-bangalore-cant-trains"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T15:57:16.271152",
+      "arrive": "2025-10-02T08:57:16.271152",
+      "duration_hours": 17.0,
+      "price_inr": null,
+      "ref": "T07",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.railyatri.in/tanuku-to-bangalore-cant-trains"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T18:57:16.271152",
+      "arrive": "2025-10-02T04:57:16.271152",
+      "duration_hours": 10.0,
+      "price_inr": null,
+      "ref": "T08",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.railyatri.in/aluva-to-bangalore-cant-trains"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Bengaluru",
+      "dst": "Bangalore",
+      "depart": "2025-10-01T21:57:16.271152",
+      "arrive": "2025-10-03T03:57:16.271152",
+      "duration_hours": 30.0,
+      "price_inr": null,
+      "ref": "T10",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.railyatri.in/nagercoil-jn-to-bangalore-cant-trains"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10"
+  ]
+}

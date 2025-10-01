@@ -1,0 +1,35 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_Bangalore_NA_20250928_054937",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "travel_date": null,
+    "earliest_departure": "2025-10-28T03:00:00",
+    "latest_arrival": "2025-10-28T12:00:00",
+    "timestamp_utc": "2025-09-28T05:49:37.225706",
+    "query": "Indore to Bangalore trains time table fare duration site:ixigo.com OR site:trainman.in OR site:confirmtkt.com OR site:irctc.co.in"
+  },
+  "options": [],
+  "serpapi_context": {
+    "search_metadata": {
+      "id": "68d8cc7071a41db16f746256",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/1936e17ffbda2b66/68d8cc7071a41db16f746256.json",
+      "pixel_position_endpoint": "https://serpapi.com/searches/1936e17ffbda2b66/68d8cc7071a41db16f746256.json_with_pixel_position",
+      "created_at": "2025-09-28 05:49:36 UTC",
+      "processed_at": "2025-09-28 05:49:36 UTC",
+      "google_url": "https://www.google.com/search?q=Indore+to+Bangalore+trains+time+table+fare+duration+site%3Aixigo.com+OR+site%3Atrainman.in+OR+site%3Aconfirmtkt.com+OR+site%3Airctc.co.in&oq=Indore+to+Bangalore+trains+time+table+fare+duration+site%3Aixigo.com+OR+site%3Atrainman.in+OR+site%3Aconfirmtkt.com+OR+site%3Airctc.co.in&hl=en&gl=in&num=20&sourceid=chrome&ie=UTF-8",
+      "raw_html_file": "https://serpapi.com/searches/1936e17ffbda2b66/68d8cc7071a41db16f746256.html",
+      "total_time_taken": 1.3
+    },
+    "search_parameters": {
+      "engine": "google",
+      "q": "Indore to Bangalore trains time table fare duration site:ixigo.com OR site:trainman.in OR site:confirmtkt.com OR site:irctc.co.in",
+      "google_domain": "google.com",
+      "hl": "en",
+      "gl": "in",
+      "num": "20",
+      "device": "desktop"
+    }
+  }
+}

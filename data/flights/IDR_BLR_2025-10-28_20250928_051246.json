@@ -1,0 +1,820 @@
+{
+  "search_metadata": {
+    "search_id": "IDR_BLR_2025-10-28_20250928_051246",
+    "route": "IDR->BLR",
+    "outbound_date": "2025-10-28",
+    "return_date": null,
+    "adults": 1,
+    "children": 0,
+    "infants_in_seat": 0,
+    "infants_on_lap": 0,
+    "class": 1,
+    "currency": "INR",
+    "gl": "in",
+    "hl": "en",
+    "timestamp_utc": "2025-09-28T05:12:46.595569"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-10-28 07:20"
+          },
+          "arrival_airport": {
+            "name": "Rajiv Gandhi International Airport",
+            "id": "HYD",
+            "time": "2025-10-28 08:45"
+          },
+          "duration": 85,
+          "airplane": "Airbus A320",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 378",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 73 kg"
+          ],
+          "plane_and_crew_by": "Operated Under Lease From Smartlynx"
+        },
+        {
+          "departure_airport": {
+            "name": "Rajiv Gandhi International Airport",
+            "id": "HYD",
+            "time": "2025-10-28 11:40"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-28 13:00"
+          },
+          "duration": 80,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6156",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 51 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 175,
+          "name": "Rajiv Gandhi International Airport",
+          "id": "HYD"
+        }
+      ],
+      "total_duration": 340,
+      "carbon_emissions": {
+        "this_flight": 125000,
+        "typical_for_this_route": 93000,
+        "difference_percent": 34
+      },
+      "price": 9043,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTmpSUWVtMVplWEZDTkhkQlIzUnNNSGRDUnkwdExTMHRMUzB0TFhaMFltd3hNVUZCUVVGQlIycFpkemcwUW5KeldsTkJFZ3cyUlRNM09IdzJSVFl4TlRZYUNnalRSaEFBR2dOSlRsSTRISERYVHc9PSIsW1siSURSIiwiMjAyNS0xMC0yOCIsIkhZRCIsbnVsbCwiNkUiLCIzNzgiXSxbIkhZRCIsIjIwMjUtMTAtMjgiLCJCTFIiLG51bGwsIjZFIiwiNjE1NiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-10-28 21:00"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-28 23:05"
+          },
+          "duration": 125,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6744",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 87 kg"
+          ]
+        }
+      ],
+      "total_duration": 125,
+      "carbon_emissions": {
+        "this_flight": 88000,
+        "typical_for_this_route": 93000,
+        "difference_percent": -5
+      },
+      "price": 10548,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTmpSUWVtMVplWEZDTkhkQlIzUnNNSGRDUnkwdExTMHRMUzB0TFhaMFltd3hNVUZCUVVGQlIycFpkemcwUW5KeldsTkJFZ1kyUlRZM05EUWFDZ2kwVWhBQUdnTkpUbEk0SEhENFhBPT0iLFtbIklEUiIsIjIwMjUtMTAtMjgiLCJCTFIiLG51bGwsIjZFIiwiNjc0NCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-10-28 07:10"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-28 09:15"
+          },
+          "duration": 125,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 701",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 87 kg"
+          ]
+        }
+      ],
+      "total_duration": 125,
+      "carbon_emissions": {
+        "this_flight": 88000,
+        "typical_for_this_route": 93000,
+        "difference_percent": -5
+      },
+      "price": 11250,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTmpSUWVtMVplWEZDTkhkQlIzUnNNSGRDUnkwdExTMHRMUzB0TFhaMFltd3hNVUZCUVVGQlIycFpkemcwUW5KeldsTkJFZ1UyUlRjd01Sb0tDUEpYRUFBYUEwbE9VamdjY0pCaiIsW1siSURSIiwiMjAyNS0xMC0yOCIsIkJMUiIsbnVsbCwiNkUiLCI3MDEiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-10-28 17:30"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-28 19:35"
+          },
+          "duration": 125,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6739",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 87 kg"
+          ]
+        }
+      ],
+      "total_duration": 125,
+      "carbon_emissions": {
+        "this_flight": 88000,
+        "typical_for_this_route": 93000,
+        "difference_percent": -5
+      },
+      "price": 11250,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTmpSUWVtMVplWEZDTkhkQlIzUnNNSGRDUnkwdExTMHRMUzB0TFhaMFltd3hNVUZCUVVGQlIycFpkemcwUW5KeldsTkJFZ1kyUlRZM016a2FDZ2p5VnhBQUdnTkpUbEk0SEhDUVl3PT0iLFtbIklEUiIsIjIwMjUtMTAtMjgiLCJCTFIiLG51bGwsIjZFIiwiNjczOSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-10-28 16:55"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-28 19:10"
+          },
+          "duration": 135,
+          "airplane": "Airbus A320",
+          "airline": "Air India Express",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+          "travel_class": "Economy",
+          "flight_number": "IX 2015",
+          "extensions": [
+            "Carbon emissions estimate: 119 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 119000,
+        "typical_for_this_route": 93000,
+        "difference_percent": 28
+      },
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+      "booking_token": "WyJDalJJTmpSUWVtMVplWEZDTkhkQlIzUnNNSGRDUnkwdExTMHRMUzB0TFhaMFltd3hNVUZCUVVGQlIycFpkemcwUW5KeldsTkJFZ1pKV0RJd01UVTRIQT09IixbWyJJRFIiLCIyMDI1LTEwLTI4IiwiQkxSIixudWxsLCJJWCIsIjIwMTUiXV1d"
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-10-28 20:30"
+          },
+          "arrival_airport": {
+            "name": "Rajiv Gandhi International Airport",
+            "id": "HYD",
+            "time": "2025-10-28 21:55"
+          },
+          "duration": 85,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6916",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 58 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Rajiv Gandhi International Airport",
+            "id": "HYD",
+            "time": "2025-10-29 05:05"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-29 06:25"
+          },
+          "duration": 80,
+          "airplane": "Airbus A320",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 887",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 59 kg"
+          ],
+          "plane_and_crew_by": "Operated Under Lease From Smartlynx"
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 430,
+          "name": "Rajiv Gandhi International Airport",
+          "id": "HYD",
+          "overnight": true
+        }
+      ],
+      "total_duration": 595,
+      "carbon_emissions": {
+        "this_flight": 118000,
+        "typical_for_this_route": 93000,
+        "difference_percent": 27
+      },
+      "price": 8118,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTmpSUWVtMVplWEZDTkhkQlIzUnNNSGRDUnkwdExTMHRMUzB0TFhaMFltd3hNVUZCUVVGQlIycFpkemcwUW5KeldsTkJFZ3cyUlRZNU1UWjhOa1U0T0RjYUNnaTJQeEFBR2dOSlRsSTRISEREUnc9PSIsW1siSURSIiwiMjAyNS0xMC0yOCIsIkhZRCIsbnVsbCwiNkUiLCI2OTE2Il0sWyJIWUQiLCIyMDI1LTEwLTI5IiwiQkxSIixudWxsLCI2RSIsIjg4NyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-10-28 16:35"
+          },
+          "arrival_airport": {
+            "name": "Rajiv Gandhi International Airport",
+            "id": "HYD",
+            "time": "2025-10-28 18:00"
+          },
+          "duration": 85,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 511",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 63 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Rajiv Gandhi International Airport",
+            "id": "HYD",
+            "time": "2025-10-28 20:15"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-28 21:45"
+          },
+          "duration": 90,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 285",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 46 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 135,
+          "name": "Rajiv Gandhi International Airport",
+          "id": "HYD"
+        }
+      ],
+      "total_duration": 310,
+      "carbon_emissions": {
+        "this_flight": 110000,
+        "typical_for_this_route": 93000,
+        "difference_percent": 18
+      },
+      "price": 9115,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTmpSUWVtMVplWEZDTkhkQlIzUnNNSGRDUnkwdExTMHRMUzB0TFhaMFltd3hNVUZCUVVGQlIycFpkemcwUW5KeldsTkJFZ3MyUlRVeE1YdzJSVEk0TlJvS0NKdEhFQUFhQTBsT1VqZ2NjS2hRIixbWyJJRFIiLCIyMDI1LTEwLTI4IiwiSFlEIixudWxsLCI2RSIsIjUxMSJdLFsiSFlEIiwiMjAyNS0xMC0yOCIsIkJMUiIsbnVsbCwiNkUiLCIyODUiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-10-28 20:30"
+          },
+          "arrival_airport": {
+            "name": "Rajiv Gandhi International Airport",
+            "id": "HYD",
+            "time": "2025-10-28 21:55"
+          },
+          "duration": 85,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6916",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 58 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Rajiv Gandhi International Airport",
+            "id": "HYD",
+            "time": "2025-10-28 23:50"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-29 01:10"
+          },
+          "duration": 80,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 949",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 51 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 115,
+          "name": "Rajiv Gandhi International Airport",
+          "id": "HYD"
+        }
+      ],
+      "total_duration": 280,
+      "carbon_emissions": {
+        "this_flight": 110000,
+        "typical_for_this_route": 93000,
+        "difference_percent": 18
+      },
+      "price": 9926,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTmpSUWVtMVplWEZDTkhkQlIzUnNNSGRDUnkwdExTMHRMUzB0TFhaMFltd3hNVUZCUVVGQlIycFpkemcwUW5KeldsTkJFZ3cyUlRZNU1UWjhOa1U1TkRrYUNnakdUUkFBR2dOSlRsSTRISEM3Vnc9PSIsW1siSURSIiwiMjAyNS0xMC0yOCIsIkhZRCIsbnVsbCwiNkUiLCI2OTE2Il0sWyJIWUQiLCIyMDI1LTEwLTI4IiwiQkxSIixudWxsLCI2RSIsIjk0OSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-10-28 22:05"
+          },
+          "arrival_airport": {
+            "name": "Pune International Airport",
+            "id": "PNQ",
+            "time": "2025-10-28 23:20"
+          },
+          "duration": 75,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 147",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 52 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Pune International Airport",
+            "id": "PNQ",
+            "time": "2025-10-29 00:55"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-29 02:30"
+          },
+          "duration": 95,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 361",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 61 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 95,
+          "name": "Pune International Airport",
+          "id": "PNQ"
+        }
+      ],
+      "total_duration": 265,
+      "carbon_emissions": {
+        "this_flight": 114000,
+        "typical_for_this_route": 93000,
+        "difference_percent": 23
+      },
+      "price": 11077,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJTmpSUWVtMVplWEZDTkhkQlIzUnNNSGRDUnkwdExTMHRMUzB0TFhaMFltd3hNVUZCUVVGQlIycFpkemcwUW5KeldsTkJFZ3MyUlRFME4zdzJSVE0yTVJvS0NNVldFQUFhQTBsT1VqZ2NjTTFoIixbWyJJRFIiLCIyMDI1LTEwLTI4IiwiUE5RIixudWxsLCI2RSIsIjE0NyJdLFsiUE5RIiwiMjAyNS0xMC0yOSIsIkJMUiIsbnVsbCwiNkUiLCIzNjEiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Devi Ahilyabai Holkar International Airport, Indore",
+            "id": "IDR",
+            "time": "2025-10-28 19:50"
+          },
+          "arrival_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2025-10-28 21:45"
+          },
+          "duration": 115,
+          "airline": "Star Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/S5.png",
+          "travel_class": "Economy",
+          "flight_number": "S5 205"
+        }
+      ],
+      "total_duration": 115,
+      "carbon_emissions": {
+        "typical_for_this_route": 93000
+      },
+      "price": 19001,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/S5.png",
+      "booking_token": "WyJDalJJTmpSUWVtMVplWEZDTkhkQlIzUnNNSGRDUnkwdExTMHRMUzB0TFhaMFltd3hNVUZCUVVGQlIycFpkemcwUW5KeldsTkJFZ1ZUTlRJd05Sb0xDTG1VQVJBQUdnTkpUbEk0SEhDMXB3RT0iLFtbIklEUiIsIjIwMjUtMTAtMjgiLCJCTFIiLG51bGwsIlM1IiwiMjA1Il1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 8118,
+    "price_level": "typical",
+    "typical_price_range": [
+      5100,
+      8200
+    ],
+    "price_history": [
+      [
+        1753813800,
+        7693
+      ],
+      [
+        1753900200,
+        7693
+      ],
+      [
+        1753986600,
+        6806
+      ],
+      [
+        1754073000,
+        8185
+      ],
+      [
+        1754159400,
+        8185
+      ],
+      [
+        1754245800,
+        8714
+      ],
+      [
+        1754332200,
+        7234
+      ],
+      [
+        1754418600,
+        7234
+      ],
+      [
+        1754505000,
+        7693
+      ],
+      [
+        1754591400,
+        7693
+      ],
+      [
+        1754677800,
+        7693
+      ],
+      [
+        1754764200,
+        7240
+      ],
+      [
+        1754850600,
+        7240
+      ],
+      [
+        1754937000,
+        7240
+      ],
+      [
+        1755023400,
+        7240
+      ],
+      [
+        1755109800,
+        7240
+      ],
+      [
+        1755196200,
+        7240
+      ],
+      [
+        1755282600,
+        7240
+      ],
+      [
+        1755369000,
+        7240
+      ],
+      [
+        1755455400,
+        7240
+      ],
+      [
+        1755541800,
+        7240
+      ],
+      [
+        1755628200,
+        7240
+      ],
+      [
+        1755714600,
+        7240
+      ],
+      [
+        1755801000,
+        6806
+      ],
+      [
+        1755887400,
+        6806
+      ],
+      [
+        1755973800,
+        6806
+      ],
+      [
+        1756060200,
+        7234
+      ],
+      [
+        1756146600,
+        7240
+      ],
+      [
+        1756233000,
+        7240
+      ],
+      [
+        1756319400,
+        7240
+      ],
+      [
+        1756405800,
+        7240
+      ],
+      [
+        1756492200,
+        7240
+      ],
+      [
+        1756578600,
+        7240
+      ],
+      [
+        1756665000,
+        9937
+      ],
+      [
+        1756751400,
+        9937
+      ],
+      [
+        1756837800,
+        9937
+      ],
+      [
+        1756924200,
+        9937
+      ],
+      [
+        1757010600,
+        9937
+      ],
+      [
+        1757097000,
+        9937
+      ],
+      [
+        1757183400,
+        9937
+      ],
+      [
+        1757269800,
+        9937
+      ],
+      [
+        1757356200,
+        9937
+      ],
+      [
+        1757442600,
+        9937
+      ],
+      [
+        1757529000,
+        9937
+      ],
+      [
+        1757615400,
+        8085
+      ],
+      [
+        1757701800,
+        7800
+      ],
+      [
+        1757788200,
+        7800
+      ],
+      [
+        1757874600,
+        7227
+      ],
+      [
+        1757961000,
+        8085
+      ],
+      [
+        1758047400,
+        8085
+      ],
+      [
+        1758133800,
+        8085
+      ],
+      [
+        1758220200,
+        8085
+      ],
+      [
+        1758306600,
+        8085
+      ],
+      [
+        1758393000,
+        8085
+      ],
+      [
+        1758479400,
+        6222
+      ],
+      [
+        1758565800,
+        6222
+      ],
+      [
+        1758652200,
+        6222
+      ],
+      [
+        1758738600,
+        6222
+      ],
+      [
+        1758825000,
+        7139
+      ],
+      [
+        1758911400,
+        7655
+      ],
+      [
+        1758997800,
+        8118
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "IDR",
+            "name": "Devi Ahilyabai Holkar International Airport, Indore"
+          },
+          "city": "Indore",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7-ZgN2kaBwax506bxU8Z9kQoCEN7z731rPBQVtcHXo0zdL3sHBNxmIpQsBqnv6bInZjNmqX0JgmyABg",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTFNIoHCCJrb7y-bwBoPRD1QiNo0c_VvKZq_Xta1MjnkKTKjltm7BF352MZDu3UlntRyQtuX8b0WAfkbD9FwcZLiXKwMM5mZskS0BcC9RA"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "BLR",
+            "name": "Kempegowda International Airport Bengaluru"
+          },
+          "city": "Bengaluru",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQIQIUfZg6v3rdHMVD96D5vTNuXwVO7zsdZy0l7s2uiyV-xuK8nJlokAp_ChoLy9r0vjJWcOOBkEvBI2g",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSFrS_QMxzjURYrYSPiuRW9uR9imYuBAhdE49jwKag7Ucgl0en4CNAtP0hf1MDSGdvhAw2s1-2w71_b-pcIyFOM1F1yMSPQLO5_XlgJc_4"
+        }
+      ]
+    }
+  ]
+}

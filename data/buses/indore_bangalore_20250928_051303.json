@@ -1,0 +1,49 @@
+{
+  "search_metadata": {
+    "search_id": "indore_bangalore_20250928_051303",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "earliest_departure": "2025-10-28T03:00:00",
+    "latest_arrival": "2025-10-28T12:00:00",
+    "timestamp_utc": "2025-09-28T05:13:03.489972",
+    "query": "Indore to Bangalore bus tickets price duration site:redbus.in OR site:abhibus.com OR site:msrtc.maharashtra.gov.in OR site:gsrtc.in"
+  },
+  "options": [
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "Bangalore",
+      "depart": "2025-10-28T05:00:00",
+      "arrive": "2025-10-28T10:00:00",
+      "duration_hours": 5.0,
+      "price_inr": 500,
+      "ref": "B02",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "source": "https://www.abhibus.com/buses/19749/Indore-Bangalore"
+      }
+    }
+  ],
+  "serpapi_context": {
+    "search_metadata": {
+      "id": "68d8c3dc05bb592c11aa79d7",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/50645395dc94dec7/68d8c3dc05bb592c11aa79d7.json",
+      "pixel_position_endpoint": "https://serpapi.com/searches/50645395dc94dec7/68d8c3dc05bb592c11aa79d7.json_with_pixel_position",
+      "created_at": "2025-09-28 05:13:00 UTC",
+      "processed_at": "2025-09-28 05:13:00 UTC",
+      "google_url": "https://www.google.com/search?q=Indore+to+Bangalore+bus+tickets+price+duration+site%3Aredbus.in+OR+site%3Aabhibus.com+OR+site%3Amsrtc.maharashtra.gov.in+OR+site%3Agsrtc.in&oq=Indore+to+Bangalore+bus+tickets+price+duration+site%3Aredbus.in+OR+site%3Aabhibus.com+OR+site%3Amsrtc.maharashtra.gov.in+OR+site%3Agsrtc.in&hl=en&gl=in&num=10&sourceid=chrome&ie=UTF-8",
+      "raw_html_file": "https://serpapi.com/searches/50645395dc94dec7/68d8c3dc05bb592c11aa79d7.html",
+      "total_time_taken": 3.61
+    },
+    "search_parameters": {
+      "engine": "google",
+      "q": "Indore to Bangalore bus tickets price duration site:redbus.in OR site:abhibus.com OR site:msrtc.maharashtra.gov.in OR site:gsrtc.in",
+      "google_domain": "google.com",
+      "hl": "en",
+      "gl": "in",
+      "num": "10",
+      "device": "desktop"
+    }
+  }
+}

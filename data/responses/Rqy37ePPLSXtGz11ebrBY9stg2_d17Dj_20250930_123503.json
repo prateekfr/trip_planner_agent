@@ -1,0 +1,129 @@
+{
+  "cheapest": {
+    "mode": "bus",
+    "src": "Bengaluru",
+    "dst": "Bangalore",
+    "depart": "2025-10-01T02:34:25.176171",
+    "arrive": "2025-10-01T12:34:25.176171",
+    "duration_hours": 10.0,
+    "price_inr": 80,
+    "ref": "B02",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.makemytrip.com/bus-tickets/bangalore-city-online-booking.html"
+    }
+  },
+  "fastest": {
+    "mode": "bus",
+    "src": "Bengaluru",
+    "dst": "Bangalore",
+    "depart": "2025-10-01T00:34:25.176171",
+    "arrive": "2025-10-01T06:34:25.176171",
+    "duration_hours": 6.0,
+    "price_inr": 290,
+    "ref": "B01",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.redbus.in/buses/bangalore-bus-tickets"
+    }
+  },
+  "value": {
+    "mode": "bus",
+    "src": "Bengaluru",
+    "dst": "Bangalore",
+    "depart": "2025-10-01T02:34:25.176171",
+    "arrive": "2025-10-01T12:34:25.176171",
+    "duration_hours": 10.0,
+    "price_inr": 80,
+    "ref": "B02",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.makemytrip.com/bus-tickets/bangalore-city-online-booking.html"
+    }
+  },
+  "hotels_top5": [
+    {
+      "name": "Intourist Palace",
+      "price_inr": 1137.0,
+      "distance_km": null,
+      "rating": 4.9,
+      "city": "Bangalore",
+      "near": "Koramangala, Bangalore",
+      "checkin": "2025-10-02T17:00:00+00:00",
+      "checkout": "2025-10-02T19:00:00+00:00",
+      "ref": "ChoIm9np476I89S0ARoNL2cvMTF5ZDZ5cWp4OBAB",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": null
+      }
+    },
+    {
+      "name": "Regenta Inn Grand Koramangala",
+      "price_inr": 2695.0,
+      "distance_km": null,
+      "rating": 4.5,
+      "city": "Bangalore",
+      "near": "Koramangala, Bangalore",
+      "checkin": "2025-10-02T17:00:00+00:00",
+      "checkout": "2025-10-02T19:00:00+00:00",
+      "ref": "ChkIqsnhjISphshhGg0vZy8xMWxzejhfcTA2EAE",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": null
+      }
+    },
+    {
+      "name": "Hotel Royal Flora Koramangala",
+      "price_inr": 1700.0,
+      "distance_km": null,
+      "rating": 3.7,
+      "city": "Bangalore",
+      "near": "Koramangala, Bangalore",
+      "checkin": "2025-10-02T17:00:00+00:00",
+      "checkout": "2025-10-02T19:00:00+00:00",
+      "ref": "ChgIkLid86_iuZIcGgwvZy8xaGY1d3o4bncQAQ",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": null
+      }
+    },
+    {
+      "name": "HOTEL PEARLINN KORAMANGALA",
+      "price_inr": 1422.0,
+      "distance_km": null,
+      "rating": 3.4,
+      "city": "Bangalore",
+      "near": "Koramangala, Bangalore",
+      "checkin": "2025-10-02T17:00:00+00:00",
+      "checkout": "2025-10-02T19:00:00+00:00",
+      "ref": "ChcIzIyYzfaK9MswGgsvZy8xdGtuejczZhAB",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": null
+      }
+    },
+    {
+      "name": "Savoury Business Hotel",
+      "price_inr": 2004.0,
+      "distance_km": null,
+      "rating": 4.1,
+      "city": "Bangalore",
+      "near": "Koramangala, Bangalore",
+      "checkin": "2025-10-02T17:00:00+00:00",
+      "checkout": "2025-10-02T19:00:00+00:00",
+      "ref": "ChoI7p-ru7Kh7I6_ARoNL2cvMTFienQ2YjF4cRAB",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "http://www.savouryhotels.com/"
+      }
+    }
+  ],
+  "debug": [
+    "Flights: 0 options on 2025-10-02.",
+    "Trains: 8 options.",
+    "Buses: 9 options.",
+    "Hotels: 20 options.",
+    "LLM itinerary generated (1640 chars).",
+    "salvage_used: True"
+  ]
+}

@@ -1,0 +1,2729 @@
+{
+  "search_metadata": {
+    "search_id": "Bangalore_Vivanta_by_Taj,_Bangalore_20251029T150000_20251029T170000_20250928_212049",
+    "city": "Bangalore",
+    "near": "Vivanta by Taj, Bangalore",
+    "checkin": "2025-10-29T15:00:00",
+    "checkout": "2025-10-29T17:00:00",
+    "adults": 1,
+    "children": 0,
+    "children_ages": null,
+    "currency": "INR",
+    "gl": "in",
+    "hl": "en",
+    "query": "hotels near Vivanta by Taj, Bangalore Bangalore",
+    "filters": {
+      "sort_by": null,
+      "hotel_class": null,
+      "amenities": null,
+      "property_types": null,
+      "brands": null,
+      "free_cancellation": false,
+      "special_offers": false,
+      "vacation_rentals": false,
+      "bedrooms": null
+    },
+    "timestamp_utc": "2025-09-28T21:20:49.954195"
+  },
+  "properties": [
+    {
+      "type": "vacation rental",
+      "name": "Insta Rooms- 1BHK Fully Furnished Flat",
+      "property_token": "ChkQ-pnQqpHt9MJ8Gg0vZy8xMXg2bHk0X2d0EAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQ-pnQqpHt9MJ8Gg0vZy8xMXg2bHk0X2d0EAI&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.90900993347168,
+        "longitude": 77.60311889648438
+      },
+      "rate_per_night": {
+        "lowest": "₹1,505",
+        "extracted_lowest": 1505,
+        "before_taxes_fees": "₹1,505",
+        "extracted_before_taxes_fees": 1505
+      },
+      "total_rate": {
+        "lowest": "₹1,505",
+        "extracted_lowest": 1505,
+        "before_taxes_fees": "₹1,505",
+        "extracted_before_taxes_fees": 1505
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹1,505",
+            "extracted_lowest": 1505
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 28"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "NS Palya",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 20 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 6 min"
+            }
+          ]
+        },
+        {
+          "name": "Manbhavan Premium Thali Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/cLh0h-Ccs6zV8j3riycetksbArtaMGk5ei5TuARiS5kc2CiQ1A_UiNOdIuQjX4tinqjkvZ_-1KcgWE0_6Z5_9qkyQhKir6qnF0eGtWvkujYe7soNEK0algMmLApXzvdX5d2O5oxTdc-X6xeVKyPyEJ5Gldx07Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/geo/poi/32842/2_32842_02.jpg?ca=6&ce=1"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/NfhoPpuCcFXuWYjOKOk61zIaeeIdZcHk2FkFBTprpPXRIfSNfBFz1uwrvx1WWomlLu-VmyF-YkBsoIJ5kVmkeb9ycuuPS6JR_DXs4RSVv2vYPKTJYFWu7sfxvJHQvCcJVoEKIfxkwKBoqaooy1N14n2ZiEj-mg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/geo/poi/32888/2_32888.jpg?ca=6&ce=1"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/i5f-zEC8A7U1aK4UAoTETGuX63GLlSBIHyuLL0dg4RyqgzgIjEFUhocsCli0nD-tO2J_FJBr2tOu3TJvsuj5FmqDP3iTmNUPz1BGl6HJ8gxJj49M1QS0TCIODPL858mFIZLPTADo126AvBd7KCVSU_TkRetRiA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/35067299/0/f37676fa927b30989c6b06863e232024.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/MjYGM8SDH2pu3U8f7Dz2RUIdX7Lp3QvTPe1CKoi7aPMaJi5x8s9NeeAo8_-OysfhbHgNuJLfhZezkKyd25wc2C3L5194rBULeHyM9iP2bCfnfCQlUr4UB0cQbwGEbn6fL7GmYYmoK1RlRLjU5Vaw9qFSkev6YLQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/35067299/0/7adac0497a8d6bef9648064535c5a590.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/IIj7drcP7xTB3UEKqYq-FPFxhUIl81jNL4KVqVwpdEH60zF-WBLuQdR7oiYZbThFakrA3tZyVLu02PDoWiOhDaLYE_7SFCu6B5LwLWccPZhiacm9dFG_k0yGR6pCd10AERWUkAlajyRA2I0-7K2pW-mRvOHOWQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/35067299/0/d4fdeb0e47aa720dd9d1269e7fcb44d3.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/mejvVX4TpqzQKtgltEEnrH7-lh8hIAyc3u7tYFsGea8ulpxqxo2dSQk78j4sL2vz2928Epv8tSIMs13QExEPdYxMo5DpsRuDvTg-e431e5DkXJ888W9uwyKJyLK9sUiUimuOHiVlFKRKaHjc3cwA7bJH3GYNNWM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/35067299/0/2afa8c53a88c2fed4393e321b16ff967.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/rrn1I9ouUeLtT-kphEPBXwzlc_jk44kFDNgopA-dAWmEucDP4pvcMrXBPGUCYcyfb90-ZmBhVJqO6ZbnJLVQq_LoI--6MOIOFUnWeLHEA71h89-mwUJgNfVW__rM2vZ7Kzq6Z41FJnWA1Aun-9HnvuHJwz9qjg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/35067299/0/e482a171d83838c1fef9bf1139b051c6.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/NSfx0KGSy_I3t2T2rkgFriXHj5rYQFKctuVi9mOO25EyS4RXg2c3bGuZF-2dUqsqH-1OsKj8LfoQsg8ilMv9mp9Sx6Nwk9Ego3QFlDo97NqcxCAwCyv7cN_gX_GwAMbpMY2hPfZjBqFz6GWSpmkMjCJBjuNAQVQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/35067299/0/91b117f73bafdff70e873d76c6fcd966.jpg?ce=0"
+        }
+      ],
+      "location_rating": 3.9,
+      "amenities": [
+        "Balcony",
+        "Elevator",
+        "Ironing board",
+        "Kitchen",
+        "Pet-friendly",
+        "Cable TV",
+        "Washer",
+        "Wheelchair accessible",
+        "Paid parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No indoor pool",
+        "No outdoor pool"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 2",
+        "1 bedroom",
+        "1 bathroom",
+        "1 bed",
+        "6 sq m"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Grand Suites",
+      "link": "https://www.bluepillow.com/search/67a23ed3905c444f2d085aea?dest=ago&cat=Vacation+rental+(other)&lat=13.06966&lng=77.60182&language=en",
+      "property_token": "ChkQsZDohdjanvUPGg0vZy8xMXhkMzh6c2N5EAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQsZDohdjanvUPGg0vZy8xMXhkMzh6c2N5EAI&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 13.069660186767578,
+        "longitude": 77.60182189941406
+      },
+      "rate_per_night": {
+        "lowest": "₹1,112",
+        "extracted_lowest": 1112,
+        "before_taxes_fees": "₹1,112",
+        "extracted_before_taxes_fees": 1112
+      },
+      "total_rate": {
+        "lowest": "₹1,112",
+        "extracted_lowest": 1112,
+        "before_taxes_fees": "₹1,112",
+        "extracted_before_taxes_fees": 1112
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹1,112",
+            "extracted_lowest": 1112
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 26"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Jakkur Layout 3rd Cross.",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "30 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 21 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Zn28fi6dltAw1W8z5p5rXh7EAye8tGzmaCKsr2MYFEu8IQyBcr26_hzBm3zQRrwyCfpNqc3xPtLri0t4l8gfwlxAVDs0YEq3DxYhqnAtV1iNoy9imqphsKxgSBruKyvub5KASx9lN1LzBW4Z_tYjtVoOY2TzsOs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/575306902.jpg?k=ad161799ed6d6c32af5873489edca53da650356186324b2b6ce749dab68fcef6&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/1EXpHaI0qx-kL_L8q5Zwlg7KPJoygiBhNWH9yl0fR_2Hclk-BP8KKeM1MQ1yrmde437M8tB59O_99hSBx4RbdqONxgsqpyEUDmnCAnpb9gbxZSsXXml9o7uJn_Oc2ML4pYdynVNh-Xpx0jZXosr44aeSTcQNPSo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/575306993.jpg?k=10d1ae47cf0691dbe9cbadfbe42bf8827833f04891fb62677dcbad92c3151025&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/MpuZYMWtlfh6zTTB2KL8u6Xo46TIlKiExNyBIz_kFvSgXVflIbgxlFsEq447MGLdJK_hwOB5R9szuXBXikemnenYu4TIySGtD1oXfZe2EpxqilL1Tpp-jttEYvBblfyRLHNhjwN4bFII2wDFLeh0D6Veh6fgPR8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/575306970.jpg?k=6e47308a28c30d9db5ae4dc680827542c78e67d918bd3a4b70d392920060456f&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/sjOJcsLc5K-A9gf5LavTAw3uZ98CpInkGeheOZwTKMVUL1OVw9ldo4quOm5dcMu2qCFbL45kCjnAZTIM4DqOGmA8-6-DpxurF_ba2NoEwOJQnsXo6IzG-wcosGxOHlnH3cl3HClIp2YUODFHzHjQK4Nv7MeePrE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/59315494/-1/13c919851487b18c5599b2383863027a.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/tbPuXscwg69ORqYfjhjOskCgfI0NJLZ_9o1xIIpROJET4Oa_nXEyY3hGbT8tvqLZH4mjm_8qHN3pTKqUpm_e90yuBm4anblpc4G1faPH5KyU89HGxqmblj98wFNgSCulnidy2_sfSUTrboug2oHLCyNrqYCkkZQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/59315494/-1/075997cab7bbe817a03eb2a259149804.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/yDlfkDpA7vQwHEqaz-MqAw95t0V_2_b2nqHVVtoD8vzKgw3CP9JV5-DagnQ3o4rP3AyhZfwGG_ae4GYsVkAwY8dMuQ7fAk4ymYc8uBSQyhMn1j9GLAFOIL_U56m6axPsGFTjaEiZjQougGlgmwfiqGzfQeg2k1M=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/59315494/-1/8349bceb3e537fc735a4014fa0c54ec2.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/47QCHaEkE5A8yFLltwVbksBL2Gbnjt-LBbtA57q1vMP-5dVJP-AHankKrygBtMi4WZdSXxuPan5kg1Q99HYZIRnErpFlub_2bqXiQA4-C_v1UCsUU1qSbHxqNoB60I4tRIX4Ru51m_zDuO4meuIDi6ijMD7fEBk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/575306990.jpg?k=03a89ce6581e4133fce0a347756ccb83edb3bbc80cc802fabe19f246f13c123d&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/bCgosobrO0PAseVDVTL0sMvaTUjOanB_8mDHb6O9pZBikQeOBuLgj8CPp3JVH8E6xtegFTxbgcxMX7LJq6EznO75TKbQNUYVFkahagcPisdEikIbdWmnNqcmnOsXDVbUnNzihikb203eQEW2NjlJIUKa1VUVVg0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/575306982.jpg?k=88f3a30877cef625b0dd9f8c256cd48a1c1a16c8df2dc56864a7c8cf975f6d07&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/ZlQ8an-f2K8sBjIlZgB2Djq_ckZnASgRSIqG3-F-I1B-5Sy_wlGNxfdYeD5MjupSgZOHTvW_ulDCJK02kLHCh93eQ_gaJzB80wbJEwswLZ1RtC-qw_AAvLoDFeTuIqxXMqSctq8TYguZVOrOnhvOs_2Jvx_aHdI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/575306890.jpg?k=7f14a042874bf074f616cfbc0c1d971a4acb83a1ea4a3bd602f26bb90cb39990&o=&s=312x"
+        }
+      ],
+      "location_rating": 3.7,
+      "amenities": [
+        "Smoke-free"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No parking",
+        "No Wi-Fi"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "10 bedrooms",
+        "10 bathrooms",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "1bhk fully furnished",
+      "link": "https://www.bluepillow.com/search/6811b65c6178c7268f2cef72?dest=bkng&cat=Apartment&lat=13.02943&lng=77.60856&language=en",
+      "property_token": "ChoQxai42PP2gZHUARoNL2cvMTF4ZDM4Z19ubRAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQxai42PP2gZHUARoNL2cvMTF4ZDM4Z19ubRAC&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 13.029430389404297,
+        "longitude": 77.60855865478516
+      },
+      "check_in_time": "1:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹1,402",
+        "extracted_lowest": 1402,
+        "before_taxes_fees": "₹1,402",
+        "extracted_before_taxes_fees": 1402
+      },
+      "total_rate": {
+        "lowest": "₹1,402",
+        "extracted_lowest": 1402,
+        "before_taxes_fees": "₹1,402",
+        "extracted_before_taxes_fees": 1402
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹1,402",
+            "extracted_lowest": 1402
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "LR Bande",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "42 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 30 min"
+            }
+          ]
+        },
+        {
+          "name": "Dum Durrust",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/X5_2W3oYozXUawO2NyjJN5Vzga2oC6y6oHGUosqvH1YRb9m4ydLiJkUy4L8S2sT5frIEGOCmQ1Mq6I-z5Hmlm5QOG4QtA5U0WNN9YFHNSKpA0n7scVeVGWRkIFj_o3Kzyw3wzDHgY2doNeZ3F7LbWYJ8bdTo33g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/621818067.jpg?k=b9dc09ec6f63505cab65a041ec382dbfa20f442d4b057f97bbe6f68b9cb0bae6&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/-GRxsn6K9BgX5lwuLwQg2jB8DGvYXzbPUQ3HVt1lPVMAwWQBZGcVIBG_mFeolUHm8WmTCxNg7ayidTGMRdfUUlQ6A7GAnxwUj3FQo5qGOcWFWEtFiUjiraBW7rg_lR2Gz7FZgIXXQld1XsX6Qqr_l0m6y0Ik6A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/621818079.jpg?k=c0f9d152c113fbc64a4d218e032245ef3e8b864e86142de17ffcbf168fcea87c&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/RTMocdvYB0vjYkrEwhJ9SfuIkeyp7lZVyWWlKmpVouef_cUN7krczzBDn65HDwgi4psWY3XDzUw3zWteUAA5o5C94utWXxNX_8gdy6Q6PB8TbawpJOhizOhqwtgmw5wn6GZ3stxVE1m1gdKIDPGqNuS37yU4Eb8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/621817973.jpg?k=4904bab44b2dc7e8f838508cd18089a40568c8222b03109401b3711f2bac7a3a&o="
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/gcsN-G663Pe-dbG-WLqHhfBcJiijy-QFmF_i9_H35kBPTY0_9tnQWINf21Ecm1qt3p-8g0Dg2D8EQRsyG9C613mwsLnvddNCPUH0f1GQHOPUBWL-UTkwDNE6qAIRdn6WvvtoyCxR22IP9utlQ2rBtUbsf_vxjwU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/621818062.jpg?k=0388d9e4675d1713ae1471fff4577ea84aef9a25a1063deeb27bdc2acd87af72&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/1hzCM1NsjcKIr76bXfUMY9AtKIAtTT2vX85AN_BE7ahksTyeny9ocLSg6w6yMxVTAX4tWqRkUohX4niXiN6qsPIG3qM_ERZU1tagUOebj02Xy618cH6XpsrYY9W_Peu6QPErgOVyrL7dzvHoSCuM39FhLqpoaw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/621818072.jpg?k=e449b9e128056277de7a4f2d328794bb792ce5365a226d002c31fd159ab1c8cf&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/7PxKPTZvEIDb7TumzT8CXbI42rXwH9wVHTppONbA3X4z2KxXlEvUbTf5Opcmc_3xmRCpwEynXpUbKP2BPoLEZjbutmCWsnj-rdsKwboCFmgBGdM7zLAyYqX3kbEVPVmuv_mtq7ZIV8MNkyJu_g-joEprxxH80z0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/623426626.jpg?k=2597e9936ec93cca8f334ac33ab4ae2d3242f9f831111c8a6274538760fd76b0&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/W1ksD3WPHlTe5H5CuqEOVhgBAi1E25pehER6cPv2Ewr_CXKjLJs1e-Hns_wBzUEE71uv_oH0uYVvBVGqO-nRKb-hTMzCMxCur76yF-uT-W6GmlljXilGnOdnu4OCSDC5p2KK222dhLkHRm4TupuvAy1BB3fOVyk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/623426930.jpg?k=9e9e160b457fab8fef5de362f361fd227e15860e40f3680004f39e3a89973037&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/RzlNXJSMQAHFrRBryNuN9arF-yZbvWbJxPG41I_zkQbXpEzr0p8VDKEfMNeWwBQE5cG6mtpo9_n4dweULTjENYuQoNRfpCNTa36FYxaBg2MYNA8oE9Uic6KsToDtMcdNsEZv4WbITp2HqPCXUq5N2owKPlgMPw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/623426701.jpg?k=90bc7bc13a6a4c4c523260ee1ca070cd23d6bb1c075667a5d48f26e436716ee5&o="
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/49IWgjNGSfaUyELxf1SKVfMKghtmbgD02Sy5CI67JLPjKYyFv6fByzWXkHFexpidFvT_0bWEgrDfOk3TD0q404uAUDtdk-b_Lmb8lc7u7rWsn6EmVyw7ElplNXGtuYEvDLktKKJXPBbCVLZGr67WJIAPDpvlaBc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/623426767.jpg?k=4cb12d66768a0b4fada89730c3ea742c3db321ddcefab8db70a6d5068ffe341d&o=&s=312x"
+        }
+      ],
+      "location_rating": 3.1,
+      "amenities": [
+        "Air conditioning",
+        "Airport shuttle",
+        "Kid-friendly",
+        "Kitchen",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Wheelchair accessible",
+        "Free parking"
+      ],
+      "excluded_amenities": [
+        "No Wi-Fi"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 2",
+        "1 bedroom",
+        "2 bathrooms",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Tranquil Serviced Apartments",
+      "link": "https://www.bluepillow.com/search/5a84f6297c00cb0e04261162?dest=bkng&cat=Apartment&lat=12.89457&lng=77.61994&language=en",
+      "property_token": "ChoQgNuE2si-kPbOARoNL2cvMTF3d3BrY2N4NxAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQgNuE2si-kPbOARoNL2cvMTF3d3BrY2N4NxAC&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.894570350646973,
+        "longitude": 77.61994171142578
+      },
+      "check_in_time": "1:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,311",
+        "extracted_lowest": 2311,
+        "before_taxes_fees": "₹2,311",
+        "extracted_before_taxes_fees": 2311
+      },
+      "total_rate": {
+        "lowest": "₹2,311",
+        "extracted_lowest": 2311,
+        "before_taxes_fees": "₹2,311",
+        "extracted_before_taxes_fees": 2311
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹2,311",
+            "extracted_lowest": 2311
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 14",
+          "free_cancellation_until_time": "6:29 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Kodichikkanahalli",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 26 min"
+            }
+          ]
+        },
+        {
+          "name": "Spice Garden",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/E8driMvea7xqYaXynPayBlwTZWsJ6jMTwetCro_euVQaYeZRGQ1E5CwWx77tI4OVO6fEe8-l5g4m5fKx6nr6HFlAj9ZtEY-llxuvyQO7zvvc4TzjqWemuxc2yoGEkj7JOdrT_GjcnlckFwQpY41CWGAm4iJvfOE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/236361440.jpg?k=00aac24d541bda2078af08d03a54f4c4e2e132684a2ad917fd991fd1abbf4004&o="
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/g6FegfuD4kfNSTw_Bir3xkJkP9fvB-LCZxWwzgjPJlAJQJYPbqpgqMfesW5CaExlZ0wbvZpwXHfUhE7aFRLwZkfdIWHPsbU3hm2w1dF3ClBVBvCAGfAfygAuQd5DD-8PIcP4Eg2eYHH40lMB0pf_We4WuIPFYOM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/118376949.jpg?k=40c10c1574eb9e878574fc312c6fc51218f3376fae66c2528c9d31979f8c7d26&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/15GmObszT4QNpkbIDYxCGPjFyE2AP97GQ4fN49TBnImZcon3jQe8grgJlRUPv80fAw8zaWmt6JFqwRrB0gMzIRHdRFyDDhmOmuWLS5o9rSH0Ucx7wIentjGI3HlyNlZvnmcZHGoYWSFm5VYxxV4DDsXQIbS6Si8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/206523566.jpg?k=00d4bba7284cd9de8e66fa65b6d4bec8e2ef5a82587a928d6c782d54f21fa0f3&o="
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/F1q5ts2uocdToTYuv24ouT6j8fOuqltAV8cI55iFQq-KTFtFH4r74WmEQrRF6D2J7g7UbpDC05ARL8EgEeoPjFm82xfeoDujR3XYo9rK5Ev4pASpQS42QMpYAiCvK5OCEs9lPp8F84OZCaLJrOeNx2vHMC52anQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/587080967.jpg?k=92121a2a1b62191db7036a6da9b6c982122e1c034fa564db151135ed8f406c24&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/JX-pnyph-lfVT6L7P5y2A-tb__OL-lhFf5VJfiuQjKje2tlU2xIw3AfwGZpblHP4UPK4sYoBOPivf4cZLpq2m9sF4oiiORAWfZB1e7L37-j1fOPurxYglThXvIdCoERdIk5rveV-vScTmmefcObc4DaLAh_ioQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/206523571.jpg?k=cff76a0ac33c0dc82c0ad325594a7c79ff0b6cecc5ac27505db6babdc869266e&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/VPzmWMjrg4YtHw7RwKnsl-exKGyAEzU2Qry0prYKaOOzYEbU_qAtqk6oh7RJq4CvJLyCL5jUwA083X49_5oDKiN_SiXLgyIQCVYIEMHRQ5pSUn8S1-8kaJSgRtU8MwjuU99UvA1vKJgIaFeJKHsXOSjzgJ-S6Pc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/206523561.jpg?k=12de3648edbb63bfd3a04a5ae64884a379119f657f4ee02e28b6faf027b92e62&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/TpHwZETdY4CysKiOtr0Btcf32LsiNYwozPgHb7297CI0lFeGs0AKpJpeKXbwlixJDP_tMAdQu8XPfyKBVxSnjXX5WfOAz0QZIUcUaS7CWJFlj90OamLtwLc-xdnBN6dzSU7zLKE-6chX8bBxlraI1MbXA9mqOg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/206523577.jpg?k=85031c639d06719a45fe68080a2dd88e1f5df56d1fd6b06c8c37fbfe08e8a4ec&o="
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/PbssdF2vSnDwdL2P6mjw0Z0KA4COKmQOj5JLM9155xWbdvnZuYL-3asEs787g-6rnCtJgmksMn3HZZ5aQ57IZLTGD4k53YOiaisQomAGBqc2pVcgCHqCWfJv3lD2JtP3p4HThRa-AuT4gbnodkxkSg4Qy5tfriE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/587082023.jpg?k=593f6b8be4922bed7728faaa80cff30d8936e15dd3468fbc4bd01a3ef29c679f&o="
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/PGBbJX5bPeDWjsvkwqSXvwS59A60vOG-DGm_178DRb5UyxjwyqsElFSGrQHxZ-bayj8SwamWKHyWH52RySI1AAIME7Uo2rrFDacgR3ljX5nK63_hwWaDhvaIspaN6U1cBCGwu_V58MM2YHo4SsAQovYgjZwA9q0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/236361448.jpg?k=96f32e09938b8bd513acdc14673dfb95a2a7cf7695c64756662dad17ac853318&o="
+        }
+      ],
+      "overall_rating": 4.85,
+      "reviews": 7,
+      "location_rating": 2.8,
+      "amenities": [
+        "Kid-friendly",
+        "Crib",
+        "Elevator",
+        "Ironing board",
+        "Kitchen",
+        "Microwave",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Wheelchair accessible",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle"
+      ],
+      "health_and_safety": {
+        "groups": [
+          {
+            "title": "Minimized contact",
+            "list": [
+              {
+                "title": "No-contact check-in and check-out",
+                "available": true
+              }
+            ]
+          }
+        ]
+      },
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 12",
+        "13 bedrooms",
+        "6 bathrooms",
+        "9 beds"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "2390 Home Tales by Tipiverse, HSR Layout",
+      "link": "https://www.bluepillow.com/search/65ca9e1d671b07d23c6e6dc8?dest=bkng&cat=House&lat=12.91338&lng=77.64941&language=en",
+      "property_token": "ChkQss2em8CB3dsxGg0vZy8xMXljbDN0NHdqEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQss2em8CB3dsxGg0vZy8xMXljbDN0NHdqEAI&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.913379669189453,
+        "longitude": 77.64940643310547
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "10:00 AM",
+      "rate_per_night": {
+        "lowest": "₹1,462",
+        "extracted_lowest": 1462,
+        "before_taxes_fees": "₹1,462",
+        "extracted_before_taxes_fees": 1462
+      },
+      "total_rate": {
+        "lowest": "₹1,462",
+        "extracted_lowest": 1462,
+        "before_taxes_fees": "₹1,462",
+        "extracted_before_taxes_fees": 1462
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹1,462",
+            "extracted_lowest": 1462
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 21",
+          "free_cancellation_until_time": "6:29 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "HSR Layout KEB",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 3 min"
+            }
+          ]
+        },
+        {
+          "name": "SOMRAS BAR & KITCHEN",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/S1kovVMI7ZizGDe-nya5YAmg9FWSgxhW9dZe7M2ejM6z9uLgEglsKdzWEBtQmAesmYbgdZGwVj8k6SP_RYzmV9Lds9BqUYdkY8fscsitqMHMvX9Tf7LRyZDOf91Uoz0n_obSmGEk3cxpxxwm2XUfM0f09ms1Hhc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/350091560.jpg?k=ad1cff7c9d04b3abf888a37c3a999fe953e36ccffac1e15e00bffc5dbcf0d560&o="
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/-Bh0ErTVwqdwB5AL782KdvvQStURFyUOeU0BihRz5C_gfm9lmFipp4y8NJyTQgYQZzUf4AXm1sDsekq7Hcx3YwtFfCO7FNd1wo5eJhYySJxXqisRgFU2-zQTI68I6n262Iz8dcfuuKaEFMk2j7n8KOkwKC8svQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/350091557.jpg?k=e3b2de4a74efa7741653eecbe71e4dc6447b094cbaa52879c686b0d43bfab431&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/X3kSPlJrCqU7kgdj3ZmTNvJfYv9T6ffP3QFNstsH-l0xpoI_clv6NRIns4JZs_peDjCWOFkfXm01mSJ-8jOh3vPKoYu_rsiNqTbw_55SazDNfnAabmdr2OcWckJiOOg-B6GAUn7-ZEeu1YCkei19sjTF1Y8xrQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/350091558.jpg?k=27ac9562ba40326b411051a469cc5feb1d373abe0326210cb1b8cab0e863d845&o="
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/_M8htih21lH3_5ojgzJd7cOjzUjtqZp8X7zJoxBYuUEgjZ17wcho01TUY-exeF_fq-gs2zwj30ZuHOhRahMoOi3k6oQn15Tu7wBeX4S2ToybKL4hRSIkECPnoquGM2MQrqQzVFmzfa5gNBb54Hp6X6CZXz7qew=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/404125979.jpg?k=227b75f0380c2c6c3fcff397f5f8bd8d32c7ba98f8d2a874c2797e2967d954ac&o="
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/0A-i52N8uP84lgYKSdJ2VCQDqbu68kyl2GABxg6v8UjAZxrK8ghCIEA7CLpLGg4Pk87lNVQ7SaYMtYYmErEQyhduq0hTrIfC4EjA4KKajBAbTTK3N3MX7zoeebndg_9MxX3OKW4gOA2aL3mzWDQZhquRgigfBw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/350091553.jpg?k=86e43a05cdbb81602307d2f6da7924b2372294f29e359417f1b179fda691af3e&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/AGWSmB6Lml2vtjPQtpaQuh1ptIe0uQbCf3kGD4f7Hf1PQYVaM_8Or5P3ceKk1ybavzl2Djl2Nh8C2ARfTeQeP9S126piGAZ5cdXgWaS8kuZVj4jamin2uQd7DDOkCIXkxKOYzoeQ_VERHYeXnv3xRED_AxqHUao=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/404125975.jpg?k=6bab714fc195d1fb25b5a98e14d0348eb11578a8a60a2a034ff37aac48ef4336&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/HBhY-NYS1pAEZwPLKZ10EIEL532hCukzF526N0EHCLuwhPx44nBDGS-3LJTNXx1VHZo-m_aFfUCYP5SQvaBZBYjBFGKTBtZA8BBfcc0PD9kf0PueFLSEZb4tzGtPYWLIfbFAnAUbqaWFxRcSWN4y_ZrTRQEdDA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/404125973.jpg?k=7d5124f9d5b5cfaf42ed2676585a4654e9336af6eb20050a314e3e7d7de56d87&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/x5gJ6nINHkjG9pdj3Z-Fm1qsWfo0yA1-zde-rnyYGtfivdj2puxSMAtg1Y7HtscHkhGweNtbaX52ex5YIsBMnSRwqA1kskkGy6L1kqQZN4sfoE4pjinHMHmbUQZmEZ49-FsMcEvQNRxI8yZpm1NMSQ_7xNFSyg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/404125976.jpg?k=186f9d1d2f84512f5d21eb78cc6b51c200ac774fdd70e5747f76a843159abfe5&o="
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/bH74vgskIPERMrGATKv_LZ_WiwPZlhmhBYprQDPphllwKTjxHWII4jOvJ8X-bAeLq-U-Ljnc9OLQW6zGAX55Gp0i8OsEXknXPa02f6jp06HZ-c9Vajb37PfCY4YtKfdOBHdjAsQ_O956x9chDVHxlGWDFBVr3Pk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/350091563.jpg?k=e3ba0b36770167dbc6649c313ffe946db70a773582e817eac2972ce0ee8ba4c1&o="
+        }
+      ],
+      "overall_rating": 4.55,
+      "reviews": 8,
+      "location_rating": 3.5,
+      "amenities": [
+        "Air conditioning",
+        "Crib",
+        "Elevator",
+        "Fitness center",
+        "Ironing board",
+        "Kitchen",
+        "Microwave",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "13 bedrooms",
+        "4 bathrooms",
+        "8 beds"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Vivanta Bengaluru, Residency Road",
+      "description": "Warm, understated rooms & suites, plus multiple dining options, an outdoor pool & a spa.",
+      "link": "https://www.vivantahotels.com/en-in/hotels/vivanta-bengaluru-residency-road?utm_source=google&utm_medium=local&utm_campaign=vivanta-bengaluru-residency-road&utm_content=vivanta-bengaluru-residency-road-gmb",
+      "property_token": "ChgI-ciDsp7OvNNMGgwvZy8xMXhtMGZ4cW0QAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChgI-ciDsp7OvNNMGgwvZy8xMXhtMGZ4cW0QAQ&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.9722428,
+        "longitude": 77.6086284
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹17,818",
+        "extracted_lowest": 17818,
+        "before_taxes_fees": "₹15,100",
+        "extracted_before_taxes_fees": 15100
+      },
+      "total_rate": {
+        "lowest": "₹17,818",
+        "extracted_lowest": 17818,
+        "before_taxes_fees": "₹15,100",
+        "extracted_before_taxes_fees": 15100
+      },
+      "nearby_places": [
+        {
+          "name": "Mayo Hall",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "54 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 50 min"
+            }
+          ]
+        },
+        {
+          "name": "Karavalli - Vivanta Bengaluru, Residency Road",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/bvxYtxkBDu4yjjiOUxjQ3lNgZImcOWy0stGrLEE2d1krTw587eIL7D7yAN_yOOWxjAmHMlAfkzVouXNgM6Otx8lRTlBJi1Y6AkXcvAGEsX8GfBhGvU0hy6c-XG1REC57fpimy8i5BzaLTm1BEtO809d1_FC7hIY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/127/533/797/SWIRL_LOUNGE_ANGLE_1_16_MAIN_copy_1__O.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/GiuRPaq4wHcLksQ0eRQjjCguX86LEd4xFPbS3wHwg0EWFJqo8OZ68_cLnqQ3_QDaevs2kPPg9pO3RXWJ7Kq3TNsUiTomMtJPNgoOl8CqWNv5w9mS3LQoMPAw9xWn1alETiDjsdtzkwI_zuuORmeRBHQt28wtdg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/127/532/894/1KARAVALLI_PAVILLION_28_1__O.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/eVOXtRpL1a7eJIgQDUUWnr-4LMmw0t0aS5lV4j0UJ67cs7jP9psTm6_LAYYsdnFAEJbiU8XCxgRbdmYSoiCA9ckPtP148pHdFJkj5yOOPYbxyH9zNzHb7KY3ruI68mQTwlaX3291O5BiRSqTm6CMWR0gXaAwlYg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/127/534/115/WINK_ANGLE_2_76_MAIN_2_copy_1__O.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/neqDtRFUN4UIsWOm-IvX9Un3SDdVnar1xtcrxJeetwgOAUPOF5RFj3sodni449HTijqhRQCL6BbWWRReHBj3iOtvOetyN2MdV-lQA7sFgoRWMIGHj4rda5GgdtI2Ie5YiI8CXDEXgY5Aqo4fZBy-h83GSDpGtw4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/530000/526400/526359/2450e3bd_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNfhUPH268Vwo8j2bhoKO57oOEk__1GtMvPtf37=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNfhUPH268Vwo8j2bhoKO57oOEk__1GtMvPtf37=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM7V5y7i8tVa92W_1DhzmjrCAZceVJ7rbzUt05X=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM7V5y7i8tVa92W_1DhzmjrCAZceVJ7rbzUt05X=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/q_EOFon3OzPBA-nQDRtch8H9vq661olmnRYF9gehdz_Nizhgi4Xzh1uSJahg5oXogC7w_fBJ4mMav7wuKwNN5GtEaoxzQ6hsW_E8ZfPqqC0YZdtwcpebvpdJD4YUqOd2HZoo92QzohVNDZ7ehyStdiHfTRq9pA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/530000/526400/526359/93152ebc_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/64v8Fdp7yA7cooM-jGFB4sNO9sAxxNWOTVae8-gLCtIuEgaS0UUDpErYZUH5d9qWDF4XM9S1pCfet8nfDzMUas8MuR-e_Nz2BG8KlNQoRXFCC6g_B78TirdWhR1uEpDCEZL5fTH3_sP5Oq34YhoubxKN1KdIqw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/530000/526400/526359/d44f6173_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPFOSUeXcunnK37o5VBqLl3uquhyPCl4tGlGLA3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPFOSUeXcunnK37o5VBqLl3uquhyPCl4tGlGLA3=s10000"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 6931,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 4214
+        },
+        {
+          "stars": 4,
+          "count": 1876
+        },
+        {
+          "stars": 3,
+          "count": 550
+        },
+        {
+          "stars": 2,
+          "count": 121
+        },
+        {
+          "stars": 1,
+          "count": 170
+        }
+      ],
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 807,
+          "positive": 696,
+          "negative": 67,
+          "neutral": 44
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 1248,
+          "positive": 1143,
+          "negative": 76,
+          "neutral": 29
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 345,
+          "positive": 306,
+          "negative": 21,
+          "neutral": 18
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 179,
+          "positive": 127,
+          "negative": 16,
+          "neutral": 36
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 376,
+          "positive": 330,
+          "negative": 9,
+          "neutral": 37
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 1010,
+          "positive": 858,
+          "negative": 93,
+          "neutral": 59
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Pool",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "Vivanta Bengaluru, Whitefield",
+      "description": "Modern rooms & suites in an upmarket hotel offering 2 restaurants, a hip bar & a spa.",
+      "link": "https://www.vivantahotels.com/en-in/hotels/vivanta-bengaluru-whitefield?utm_source=google&utm_medium=local&utm_campaign=vivanta-bengaluru-whitefield&utm_content=vivanta-bengaluru-whitefield-gmb",
+      "property_token": "ChgIstb3tOvXvoudARoLL2cvMXRjdGs2cGYQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChgIstb3tOvXvoudARoLL2cvMXRjdGs2cGYQAQ&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.9871242,
+        "longitude": 77.7374904
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹16,992",
+        "extracted_lowest": 16992,
+        "before_taxes_fees": "₹14,400",
+        "extracted_before_taxes_fees": 14400
+      },
+      "total_rate": {
+        "lowest": "₹16,992",
+        "extracted_lowest": 16992,
+        "before_taxes_fees": "₹14,400",
+        "extracted_before_taxes_fees": 14400
+      },
+      "nearby_places": [
+        {
+          "name": "White Field",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 7 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 41 min"
+            }
+          ]
+        },
+        {
+          "name": "Mithai Mahal Veg Restaurant & Sweets ITPL, Whitefield",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/pxu5XkcLVYasIcdWKLaRcHRsUkC_tK_UnwaOhBuTHBH3Iex9X28eLh_rRAI7mnNJZrV6kv-tpdxLuWPsBoaH44KsVJTBbGZ-ZiQGfrknxJu6mvC-l8rRW-mwZCYtF_vvLjmVLptLwBn9c4cS4c_gjUzLbMNJSII=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/3000000/2370000/2367000/2366913/7ff9a9ba_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPXIBrGTRurhoSZOseb2Zi4rSMfwmlxBsywAyyk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPXIBrGTRurhoSZOseb2Zi4rSMfwmlxBsywAyyk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNqJOJ_Kd2761n4_DDXbz4bn0Nzxg66mrVVDfSx=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNqJOJ_Kd2761n4_DDXbz4bn0Nzxg66mrVVDfSx=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqIC1suOMtHOfB65zdOy4rJl-xaZX9_1YFuS7Fr6rPhKraEOSE6qAOQYFGJNIfXeKri4yW4UP2UjwPihhflm34nCIkkYHB-_ncRJ4h8tdAGZ3Pnp2nNY_A_pGwt8fS0sRkq1sJUul2x62cm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhD9hlu9zGXv6x7s8gLpEvX1=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/k-tOkgW9IKXWRjVBl_scc3-1tCigf1Ck5oDBskueGfyz6CfC6iL8FnkcMVl1cXZzAhRuSQZfAPIPBjO5Qnalo7UjUjtesXA7rwD_1Hp7keX0QF4QUFMef6sq3jAxz5oo2UObabOjIxdQGXzPmTvO7eYMPc9fLbA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/2/0/51/96/452/E_SZ95894_P.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNykvU_L-bdqYR20GpHwsbasakP3u8b1IUyyoMQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNykvU_L-bdqYR20GpHwsbasakP3u8b1IUyyoMQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP6eG5TEReu4nhZbUOIUKBa1Cj4fpTY-c2GWPzq=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP6eG5TEReu4nhZbUOIUKBa1Cj4fpTY-c2GWPzq=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNGDMc3pEQlxnCmbsPZd9Kn2bcDsb2K2tVJPDDC=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNGDMc3pEQlxnCmbsPZd9Kn2bcDsb2K2tVJPDDC=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOmkiKQabaherC1KHOrkNDNYnj37yIg-9lkO_4F=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOmkiKQabaherC1KHOrkNDNYnj37yIg-9lkO_4F=s10000"
+        }
+      ],
+      "overall_rating": 4.3,
+      "reviews": 6524,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 3570
+        },
+        {
+          "stars": 4,
+          "count": 1851
+        },
+        {
+          "stars": 3,
+          "count": 630
+        },
+        {
+          "stars": 2,
+          "count": 198
+        },
+        {
+          "stars": 1,
+          "count": 275
+        }
+      ],
+      "location_rating": 3.8,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 564,
+          "positive": 376,
+          "negative": 142,
+          "neutral": 46
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 311,
+          "positive": 219,
+          "negative": 58,
+          "neutral": 34
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 163,
+          "positive": 111,
+          "negative": 17,
+          "neutral": 35
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 65,
+          "positive": 61,
+          "negative": 1,
+          "neutral": 3
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 100,
+          "positive": 86,
+          "negative": 8,
+          "neutral": 6
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 824,
+          "positive": 678,
+          "negative": 119,
+          "neutral": 27
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "vacation rental",
+      "name": "116 Home Tales by Tipiverse, BTM Layout",
+      "link": "https://www.bluepillow.com/search/67a23f8b905c444f2d09109a?dest=ago&cat=Vacation+rental+(other)&lat=12.91586&lng=77.61064&language=en",
+      "property_token": "ChoQ2Kqv_MrnqOe0ARoNL2cvMTF4ZDNjMmp6ehAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQ2Kqv_MrnqOe0ARoNL2cvMTF4ZDNjMmp6ehAC&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.915860176086426,
+        "longitude": 77.61064147949219
+      },
+      "rate_per_night": {
+        "lowest": "₹1,811",
+        "extracted_lowest": 1811,
+        "before_taxes_fees": "₹1,811",
+        "extracted_before_taxes_fees": 1811
+      },
+      "total_rate": {
+        "lowest": "₹1,811",
+        "extracted_lowest": 1811,
+        "before_taxes_fees": "₹1,811",
+        "extracted_before_taxes_fees": 1811
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹1,811",
+            "extracted_lowest": 1811
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 22"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "BTM Layout 16th Main Road",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 19 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 7 min"
+            }
+          ]
+        },
+        {
+          "name": "Punjabi Swag",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/CavURqXQYA6BqGtIH2IFU38euDs90451JO0WOv8Z67xgL-l-QBzaufOPqOEGOPyduGiTdwGypwLQZ3-PQ6DXXcE7SV1NvYBQ0RW1A9zoDMVATokd6PgqyppUymwn7Ua79eb-o1LVe0Mg13alslSXZVM0XFYbIQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/586633309.jpg?k=fafb61c463fe3d94367aff8bf5b24e122f9a832cacbbc1cdd094d924bc58e56f&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/tHcgr0i7KKi2cC6901tJJ0DcMcqgb9M-dXFskqec5johuPPn9ub-qsPQjDu5xOA_6HaqrG1YtN1nXUvD5pnOzfpIHBpxpBwVVghV3Ay4xNvLAZWKyxAk5Tn4-6BF1paxGJLTiD7qJx6-FXUqP-hoN3JuiKVgdw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/587665746.jpg?k=49ba72ecc7fd61428c353519fee93fc533807468c24dd0f8fb519fa2330878dc&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/4ZF8cH8L3dZcFxVIEwfgDux9H87r8QsdA5i8KL88Boj4M1o4sGUbwnjiLF2SNCD3PB6jTps8pNoWfLTW77BAMh-yGQjHDytyvbBWJHAo0J5lVc-uANBUBfSzwZyeST74cySwKhf9NlnGZmEw409mI7RFhsKbSIY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/586633323.jpg?k=cf5d00915200d76e46b59cd8efca9968463a38873d4e3d78ccf2197b77970b65&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/ajzGnZKhsu6Q2bnAVVAxGLvDu8ioFaZ3B_CXM1jN-JvJbdtdfRJlqc_y8iHODMi5GOZo5oEVuvuudZfmaTeHsIsRsrx7JAv7Zo-gmeX6MqUHvZDFMCgO_REpLjzMN2a2Hpd97cJ2ir_6GiMGAwNKXl4g6l9_Yzo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/586633316.jpg?k=2b77814dffd0a3ae3173991cd7123c452fe71ad059b1aaaf4640431c537aec8d&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/1Rw97bDsNMbL1i86qpUQE8yAINzYmjnFgWF7OR1gjoDpIQNkcjkKFPm1PQsZxsXBO9Ok8I6IY6RVJT83Wq-OQH_gwa6tsao5MBqF0zYRmj9A0eW2XuZ2tvukdb7nYQoVFlwNMRb-nJqQDzBXrr_Uqfe1tiGRvdc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/587665760.jpg?k=8e214eab82148ef9c529380010f9c113083e2fbbdb3f0772a1ff299a70b41350&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/m-cH0ltKgYvwnCIatM70UsLIwpZDJiGnK0OXHnvDcFJKWF8TsIwXNLrlumbTZioabt6LT8eMfG1HbvjbE9MQF38N07o1dyYprWim37Rlyk2O8Zl7pr5mvRmlWb7_kmgUa3qcFMfedPrXikKhpf24qRNf420pB8Y=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/586632708.jpg?k=221801c095c8d211a57efefaf459637871c225d4d070423b0559d5216768d222&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/6pcnVYVcvpjbHv_xms0VGtfRdqIP84kTSJ_1uceRHGCy2tRvZ8nyCtj25kP7kDTFA1qo4TosCjOTfbKX97yXOt8VdDrjEUm1YIUaPzB4wAKLquAOjQ9VJXoixNSftZadyKf_eNbDnCvuFXw6437rzZEXWAT0TQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/586632710.jpg?k=4dc5eb8c1989d6714c99bcab974f0586729c833a3a536a3c36f2534488ab9612&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/IQ8IUXEVz6hlEAQdXfHgfIbsUinhz1WO6l_2ryMQ0ben--85kXIF-f2b5Cgu2unrU0O64upsDXYYDED4Ie6SvCFB6pJGXqjdyg6BDRWOnePQlnfHM7LzfIDYhUbEBGpmBvZstAt-m2acpuoUSsmwg7sXdGFfvQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/586633094.jpg?k=49ce6f2cb023f05924cb26710d98a54cfabec91b8594a3ed96b15d3cf41f9d8c&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/KX4KBl6oykg8kaxijofget7_ZYJcpdUY1Y_0-c7h8HA9y9hPuV_DiGjrCvg6LbZFw8EaME_thw_7gvZe05HLfNDnYWQothb2fRSqAcKAsbj9XZPXKD6EbwEK2QU4tQEmlqf2ws_9HbxetPPeiWHika800kVOW6U=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/587666554.jpg?k=634b122a4599490ca14c6c4bb0c35b84adeef76c3a7b62c547dc585b4baf662c&o=&s=312x"
+        }
+      ],
+      "location_rating": 4.1,
+      "amenities": [
+        "Smoke-free",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No parking"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "10 bedrooms",
+        "10 bathrooms",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Simply Stylish: Fully Furnished 1 BHK Homes Btm",
+      "link": "https://www.bluepillow.com/search/67a241ce905c444f2d0b4f65?dest=ago&cat=Vacation+rental+(other)&lat=12.91661&lng=77.61314&language=en",
+      "property_token": "ChkQ2MiV7_Twmdh4Gg0vZy8xMXljbDBzdzlyEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQ2MiV7_Twmdh4Gg0vZy8xMXljbDBzdzlyEAI&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.916609764099121,
+        "longitude": 77.6131362915039
+      },
+      "rate_per_night": {
+        "lowest": "₹1,681",
+        "extracted_lowest": 1681,
+        "before_taxes_fees": "₹1,681",
+        "extracted_before_taxes_fees": 1681
+      },
+      "total_rate": {
+        "lowest": "₹1,681",
+        "extracted_lowest": 1681,
+        "before_taxes_fees": "₹1,681",
+        "extracted_before_taxes_fees": 1681
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹1,681",
+            "extracted_lowest": 1681
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Jayanagar 5th Block",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 17 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 12 min"
+            }
+          ]
+        },
+        {
+          "name": "New Friends pub and Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/rltg5UozW6_HNm98P4oJOfpM-J1Lp7SvqHcK-JsIdOlmOnl1qd_LkZcbBqVmWQjpyLQj8bzgnb36myhXDU4_VN1_haGtvHOPAdfSnPcyp_LN2JMiYF9e_LMIoXUREtBS8QZq90jPnig_39S5D3mDtHjHHLGTI74=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550547/0/ee8edf1a0749d0387f3b8c587f4c70e2.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/IlgJwIFewY9EIdra5hbK2MbZDr4C74jDTz03HZQ-Co3qyrvXMC2hT8hT0Tvrf3n2bgT_0JFWGkr8GAryTSVRBQBxdDk-ese1EFfsUxwxr41cPrGmD1c-jpO7XZCMoBphRj9j1Ev5p1YMFVtTzYzY4kjO-ppQDg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550547/0/4174dcabf693a24607f4e15bcaefaaaf.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/ng1N82NHycinsqgsDyllWHDLtUaFBe56UQRsJQzm3kHGS9CgifmKJuSyXRIe7ADm3jrPLWxXqpDVf-oLOareD0YP28Q_1FlAkMh2uesmPT9Oc7ajJ23Ta0-d6L7vA7FlkxqGP-DD1h8kTECf7AsHxwWcejqD4g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550547/0/8f71d5b46a405705e19805b0e40ab494.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/4MzDaV38_Skic2PTZduO3kxRqj3TfKZpYn0KIDCMAnan1K6GVfMkEotNZMJjd9NgnAT4XfKOOfs_a-jVGCI1sdQ3G8HQLXrkPgorcv2rHdO32PI92Xb3WLbw0WC8zbIAuLEEVkreg9Bom2P1OQd4AVzdxomPUQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550547/0/e3f40c6a402f12945e13d940f26a6f56.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/0Ijh-OQjMO1Tdi1oPZiX63NteH5pSnno1APO1Tdx_LUtxVYupbGWl57VSXcXsGuu23s5D6dnQkIwuVd1_dav5enFMccxrrY7f68JmDfqHMgcbXWLH1xQOCtVodlfzTYDaX_DfbcNLOtOVUW52PcxzNAzUdlPsH4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550547/0/2c1becd0d4ce356450178a025513e307.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/8ecrtW5x6calt9DB2cvSOgjZJCxRn21jWVlRbzbwBWWK7XqUve8fUcdOw2-l6SgIMf4mVerUpRs3cuL9vpTHCIEoWCjbs7QnTtVoFwK8jq-TYexcNm9FcoCtDS2bBrWz1R-JvrEfPqg1CB8MbG_pfuszvlGCVQw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550547/0/d67b5866a343aeaca5093f040a5300bc.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/SYLsJxyXXF-GvI2EJ01KYWA2DtloQACU1YpcYiIOY-p_8hzE9LJooTq9UG_baBXnrocSLSMUshvp07KN4BznBlBkgyWA3ldVj41Gg0F8pCFcVC12-UmihrYIRxUL9cQzfsRVSMbNQMYUEdX_3gG7JwlmhnG3Xw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550547/0/dae5f90fd0b20440d05cba03dafa2ce2.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ZKrma_9zMuPqviT0VoG0ZgsZn7poGplGb2WpjRqKXM8xnL9d1L1dmO4IyE1fRKWJLcrwIBEmyBTVPoL2SNzVn20qc0pzWkdegurV6dBT16lfXS5WaDmmmhKiLoadI0QHD8NNYedGZzHV90AWQ-FCNSaQiisXcg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550547/0/0af3bf09e5e7356c7b7b43fd18a5f3ea.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/3uZAgplnEjn0MG2kZ6Uy6vpsbrSmgDdfRxUvGkI9xNzHkqcAZZ2j2rma8XtjSuRQvJqzM_cHlmrnFfnANKhzZT-EGKUv1VTuBVK_mJuWKUymEZEDPUvwkNUwXS6asDEwX4rb40JQLtdoU_vKwp0UO1UMxUGk_pk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550547/0/de31c7d7ce2e3c30a66445b68a8f9c64.jpg?ce=0&s=312x"
+        }
+      ],
+      "location_rating": 4.0,
+      "amenities": [
+        "Kitchen",
+        "Cable TV",
+        "Washer",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No parking"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "10 bedrooms",
+        "10 bathrooms",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "KunjBnB Homes|Entire Cozy1 BHK Home",
+      "link": "https://www.bluepillow.com/search/67a241ce905c444f2d0b4f6b?dest=ago&cat=Vacation+rental+(other)&lat=12.91882&lng=77.63589&language=en",
+      "property_token": "ChkQzrr8z4qXxohQGg0vZy8xMXhkMzQ5ZzFrEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQzrr8z4qXxohQGg0vZy8xMXhkMzQ5ZzFrEAI&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.91882038116455,
+        "longitude": 77.6358871459961
+      },
+      "rate_per_night": {
+        "lowest": "₹1,167",
+        "extracted_lowest": 1167,
+        "before_taxes_fees": "₹1,167",
+        "extracted_before_taxes_fees": 1167
+      },
+      "total_rate": {
+        "lowest": "₹1,167",
+        "extracted_lowest": 1167,
+        "before_taxes_fees": "₹1,167",
+        "extracted_before_taxes_fees": 1167
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹1,167",
+            "extracted_lowest": 1167
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "14th Main HSR Layout",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 22 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 7 min"
+            }
+          ]
+        },
+        {
+          "name": "Arogya Ahaara",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/TqCZRS5Zn13BhOsQlsuY5vYTB2BHX0UlGSCbBF8Nas1HH12dr203hkPDr8SwTrJCpKCYkP2O3Ern_ZreK-8q48qj4ov68ioRarF530BVQsHy1udg-Tbb6gYV3N9AH6NIDCiUjWQ9LhxLXb9HoObQTvqDf_J7tw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550574/0/9978d75d3502599e06780d9d6e050f48.jpeg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/B4m8kNzuEOHGzPPJHJ2MtLHoB7CrlJhQW8wIMamLmbA3eOtlTxE4kuno7aHdIPLhk3lgctZzAn9UpjoO1hUmc-Unt_GwQqnhbgrO4b4e2y1kx1nhNKjMFPWTNRDxEroIcSVtULf-nZBm2wQH1cQ4y6pOSseoHQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550574/0/e187a4248c6b08786c7fb696b182b891.jpeg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/MRONlWSqwIRE3nAccg1xJdVPlfCiZk4PKKEDeIiYl-tiCQcTImfJSK6rYH_4zx95F4bNQzVDGAw5zSLuUbMnkkYTBCQWd5g6GJaCnUdBiNgxgmA21tsaY1VPsDgwdecXkNgtiu2yOqercAQ4QpV0hlduXYzwJTs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550574/0/2d92955f0fb078175bd327beca25b800.jpg?ce=0&s=312x"
+        }
+      ],
+      "location_rating": 3.8,
+      "amenities": [
+        "Kitchen",
+        "Cable TV",
+        "Washer",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No parking"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "10 bedrooms",
+        "10 bathrooms",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Relax Villa",
+      "link": "https://www.bluepillow.com/search/67a23ddd905c444f2d07c167?dest=ago&cat=Vacation+rental+(other)&lat=13.03055&lng=77.71846&language=en",
+      "property_token": "ChoQ9JD70NeRnoTZARoNL2cvMTF5Y2w5MWNzdBAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQ9JD70NeRnoTZARoNL2cvMTF5Y2w5MWNzdBAC&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 13.030550003051758,
+        "longitude": 77.71846008300781
+      },
+      "rate_per_night": {
+        "lowest": "₹1,310",
+        "extracted_lowest": 1310,
+        "before_taxes_fees": "₹1,310",
+        "extracted_before_taxes_fees": 1310
+      },
+      "total_rate": {
+        "lowest": "₹1,310",
+        "extracted_lowest": 1310,
+        "before_taxes_fees": "₹1,310",
+        "extracted_before_taxes_fees": 1310
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹1,310",
+            "extracted_lowest": 1310
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 28"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Medehalli",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "54 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 47 min"
+            }
+          ]
+        },
+        {
+          "name": "The Bangalore foodies",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/DguQTPQQXnl55Czfsfq1im5xUmV1W5zi31CW_lRNoamgpMElNaIKnU0kPi9PZ8nb4SpfXd0F5EKzwyY8vVJmU4NNeKY-N_wybjTyAxXeqkmE8TT8BKAPgVKIb1U0eAFPcjVU3WfMI96JqMqpgAXRNip8K3IXo3U=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/571728065.jpg?k=30636fb210cd233d2ce432f71822214cb5ff62d215096e3bcf97ced61abef5e2&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/wUcenV-GxWTyynXb_NhCxnLLKKlsmGwszm8He9L8JNgAks_j4T3JHnL6WKv0PuZCsgdkwkvCJ3FWNZ6cZYY04uZ92_7hm9O-tEhY78vIakIZ6anLIFUI0z_peApniLCRA3HmP8QqHcQxkN1utcvFUoeLCQv7Sow=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/576042474.jpg?k=cccfd269716cc9c0b4666f73ef21e67f07293fc10f1ed1e945e2edf37243c072&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/UPEL94lW9Od5YuYQEU0LQOTVLJlbayK09G2EeyXR3TC2XQTnxJrz5MYKnhXOK3OQRG1-6PXc-I3KJH_nq8U2Sg-fqy996klr9pxB11y9BaBlN6gIVbwv7rfa-6S-LEznni47Y0lf0LA1kMnQDmoPp37VN9HJUqw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/571728081.jpg?k=bcccfb95e0ffaf577bc5166a3feae63ff137333082af335939f3df53e4ecfd7e&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/8Ep2jhLNZfVBefVICAu9kNMY97yzdolJqTW0kIhKvCp9uIDc8MBWLpIv7n91yTec5nJ-9wWosSoHqgCi_HRDG82AaHTyESu2aYNsKl2uAZ_Snqr3mjf-KbH81uL3w756Ki7SFwb2YZgOxaBVk_Llcl_HLYocHSQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/576045047.jpg?k=5722c65182c3f1828933ebdddb51de50f2059c9e1afdc7612ca81520856b0584&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/9CVQeIbT4m094h5DSK0zp2ekWILPjI4im0FDyd09KUUN0XE4GBLhx4Lk1GSVxq8QshU7y0ExNfZV93yNUWnk0XHMMZZ_c9mFaM449BL6sGpBgR68GdJpZTxWM2EUbhq-SWGeqdUVk1zx79n0G7LEyi33Zv4uRw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/576042499.jpg?k=3f33b0a7c29be74685d3140ebf49ab3fe9a1516f4aaf28e0cd704b9b12c7ef48&o=&s=312x"
+        }
+      ],
+      "location_rating": 2.7,
+      "amenities": [
+        "Air conditioning",
+        "Kid-friendly",
+        "Kitchen",
+        "Pet-friendly",
+        "Smoke-free",
+        "Cable TV",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "10 bedrooms",
+        "10 bathrooms",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "CITY SUITES",
+      "link": "https://www.bluepillow.com/search/6626c2714338d48a8fcb3758?dest=bkng&cat=House&lat=12.99285&lng=77.71433&language=en",
+      "property_token": "ChoQv9iWqsedl8fUARoNL2cvMTF2d3Y3OTN2ORAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQv9iWqsedl8fUARoNL2cvMTF2d3Y3OTN2ORAC&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.992850303649902,
+        "longitude": 77.7143325805664
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹2,018",
+        "extracted_lowest": 2018,
+        "before_taxes_fees": "₹2,018",
+        "extracted_before_taxes_fees": 2018
+      },
+      "total_rate": {
+        "lowest": "₹2,018",
+        "extracted_lowest": 2018,
+        "before_taxes_fees": "₹2,018",
+        "extracted_before_taxes_fees": 2018
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹2,018",
+            "extracted_lowest": 2018
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 21",
+          "free_cancellation_until_time": "6:29 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 8 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 50 min"
+            }
+          ]
+        },
+        {
+          "name": "KAILASH PARBAT",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/giREIUlEaBsMkxsxuxKgHSron6-pHwOwORxv_KaUujxiRml_dPUgSk5ZJMn_xDh8ETSfxKnNx8s2Xsh1uMq0TjXyYkXVpN2WKYmu4N84IIKGDCnfkBnqt0Sito-JXdo3NivtVRxeWsKfSXGkHvleOCTRi_as9g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/375143884.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/vxZ4Qua60jCXmJyfSLv-H8CmbVpfxNd10Uc4qCpnEiCFqHywc19cLLdiL4FX-xUw0edClLPDXSGw9J2perUk3TfEj1slZGWKQ_ZRUs-UssVmzyI8oad5sbofkhYCNk4NDbaCNzOTYMOmJcoBxFXqcRfLbe-HvhQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/375143818.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/t_DR11HrmitnAbsIqSHbUJF8Zpv1W9Bnvt1Ovy8Q3fFEdGzR5a-audNCrtGgMPSZy-etzkBLsKb3xh43s9f9TWdgnkbzvPVnCegNnC8cq0807nsvw2PPLOX0a2yot8a9YKoNghfVf4TwOVwJjazB9nxu18nvoA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/375143750.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/cz5Ua-koywYffNt1sYlaqLHhyniUaeRXARGDvoeMZFEtiahmYt_NJVuw5InAP0gh9LVzVFUit0hEGo-jFdrLj9GCNMprVgZF0h7RxoH_lAJRTYClwWBYAHHmjUL6kywspetyTIAWaxS2LWXlyQqjSmSDAEff_Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/375143718.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/ujM97jGF2K4HAOEomYnFaKyuBYWuZplN-WTYMG9F2EXIcEf9gHEYHfFpzdz7Ks-CBeRmcKeWY1SFI59ViVRtnVhCo_pSy8QRn_nZsbCjNtkWgY74WMRJddTLCWdQpMQdbBZF_V9eNfmt71YY-ejawx0WL_O9Ow=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/375143650.jpg?k=6af0ab6c3cce6352718462ef17d3afbf62438de4e66e1e1b0b800469abc6d906&o="
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/Lk2DZVEqIL8CEktD7rEBdCc5CBhEyy_vh_JlHsgKoVH4UhqgoTEsflFQf8Ndzm0ShSSBoRhp32DiTjfM4yl3Linq-SGHJH3Zp9YT-b0Aiuxy_kfop_PAvudg-uPcvZIyoTbkF0Eusc5nvueGQleZDuXTlkyd8A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/375143796.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/2ULgIfDtCFht9Bx7hdBAPUUywX7lovoHFtzDSTWuBr64NCtzymAn39LEpUbndx6P4ifH3_I709hgz--nUZgiGcSU8OjFvU9TXQbBZyuIIQKUJCDP3WVlYgaoMMmVxpKdJB2CzjYAwOWSfuJOm7XHnm4hbWZM9ks=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/375143658.jpg?k=667af4494c9aa23d18ed3180da9e33dc6bef46975edca7c3282a65b9af80c96f&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/8Pn0Bzak_Mt00JDkNMLI9fw2VEVPhreaZRLjQIx3GWMzYZDj0-c3Rg2_nBVHTpJXCmbG51x4Lv-QyoeTWs8Z5Vq9ttAA6YRz9GnI3Ws-8O1pplRXLoyzPXFA7X_j-RIWQqqzR5LSaAgtqYuZdphj-GfJED1CgRA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/375143699.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/Wii_V8zrVI5K_qwgkmSUWQ6ZWEJCJq44bzD901Z43F5Qg22iusUFvFdm4MH0Qd_9996BlR9mwd9O3eIPijTftc1rTRMAl7KrUuJmcGdpLIHVA3cFD692LAAohVkQstvmBpKsZXBd8osJ12mqNDtVP-VotiPklg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/375143677.jpg"
+        }
+      ],
+      "location_rating": 3.1,
+      "amenities": [
+        "Air conditioning",
+        "Airport shuttle",
+        "Kid-friendly",
+        "Crib",
+        "Elevator",
+        "Indoor pool",
+        "Ironing board",
+        "Kitchen",
+        "Pet-friendly",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Wheelchair accessible",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No outdoor pool"
+      ],
+      "health_and_safety": {
+        "groups": [
+          {
+            "title": "Minimized contact",
+            "list": [
+              {
+                "title": "No-contact check-in and check-out",
+                "available": true
+              }
+            ]
+          }
+        ]
+      },
+      "essential_info": [
+        "Entire house",
+        "Sleeps 6",
+        "15 bedrooms",
+        "3 bathrooms",
+        "3 beds"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Luxtay Suites",
+      "link": "https://www.bluepillow.com/search/5943828d7c00cb0e6431cd3f?dest=bkng&cat=House&lat=12.93398&lng=77.63058&language=en",
+      "property_token": "ChkQ-pfRxauwmd1eGg0vZy8xMXljYnd6dnliEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQ-pfRxauwmd1eGg0vZy8xMXljYnd6dnliEAI&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.933979988098145,
+        "longitude": 77.63057708740234
+      },
+      "check_in_time": "12:30 PM",
+      "check_out_time": "10:30 AM",
+      "rate_per_night": {
+        "lowest": "₹2,815",
+        "extracted_lowest": 2815,
+        "before_taxes_fees": "₹2,815",
+        "extracted_before_taxes_fees": 2815
+      },
+      "total_rate": {
+        "lowest": "₹2,815",
+        "extracted_lowest": 2815,
+        "before_taxes_fees": "₹2,815",
+        "extracted_before_taxes_fees": 2815
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹2,815",
+            "extracted_lowest": 2815
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 26",
+          "free_cancellation_until_time": "6:29 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Maharaja Signal",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 13 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 59 min"
+            }
+          ]
+        },
+        {
+          "name": "The Hole In The Wall Cafe",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/TULB2ShM2e5UJzKRd5g_jAvuQO7X8jtrQZDSp_I-MSlVcunWNuKhCRIPtZBJ1QsUvO1hB8X2qNlqn2UBuPUyFaliaMd71kPFzi33APd19QG7u_LjjWTlxMvaSOv7gpCwKHMFI_0vCx1GIDyBJ40rNEhKPq5dMMI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/49151971.jpg?k=6ed58ebf65b9d804683faa9cdeba0010498ec34f0f8634fdb393b0bc84d4ad7d&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/VVAaMrx8CI9tjvGvEfoQvwsNC9seeV7f7zzQacOxvX50j8lc81awrhnDKZKo14uTbh7u_o_5ACFLJClTrxSHLNZzTFpPufa2NaDAboET-Y2-gn1Ev0JcXg9mVcBn0KbXWb9KIDMz9QTiqQoEoz5uuF0AmYFBFw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/148381871.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/tjTeebqLmbV4LS0R2INRD8hVSBP0uycc4ez7_Bw_eTuZwq2eQeUSdjhuZWj9EzUQ1CIUH7SQSD2qthcWO9um6vIARUElztFE7_JGvvLvRsgxB-hmnYOXlekzZLR8Aw3vgbs_4SqhxpTAApHDPzCCxVskBcpexBA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/49148042.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/S_7h0LowMhkUN5PC8n6cQhnUW5ripZfdSk8E1nQzKVpkll-NLjkHPw5HA06y_OBtji3GpJVOQ_o2LgtFBusveNabIrKHWK3lpai1VKsWL2Q0oTOHumorGUHsftyo-HDe8NYItaVjPzOfomWsSvzOJNcsLRrZ1Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/49150472.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/c4Mef7wX9KqcyZmSKTcX3Nx3hfnGRZLw6n1MajkCc4qr-AIJ53vkIPmGkL5GWmbbfqQoRZCtuKANjyxaVHXMaaMWU2Ea_a-ZfvPleHl35YBIMwS_gyUlixOizwX8Civcjo91aF3nHgn5rRHEaAEUvdNQOK7WiZM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/49151664.jpg?k=1060acfdec5c05438114097d56167dc457d1b61aef0620bc44053b5316954208&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/DY1ToMtmolq2G_n7AxT2uDKp7qFTX7kNI_A9rlmPkhuME3E6sngdYkhyRd69gh0teLSEr1R6M3-8AZ7y-FrPjXFSo000tQ1UbCS3XLdWppuoZZ-iBHehN2LLiev5Hg_97P0WyiYG0kmIi-xYrhnd2h19vNylYw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/49148051.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/vpCq-dCZ-28_KeqkBnCteDt1xbcB0b282nupdAaZe2BpJtRt0Ibguy5x5XGYspyXDFG-ua_UW4j4DoZxGbqiQZJCwrmnwRtdqcabH82ti5j0uXJwVy34bl-PbXn2LbuNQEjweZUfWLZLlovQA6qqUGE9jpjANhU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/49149288.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/bLkz99gqQXhJUELcFKc5IEqhbc17Qxgt8QjCwZ_7PSIgi1W4jziHii6WO1tSQfmPffPCI6QOQt_hG2j5jQkyWAZcMtGjA8woBG6GakVtosgEzH0F936novBbjAgeG-36w9aj0vO4CWMD2e2r3f8GJV-oXqh1-g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/49148819.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/SKsh3cdGM4Gm2ZqI0GUEP00ulHZDFSF1hAZ6tB1bVkSlh48asuQKTSx7-D1TkOSNgNHt4rgsWSWrcjpM_GpqiLWnUF6EDJGbPf2AJ-jppoRfPSHVja0ZIPnNs_N6tSDsvLZhsi8Ya3WQJZ22JWcA82xSdwXHOg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/49150691.jpg"
+        }
+      ],
+      "overall_rating": 3.9,
+      "reviews": 8,
+      "location_rating": 4.1,
+      "amenities": [
+        "Air conditioning",
+        "Kid-friendly",
+        "Crib",
+        "Elevator",
+        "Ironing board",
+        "Kitchen",
+        "Microwave",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Wheelchair accessible",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 6",
+        "12 bedrooms",
+        "3 bathrooms",
+        "3 beds"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Villa 9C by Revkeys",
+      "link": "https://www.bluepillow.com/search/65cad300671b07d23c7090f9?dest=bkng&cat=House&lat=12.91608&lng=77.62775&language=en",
+      "property_token": "ChkQrLKziIjW68UVGg0vZy8xMXkzeDFxNF9zEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQrLKziIjW68UVGg0vZy8xMXkzeDFxNF9zEAI&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.916080474853516,
+        "longitude": 77.62774658203125
+      },
+      "rate_per_night": {
+        "lowest": "₹1,258",
+        "extracted_lowest": 1258,
+        "before_taxes_fees": "₹1,258",
+        "extracted_before_taxes_fees": 1258
+      },
+      "total_rate": {
+        "lowest": "₹1,258",
+        "extracted_lowest": 1258,
+        "before_taxes_fees": "₹1,258",
+        "extracted_before_taxes_fees": 1258
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹1,258",
+            "extracted_lowest": 1258
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 21",
+          "free_cancellation_until_time": "6:29 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "SI Apartment HSR Layout",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 18 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 10 min"
+            }
+          ]
+        },
+        {
+          "name": "Copper Kitchen Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/K83nqQ10HUzxG7oY89nF-MOWNXZD9l6jCkWXgRBEynfe--9azyC5POW5fQom5nbRckRUwDkWD5O2t5-YJr1pyHXiEZQ9IxCFVa-H8V2iPyCz6yAHiOIAGUT1os_1c0mX3mxhfsCkW2uYvOdUA7uElHQq9mGSXg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/443558936.jpg?k=c3325ae574bf06ecb45cef514d9441e169990f08d92d9d335d4b0daf04e38d5e&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/12A6keGxvEbB-lIQEBdJCb_b6RSqYbDZukj5V81cy0FUyJpPlSn30JbG9UJh5H8V9xR3LgTgWek0w5UAawEYGU1keqzDiqBo1wPcYYtvdGXElI_WhvH1qOQtCkLsxrM5wrkJMcQwkbQUFh3BxmrvOjhObio9G1w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/482187644.jpg?k=d8c85cdcbe9921733df392217e26fce8f48dd0d7f59281ae7c92348a857c5332&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/z_nKWS-zXdzyGqxGbqhbFcfK5X4qOcN5puopBkDwKZcy8bQWhUzKruoC-R6dQyT6EvisiqmRv7-GNUi-GjjgCsi_dtUYUfUwkfgNf98HQ-B3tAzc5lc8sigkWroIjBMV-xYR-s0wMeo0xcbAcuAme-LdKsdC6L8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/443555550.jpg?k=5b3a613c379949a7ea2e71cd370efb2ddbd1c97ede7619e5ba4661b1f50cc6b8&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/uBFv1OK3_MYNHG1leIWz-gWZYVz1-nDKkV9U-wftYlJGq43-Tl2GBLRnS-k5u5R3jtGjzfuWqY2AHxgde7HlYfPkd9Y_GtmdOQoba0Ma_-YSYnwaaORdt-RctCZcdlzXWiIa6I789bSs5nW1k1ib1x-RKlVjsGQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/443576382.jpg?k=a2a2076461df113792d06d02a297d1b20e0065bb68f0e843e82bd16244880c03&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/52qyY81XU_v2YhYtofEG8fDNOT0XfeVDxcuqBDikK2mBM8mTTJ-oPhQMDc4wuz-W53bMhJ0yuyr-BNWXEOIoCAwr7BOGWuksv5SzUn-GUlmBVF_1SXQO5hIP8tmUOvFNVpt77TN4ZMyEpRKaTCA5L1JMQ4lQmX8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/443529180.jpg?k=309e1730b266f362c524e74ed045e031107fa09eabe944a94a33af6de11c1e2d&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/_SPFyDvzO1XRtIw_6RbI8_87v_m7N3XCdQxEb5nGx-7cTCzWnzQmHTZtOCpYOjMFVXvSj5S9z8_dfh-qZmg-sBFLeHv-Rvn46MJQdIDDToUnyzQP_tG33JENl72jfZfuBmzneBigl2XpEz8dCJFqNfgOw70EtuY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/470680696.jpg?k=ac0866a134f8594cd642fa37cbff1b9076dabeae0db61edabc2153373f0b10d0&o="
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/LJpOMBBQcZIR8p2c2iIssC02lUC5yedgLf72RWyk2Uh0pMjx8wNUBsU0-qK5izIHgsj33Y5Xd9ANdTElhliT8zthqR_iFym7cYQLk6Oz57SEuIuO9cd31fOjZLW3_t2dSphpp_kDJN-DqKHH7B7bIE0kj5go-Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/482186995.jpg?k=08c3ab997395b9dfc77c05ca360376ae45520f06fb4b1695f210b0e8f832d526&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/EDlazPhTIyxzbekPdusy3eKhexJAXNA5eXrX6fKnefhiK1dBJQgN6JoAhGT6DTzLPeFi6ASNTV-ErcsvxtrlVupb8Jpq7lZ7w9oqNJ66mulJ1QmeorerTSl7fGE1tZYohVWYQoJ5zoOORdZaqUw7zEuTuq4LqlI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/482187176.jpg?k=f4cb914babb20ba871d1ee2da8a3ac7cbaa220741e76b8628d9fb41fd215dbe4&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/fEXc854iTlQ5njY_G_ct_hStSRt-dU7dEDYYXs8MdCfFDon5H1CSlvOsgI7WhotpQxDX9YdV4r22IFBospdMLaBwCqFCB683gw25yVJd6dNrHRRxE4-O8vwZlf3rEPOwfl4gq0vNLQPgCOEjXa-svDrQ10HKjjA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/443560826.jpg?k=80f164c280f8248e19346f1a5cb5db29ac5a0233114b68b54d711b83ea2fa718&o=&s=312x"
+        }
+      ],
+      "overall_rating": 4.55,
+      "reviews": 8,
+      "location_rating": 3.4,
+      "amenities": [
+        "Air conditioning",
+        "Smoke-free",
+        "Cable TV",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "6 bedrooms",
+        "6 bathrooms",
+        "8 beds"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Ghar-fully furnished house with 2 Bedroom hall and kitchen",
+      "property_token": "ChoQvO3O1v-0s_jgARoNL2cvMTF2aHk1YnNidhAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQvO3O1v-0s_jgARoNL2cvMTF2aHk1YnNidhAC&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 13.015259742736816,
+        "longitude": 77.73605346679688
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,817",
+        "extracted_lowest": 2817,
+        "before_taxes_fees": "₹2,817",
+        "extracted_before_taxes_fees": 2817
+      },
+      "total_rate": {
+        "lowest": "₹2,817",
+        "extracted_lowest": 2817,
+        "before_taxes_fees": "₹2,817",
+        "extracted_before_taxes_fees": 2817
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹2,817",
+            "extracted_lowest": 2817
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 27",
+          "free_cancellation_until_time": "6:29 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 5 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 5 min"
+            }
+          ]
+        },
+        {
+          "name": "PockeT Kitchen",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/t0MWPfhbfHNGLkLzXAgjHuL3Au8-ijlofFcGi5yptsIUdRquZBXPsUYpg5FvpL1iGxMLsqnp62KP-rbfXdyWdQPRUj0L9inAkazOJcq1sYPeUVDdgLjzmhN8UxEqm_rgE3GXU18d4lgudircX-rcskaHXUlbpDk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/485877286.jpg?k=be87e369258316261dce3216481326afab0f236de527e18b3d5f173af6e37220&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/0Y9A4wiYZqtLwaUAxtyqHl2fysZ5tlIog_YMvAO0ROOlibttLZKZVjJ7wl7UlK8iV6OLqgXyKEwfMf6shQMaCVLviRSDgSZUMC103dg-WfqWwwMx7yU038lAd6RMXnA76q-JPgwin8wKYaD5YgbQYI2wDSn75g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/426075630.jpg?k=9f210fe9f6d934a185338f05a16f596ad78e9259cd737e109864039bf6881c62&o="
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/u2CMBHLsagK-PRx54QMe06eZfl58BSbMq3Bb-AA9k1a1zq8onMljCahECuOuqgvmrJlSaVEAWUzs4hI3-3o7UbP1QXz5qRW9lhhZvz7hTX7R7p8MJ9f-TBOWZ2w5_n-skKcW_gM_pjEqeWRJFdPHuXsNi8Tp6IM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/485877327.jpg?k=5c2b24602f268da6beea19bb2ecbb0d3cd01265fcc7fdcdb218b7c9532301ae5&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/f96pUtAJzkuCdpDBcn8NlNA5Kbcvem7n47rVdrcIJXq7YWJ_knyX2tn_EQuekaq7s5MgrOAhyzFJELyiyMly6lHf0n-Aja2y3tCGUiuDLnYH56PsYVCWFG4uFOa1Py2N8j6RsPXH1R_n9mOEmKY4u2p8peTQNg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/485877303.jpg?k=cb176e32f4f8dd8dd66e92b965df77349d9e07f8d23f9cafbf3d9367442064df&o="
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/9yTmMheKFBGW84TBUV7Fe3tZRomsbWo8OJQS50x9QKqNiEycsSwM7uXNHw7muY_0J1CUb6d_y9NqnuXWG-ANZv0Zdru3Q3_EWQNemPZesgP6Tzh0PeiFsb2-MEZ_h6l0QAaIhrMC6r0Q29YrKrqNmn0SJ8wikzk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/485877351.jpg?k=2150b7d30b8566f43e07537a2ecb7b5decbfb264bf10770af2ed2c1f4fd0393d&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/FEqpJuHeZSSgA2VygjxhyD7JinlwAMF2G0_WFXj5FVr3YClQiqiSMwTecvl3eTji5jcX-_Uuyj69N69Pt4dt9BFXXDzvC-8rTTIn6fjHgFLs2m6Nl9XsNshfHYIFCz_M78clz0PPHYN0Eq8m9URwXs8NTVFvR2M=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/404545154.jpg?k=9be010c008ba39296f27c1558c2981d7a497fce66d9fb71fbc1d26dfcda57e39&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/wFiTsQQGOBO5RgMECkxmZuDYjgvaJY1BY1MpfLwNgqyVS1Rp5awefLxK41Vq9uKOlLi6qCclhBwueQZjfjocOarljmPEQbiWfr_zPFDOvHgBgUTqmdXK3hbV7CKVa2QfCGIWiSkM7DFG7RsWb4YHSk5dFbhkqw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/485877033.jpg?k=2a1f9173cc4401fc248f016a76b5c7379790b811c44c170e315e2fa22d0b4fb3&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/VdbYI1zxCVW4VpmCRvaB4mPE62Tii8sFAXzCc6yn5a_f8xYMZwnKd_U10K3m3-sZhdOnvgYSFujnCvDkdanmIHRdFMxdw3lKNRH-G_ZxJB2ClFO5bJdqw7evOOkxppfXFgI5vRlr54M1zetjaqop_9JTbEVhCA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/404545166.jpg?k=e05f20c6a6bdd52bd0e3c6f6dc2705eb58208591acdbd1843de2a551b94fb2c7&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/AtORLtKvvdexMYsShXCyT5Qd8opSetNNTc4Z-NbVMo7-kqwT993YuTwiUnHRwtyF2PDn3jEwnP_i4pw3oa81UXytlVufftEbp7MxC4dom2PImzgFcMU21mujmZPpyDx2s3ryV2O1wSgaVSnhLjgnOcv2w0pQ4uk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/485877461.jpg?k=32d90de69c16a0bf6f2450a0b86312243e2ba93ce177b51f48347cc8b2054785&o="
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 23,
+      "location_rating": 2.5,
+      "amenities": [
+        "Kid-friendly",
+        "Kitchen",
+        "Smoke-free",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No indoor pool",
+        "No outdoor pool"
+      ],
+      "health_and_safety": {
+        "groups": [
+          {
+            "title": "Minimized contact",
+            "list": [
+              {
+                "title": "No-contact check-in and check-out",
+                "available": true
+              }
+            ]
+          }
+        ]
+      },
+      "essential_info": [
+        "Entire house",
+        "Sleeps 5",
+        "2 bedrooms",
+        "2 bathrooms",
+        "3 beds",
+        "9 sq m"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "KunjBnB Homes | Entire 2 BHK House in Koramangala",
+      "link": "https://www.bluepillow.com/search/67a241ce905c444f2d0b4f67?dest=ago&cat=Vacation+rental+(other)&lat=12.91819&lng=77.63599&language=en",
+      "property_token": "ChoQtriAjv6F04b-ARoNL2cvMTF4ZnQ2cTFzNBAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQtriAjv6F04b-ARoNL2cvMTF4ZnQ2cTFzNBAC&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.918190002441406,
+        "longitude": 77.635986328125
+      },
+      "rate_per_night": {
+        "lowest": "₹2,148",
+        "extracted_lowest": 2148,
+        "before_taxes_fees": "₹2,148",
+        "extracted_before_taxes_fees": 2148
+      },
+      "total_rate": {
+        "lowest": "₹2,148",
+        "extracted_lowest": 2148,
+        "before_taxes_fees": "₹2,148",
+        "extracted_before_taxes_fees": 2148
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹2,148",
+            "extracted_lowest": 2148
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "14th Main HSR Layout",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 22 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 6 min"
+            }
+          ]
+        },
+        {
+          "name": "Arogya Ahaara",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/obC7Uc8OhTwvDQ1P_k5axoQb5udHElUmGp3IPIxr6FU0ky6UrhwaT0vDpRJcQMZrF7hfuvz1mOlqNWdNhcvydSOQbrR-KTYcB492DPp5IXCSQB8LwBWze8hDhcrca02unlFNx_7mzNxkTw6DSXUaWNg_rb1_OQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550557/0/8fc9e07a211f139b364193b0bcfecab0.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/Vki86tKYs7-1OHAMuSL81KauAIWnGh6DZ-uezB1b2Do99dSKnv8vvJcMsqtcboUJJ2kY5sJB12veJGQ0FPvIHXiHLpQcUeCHIQY_j5ydj6ON1v1ttu_J7HcLgQNOmCMR7SsogQAEwNurzVvdZmSweCxodACrP6U=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550557/0/842c306fb5299bab1d28137141be1118.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ZxqWHwEYMOF0KbTWL1tOwqEejgpAlH79bjTsRNEmqBMObo0Y1dGXqBi11J2WzttycoDtq2Q8koyyUsmmDsTkk0m6MQr-5KdGttrx83PGhBsJru5V8MSdJA-RGgSyTbeYoQH2kaCegpgAY_X3Sb5jUDpZvNxwsTk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550557/0/4ddb1d221c79fe6cc40f12c1d2d833e2.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/1iylpDVPj9DjVPwLvJ1x52F0o4ott8QP6-PVAzANdvQs7zkkhXkW5KalaxrbkNoDystxni6iaKyCnpzWIY4yfoRiHN5jfrrUTZgeAW03QQgR4XCogrRhIs7F_NX_UJEgnU4i9Qhns5TIEB4-qWCd4oMHC6FTXw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/62550557/0/56eb578228d107f3d6b46f730f63fce8.jpg?ce=0&s=312x"
+        }
+      ],
+      "location_rating": 3.8,
+      "amenities": [
+        "Ironing board",
+        "Kitchen",
+        "Cable TV",
+        "Washer",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No parking"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "10 bedrooms",
+        "10 bathrooms",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Pristine Boutique Stay",
+      "link": "https://deals.vio.com?sig=73aca13c7f952d2641c156f3e69125e1eb497c325f122828ee5aa8797168b9a12d32303331333438363233&turl=https%3A%2F%2Fwww.vio.com%2FHotel%2FSearch%3FhotelId%3D115384407%26utm_source%3Dgha-vr%26utm_campaign%3Dstatic%26openHotelDetails%3D1",
+      "property_token": "ChkQs8_ytPvD6YRIGg0vZy8xMXdxOHprYzI2EAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQs8_ytPvD6YRIGg0vZy8xMXdxOHprYzI2EAI&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 13.021510124206543,
+        "longitude": 77.63745880126953
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:30 AM",
+      "rate_per_night": {
+        "lowest": "₹3,095",
+        "extracted_lowest": 3095,
+        "before_taxes_fees": "₹2,948",
+        "extracted_before_taxes_fees": 2948
+      },
+      "total_rate": {
+        "lowest": "₹3,095",
+        "extracted_lowest": 3095,
+        "before_taxes_fees": "₹2,948",
+        "extracted_before_taxes_fees": 2948
+      },
+      "prices": [
+        {
+          "source": "Vio.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/7287187d-2586-494f-92ff-726979e94c2a.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "₹3,095",
+            "extracted_lowest": 3095,
+            "before_taxes_fees": "₹2,948",
+            "extracted_before_taxes_fees": 2948
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Kammannahalli",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "45 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 22 min"
+            }
+          ]
+        },
+        {
+          "name": "Leon's Burgers & Wings Kalyan Nagar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/XzhP1AW3e0SLzxB9guyvk7X0B4Hj36PL_iqNK5LVk8q0_RyCN5dHsRbDNtNZPoOaECZ610RAQ5KXh3QKqOV3fvQyggIKb6TOl3fZR8rShjiQSM1aQx0K5zatBuRlVoQm7ygUmXQWZCYGjzg16t5goIA6WnJ6bA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZopWXtiQx02wkMgeXHbxS0xbhi0PyD7f8tjLPDtbev-m7MVZ-1-i_Ww_pdjF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvBhQ3nG9m-EOYdDa2GQ3KftO30EzzJHpqpttbEiR2YG58bCTY1hIt_95kK-YVVx-AD1aACOYYLw_e-Zobhw_5j9PZENvdSC7YtSKwd_Llq-sNSQRiOQiww"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/30S2TPnZfstW2PdOepoiJJ4CtMphabq4QPE2C8X_mULTK5u6cBT_L85M4vsk6RdX_TgZocTfyNgP9zLRSBapgqVU_QxQozDjrFASKUzpx1SNbFL3O2w_n6JHpdcvKz--18zkosaWA0AHMaQ3E_CFlEvLKW9QH-k=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZpbabgCoC9SV_JjuyH6dn9TbnklWOMqzzmQDcJIz0oLamSy9o243EAXbSdjF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvBhQ3nG9m-EOYdDa2GQ3KftO30EzzJHpqpttbEiR2YG58bCTY1hIt_95kK-YVVx-Fz5jXjW2Y-c-Dfpobhw_5j9PZENvdSC7qCSxyugzyahUAvHC17tmzA"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/eqD0D6O-bl-do3JNgbPJqvCh-51r8jBJt6QmIF0pr5eXhyTKcFb-lSqLLJlumcFGeugza2npgj5W22oDlkuGUzmUURpKDjKXYT_G92XU5EQ7HaPh_jY_bchja7BxYCmIvLjzTpI9hj-ZKH0_K4WuFrZXaERY1QA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zv7DvlgMHqnQdZjPWRLAX7AiYq13bMuvmiSOQd67E-ai7MytQ_ZK4DwizJTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvBhQ3nG9m-EOYdDa2GQ3KftO30EzzJHpqpttbEiR2YG58bCTY1hIt_95kK-YVVx-Fy1REiPQcL89Uvpobhw_5j9PZENvdSC7qVUGmzBlbiKHgZL8dWt4TA"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ko3MeAjf_XiRe0wmeKmfbuUcAR-mLtFFgqiz07kfQejmzMpDl3xyKI1RU5lPW99Mo849rczDPFblaPEGVFUwQrZQzhTlOO8s7H5m8gO1dscZQXaYdWGRX14_1NN2eZNmqKEEwMni21Cs_abeoYm-B3B_0-nxnw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZvqKmvRopt1cTbx3RT5JFsSzCi3yOKKC7hhfxI7Xbp6ivCi5V_I3bFmPSBzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvBhQ3nG9m-EOYdDa2GQ3KftO30EzzJHpqpttbEiR2YG58bCTY1hIt_95kK-YVVx-Ay13WzeIf-Y9a_pobhw_5j9PZENvdSC7IwMvNqcu7_hXQYHydJgBHA"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/F1DMBjsrIcBmbmBiiOjCEtbhYXDIN-XqkMzuwQtwb4QqAqPjmekhbk02ju9Knu2e5OrZK53IXamC_rZ7mpg9rrQoFudXoeJy_T9EVKLEuDBvzNH2CMclWhnlWwEUGZgEGNWXdVrLRfpoyR1nmXs7q9YUt5tDnA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZmpXo4jgvtns1JCaKVqFpxyr0pEj2Wp2JoDHDfpTdrO6bITIc0LfjV0jsejF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvBhQ3nG9m-EOYdDa2GQ3KftO30EzzJHpqpttbEiR2YG58bCTY1hIt_95kK-YVVx-FT1zWDSIfL4qa-Zobhw_5j9PZENvdSC7uKfTkvE6HHFXMyq6OwU2bA"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/FFa8HMf_sJCT5f6VBwYs8xh-pDliaCydI7f9S3_4jmkuT_uNqGAAMjpISbZjQd6cKhJSi0ErE3s-Eo5GMJ0n2THknVGYdVEIU_JodcfvLHh09zKulILBdjbGXdvflLHrOaTWVUKJYczbLFSU0q_88Xvy2OVbVMc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZjMPykQAN93cZFxCmdMBZu2rl8nj2I5qu-DbZPIT-m5eANRRo6of9B1CxLTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvBhQ3nG9m-EOYdDa2GQ3KftO30EzzJHpqpttbEiR2YG58bCTY1hIt_95kK-YVVx-FC1ZEjSmcL09VcRobhw_5j9PZENvdSC7kFIiQrI6bcW2BPfSydhr6A"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/I4Bh9v2HPoDbhIV9Wk72Eed2xoKh6HssHSSuJWctA7Sh4CZaT2Fj7xOd_QsTu7FORA782a5HX2Plc4c_dS7Ggcn13Bma8AEHJbeMyhr3ZlyqM-9eKs7VU1WjW8CZuSR-HSfus5hqIs8fIjwSoR0gfDyfqfdDfGA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZvqqRmx143yYVaRLSd8Ns-2zxiVeBL6qCgwmfA5K8hOWEPw0d-PD9BX7FJTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvBhQ3nG9m-EOYdDa2GQ3KftO30EzzJHpqpttbEiR2YG58bCTY1hIt_95kK-YVVx-FS57WCCmdPU-VeJobhw_5j9PZENvdSC7WMXZD510riyPZrx1uRLwYA"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/lkhmsS6mNKo4Zmq-FlhqBAPo8uLJsoMgubUHdOrQp68LKsf5OpFEXFEoRpHh599a8QAQOTXQfXrQhciO84WPAXyqMD122oFoKMsmLZoxAmSpE3HRIF7sjzBMOVZWXOkLudsNGSNzKUjyV4NWW0YJ-H5NrbH_XA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zm5ns7jpy1Hk1MiyFGcRV8zX9m0PoFaOzgzSQdZf9-KuGNxEU64r6Nm2zJTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvBhQ3nG9m-EOYdDa2GQ3KftO30EzzJHpqpttbEiR2YG58bCTY1hIt_95kK-YVVx-F0tnEje1fL8_a8Bobhw_5j9PZENvdSC7EYBZH1yG3yKvuNSNHNughA"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/vbDLV7L1lFtdlOAmdJZudXz1_7-M0uu9RCOgGUsq5wd7OTfhMAsWb4PW3pQfNuIDLFUf2fmiOJk24elsZB66tw4I78-2puNW0my3o5M3gkXU4Ajai2a1lBgeFwMekkQ5gYzlPQobj-vRn2GYI93nrN4DSFdhGA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Z3oSc43wywlQfEEezVI9HxHKdkHzpMuD7hQ3rAYTpooyWFhIdxbf9NWnoJTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvBhQ3nG9m-EOYdDa2GQ3KftO30EzzJHpqpttbEiR2YG58bCTY1hIt_95kK-YVVx-FT1REzSIa-Qqe-Zobhw_5j9PZENvdSC71KDsxIEtB_K3-VgS_Vk18g"
+        }
+      ],
+      "overall_rating": 4.25,
+      "reviews": 5,
+      "location_rating": 4.2,
+      "amenities": [
+        "Air conditioning",
+        "Smoke-free",
+        "Free parking"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No beach access",
+        "No elevator",
+        "No fireplace",
+        "No fitness center",
+        "No hot tub",
+        "No kitchen",
+        "No microwave",
+        "Not pet-friendly",
+        "No cable TV",
+        "Not wheelchair accessible"
+      ],
+      "health_and_safety": {
+        "groups": [
+          {
+            "title": "Enhanced cleaning",
+            "list": [
+              {
+                "title": "Disinfectant used to clean the property",
+                "available": true
+              }
+            ]
+          },
+          {
+            "title": "Minimized contact",
+            "list": [
+              {
+                "title": "No-contact check-in and check-out",
+                "available": true
+              }
+            ]
+          }
+        ]
+      },
+      "essential_info": [
+        "Sleeps 6",
+        "3 bedrooms",
+        "3 bathrooms"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Ega Orchid Luxury by HomeSlice",
+      "link": "https://www.bluepillow.com/search/67cab5a8fa1a57d5a4b25d1f?dest=eps&cat=Apartment&lat=12.95778&lng=77.72135&language=en",
+      "property_token": "ChkQ9NLE0ta3iYFMGg0vZy8xMXljZ3FocHBmEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQ9NLE0ta3iYFMGg0vZy8xMXljZ3FocHBmEAI&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.957779884338379,
+        "longitude": 77.72135162353516
+      },
+      "check_in_time": "1:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,124",
+        "extracted_lowest": 2124,
+        "before_taxes_fees": "₹2,124",
+        "extracted_before_taxes_fees": 2124
+      },
+      "total_rate": {
+        "lowest": "₹2,124",
+        "extracted_lowest": 2124,
+        "before_taxes_fees": "₹2,124",
+        "extracted_before_taxes_fees": 2124
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹2,124",
+            "extracted_lowest": 2124
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Thubarahalli",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 19 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "2 hr 5 min"
+            }
+          ]
+        },
+        {
+          "name": "Ramdev Sagar Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/-Nfgm7dFhrnyK0mHvyZ2RuiolJP011MRLuHmy-iaN5Ngr0QBC_1OP4mCXIAB6lF_SnVPbcLILqcOO9Cyp_tbqSzsBH-yf-AXuSh7harP8lDCKxEupah0RBU0xmt3QxfAR0wB_G6Q_q4G3iopDWsM_dU7dogLWQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111990000/111980400/111980311/307b7f69.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/YWih8PaHUH7mPwvFsLM1omI3yJGXK1NWVfpODW05dg2nUL3AERyDGZbFFCiklaXN3bbQc6X63Q98PumTyUuXDEDWMpFLTYbbHuOUvc0sB7BmNGt2Km_a4ctSvgp9Ico9zhqNm8F495fIqsdARdomtgliBG571g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111990000/111980400/111980311/5984aa7a.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/0ifegL0-hX382_qIvr36744tDoylh-cZxvTVSfM_fnF33_YcSngvpnqx37Wu0mN1GU59zTJ3deLjlfbKLS4rMK9XyPPjPPY3YyTWj6Ala-OTohwhg7DlGIA5apiqmqS3tfkNaNgVT-pyZmjLaiEyr1PJnWH6jA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111990000/111980400/111980311/08636a40.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/JD7dFERskEvPcdzpsf0LfgQT8fgLOKIJTEBhEl2pZzvvySap7fBqwVz4PjxM-pnq2QGhE-d1jvbTxH5aYTyVYVYaKttsx0Cxd9FwKBTmMi7iXows9kl3jXV0U8V-EfsaBtyqKZuTWByWEmsgvAYZVUY9Mftcug=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111990000/111980400/111980311/3d991a84.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/vU2fHEvdoencmCYGlEEm0XwDU8sUuT9EcSVGfjHrUqx7f-NV1WQVeJ32BPol4OmkhU1y07xQYzCFdxVRU8zc4OzQUp0t20N7CggF2BDmTzAs6P6Q6McqvllDNLZt57aw0CvG7_Fh7_KRFE8iDYZZ9yEL96as4Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111990000/111980400/111980311/cf5ffcf9.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/NFtz_d4VmoDEcCRZWF7Wj4bzkfbgk3l7j1Y7xOiOjM_742Q-6AOYztggosmvotQ5kb1ImuAuwtgPmMqFwSytqmGVkFK2rs1RDaKT2ieDwvmrN5zM97HDRwv-vYYm_hB12lKwSZTwKuOxzyvXG-yM4KbhItvDVQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111990000/111980400/111980311/9bdf787c.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        }
+      ],
+      "location_rating": 3.6,
+      "amenities": [
+        "Kitchen",
+        "Smoke-free",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 9",
+        "25 bedrooms",
+        "25 bathrooms",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Home suite",
+      "link": "https://www.bluepillow.com/search/65ca7a4f671b07d23c6d7eda?dest=bkng&cat=House&lat=13.02833&lng=77.58861&language=en",
+      "property_token": "ChoQ_eWb5ajS48e8ARoNL2cvMTF5M3gxc2o3dhAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQ_eWb5ajS48e8ARoNL2cvMTF5M3gxc2o3dhAC&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 13.028329849243164,
+        "longitude": 77.58860778808594
+      },
+      "check_in_time": "12:00 AM",
+      "check_out_time": "9:00 AM",
+      "rate_per_night": {
+        "lowest": "₹994",
+        "extracted_lowest": 994,
+        "before_taxes_fees": "₹994",
+        "extracted_before_taxes_fees": 994
+      },
+      "total_rate": {
+        "lowest": "₹994",
+        "extracted_lowest": 994,
+        "before_taxes_fees": "₹994",
+        "extracted_before_taxes_fees": 994
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹994",
+            "extracted_lowest": 994
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "CBI",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "34 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 27 min"
+            }
+          ]
+        },
+        {
+          "name": "Nisarga Grand",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/PWkoC_zZdLXYmuir6dUjgOm5igK6yyJl9J4f1xlpmt_xW3rbwFFYtgRBf7gO57Jt4-ZjdphlAo6HELSCcRZ9MRwRPBzBjqDzbOxy3TAq_9HWxXa_oHCoMeMRqcuvW6LKsa2tg9qVlnmf2S9Ot891DFvPx_cgjDM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/637427600.jpg?k=e359ac17e4339b6bf9b8ebd60eebba9cb0b070e89ec510c507fe6004710696d8&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/10VtGeIg6i1G6sMV_krKzRVHzTPDA_vOmKTYnVI1wJZWAv0Kp8vjF476X87PqwmFLrMxdnOZoXwuAkEvss2fAKiYGy-lAejTsCBcXreIc2wCdUqbdf_FivYWk6U9k0fJVirjRt6UdusK3clyGnqN92B5HeZzLw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/635787179.jpg?k=87dd1bdd7ac5b2acd9e7531131bcb6e285f747f1b24c45419d6d26bbf5ad153b&o="
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/fwqu_cnTo4ANKjJM_HNPadbF6Fm7vcjsnAuB36c3hHgyRFqGLG8n5K63Ny9L5dTmNRObh10FKx4PNVH4zFBsAn6qsghktxmAYkd4vCbiaMeL59IEFV_JBafDnZuBKywAEworeHkMNPbsmhn_rg1mN7oA3qpJtA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/563158657.jpg?k=f09a633aee064b9438edf60ef2bf61e90e7df28f4af04da4d77e93c80b330e83&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/Chpnl2-9BNYpUe4XfLV46I86N25UvEKPaYeheXgFsY5JuozKoOsjtSOVuaIA2t4ThFjG5UrTmBREBvJ6K6KA_aGCuVWxUlK83rS_HcGMsOtVT9Xfthh9usapwtFRm36-vjc3bGEKZ9d8oUqodr7gK3bgsa-2sSs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/525063480.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/47DPWa_mViJSVUVe7klxuP7tFENOCavdiRL0F-CiJq97P9naRrcALxAo3UyEHdZTCGxYU0R2TRvzE-6zXJr63hCp9dhvk8TD9bjrhtydoYB8Zj6ybLMeaSA8_pXCwbP0HP7nNpmAASlNBFH6vXYolUUW9Z0irw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/563163504.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/k2pY3mUWkOdeg1384NJJ4gV0WUF-pUZwPZwSUBcdjJo6TbY7dTV9v6OLABZlPGkmHBev0l-RWkcwhXXn04dGfkr4g9biyEUiU9RxZfAOojZVff9QCdDHvYNQVNBlHW2kA-Cg4hDn3CU8x8Ci27mpLIyL6MOtJA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/525063520.jpg?k=2436d2a7418b4b53c7a4abac5cda95d8b1f78bf8e2031478af754c6a25b01545&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/ZPQOkn5x3ltgGBIqa4gnq8iD3WBb9JHq8NtE7FYls57oon3bqtjafN7uXNE5Ot-RJjHLY1tD487nXsPufJ2EuC02sbhWjxG9ZuSIE0CVwYu8oPCe1v1o3PLrVyEW8F5EMXyVe3piEqoj67rfcvw84OYM04JEAQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/383559356.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/b08ZKafIrBttIZbNcacyQBpwII9Cb0glztEErtfGIznIbIk0xDqCEuRMB2mtACzp721gMRH-681GtagfRS7_VhKjs-yBxlNBm8oQ0agUOJU8TgzozLooRXiuNwR33GaeplIwiAHDYlR7BXS0wD2OwAUhwoRKaA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/507521391.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/DgliuSvqpxBxeWRtSYSyE_SlfMT1PisI9KFKE1L3UdJi3ITVVKEh_z7zhn0IkAImgTYAttcvABBEKJmPCV3XhCr88XWynIlLxYLbL0gFF8FOCrm20F2agENpyQnqeHTdpZW9R8Pk3_3yPhxjA_rMV6aQiEo1Lw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/352043104.jpg?k=1b0477353031babd9aa09f7b54f22c5532e8489a8bc158b41e529725afd5fb90&o="
+        }
+      ],
+      "overall_rating": 3.0500002,
+      "reviews": 8,
+      "location_rating": 3.8,
+      "amenities": [
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No parking"
+      ],
+      "health_and_safety": {
+        "groups": [
+          {
+            "title": "Minimized contact",
+            "list": [
+              {
+                "title": "No-contact check-in and check-out",
+                "available": true
+              }
+            ]
+          }
+        ]
+      },
+      "essential_info": [
+        "Entire house",
+        "Sleeps 5",
+        "7 bedrooms",
+        "3 bathrooms",
+        "3 beds"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Cozy Urban Retreat Private Villa",
+      "link": "https://www.bluepillow.com/search/67a243a5905c444f2d0cfa53?dest=ago&cat=Vacation+rental+(other)&lat=12.87551&lng=77.36128&language=en",
+      "property_token": "ChkQwYOXz9nHv8R8Gg0vZy8xMXljbDhqZjlxEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T15%3A00%3A00&check_out_date=2025-10-29T17%3A00%3A00&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQwYOXz9nHv8R8Gg0vZy8xMXljbDhqZjlxEAI&q=hotels+near+Vivanta+by+Taj%2C+Bangalore+Bangalore",
+      "gps_coordinates": {
+        "latitude": 12.875510215759277,
+        "longitude": 77.36128234863281
+      },
+      "rate_per_night": {
+        "lowest": "₹2,038",
+        "extracted_lowest": 2038,
+        "before_taxes_fees": "₹2,038",
+        "extracted_before_taxes_fees": 2038
+      },
+      "total_rate": {
+        "lowest": "₹2,038",
+        "extracted_lowest": 2038,
+        "before_taxes_fees": "₹2,038",
+        "extracted_before_taxes_fees": 2038
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.ca",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹2,038",
+            "extracted_lowest": 2038
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Kempegowda International Airport Bengaluru",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "1 hr 46 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "4 hr 4 min"
+            }
+          ]
+        },
+        {
+          "name": "Ranch at Big Banyan Vineyard & Resort"
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/RmybazKDs0x_jIwsfG5CaihwUBc8L7GkabO0Nd-s5S5ZPUxI4GEJip8jhL9Q9joZ1x6oKYD4rFMkZre3qfUjA22D7-h3GxKaOgCh4aRE4BPJWt3YxAQkVQr7BP2toCm53VFa6Tz1IIVc9DQZ4SynE-MocPtuIA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/628075761.jpg?k=a9dd584b611bdaafab2798150b3af4cda3951326ddbf11f8208c361dd790854c&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/q3bFTKFKq2I3aNKCEr4VtADhbkwq59dTW_H4ljLL-Ct4b0rHxXCt75nByJIcSA7yryHTTO4iDpvTCPiyIE_s-gs8_4RWWmH4Uqdq5fr5XvI_JMrdpX3D5cZFi8W1IFRjbrB_d0OF5rx49kyCi3TGf3672PJi7Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/628075711.jpg?k=560ac8af3c869dcba0e538260ef0534ae6b08b045b375c2ed5a32d2ae4192d11&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/GSpMhxPzIZtcCOvVqWrkjEdgWj6NLYxaSXNti4K9DYfRKUZenVXr5O0SgUNmCTtx1xZXgm_tncQjmejC5f2VSH6BIxY7w7r0957q9CZTdiYaD_fQts2y4u_lXf7tOB1s84Ygg81itKcGptMkK3pK2o3A3mrA270=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/628075804.jpg?k=7ee6f8a6447690d15bd1fe9437d096fd12e20e7cacab02e5254213afdfe1153d&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/reClyWhV7uZAXKISdLU8pFaQblgpEBQWVslcK3sse2KuMfLSqZP2CLvHr9SFinrKQVSzp1abypoj6S2WqUglDsd1fGxAuQfCYtJBgYzx91YW7d45HA0P68keFS32Xm4LvZl-6B-a0traL9YRQVE8ToVP7q8SKA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/64301062/0/efa6e0059f679bf87e85d5989a8f4f70.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/8HLG1Ikv6nblLO7yJETDei-RninuNxrrWxJwvGcrIOn-cnPaEDJcxENBt7YBdhidvLNXIHRtpmxyEUmB--mH4UvBi4KBwbys-7LBT90P5ci418esqvXP6lkPObg9yFDdEF7XZ_p1qz1kIZXoIOUwWYFpL2K6XA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/64301062/0/a77cb92546f64a6d228e836dfcc55780.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/S2RQnQiXI8KdGoiHbY-tRaWpNs5gLwOWCHa-BuGe6rrz3LnL1XFYCwyNQM2kM7-7cqUocV4PCTHXE_InJ-oAio1dg6lPf4ikXh3vjB7CRjsITYTXtrPqaHK_zjv0Ol0sVe8VkfqYxm1rEEKca85J8fcxhmjGvw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/628075797.jpg?k=55da25774ab45967f3480dd1db2e42e2cac9af39dce408979a605e0939632535&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/JXu5DB71CqsuCzjA1j1YhD6cC-1PJDGe_-ZDVbxVvH6imMBY7cZBlEO5OHI9QEytMDQrTxLRiW7CnyPqk-iv0eqO_uJR2T4DBGl6NRtc2GCozfcJSKwaub2_6hInIKp-G7AeniPik3YI1aXrH0G78z8OhZkRXNY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/64301062/0/0b1bf789476673a2d9e82549789c5c2d.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/9H1R4-mnDLNEnVoHTAiigsipe_wen-E_AZq1_rTsDDgk5PFFUtpaNlFWADygehC7ija1eAxSXGmZZvWyxw8Ime8VZJvuJIeCgU62Rn7p0Oy7mG-V5xlR0sefHGnWXJe21_XR50wExlGo2FS3MjRu993aUB6XwQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/628075772.jpg?k=03ecdd9a54b28a69d162a6327d1ac915ad2428eeb0897c393659351cffe8e7b0&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/qkcVAY1bVPsO7u8e4QmeerJK6ZTY67kT9PtxhkkBVE2zz1ijwo4qkDdLZeXIWxImzucZx3bl1XGmKjYTk_vWN_F_ZfrzewrWskSw1_xgcoGV-TamnBSI6VR_usX-I-K2pV6ea0Vk3ierXkL7rVfbVfFfM_zh2ek=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/628075799.jpg?k=4cc416e0d10f4dd8ced4055dd1691cd3c1900bc74ceee4a6c7b6b9e5219cd507&o=&s=312x"
+        }
+      ],
+      "location_rating": 2.6,
+      "amenities": [
+        "Kitchen",
+        "Smoke-free",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "10 bedrooms",
+        "10 bathrooms",
+        "1 bed"
+      ]
+    }
+  ],
+  "serpapi_context": {
+    "search_metadata": {
+      "id": "68d99eeba0cb10d91eb56b49",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/876df9da96991602/68d99eeba0cb10d91eb56b49.json",
+      "created_at": "2025-09-28T20:47:39.923Z",
+      "processed_at": "2025-09-28T20:47:39.924Z",
+      "google_hotels_url": "https://www.google.com/_/TravelFrontendUi/data/batchexecute?rpcids=AtySUc&source-path=/travel/search&hl=en&gl=in&rt=c&soc-app=162&soc-platform=1&soc-device=1",
+      "raw_html_file": "https://serpapi.com/searches/876df9da96991602/68d99eeba0cb10d91eb56b49.html",
+      "prettify_html_file": "https://serpapi.com/searches/876df9da96991602/68d99eeba0cb10d91eb56b49.prettify",
+      "total_time_taken": {
+        "float": 1.297241449356079
+      }
+    },
+    "search_parameters": {
+      "engine": "google_hotels",
+      "q": "hotels near Vivanta by Taj, Bangalore Bangalore",
+      "gl": "in",
+      "hl": "en",
+      "currency": "INR",
+      "check_in_date": "2025-10-29T15:00:00",
+      "check_out_date": "2025-10-29T17:00:00",
+      "adults": 1,
+      "children": 0
+    },
+    "search_information": {
+      "total_results": 2028
+    }
+  }
+}
