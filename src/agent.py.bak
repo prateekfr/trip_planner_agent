@@ -1,0 +1,1214 @@
+from __future__ import annotations
+from typing import TypedDict, Optional, Dict, Any, List, Tuple, Callable
+from datetime import datetime, timedelta, date
+import json
+import os
+import re
+import traceback
+
+from providers.client import (flights_client, buses_client, trains_client, hotels_client)
+from src.llm import OpenRouterClient, DEFAULT_MODEL
+from dateutil import tz as dateutil_tz
+
+LOCAL_TZ_NAME = os.getenv("TIMEZONE", "Asia/Kolkata")
+LOCAL_TZ = dateutil_tz.gettz(LOCAL_TZ_NAME) or dateutil_tz.gettz("Asia/Kolkata")
+LLM_IATA_ENABLED = os.getenv("LLM_IATA_ENABLED", "true").lower() == "true"
+LLM_MODEL = os.getenv("LLM_MODEL", DEFAULT_MODEL)
+LLM_TIMEOUT_SECS = int(os.getenv("LLM_TIMEOUT_SECS", "45"))
+LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.0"))
+IATA_COUNTRY_BIAS = os.getenv("IATA_COUNTRY_BIAS", "IN")
+
+_IATA_CACHE: Dict[str, Dict[str, Any]] = {}
+_DT_LINE = re.compile(r"^(•\s*(Depart|Arrive):\s*)(.+)$", re.I | re.M)
+_DEF_ARRIVAL_POINTS = ("arrival_airport","arrival_station","arrival_terminal","arrival_stop","arrival_point","to_name")
+
+def _format_inr(n: float | int | None) -> str:
+    try:
+        return f"₹ {int(float(n)):,}"
+    except Exception:
+        return "₹ (no price available)"
+
+def _arrival_point_name(r: Dict[str, Any]) -> str:
+    for k in _DEF_ARRIVAL_POINTS:
+        v = r.get(k)
+        if isinstance(v, dict):
+            name = v.get("name") or v.get("short") or v.get("code")
+            if name:
+                return str(name)
+        elif isinstance(v, str) and v.strip():
+            return v.strip()
+    city = (r.get("arrival_city") or r.get("to_city") or "").strip()
+    mode = (r.get("mode") or "").strip().lower()
+    if city:
+        if mode == "flight":
+            return f"{city} Airport"
+        if mode == "train":
+            return f"{city} Railway Station"
+        if mode == "bus":
+            return f"{city} Bus Stand"
+    return (r.get("mode") or "arrival").title()
+
+def _google_maps_link(origin: str, destination: str, travelmode: str = "driving") -> str:
+    import urllib.parse as _up
+    o = _up.quote_plus(origin or "")
+    d = _up.quote_plus(destination or "")
+    tm = _up.quote_plus(travelmode)
+    return f"https://www.google.com/maps/dir/?api=1&origin={o}&destination={d}&travelmode={tm}"
+
+def _coarse_travel_minutes(origin_name: str, dest_text: Optional[str]) -> int:
+    o = (origin_name or "").lower()
+    if "airport" in o:
+        return 50
+    if any(x in o for x in ("railway","station","bus","stand","terminal")):
+        return 35
+    return 40
+
+def _rough_cab_fare_inr(minutes: int) -> int:
+    return int(round(minutes * 22, 0))
+
+def _fmt_dt_for_display(dt_str: Optional[str]) -> Optional[str]:
+    if not dt_str:
+        return None
+    try:
+        d = datetime.fromisoformat(dt_str)
+    except Exception:
+        try:
+            from dateutil import parser as dtp
+            d = dtp.isoparse(dt_str)
+        except Exception:
+            return dt_str
+    if d.tzinfo is None:
+        d = d.replace(tzinfo=LOCAL_TZ)
+    else:
+        d = d.astimezone(LOCAL_TZ)
+    return d.strftime("%Y-%m-%d %H:%M")
+
+def _parse_route_iso_local(s: str) -> Optional[datetime]:
+    try:
+        d = datetime.fromisoformat(s)
+    except Exception:
+        try:
+            from dateutil import parser as dtp
+            d = dtp.isoparse(s)
+        except Exception:
+            return None
+    return d.replace(tzinfo=LOCAL_TZ) if d.tzinfo is None else d.astimezone(LOCAL_TZ)
+
+def _to_local_aware(dt_in: Optional[datetime]) -> Optional[datetime]:
+    if dt_in is None:
+        return None
+    return dt_in.replace(tzinfo=LOCAL_TZ) if dt_in.tzinfo is None else dt_in.astimezone(LOCAL_TZ)
+
+def _recompute_duration_hours(route: Dict[str, Any]) -> None:
+    dep = route.get("depart"); arr = route.get("arrive")
+    if not dep or not arr:
+        return
+    try:
+        from dateutil import parser as dtp
+        d1 = dtp.isoparse(dep); d2 = dtp.isoparse(arr)
+        d1 = d1.replace(tzinfo=LOCAL_TZ) if d1.tzinfo is None else d1.astimezone(LOCAL_TZ)
+        d2 = d2.replace(tzinfo=LOCAL_TZ) if d2.tzinfo is None else d2.astimezone(LOCAL_TZ)
+        hrs = max(0.0, (d2 - d1).total_seconds() / 3600.0)
+        route["duration_hours"] = round(hrs, 1)
+    except Exception:
+        pass
+
+def _slug(s: str) -> str:
+    s = (s or "").lower()
+    s = re.sub(r"[^a-z0-9\s-]", "", s)
+    s = re.sub(r"\s+", "-", s).strip("-")
+    s = re.sub(r"-+", "-", s)
+    return s
+
+def _slugify_city(city: Optional[str]) -> str:
+    return _slug(city or "")
+
+def _hotel_fallback_link(city: Optional[str]) -> str:
+    slug = _slugify_city(city or "")
+    return f"https://www.goibibo.com/hotels/hotels-in-{slug}-ct/" if slug else ""
+
+class AgentState(TypedDict, total=False):
+    base_city: Optional[str]
+    destination_city: Optional[str]
+    meeting_start: Optional[datetime]
+    meeting_end: Optional[datetime]
+    earliest_departure: Optional[datetime]
+    latest_arrival: Optional[datetime]
+    latest_return: Optional[datetime]
+    venue_text: Optional[str]
+    base_city_norm: Optional[str]
+    dest_city_norm: Optional[str]
+    base_iata: Optional[str]
+    dest_iata: Optional[str]
+    flights: List[Dict[str, Any]]
+    trains: List[Dict[str, Any]]
+    buses: List[Dict[str, Any]]
+    hotels: List[Dict[str, Any]]
+    hotel_value: Dict[str, Any]
+    hotel_cheapest: Dict[str, Any]
+    venue_latlng: Optional[Tuple[float, float]]
+    cheapest: Dict[str, Any]
+    fastest: Dict[str, Any]
+    value: Dict[str, Any]
+    ordered_recommendations: List[Tuple[str, Dict[str, Any]]]
+    debug: List[str]
+    itinerary_text: str
+    summary_json: Dict[str, Any]
+    last_mile: Dict[str, Any]
+
+class ToolMux:
+    def __init__(self):
+        self.flights = flights_client()
+        self.buses = buses_client()
+        self.trains = trains_client()
+        self.hotels = hotels_client()
+    def call(self, tool: str, **kwargs):
+        t = tool.lower()
+        if "flight" in t:
+            return self.flights.call(tool, **kwargs)
+        if "hotel"  in t:
+            return self.hotels.call(tool, **kwargs)
+        if "train"  in t:
+            return self.trains.call(tool, **kwargs)
+        if "bus"    in t:
+            return self.buses.call(tool, **kwargs)
+        raise ValueError(f"Unknown tool namespace for: {tool}")
+
+_tools = ToolMux()
+
+_IATA_SYSTEM = (
+    "You map city/location phrases to IATA airport codes. Return strict JSON ONLY with this schema:\n"
+    "{\n"
+    '  "normalized_city": string|null,\n'
+    '  "primary_iata": string|null,\n'
+    '  "alternates": [ {"code": string, "note": string} ]\n'
+    "}\n"
+    "- Prefer the main commercial airport code for the given city.\n"
+    "- Consider country bias if provided.\n"
+    "- If the input is already a 3-letter IATA, echo it as primary.\n"
+)
+
+def _llm_resolve_iata(city_text: str, country_bias: Optional[str]) -> Optional[Dict[str, Any]]:
+    if not city_text:
+        return None
+    key = f"{city_text.strip().lower()}|{(country_bias or '').upper()}"
+    if key in _IATA_CACHE:
+        return _IATA_CACHE[key]
+    s = city_text.strip()
+    if len(s) == 3 and s.isalpha():
+        result = {"normalized_city": None, "primary_iata": s.upper(), "alternates": []}
+        _IATA_CACHE[key] = result
+        return result
+    if not LLM_IATA_ENABLED:
+        return None
+    prompt = {"city_text": city_text, "country_bias": (country_bias or "").upper() or None}
+    try:
+        client = OpenRouterClient()
+        messages = [
+            {"role": "system", "content": _IATA_SYSTEM},
+            {"role": "user", "content": json.dumps(prompt, ensure_ascii=False)},
+        ]
+        out = client.chat(messages, model=LLM_MODEL, temperature=LLM_TEMPERATURE, timeout=LLM_TIMEOUT_SECS)
+        try:
+            data = json.loads(out)
+        except Exception:
+            i, j = out.find("{"), out.rfind("}")
+            data = json.loads(out[i:j+1]) if (i != -1 and j != -1 and j > i) else None
+        if isinstance(data, dict):
+            norm_city = (data.get("normalized_city") or None)
+            primary = (data.get("primary_iata") or None)
+            alts = data.get("alternates") or []
+            if primary and isinstance(primary, str) and len(primary) == 3:
+                result = {"normalized_city": norm_city, "primary_iata": primary.upper(), "alternates": alts}
+                _IATA_CACHE[key] = result
+                return result
+    except Exception:
+        pass
+    return None
+
+def _simple_city_normalize(city: Optional[str]) -> Optional[str]:
+    if not city:
+        return city
+    s = city.strip().lower()
+    fixes = {"indoer": "Indore", "bengluru": "Bengaluru", "banglore": "Bengaluru", "bombay": "Mumbai", "new delhi": "New Delhi", "delhi": "New Delhi"}
+    if s in fixes:
+        return fixes[s]
+    return city.title()
+
+class ToolError(RuntimeError):
+    pass
+
+def _impl_get_flights(departure_id: str, arrival_id: str, outbound_date: str,
+                      currency: str = "INR", country: str = "in", language: str = "en",
+                      adults: int = 1, travel_class: int = 1) -> List[Dict[str, Any]]:
+    sr = _tools.call(
+        "search_flights",
+        departure_id=departure_id, arrival_id=arrival_id,
+        outbound_date=outbound_date, trip_type=2,
+        currency=currency, country=country, language=language,
+        adults=adults, travel_class=travel_class,
+    )
+    if not isinstance(sr, dict) or "search_id" not in sr:
+        return []
+    out = _tools.call("normalize_flights", search_id=sr["search_id"]) or []
+    for r in out:
+        _recompute_duration_hours(r)
+    return out
+
+def _impl_get_trains(src_city: str, dst_city: str,
+                     earliest_departure: Optional[str] = None, latest_arrival: Optional[str] = None) -> List[Dict[str, Any]]:
+    sr = _tools.call(
+        "search_trains", src_city=src_city, dst_city=dst_city,
+        earliest_departure=earliest_departure, latest_arrival=latest_arrival,
+    )
+    if not isinstance(sr, dict) or "search_id" not in sr:
+        return []
+    out = _tools.call("normalize_trains", search_id=sr["search_id"]) or []
+    for r in out:
+        _recompute_duration_hours(r)
+    return out
+
+def _impl_get_buses(src_city: str, dst_city: str,
+                    earliest_departure: Optional[str] = None, latest_arrival: Optional[str] = None) -> List[Dict[str, Any]]:
+    sr = _tools.call(
+        "search_buses", src_city=src_city, dst_city=dst_city,
+        earliest_departure=earliest_departure, latest_arrival=latest_arrival,
+    )
+    if not isinstance(sr, dict) or "search_id" not in sr:
+        return []
+    out = _tools.call("normalize_buses", search_id=sr["search_id"]) or []
+    for r in out:
+        _recompute_duration_hours(r)
+    return out
+
+def _impl_get_hotels(city: str, near: Optional[str], checkin: Optional[str], checkout: Optional[str],
+                     adults: int = 1, currency: str = "INR", country: str = "in", language: str = "en") -> List[Dict[str, Any]]:
+    sr = _tools.call("search_hotels", city=city, near=near, checkin=checkin, checkout=checkout,
+                     adults=adults, currency=currency, country=country, language=language)
+    if not isinstance(sr, dict) or "search_id" not in sr:
+        return []
+    out = _tools.call("normalize_hotels", search_id=sr["search_id"]) or []
+    return out
+
+def _impl_attach_booking_link(route: Dict[str, Any], base_city: str, dest_city: str,
+                              base_iata: Optional[str], dest_iata: Optional[str]) -> Dict[str, Any]:
+    if route.get("booking_link"):
+        return route
+    prov = route.get("provider") or {}
+    if isinstance(prov, dict):
+        cand = prov.get("link") or prov.get("booking_link") or (prov.get("urls") or {}).get("booking")
+        if cand:
+            route["booking_link"] = cand
+            return route
+    for k in ("provider_link","link","url"):
+        if route.get(k):
+            route["booking_link"] = route[k]
+            return route
+    mode = (route.get("mode") or "").lower()
+    FROM = (base_iata or base_city or "").upper()
+    TO   = (dest_iata or dest_city or "").upper()
+    from_slug, to_slug = _slugify_city(base_city), _slugify_city(dest_city)
+    def _depart_ddmmyyyy(r: Dict[str, Any]) -> Optional[str]:
+        try:
+            from dateutil import parser as dtp
+            d = dtp.isoparse(r.get("depart"))
+            d = d.replace(tzinfo=LOCAL_TZ) if d.tzinfo is None else d.astimezone(LOCAL_TZ)
+            return d.strftime("%d/%m/%Y")
+        except Exception:
+            return None
+    if mode == "flight":
+        ddmmyyyy = _depart_ddmmyyyy(route)
+        if ddmmyyyy:
+            route["booking_link"] = (f"https://www.makemytrip.com/flight/search?itinerary={FROM}-{TO}-{ddmmyyyy}"
+                                     "&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E")
+        else:
+            route["booking_link"] = f"https://www.makemytrip.com/flights/{FROM}-to-{TO}-flights.html"
+    elif mode == "bus":
+        route["booking_link"] = f"https://www.redbus.in/bus-tickets/{from_slug}-to-{to_slug}"
+    elif mode == "train":
+        route["booking_link"] = f"https://www.irctc.co.in/nget/train-search?from={base_city}&to={dest_city}"
+    return route
+
+def _impl_compute_last_mile(route: Dict[str, Any], venue_text: str,
+                            meeting_start_iso: Optional[str] = None) -> Dict[str, Any]:
+    origin = _arrival_point_name(route)
+    minutes = _coarse_travel_minutes(origin, venue_text)
+    fare = _rough_cab_fare_inr(minutes)
+    maps = _google_maps_link(origin, venue_text, travelmode="driving")
+    leave_by = None
+    if meeting_start_iso:
+        try:
+            from dateutil import parser as dtp
+            lb = dtp.isoparse(meeting_start_iso)
+            lb = lb.replace(tzinfo=LOCAL_TZ) if lb.tzinfo is None else lb.astimezone(LOCAL_TZ)
+            lb = lb - timedelta(minutes=minutes + 15)
+            leave_by = lb.strftime("%Y-%m-%d %H:%M")
+        except Exception:
+            pass
+    eta = None
+    if route.get("arrive"):
+        try:
+            from dateutil import parser as dtp
+            arr = dtp.isoparse(route["arrive"]).astimezone(LOCAL_TZ)
+            eta = (arr + timedelta(minutes=minutes)).strftime("%Y-%m-%d %H:%M")
+        except Exception:
+            pass
+    return {
+        "from": origin,
+        "to": venue_text,
+        "mode": "cab",
+        "minutes": minutes,
+        "approx_fare_inr": fare,
+        "leave_by_local": leave_by,
+        "eta_at_venue_local": eta,
+        "maps_link": maps,
+    }
+
+ToolFunc = Callable[[Dict[str, Any]], Any]
+
+class _Registry:
+    def __init__(self):
+        self._tools: Dict[str, Callable[..., Any]] = {}
+        self._schemas: Dict[str, Dict[str, Any]] = {}
+    def register(self, name: str, fn: Callable[..., Any], schema: Dict[str, Any]):
+        self._tools[name] = fn
+        self._schemas[name] = schema
+    def call(self, name: str, args: Dict[str, Any]) -> Any:
+        if name not in self._tools:
+            raise ToolError(f"Unknown tool: {name}")
+        return self._tools[name](**args)
+    def describe(self) -> List[Dict[str, Any]]:
+        return [{"name": n, "description": s.get("description",""), "schema": s.get("parameters",{})} for n,s in self._schemas.items()]
+
+REG = _Registry()
+REG.register(
+    "resolve_iata",
+    lambda city_text, country_bias=None: _llm_resolve_iata(city_text, country_bias or IATA_COUNTRY_BIAS) or {},
+    {
+        "description": "Resolve a city/location string to a likely IATA airport and normalized city name.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "city_text": {"type":"string"},
+                "country_bias": {"type":["string","null"],"default": IATA_COUNTRY_BIAS},
+            },
+            "required": ["city_text"],
+        },
+    },
+)
+REG.register(
+    "get_flights",
+    _impl_get_flights,
+    {
+        "description": "Search and normalize flights in one call. Returns a list of routes.",
+        "parameters": {
+            "type":"object",
+            "properties": {
+                "departure_id": {"type":"string"},
+                "arrival_id": {"type":"string"},
+                "outbound_date": {"type":"string", "description":"YYYY-MM-DD"},
+                "currency": {"type":"string","default":"INR"},
+                "country": {"type":"string","default":"in"},
+                "language": {"type":"string","default":"en"},
+                "adults": {"type":"integer","default":1},
+                "travel_class": {"type":"integer","default":1},
+            },
+            "required":["departure_id","arrival_id","outbound_date"],
+        },
+    },
+)
+REG.register(
+    "get_trains",
+    _impl_get_trains,
+    {
+        "description": "Search and normalize trains in one call. Returns a list of routes.",
+        "parameters": {
+            "type":"object",
+            "properties": {
+                "src_city": {"type":"string"},
+                "dst_city": {"type":"string"},
+                "earliest_departure": {"type":["string","null"]},
+                "latest_arrival": {"type":["string","null"]},
+            },
+            "required":["src_city","dst_city"],
+        },
+    },
+)
+REG.register(
+    "get_buses",
+    _impl_get_buses,
+    {
+        "description": "Search and normalize buses in one call. Returns a list of routes.",
+        "parameters": {
+            "type":"object",
+            "properties": {
+                "src_city": {"type":"string"},
+                "dst_city": {"type":"string"},
+                "earliest_departure": {"type":["string","null"]},
+                "latest_arrival": {"type":["string","null"]},
+            },
+            "required":["src_city","dst_city"],
+        },
+    },
+)
+REG.register(
+    "get_hotels",
+    _impl_get_hotels,
+    {
+        "description": "Search and normalize hotels in one call. Returns a list of hotels.",
+        "parameters": {
+            "type":"object",
+            "properties": {
+                "city": {"type":"string"},
+                "near": {"type":["string","null"]},
+                "checkin": {"type":["string","null"]},
+                "checkout": {"type":["string","null"]},
+                "adults": {"type":"integer","default":1},
+                "currency": {"type":"string","default":"INR"},
+                "country": {"type":"string","default":"in"},
+                "language": {"type":"string","default":"en"},
+            },
+            "required":["city"],
+        },
+    },
+)
+REG.register(
+    "attach_booking_link",
+    _impl_attach_booking_link,
+    {
+        "description": "Ensure a route dict has a booking_link field, inferring provider fallback URLs if needed.",
+        "parameters": {
+            "type":"object",
+            "properties": {
+                "route": {"type":"object"},
+                "base_city": {"type":"string"},
+                "dest_city": {"type":"string"},
+                "base_iata": {"type":["string","null"]},
+                "dest_iata": {"type":["string","null"]},
+            },
+            "required":["route","base_city","dest_city"],
+        },
+    },
+)
+REG.register(
+    "compute_last_mile",
+    _impl_compute_last_mile,
+    {
+        "description": "Estimate cab transfer time and fare from arrival point to venue; also returns maps link and leave-by/ETA.",
+        "parameters": {
+            "type":"object",
+            "properties": {
+                "route": {"type":"object"},
+                "venue_text": {"type":"string"},
+                "meeting_start_iso": {"type":["string","null"]},
+            },
+            "required":["route","venue_text"],
+        },
+    },
+)
+
+_final_payload: Dict[str, Any] | None = None
+
+def _impl_finalize_plan(itinerary_text: str,
+                        cheapest: Dict[str, Any], fastest: Dict[str, Any], value: Dict[str, Any],
+                        hotels_top5: List[Dict[str, Any]], hotel_value: Dict[str, Any], hotel_cheapest: Dict[str, Any],
+                        iata: Dict[str, Any], base_city: str, destination_city: str,
+                        last_mile: Dict[str, Any] | None = None, debug: List[str] | None = None) -> str:
+    global _final_payload
+    _final_payload = {
+        "itinerary_text": itinerary_text,
+        "summary_json": {
+            "cheapest": cheapest or {},
+            "fastest": fastest or {},
+            "value": value or {},
+            "hotels_top5": hotels_top5 or [],
+            "hotel_value": hotel_value or {},
+            "hotel_cheapest": hotel_cheapest or {},
+            "debug": debug or [],
+            "iata": iata or {},
+            "base_city": base_city,
+            "destination_city": destination_city,
+            "last_mile": last_mile or {},
+        },
+    }
+    return "OK"
+
+REG.register(
+    "finalize_plan",
+    _impl_finalize_plan,
+    {
+        "description": "Return the final plan. MUST be called exactly once when you are done.",
+        "parameters": {
+            "type":"object",
+            "properties": {
+                "itinerary_text": {"type":"string"},
+                "cheapest": {"type":"object"},
+                "fastest": {"type":"object"},
+                "value": {"type":"object"},
+                "hotels_top5": {"type":"array","items":{"type":"object"}},
+                "hotel_value": {"type":"object"},
+                "hotel_cheapest": {"type":"object"},
+                "iata": {"type":"object"},
+                "base_city": {"type":"string"},
+                "destination_city": {"type":"string"},
+                "last_mile": {"type":["object","null"]},
+                "debug": {"type":["array","null"],"items":{"type":"string"}},
+            },
+            "required":["itinerary_text","cheapest","fastest","value","hotels_top5","hotel_value","hotel_cheapest","iata","base_city","destination_city"],
+        },
+    },
+)
+
+_SYSTEM_RULES = (
+    "You are TripPlanner-Agent. Use tools to plan the trip end-to-end and then call `finalize_plan` exactly once.\n"
+    "Text format:\n"
+    "Trip Plan for {base_city} to {destination_city}\n"
+    "Options\n"
+    "Value\n"
+    "• Mode: <text>\n"
+    "• Depart: <datetime or —>\n"
+    "• Arrive: <datetime or —>\n"
+    "• Duration: <X.Y hours or —>\n"
+    "• Price: <₹ 12,345 or ₹ (no price available)>\n"
+    "• Rationale: <short reason; never an operator name>\n"
+    "• Booking Link: <url or empty>\n"
+    "• Transfer: <from> → <to> (<minutes> min by cab; ~₹ <fare>)\n"
+    "• Leave By: <leave_by or —>; ETA at venue: <eta or —>\n"
+    "• Maps Link: <maps_link>\n"
+    "Fastest\n"
+    "• ...\n"
+    "Cheapest\n"
+    "• ...\n"
+    "Hotels\n"
+    "Soumya's Suggested Plan\n"
+    "Cheapest Plan\n"
+    "Next Steps\n"
+    "Decision rules: use last-mile time/fare, penalize late arrivals, attach booking_link, compute duration if missing.\n"
+)
+
+def _json_find_first_object(s: str) -> Dict[str, Any] | None:
+    i = s.find("{")
+    j = s.rfind("}")
+    if i == -1 or j == -1 or j <= i:
+        return None
+    chunk = s[i:j+1]
+    try:
+        return json.loads(chunk)
+    except Exception:
+        depth = 0
+        start = None
+        for k, ch in enumerate(s):
+            if ch == '{':
+                if depth == 0:
+                    start = k
+                depth += 1
+            elif ch == '}':
+                depth -= 1
+                if depth == 0 and start is not None:
+                    try:
+                        return json.loads(s[start:k+1])
+                    except Exception:
+                        continue
+        return None
+
+def _tool_result_message(name: str, result: Any) -> Dict[str, Any]:
+    return {"role": "tool", "name": name, "content": json.dumps({"ok": True, "result": result}, ensure_ascii=False)}
+
+def _coerce_iso(dt_in: Optional[datetime]) -> Optional[str]:
+    return dt_in.isoformat() if isinstance(dt_in, datetime) else None
+
+def _force_title(text: str, base_city: Optional[str], destination_city: Optional[str]) -> str:
+    if base_city and destination_city:
+        text = re.sub(r"^\s*Trip Plan for .*?$", f"Trip Plan for {base_city} to {destination_city}", text, flags=re.M, count=1)
+    return text
+
+def _normalize_datetime_lines(text: str) -> str:
+    def as_local(s: str) -> str:
+        dt = _fmt_dt_for_display(s.strip())
+        return dt or s
+    def repl(m: re.Match) -> str:
+        return f"{m.group(1)}{as_local(m.group(3))}"
+    return _DT_LINE.sub(repl, text)
+
+def _mode_for_next_steps(best: Dict[str, Any]) -> str:
+    for k in ("value", "fastest", "cheapest"):
+        mode = (best.get(k) or {}).get("mode")
+        if mode:
+            return str(mode).lower()
+    return "travel"
+
+def _compute_default_rationale(kind: str, route: Dict[str, Any]) -> str:
+    base = {"Value": "Best balance of time and cost", "Fastest": "Shortest overall travel time", "Cheapest": "Lowest total price", "Suggested": "Best overall pick", "CheapestPlan": "Lowest total price"}.get(kind, "—")
+    after_window = bool(route.get("after_window")) or any("arrives_after_latest_arrival" in str(x) for x in (route.get("notes") or []))
+    provisional = (route.get("duration_note") == "duration_unreliable")
+    if after_window:
+        base += "; may arrive after preferred window"
+    if provisional:
+        base += "; timing provisional—confirm on booking"
+    return base
+
+def _replace_section(text_in: str, header: str, fn: Callable[[str], str]) -> str:
+    pattern = re.compile(rf"(?ms)(^\s*\*{{0,2}}\s*{re.escape(header)}\s*\*{{0,2}}\s*$)(.*?)(?=^\s*\*{{0,2}}\s*(Value|Fastest|Cheapest|Hotels|Soumya's Suggested Plan|Cheapest Plan|Next Steps)\s*\*{{0,2}}\s*$|\Z)")
+    return pattern.sub(lambda m: m.group(1) + fn(m.group(2)), text_in)
+
+def _inject_last_mile(text: str, last_mile: Optional[Dict[str, Any]]) -> str:
+    if not last_mile:
+        return text
+    def apply_block(lm: Dict[str, Any], block_text: str) -> str:
+        if not lm:
+            return block_text
+        def fmt_transfer():
+            return f"• Transfer: {lm.get('from','—')} → {lm.get('to','—')} ({lm.get('minutes','—')} min by {lm.get('mode','cab')}; ~₹ {lm.get('approx_fare_inr','—')})"
+        def fmt_leave():
+            return f"• Leave By: {lm.get('leave_by_local','—')}; ETA at venue: {lm.get('eta_at_venue_local','—')}"
+        def fmt_maps():
+            return f"• Maps Link: {lm.get('maps_link','')}"
+        s = re.sub(r"(?mi)^\s*•\s*Transfer:.*$", fmt_transfer(), block_text)
+        s = re.sub(r"(?mi)^\s*•\s*Leave By:.*$", fmt_leave(), s)
+        s = re.sub(r"(?mi)^\s*•\s*Maps Link:.*$", fmt_maps(), s)
+        return s
+    text = _replace_section(text, "Value", lambda b: apply_block(last_mile.get("value", {}), b))
+    text = _replace_section(text, "Fastest", lambda b: apply_block(last_mile.get("fastest", {}), b))
+    text = _replace_section(text, "Cheapest", lambda b: apply_block(last_mile.get("cheapest", {}), b))
+    text = _replace_section(text, "Soumya's Suggested Plan", lambda b: apply_block(last_mile.get("value_hotel", {}), b))
+    text = _replace_section(text, "Cheapest Plan", lambda b: apply_block(last_mile.get("cheapest_hotel", {}), b))
+    return text
+
+def _inject_plan_hotels(text: str, dest_city: Optional[str], hotel_value: Dict[str, Any], hotel_cheapest: Dict[str, Any], last_mile: Optional[Dict[str, Any]]) -> str:
+    def hotel_line(h: Dict[str, Any]) -> str:
+        try:
+            rt = f"{float(h.get('rating')):.1f}/5"
+        except:
+            rt = "—/5"
+        return f"{h.get('name','Hotel')}: {_format_inr(h.get('price_inr'))}, {rt}"
+    def inject(block: str, which: str) -> str:
+        if re.search(r"(?mi)^\s*•\s*Hotel Suggestion:", block):
+            return block
+        h = hotel_value if which == "value" else hotel_cheapest
+        if not h:
+            return block
+        link = h.get("booking_link") or _hotel_fallback_link(dest_city)
+        extra = [f"• Hotel Suggestion: {hotel_line(h)}", f"• Hotel Link: {link}" if link else ""]
+        lines = block.rstrip().splitlines()
+        insert_at = len(lines)
+        for i, ln in enumerate(lines[::-1]):
+            if re.match(r"^\s*•?\s*Booking Link:", ln):
+                insert_at = len(lines) - i
+                break
+        lines[insert_at:insert_at] = [x for x in extra if x]
+        return "\n".join(lines)
+    def repl_for(header: str, which: str, lm_key: str) -> Callable[[str], str]:
+        def inner(b: str) -> str:
+            body = inject(b, which)
+            if last_mile and last_mile.get(lm_key):
+                lm = last_mile[lm_key]
+                body = re.sub(r"(?mi)^\s*•\s*Transfer:.*$", f"• Transfer: {lm.get('from','—')} → {lm.get('to','—')} ({lm.get('minutes','—')} min by {lm.get('mode','cab')}; ~₹ {lm.get('approx_fare_inr','—')})", body)
+                body = re.sub(r"(?mi)^\s*•\s*Leave By:.*$", f"• Leave By: {lm.get('leave_by_local','—')}; ETA at venue: {lm.get('eta_at_venue_local','—')}", body)
+                body = re.sub(r"(?mi)^\s*•\s*Maps Link:.*$", f"• Maps Link: {lm.get('maps_link','')}", body)
+            return body
+        return inner
+    text = _replace_section(text, "Soumya's Suggested Plan", repl_for("Soumya's Suggested Plan", "value", "value_hotel"))
+    text = _replace_section(text, "Cheapest Plan", repl_for("Cheapest Plan", "cheapest", "cheapest_hotel"))
+    return text
+
+def _inject_booking_links(text: str, best: Dict[str, Dict[str, Any]]) -> str:
+    def apply_block(name: str, block_text: str) -> str:
+        r = best.get(name.lower()) or {}
+        link = r.get("booking_link") or ""
+        if not link:
+            return block_text
+        return re.sub(r"(?mi)^\s*•\s*Booking Link:\s*.*$", f"• Booking Link: {link}", block_text)
+    for name in ("Value", "Fastest", "Cheapest"):
+        text = _replace_section(text, name, lambda b, n=name: apply_block(n, b))
+    return text
+
+def _rewrite_rationales(text: str, best: Dict[str, Dict[str, Any]]) -> str:
+    def apply(route: Dict[str, Any], block_text: str, label: str) -> str:
+        rationale = _compute_default_rationale(label, route or {})
+        if re.search(r"(?mi)^\s*•\s*Rationale:", block_text):
+            return re.sub(r"(?mi)^\s*•\s*Rationale:.*$", f"• Rationale: {rationale}", block_text)
+        return block_text.rstrip() + f"\n• Rationale: {rationale}\n"
+    text = _replace_section(text, "Value", lambda b: apply(best.get("value", {}), b, "Value"))
+    text = _replace_section(text, "Fastest", lambda b: apply(best.get("fastest", {}), b, "Fastest"))
+    text = _replace_section(text, "Cheapest", lambda b: apply(best.get("cheapest", {}), b, "Cheapest"))
+    text = _replace_section(text, "Soumya's Suggested Plan", lambda b: apply(best.get("value", {}), b, "Suggested"))
+    text = _replace_section(text, "Cheapest Plan", lambda b: apply(best.get("cheapest", {}), b, "CheapestPlan"))
+    return text
+
+_OPT_HDR = re.compile(r"(?mi)^\s*•\s*(Value|Fastest|Cheapest)\s*:\s*(.+?)\s*$")
+_MONEY_AMT = re.compile(r"₹\s*([0-9][0-9,]*\.?[0-9]*)")
+
+def _normalize_option_headers(text: str) -> str:
+    def fix_line(lbl: str, s: str) -> str:
+        return re.sub(rf"(?mi)^\s*•\s*{lbl}\s*:\s*(.+?)\s*$", rf"{lbl}\n• Mode: \1", s)
+    for lbl in ("Value", "Fastest", "Cheapest"):
+        text = fix_line(lbl, text)
+    return text
+
+def _normalize_money_block(text: str) -> str:
+    def _norm(m):
+        amount = m.group(1).replace(",", "")
+        try:
+            return _format_inr(float(amount))
+        except Exception:
+            return m.group(0)
+    text = _MONEY_AMT.sub(_norm, text)
+    text = re.sub(r"(₹)\s*(₹)\s*", r"\1 ", text)
+    text = re.sub(r"Price:\s*₹\s*\(no price available\)", "Price: ₹ (no price available)", text, flags=re.I)
+    return text
+
+def _ensure_rationale_dash(text: str) -> str:
+    out = []
+    for line in text.splitlines():
+        if re.match(r"^\s*Rationale:\s*$", line) or re.match(r"^\s*Rationale:\s*[-–—]\s*$", line):
+            out.append("Rationale: —")
+        else:
+            out.append(line)
+    return "\n".join(out)
+
+def _force_bullets_in_options(text: str) -> str:
+    lines = text.splitlines()
+    out, in_options, in_sub = [], False, False
+    label_pat = re.compile(r"^\s*(Mode|Depart|Arrive|Duration|Price|Rationale|Booking Link|Transfer|Leave By|Maps Link):", re.I)
+    for line in lines:
+        if re.match(r"^\s*Options\s*$", line):
+            in_options = True; out.append("**Options**"); continue
+        if in_options and re.match(r"^\s*(Hotels|Soumya's Suggested Plan|Cheapest Plan|Next Steps)\s*$", line):
+            in_options = False; out.append(line if line.startswith("**") else f"**{line.strip()}**"); continue
+        if in_options and re.match(r"^\s*(Value|Fastest|Cheapest)\s*$", line):
+            in_sub = True; out.append(f"**{line.strip()}**"); continue
+        if in_options and in_sub and label_pat.match(line):
+            out.append("• " + line.strip()); continue
+        out.append(line)
+    return "\n".join(out)
+
+def _bold_static_headers(text: str) -> str:
+    text = re.sub(r"^\s*Trip Plan for (.+?)\s*$", r"**Trip Plan for \1**", text, flags=re.M)
+    for sec in ["Hotels", "Soumya's Suggested Plan", "Cheapest Plan", "Next Steps"]:
+        text = re.sub(rf"^\s*{re.escape(sec)}\s*$", f"**{sec}**", text, flags=re.M)
+    return text
+
+def _enforce_next_steps(text: str, best: Optional[Dict[str, Any]]) -> str:
+    pat = re.compile(r"(?m)^\s*Next Steps\s*$")
+    m = pat.search(text)
+    if not m:
+        return text
+    start = m.end()
+    suffix = f"\n1) Book your {_mode_for_next_steps(best or {})} and hotel with the links\n2) Reach the hotel and freshen up\n3) Enjoy your trip\n"
+    return text[:start] + suffix
+
+def _postprocess_itinerary_text(
+    text: str,
+    *,
+    base_city: Optional[str],
+    destination_city: Optional[str],
+    best: Dict[str, Dict[str, Any]],
+    last_mile: Optional[Dict[str, Any]],
+    hotel_value: Dict[str, Any],
+    hotel_cheapest: Dict[str, Any],
+) -> str:
+    text = _force_title(text, base_city, destination_city)
+    text = _normalize_option_headers(text)
+    text = _normalize_money_block(text)
+    text = _ensure_rationale_dash(text)
+    text = _force_bullets_in_options(text)
+    text = _bold_static_headers(text)
+    text = _normalize_datetime_lines(text)
+    text = _inject_booking_links(text, best)
+    text = _rewrite_rationales(text, best)
+    text = _inject_last_mile(text, last_mile)
+    text = _inject_plan_hotels(text, destination_city, hotel_value, hotel_cheapest, last_mile)
+    text = _enforce_next_steps(text, best)
+    return text
+
+def _extract_price_inr(route: Dict[str, Any]) -> Optional[int]:
+    p = route.get("price_inr")
+    if isinstance(p, (int, float)) and p >= 0:
+        return int(p)
+    p = route.get("price")
+    if isinstance(p, (int, float)) and p >= 0:
+        return int(p)
+    if isinstance(p, str):
+        m = re.search(r"([0-9][0-9,]*)", p)
+        if m:
+            try:
+                return int(m.group(1).replace(",", ""))
+            except:
+                return None
+    return None
+
+def _rank_value(routes: List[Dict[str, Any]], lm_map: Dict[int, Dict[str, Any]]) -> Optional[int]:
+    best_i = None
+    best_score = 10**18
+    for i, r in enumerate(routes):
+        mins = int(round((r.get("duration_hours") or 0) * 60))
+        lm = lm_map.get(i, {})
+        mins += int(lm.get("minutes") or 0)
+        cost = _extract_price_inr(r) or 10**7
+        score = mins * 5 + cost
+        if score < best_score:
+            best_score = score
+            best_i = i
+    return best_i
+
+def _rank_fastest(routes: List[Dict[str, Any]], lm_map: Dict[int, Dict[str, Any]]) -> Optional[int]:
+    best_i = None
+    best_total = 10**18
+    for i, r in enumerate(routes):
+        mins = int(round((r.get("duration_hours") or 0) * 60))
+        mins += int(lm_map.get(i, {}).get("minutes") or 0)
+        if mins < best_total:
+            best_total = mins
+            best_i = i
+    return best_i
+
+def _rank_cheapest(routes: List[Dict[str, Any]], lm_map: Dict[int, Dict[str, Any]]) -> Optional[int]:
+    best_i = None
+    best_price = 10**18
+    for i, r in enumerate(routes):
+        price = _extract_price_inr(r) or 10**7
+        if price < best_price:
+            best_price = price
+            best_i = i
+    return best_i
+
+def _format_block(title: str, r: Dict[str, Any], lm: Dict[str, Any]) -> str:
+    depart = _fmt_dt_for_display(r.get("depart")) or "—"
+    arrive = _fmt_dt_for_display(r.get("arrive")) or "—"
+    dur = r.get("duration_hours")
+    duration = f"{dur:.1f} hours" if isinstance(dur, (int, float)) else "—"
+    price = _format_inr(_extract_price_inr(r))
+    rationale = "—"
+    booking = r.get("booking_link") or ""
+    transfer = f"{lm.get('from','—')} → {lm.get('to','—')} ({lm.get('minutes','—')} min by {lm.get('mode','cab')}; ~₹ {lm.get('approx_fare_inr','—')})"
+    leave_by = lm.get("leave_by_local","—")
+    eta = lm.get("eta_at_venue_local","—")
+    maps = lm.get("maps_link","")
+    s = []
+    if title:
+        s.append(f"{title}")
+    s.append(f"• Mode: {r.get('mode','—')}")
+    s.append(f"• Depart: {depart}")
+    s.append(f"• Arrive: {arrive}")
+    s.append(f"• Duration: {duration}")
+    s.append(f"• Price: {price}")
+    s.append(f"• Rationale: {rationale}")
+    s.append(f"• Booking Link: {booking}")
+    s.append(f"• Transfer: {transfer}")
+    s.append(f"• Leave By: {leave_by}; ETA at venue: {eta}")
+    s.append(f"• Maps Link: {maps}")
+    return "\n".join(s)
+
+def _build_itinerary_text(base_city: str, dest_city: str,
+                          picks: Dict[str, Dict[str, Any]],
+                          lm_map: Dict[str, Dict[str, Any]],
+                          hotels_top5: List[Dict[str, Any]],
+                          hotel_value: Dict[str, Any],
+                          hotel_cheapest: Dict[str, Any]) -> str:
+    lines = []
+    lines.append(f"Trip Plan for {base_city} to {dest_city}")
+    lines.append("Options")
+    lines.append("Value")
+    lines.append(_format_block("", picks.get("value", {}), lm_map.get("value", {})))
+    lines.append("Fastest")
+    lines.append(_format_block("", picks.get("fastest", {}), lm_map.get("fastest", {})))
+    lines.append("Cheapest")
+    lines.append(_format_block("", picks.get("cheapest", {}), lm_map.get("cheapest", {})))
+    lines.append("Hotels")
+    for h in hotels_top5[:5]:
+        try:
+            rt = f"{float(h.get('rating')):.1f}/5"
+        except:
+            rt = "—/5"
+        line = f"{h.get('name','Hotel')}: {_format_inr(h.get('price_inr'))} {rt}"
+        lines.append(line)
+        if h.get("booking_link"):
+            lines.append(f"Booking: {h['booking_link']}")
+    lines.append("Soumya's Suggested Plan")
+    lines.append(_format_block("", picks.get("value", {}), lm_map.get("value", {})))
+    if hotel_value:
+        try:
+            rt = f"{float(hotel_value.get('rating')):.1f}/5"
+        except:
+            rt = "—/5"
+        lines.append(f"• Hotel Suggestion: {hotel_value.get('name','Hotel')}: {_format_inr(hotel_value.get('price_inr'))} {rt}")
+        link = hotel_value.get("booking_link") or _hotel_fallback_link(dest_city)
+        if link:
+            lines.append(f"• Hotel Link: {link}")
+    lines.append("Cheapest Plan")
+    lines.append(_format_block("", picks.get("cheapest", {}), lm_map.get("cheapest", {})))
+    if hotel_cheapest:
+        try:
+            rt2 = f"{float(hotel_cheapest.get('rating')):.1f}/5"
+        except:
+            rt2 = "—/5"
+        lines.append(f"• Hotel Suggestion: {hotel_cheapest.get('name','Hotel')}: {_format_inr(hotel_cheapest.get('price_inr'))} {rt2}")
+        link2 = hotel_cheapest.get("booking_link") or _hotel_fallback_link(dest_city)
+        if link2:
+            lines.append(f"• Hotel Link: {link2}")
+    lines.append("Next Steps")
+    lines.append("1) Book your travel and hotel with the links")
+    lines.append("2) Reach the hotel and freshen up")
+    lines.append("3) Enjoy your trip")
+    return "\n".join(lines)
+
+def _pick_hotels(hotels: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], Dict[str, Any], Dict[str, Any]]:
+    top = hotels[:]
+    cheapest = None
+    value = None
+    best_value_score = 10**18
+    best_price = 10**18
+    for h in hotels:
+        price = h.get("price_inr")
+        if isinstance(price, str):
+            try:
+                price = int(re.sub(r"[^0-9]", "", price))
+            except:
+                price = None
+        rating = h.get("rating") or 0
+        if isinstance(rating, str):
+            try:
+                rating = float(rating)
+            except:
+                rating = 0
+        if isinstance(price, (int, float)) and price < best_price:
+            best_price = price
+            cheapest = h
+        score = (price or 10**7) / (rating or 1.0)
+        if score < best_value_score:
+            best_value_score = score
+            value = h
+    return top, (value or {}), (cheapest or {})
+
+def _attach_links_for_pick(r: Dict[str, Any], base_city: str, dest_city: str, base_iata: Optional[str], dest_iata: Optional[str]) -> Dict[str, Any]:
+    return _impl_attach_booking_link(r, base_city, dest_city, base_iata, dest_iata)
+
+def _fallback_pipeline(tripfacts: Any) -> Dict[str, Any]:
+    meeting = getattr(tripfacts, "meeting", None)
+    base_raw = getattr(tripfacts, "base_city", None)
+    dest_raw = getattr(tripfacts, "destination_city", None)
+    base_city = _simple_city_normalize(base_raw)
+    dest_city = _simple_city_normalize(dest_raw)
+    base_info = _llm_resolve_iata(base_city or "", IATA_COUNTRY_BIAS) or {}
+    dest_info = _llm_resolve_iata(dest_city or "", IATA_COUNTRY_BIAS) or {}
+    base_norm = base_info.get("normalized_city") or base_city
+    dest_norm = dest_info.get("normalized_city") or dest_city
+    base_iata = base_info.get("primary_iata")
+    dest_iata = dest_info.get("primary_iata")
+    ms = getattr(meeting, "start", None)
+    outbound_date = (ms.astimezone(LOCAL_TZ).date() if isinstance(ms, datetime) else datetime.now(LOCAL_TZ).date()).strftime("%Y-%m-%d")
+    earliest = getattr(tripfacts, "earliest_departure", None)
+    latest_arrival = getattr(tripfacts, "latest_arrival", None)
+    earliest_s = earliest.isoformat() if isinstance(earliest, datetime) else None
+    latest_s = latest_arrival.isoformat() if isinstance(latest_arrival, datetime) else None
+    flights = _impl_get_flights(departure_id=base_iata or base_norm or (base_city or ""), arrival_id=dest_iata or dest_norm or (dest_city or ""), outbound_date=outbound_date)
+    trains = _impl_get_trains(src_city=base_norm or (base_city or ""), dst_city=dest_norm or (dest_city or ""), earliest_departure=earliest_s, latest_arrival=latest_s)
+    buses  = _impl_get_buses(src_city=base_norm or (base_city or ""), dst_city=dest_norm or (dest_city or ""), earliest_departure=earliest_s, latest_arrival=latest_s)
+    candidates: List[Dict[str, Any]] = []
+    def _add_mode(arr, mode):
+        for r in (arr or []):
+            r = dict(r)
+            r["mode"] = r.get("mode") or mode
+            _recompute_duration_hours(r)
+            candidates.append(r)
+    _add_mode(flights, "Flight")
+    _add_mode(trains, "Train")
+    _add_mode(buses,  "Bus")
+    for r in candidates:
+        _attach_links_for_pick(r, base_norm or base_city or "", dest_norm or dest_city or "", base_iata, dest_iata)
+    venue = getattr(meeting, "location_text", None) or (dest_norm or dest_city or "")
+    meeting_start_iso = ms.isoformat() if isinstance(ms, datetime) else None
+    lm_map: Dict[int, Dict[str, Any]] = {}
+    for i, r in enumerate(candidates):
+        lm_map[i] = _impl_compute_last_mile(r, venue, meeting_start_iso)
+    idx_value = _rank_value(candidates, lm_map)
+    idx_fast  = _rank_fastest(candidates, lm_map)
+    idx_cheap = _rank_cheapest(candidates, lm_map)
+    picks: Dict[str, Dict[str, Any]] = {
+        "value": candidates[idx_value] if idx_value is not None else {},
+        "fastest": candidates[idx_fast] if idx_fast is not None else {},
+        "cheapest": candidates[idx_cheap] if idx_cheap is not None else {},
+    }
+    lm_named = {
+        "value": lm_map.get(idx_value or -999, {}),
+        "fastest": lm_map.get(idx_fast or -999, {}),
+        "cheapest": lm_map.get(idx_cheap or -999, {}),
+    }
+    checkin = (ms.astimezone(LOCAL_TZ).date() if isinstance(ms, datetime) else datetime.now(LOCAL_TZ).date()).strftime("%Y-%m-%d")
+    checkout_date = (ms.astimezone(LOCAL_TZ).date() + timedelta(days=1) if isinstance(ms, datetime) else datetime.now(LOCAL_TZ).date() + timedelta(days=1))
+    checkout = checkout_date.strftime("%Y-%m-%d")
+    hotels = _impl_get_hotels(city=dest_norm or dest_city or "", near=venue, checkin=checkin, checkout=checkout)
+    hotels_top5, hotel_value, hotel_cheapest = _pick_hotels(hotels or [])
+    for h in hotels_top5[:5]:
+        h.setdefault("booking_link", _hotel_fallback_link(dest_norm or dest_city))
+    it_raw = _build_itinerary_text(base_norm or base_city or "", dest_norm or dest_city or "", picks, {"value": lm_named["value"], "fastest": lm_named["fastest"], "cheapest": lm_named["cheapest"]}, hotels_top5, hotel_value, hotel_cheapest)
+    lm_value_hotel = _impl_compute_last_mile(picks["value"], hotel_value.get("name") or (dest_norm or dest_city or "")) if hotel_value else {}
+    lm_cheapest_hotel = _impl_compute_last_mile(picks["cheapest"], hotel_cheapest.get("name") or (dest_norm or dest_city or "")) if hotel_cheapest else {}
+    last_mile = {"value": lm_named["value"], "fastest": lm_named["fastest"], "cheapest": lm_named["cheapest"], "value_hotel": lm_value_hotel, "cheapest_hotel": lm_cheapest_hotel}
+    it = _postprocess_itinerary_text(
+        it_raw,
+        base_city=base_norm or base_city,
+        destination_city=dest_norm or dest_city,
+        best={"value": picks["value"], "fastest": picks["fastest"], "cheapest": picks["cheapest"]},
+        last_mile=last_mile,
+        hotel_value=hotel_value,
+        hotel_cheapest=hotel_cheapest,
+    )
+    summary = {
+        "cheapest": picks["cheapest"],
+        "fastest": picks["fastest"],
+        "value": picks["value"],
+        "hotels_top5": hotels_top5[:5],
+        "hotel_value": hotel_value,
+        "hotel_cheapest": hotel_cheapest,
+        "debug": [],
+        "iata": {"base": base_iata, "dest": dest_iata, "base_norm": base_norm, "dest_norm": dest_norm},
+        "base_city": base_norm or base_city or "",
+        "destination_city": dest_norm or dest_city or "",
+        "last_mile": last_mile,
+    }
+    return {"itinerary_text": it, "summary_json": summary}
+
+class AgenticPlanner:
+    def __init__(self):
+        self.client = OpenRouterClient()
+        self.tool_catalog = REG.describe()
+    def run(self, tripfacts: Any) -> AgentState:
+        meeting = getattr(tripfacts, "meeting", None)
+        state: AgentState = {
+            "base_city": getattr(tripfacts, "base_city", None),
+            "destination_city": getattr(tripfacts, "destination_city", None),
+            "meeting_start": getattr(meeting, "start", None) if meeting else None,
+            "meeting_end": getattr(meeting, "end", None) if meeting else None,
+            "earliest_departure": getattr(tripfacts, "earliest_departure", None),
+            "latest_arrival": getattr(tripfacts, "latest_arrival", None),
+            "latest_return": getattr(tripfacts, "latest_return", None),
+            "venue_text": getattr(meeting, "location_text", None) if meeting else None,
+            "debug": [],
+        }
+        base_guess = _simple_city_normalize(state.get("base_city"))
+        dest_guess = _simple_city_normalize(state.get("destination_city"))
+        try:
+            if base_guess:
+                r = _llm_resolve_iata(base_guess, IATA_COUNTRY_BIAS) or {}
+                state["base_city_norm"] = r.get("normalized_city") or base_guess
+                state["base_iata"] = r.get("primary_iata")
+            if dest_guess:
+                r = _llm_resolve_iata(dest_guess, IATA_COUNTRY_BIAS) or {}
+                state["dest_city_norm"] = r.get("normalized_city") or dest_guess
+                state["dest_iata"] = r.get("primary_iata")
+        except Exception:
+            pass
+        context = {
+            "base_city": state.get("base_city"),
+            "destination_city": state.get("destination_city"),
+            "meeting_start": _coerce_iso(state.get("meeting_start")),
+            "meeting_end": _coerce_iso(state.get("meeting_end")),
+            "earliest_departure": _coerce_iso(state.get("earliest_departure")),
+            "latest_arrival": _coerce_iso(state.get("latest_arrival")),
+            "venue_text": state.get("venue_text"),
+            "tools": self.tool_catalog,
+        }
+        messages: List[Dict[str, Any]] = [
+            {"role": "system", "content": _SYSTEM_RULES},
+            {"role": "user", "content": 'Plan the trip by calling tools. Respond only with a JSON object {"tool":"<name>","args":{...}}. When done, call `finalize_plan` the same way.\n' + json.dumps(context, ensure_ascii=False)},
+        ]
+        global _final_payload
+        _final_payload = None
+        no_tool_rounds = 0
+        for step in range(30):
+            raw = None
+            for attempt in range(3):
+                try:
+                    raw = self.client.chat(messages, model=LLM_MODEL, temperature=LLM_TEMPERATURE, timeout=LLM_TIMEOUT_SECS + attempt*20)
+                    break
+                except Exception as e:
+                    messages = [messages[0]] + messages[-8:]
+                    if attempt == 2:
+                        state.setdefault("debug", []).append(f"llm_chat_failed: {e}")
+                        raw = ""
+            obj = _json_find_first_object(raw or "") or {}
+            tool = obj.get("tool") or obj.get("tool_call") or obj.get("name")
+            args = obj.get("args") or obj.get("arguments") or {}
+            if not tool:
+                messages.append({"role": "assistant", "content": raw or ""})
+                messages.append({"role": "user", "content": "Respond ONLY with a JSON tool call: {\"tool\":\"<name>\",\"args\":{...}}."})
+                no_tool_rounds += 1
+                if no_tool_rounds >= 5:
+                    break
+                continue
+            try:
+                result = REG.call(tool, args)
+            except Exception as e:
+                err = f"Tool `{tool}` failed: {e}"
+                state.setdefault("debug", []).append(err)
+                messages.append({"role": "assistant", "content": json.dumps({"tool_error": err})})
+                continue
+            messages.append(_tool_result_message(tool, result))
+            if tool == "finalize_plan":
+                break
+        if not _final_payload:
+            fb = _fallback_pipeline(tripfacts)
+            itin = _postprocess_itinerary_text(
+                fb["itinerary_text"],
+                base_city=fb["summary_json"].get("base_city"),
+                destination_city=fb["summary_json"].get("destination_city"),
+                best={"value": fb["summary_json"]["value"], "fastest": fb["summary_json"]["fastest"], "cheapest": fb["summary_json"]["cheapest"]},
+                last_mile=fb["summary_json"]["last_mile"],
+                hotel_value=fb["summary_json"]["hotel_value"],
+                hotel_cheapest=fb["summary_json"]["hotel_cheapest"],
+            )
+            state["itinerary_text"] = itin
+            state["summary_json"] = fb["summary_json"]
+            state["cheapest"] = fb["summary_json"]["cheapest"]
+            state["fastest"] = fb["summary_json"]["fastest"]
+            state["value"] = fb["summary_json"]["value"]
+            state["hotels"] = fb["summary_json"]["hotels_top5"]
+            state["hotel_value"] = fb["summary_json"]["hotel_value"]
+            state["hotel_cheapest"] = fb["summary_json"]["hotel_cheapest"]
+            state["last_mile"] = fb["summary_json"]["last_mile"]
+            return state
+        summ: Dict[str, Any] = _final_payload.get("summary_json") or {}
+        best = {"value": summ.get("value") or {}, "fastest": summ.get("fastest") or {}, "cheapest": summ.get("cheapest") or {}}
+        itin = _postprocess_itinerary_text(
+            _final_payload.get("itinerary_text") or "",
+            base_city=summ.get("base_city") or state.get("base_city_norm") or state.get("base_city"),
+            destination_city=summ.get("destination_city") or state.get("dest_city_norm") or state.get("destination_city"),
+            best=best,
+            last_mile=summ.get("last_mile") or {},
+            hotel_value=summ.get("hotel_value") or {},
+            hotel_cheapest=summ.get("hotel_cheapest") or {},
+        )
+        state["itinerary_text"] = itin
+        state["summary_json"] = summ
+        state["cheapest"] = (summ.get("cheapest") or {})
+        state["fastest"] = (summ.get("fastest") or {})
+        state["value"] = (summ.get("value") or {})
+        state["hotels"] = (summ.get("hotels_top5") or [])
+        state["hotel_value"] = (summ.get("hotel_value") or {})
+        state["hotel_cheapest"] = (summ.get("hotel_cheapest") or {})
+        state["last_mile"] = (summ.get("last_mile") or {})
+        state.setdefault("debug", []).extend(summ.get("debug") or [])
+        return state
+
+def run_planner(tripfacts: Any) -> Dict[str, Any]:
+    return AgenticPlanner().run(tripfacts)
+
+
+#values here are only for smoke test
+if __name__ == "__main__":
+    class _Meeting:
+        def __init__(self):
+            self.start = datetime.now().astimezone(LOCAL_TZ) + timedelta(days=1, hours=2)
+            self.end = self.start + timedelta(hours=2)
+            self.location_text = "MG Road, Bengaluru"
+    class _Facts:
+        base_city = "Indore"
+        destination_city = "Bengaluru"
+        meeting = _Meeting()
+        earliest_departure = None
+        latest_arrival = (datetime.now().astimezone(LOCAL_TZ) + timedelta(days=1, hours=1))
+        latest_return = None
+    out = run_planner(_Facts())
+    print("keys:", list(out.keys()))
+    print(out.get("itinerary_text","<no text>"))
