@@ -1,0 +1,66 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_New_Delhi_NA_20251002_193610",
+    "src": "Indore",
+    "dst": "New Delhi",
+    "travel_date": null,
+    "earliest_departure": "2025-10-28T22:00:00+05:30",
+    "latest_arrival": "2025-10-29T07:00:00+05:30",
+    "timestamp_utc": "2025-10-02T19:36:10.588908",
+    "distance_km": 672.2530202242672
+  },
+  "options": [
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "New Delhi",
+      "depart": "2025-10-28T22:00:00+05:30",
+      "arrive": "2025-10-29T06:00:00+05:30",
+      "duration_hours": 8.0,
+      "price_inr": 762,
+      "ref": "B07",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.easemytrip.com/bus/indore-to-delhi-bus-tickets/"
+      }
+    }
+  ],
+  "debug": [
+    "distance: 672.2530202242672km",
+    "search_results: 10",
+    "exceeds_latest_arrival: https://www.redbus.in/bus-tickets/indore-to-delhi",
+    "exceeds_latest_arrival: https://www.abhibus.com/buses/19763/Indore-Delhi",
+    "exceeds_latest_arrival: https://www.redbus.in/online-bus/indore-to-delhi-o",
+    "exceeds_latest_arrival: https://www.redbus.in/booking-online/volvo-ac-buse",
+    "estimated_duration: 14.8h for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.redbus.in/online-bus/indore-to-delhi-o",
+    "estimated_duration: 14.8h for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.redbus.in/online-bus/indore-to-delhi-o",
+    "estimated_duration: 14.8h for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.intrcity.com/bus-booking/indore-to-del",
+    "estimated_duration: 14.8h for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.redbus.in/online-bus/indore-to-delhi-o",
+    "estimated_duration: 14.8h for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.redbus.in/online-bus/indore-to-delhi-o",
+    "estimated_duration: 14.8h for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.zingbus.com/bus-tickets/indore-to-delh",
+    "trying_broader_search",
+    "broader_search_results: 9",
+    "invalid_duration: 5.92h for url: https://www.zingbus.com/bus-tickets/indore-to-delh",
+    "estimated_duration: 14.8h for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.redbus.in/bus-tickets/indore-to-delhi",
+    "estimated_duration: 14.8h for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.makemytrip.com/bus-tickets/indore-delh",
+    "estimated_duration: 14.8h for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.abhibus.com/buses/19763/Indore-Delhi",
+    "estimated_duration: 14.8h for 672.2530202242672km",
+    "estimated_price: ₹1060 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.makemytrip.com/bus-tickets/volvo-ac-sl",
+    "estimated_duration: 14.8h for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.intrcity.com/bus-booking/indore-to-del",
+    "estimated_duration: 14.8h for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.flixbus.in/bus-routes/indore-delhi",
+    "estimated_duration: 14.8h for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.goibibo.com/bus/indore-to-delhi-volvo-"
+  ]
+}

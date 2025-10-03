@@ -1,0 +1,2693 @@
+{
+  "search_metadata": {
+    "search_id": "Mumbai_Hyatt_20251021T090000_20251022T090000_20251002_181505",
+    "city": "Mumbai",
+    "near": "Hyatt",
+    "checkin": "2025-10-21T09:00:00+05:30",
+    "checkout": "2025-10-22T09:00:00+05:30",
+    "adults": 1,
+    "children": 0,
+    "children_ages": null,
+    "currency": "INR",
+    "gl": "in",
+    "hl": "en",
+    "query": "hotels near Hyatt Mumbai",
+    "filters": {
+      "sort_by": null,
+      "hotel_class": null,
+      "amenities": null,
+      "property_types": null,
+      "brands": null,
+      "free_cancellation": false,
+      "special_offers": false,
+      "vacation_rentals": false,
+      "bedrooms": null
+    },
+    "timestamp_utc": "2025-10-02T18:15:05.487695"
+  },
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "Grand Hyatt Mumbai Hotel & Residences",
+      "description": "Luxe lodging with a spa & 2 outdoor pools, plus a shopping center & international restaurants.",
+      "link": "https://www.hyatt.com/grand-hyatt/en-US/mumgh-grand-hyatt-mumbai/?src=corp_lclb_gmb_seo_mumgh",
+      "property_token": "ChcIrIOvg-jjophAGgsvbS8wMTA5N19udBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChcIrIOvg-jjophAGgsvbS8wMTA5N19udBAB&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0768067,
+        "longitude": 72.8511248
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹11,758",
+        "extracted_lowest": 11758,
+        "before_taxes_fees": "₹10,048",
+        "extracted_before_taxes_fees": 10048
+      },
+      "total_rate": {
+        "lowest": "₹11,758",
+        "extracted_lowest": 11758,
+        "before_taxes_fees": "₹10,048",
+        "extracted_before_taxes_fees": 10048
+      },
+      "deal": "32% less than usual",
+      "deal_description": "Great Deal",
+      "nearby_places": [
+        {
+          "name": "Vakola Police Station",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "12 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "22 min"
+            }
+          ]
+        },
+        {
+          "name": "Grand The Dining Bar",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "6 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMYi11ChpDFpEngxYvHWl_hljIRfeh5aXlPhwEg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMYi11ChpDFpEngxYvHWl_hljIRfeh5aXlPhwEg=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/8Z2y29mvoEfGeJpV9dNzFftxVziukNIVwsYHfLwTlg-YLp00FlHD7AXOrR8esV5E86sFN4XIiD3hf1r8Ks20E5lKwRfwvVKsnVCjBeuymAskaATjpPitlJpOOBaZ148tGTiYmpcTjjSEjA2F13axE9rFNbYK9NI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-49871-f85040522_XXLejpg/India/MUMBAI/GRAND-HYATT-MUMBAI/Photo/GRAND-HYATT-MUMBAI-MUMBAI-Undefined-Pool.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/iaCH4KrGk8Ag4MFXj8TwLmFU_1oMNRzcA1pR2m-jRFbE1R4WQptGY3V9WbEvlIpSC8-QZZRmT06Z0QAD3aztl77fB80IODBtpZ10LX0jAVOYCb38S6yq448nlAAUo3aHRutsXIrJeKU1hOOQvdb2JIAaqcFYTQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/06/061288/061288a_hb_ro_100.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/RJYYXcPmPF8YrQuN3_sW8eSY1q4Xgt4Yaet4u6GWgCAbHue6zIDwKZwyNp8Eo70006Bu8NQyqOMbdtggJ33KjIAwxC-gGQHmSY9PKVdvlrH_cQTG3RJt2WvD1mg6doytQiCs-OOvENCq_tx33-Ey3MH4_lXGag=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/06/061288/061288a_hb_ro_088.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/UAo33s-JViU2Rvm22ThGbKMHnXDYwDgHiliLpBLiYxr0CDyVm7rSQ3e7sf-KkeSBQbZwwF0M8e5xp_a-UCtFjxEON9gHE3zs93ESk2781sfK8tU87XwdQJfairEStxcR910dgDbu6qE8ucODLAZyBWvHEGGJR7I=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-49871-f85040942_XXLejpg/India/MUMBAI/GRAND-HYATT-MUMBAI/Photo/GRAND-HYATT-MUMBAI-MUMBAI-Undefined-Guest-Room.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNMtHof_UU_0SxGDCI7Nq8plbHWAkRssEzWZzTy=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNMtHof_UU_0SxGDCI7Nq8plbHWAkRssEzWZzTy=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPHpnZ9puNQbbugvAUc1u7jCvCItXS3Xd-LFRGj=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPHpnZ9puNQbbugvAUc1u7jCvCItXS3Xd-LFRGj=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPrf5hJrXgxC6A2XcLxBLEeuIgrwlb1NVSRlY7K=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPrf5hJrXgxC6A2XcLxBLEeuIgrwlb1NVSRlY7K=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ORd9Q42xta12nvjccHtp1xwmuFm--l_1UiLIUHfhEupoRGJOYkt4TQ-zv7wn1qUMz-_lstk-_uK0xqBDOWeImIcZKLjR5WaZjKzsfC0-aTlnjV9MJYAnFACSyQAOicG1M7mvea1FXw8DPCtqMK-Ea4_mwpu34g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-49871-f85040978_XXLejpg/India/MUMBAI/GRAND-HYATT-MUMBAI/Photo/GRAND-HYATT-MUMBAI-MUMBAI-Undefined-Guest-Room.jpg"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 27657,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 18863
+        },
+        {
+          "stars": 4,
+          "count": 6252
+        },
+        {
+          "stars": 3,
+          "count": 1400
+        },
+        {
+          "stars": 2,
+          "count": 370
+        },
+        {
+          "stars": 1,
+          "count": 772
+        }
+      ],
+      "location_rating": 3.4,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 1333,
+          "positive": 1088,
+          "negative": 177,
+          "neutral": 68
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 626,
+          "positive": 493,
+          "negative": 46,
+          "neutral": 87
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 3576,
+          "positive": 3298,
+          "negative": 155,
+          "neutral": 123
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 1154,
+          "positive": 1109,
+          "negative": 17,
+          "neutral": 28
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 2268,
+          "positive": 1895,
+          "negative": 289,
+          "neutral": 84
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 612,
+          "positive": 522,
+          "negative": 61,
+          "neutral": 29
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hyatt Centric Juhu Mumbai",
+      "description": "Upscale hotel offering sea views & a rooftop pool, plus a chic restaurant & a 24-hour gym.",
+      "link": "https://www.hyatt.com/hyatt-centric/en-US/mumct-hyatt-centric-juhu-mumbai?src=corp_lclb_google_seo_mumct&utm_source=google&utm_medium=organic&utm_campaign=lmr",
+      "property_token": "ChoI1cDO1vqLtp_6ARoNL2cvMTF0N2hwMTFoeBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoI1cDO1vqLtp_6ARoNL2cvMTF0N2hwMTFoeBAB&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.0917028,
+        "longitude": 72.8279529
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹12,980",
+        "extracted_lowest": 12980,
+        "before_taxes_fees": "₹11,000",
+        "extracted_before_taxes_fees": 11000
+      },
+      "total_rate": {
+        "lowest": "₹12,980",
+        "extracted_lowest": 12980,
+        "before_taxes_fees": "₹11,000",
+        "extracted_before_taxes_fees": 11000
+      },
+      "nearby_places": [
+        {
+          "name": "Royal Hotel",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "26 min"
+            }
+          ]
+        },
+        {
+          "name": "NEW GRAND FAMILY RESTAURANT & BAR",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMD5a9mfCYNiSJF5lVsUBwbmBnB8ue0NcHab2R9=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMD5a9mfCYNiSJF5lVsUBwbmBnB8ue0NcHab2R9=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNSq1Scuo6Q1ie0MO6BCueHUgaA_d5qukypcGh_=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNSq1Scuo6Q1ie0MO6BCueHUgaA_d5qukypcGh_=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP8WmDhghjzXZDEsLgshEShnEnXoGWWj0Y90ruF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP8WmDhghjzXZDEsLgshEShnEnXoGWWj0Y90ruF=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNn8qLqr_lCFc_DjEzSMW1RLEZr7_BaQe1s2Unx=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNn8qLqr_lCFc_DjEzSMW1RLEZr7_BaQe1s2Unx=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO-W6TbX7lN-opi73F6V2vZ02-GZ9hqenS5BWdN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO-W6TbX7lN-opi73F6V2vZ02-GZ9hqenS5BWdN=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/dzTSrFPQDoF-KRa3KQSQklCG0NureJxQmZJq1GrBNz5JB-nAPAdz1NPs-ZOiSrowjOxVeDijgPfAA05870JdYoNfDoCKbjCFviGrHwDXwSA4Uh7V8OHWuKERbCgZTAqjsSyKlMI96kBsXMAzb_uBeJ_Y5eTsF1M=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-148305-f74743027_XXLejpg/India/MUMBAI/HYATT-CENTRIC-JUHU-MUMBAI/Photo/HYATT-CENTRIC-JUHU-MUMBAI-MUMBAI-Undefined.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/5fUofABDKvnGqgL90aS4S3qqpIspCCrxvVUh_sDphhWT3OCN2VVtT0HMI-2I-BhDmbEk8rjtiUYc7b8ddim0uVxjbipwxXs45J4YutLeBNDzzIS4JrE4ct5CpL-OOarnj19h7NycMOvLR-NvpmFwTlVFt6E4onE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/1047849/1047849a_hb_a_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/fK-PwuBtAVvPpBwhkwlirFxxTQ9V1kAdmq1wDeZl1p6p4JOeGwdFhCdT1DzZFXnn0UVwMBQWAe5UvIcA1Bh3_W6c3LUFmg2yzHQciHSnf97FLQ1zHnODDPlRhnFoh_LIsHH3F1XeT7d2FS5Eec7JcHK5yvMkJg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/1047849/1047849a_hb_ba_002.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNzoNgjCTjABMukLU8NjtzqFkmA_HRgfU2Qv17x=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNzoNgjCTjABMukLU8NjtzqFkmA_HRgfU2Qv17x=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 1303,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 980
+        },
+        {
+          "stars": 4,
+          "count": 155
+        },
+        {
+          "stars": 3,
+          "count": 54
+        },
+        {
+          "stars": 2,
+          "count": 22
+        },
+        {
+          "stars": 1,
+          "count": 92
+        }
+      ],
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 39,
+          "positive": 30,
+          "negative": 4,
+          "neutral": 5
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 298,
+          "positive": 267,
+          "negative": 28,
+          "neutral": 3
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 62,
+          "positive": 53,
+          "negative": 7,
+          "neutral": 2
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 77,
+          "positive": 64,
+          "negative": 10,
+          "neutral": 3
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 24,
+          "positive": 14,
+          "negative": 8,
+          "neutral": 2
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 261,
+          "positive": 232,
+          "negative": 24,
+          "neutral": 5
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Pool",
+        "Air conditioning",
+        "Fitness center",
+        "Beach access",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Accessible",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hyatt Regency Mumbai",
+      "description": "Posh quarters in a refined airport lodging with 2 restaurants, plus a bar, an outdoor pool & a spa.",
+      "link": "https://www.hyatt.com/en-US/hotel/india/hyatt-regency-mumbai/mumba?src=corp_lclb_gmb_seo_mumba",
+      "property_token": "ChgI27Sf7JnPtryMARoLL2cvMXRocWY2eXYQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChgI27Sf7JnPtryMARoLL2cvMXRocWY2eXYQAQ&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.103683999999998,
+        "longitude": 72.87136799999999
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearby_places": [
+        {
+          "name": "Indian Oil (Sahar)",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "8 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Peshwa Pavilion",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/JCPlWXTGTVNswwquS8bdxVUYB9sAaAa83G6BeJrYZsMwaF7z8NfBMTxd4jP13Zr56x9iAshSklJyzhuy7gGrx_Em864nSZ4I2XQhU4iT_Tz2Il4GaWlN_V1h_1sgVHCCFlOZUTCJ4Wf_y4u-s-BBSsmZXnRpPzE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/82/5f/8c/hyatt-regency-mumbai.jpg?w=1500&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noOtfyzh-V7Mawu6sPJKB-mVoE9MgXnxI2DSugoOuxqXkq4BczsJXpn_HiHRjzCFbPRrbXJNAH6s-OeQrCSO2Wea5hgjET5Wb_0CvxQkSjFr6o4HhypuM7-dFhhDctysBrFOqD8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICK2rS1PA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrNWMK0vQ-RwyikRlZynMXGd_MhtytZb60jrWE6l0Hp_G4MgJF3gAwSijMEd8G-ifbJlKUBhItxWg2SXXjjYE9XxGPVnK0FK8xWkn1XUFLCIGEtBM42Y0Y3uERsQwdjUF0KfkBe=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDykKD-Jg=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/40Fsk3CjiQDAJYHTM73JUGtUSOYoB_pC3Gf5vRd6BYPrA6GRuB-SSgDPKJiHgP9DtRDKffaty29ABqs63KlhT2jdmX7IhDYaclpYGhjt74AsBiEM9VuHZlCLsajsAd9FlkzxexDmHV3lDuw73zhc1bsDg8VACw0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6d/10/15/hyatt-regency-mumbai.jpg?w=2100&h=1200&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNyqpLcBMzhQGCdtorojpnrtmJfvul9v4KwcPrK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNyqpLcBMzhQGCdtorojpnrtmJfvul9v4KwcPrK=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noRDDXTZ_KzkaTegUuICLNbMBZJEpViJoPa7Mtds-L29Xw5LmxPtwu6I_cKDGNXOcDL6EfuyxGZgyAdniZrIWZmiqMXFhz9I-pkoksPENK6oKcY-cPHAfG_0pPQ25_XUy0I9NHT=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDK2u2JtQE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nruEdOpaNF6-5zVr3Rldw4GtGKR7c1Bg83_uhYZJD9cFrt23rx_XrfIjn4Wx5Z_gagHpWPcdvBlTxiishvrvgcAjxVNb7os4HLmDcKcYLF5loDT3YrZgzQAGKFRJKP3zed4ZiIb=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICyj9WUrgE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noEVBavRSdqN5njlc9USRzNelfg7XVK1ZVrqd8hhnvCuLRa0BXlnaOt3UWOPrGSCeSuyT0tS16GlMzBeFSUfuZJND6kuhEiv1hDH7W3tpS_GzkYTMJHPP8yjmqbBg9m8XwO7tot=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICM8J-cmQE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqnfrW2JWdpNYSTgvjquutDpb-I0V16nEAFoaCR1U4bOGModHW27qBMdU9GI_UU3tkvK4PHovQQiiFlHDZUY1ncjMwYrQJFLbP8uM5UgNPJkuO0fhoOIBHfN_Avb1zLXVtw5B-N=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDKxeHStgE=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 14779,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 9696
+        },
+        {
+          "stars": 4,
+          "count": 3597
+        },
+        {
+          "stars": 3,
+          "count": 852
+        },
+        {
+          "stars": 2,
+          "count": 231
+        },
+        {
+          "stars": 1,
+          "count": 403
+        }
+      ],
+      "location_rating": 4.2,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 660,
+          "positive": 544,
+          "negative": 76,
+          "neutral": 40
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 296,
+          "positive": 233,
+          "negative": 11,
+          "neutral": 52
+        },
+        {
+          "name": "Transport",
+          "description": "Public transit",
+          "total_mentioned": 374,
+          "positive": 302,
+          "negative": 14,
+          "neutral": 58
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 1694,
+          "positive": 1596,
+          "negative": 60,
+          "neutral": 38
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 555,
+          "positive": 543,
+          "negative": 7,
+          "neutral": 5
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 330,
+          "positive": 273,
+          "negative": 31,
+          "neutral": 26
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Hotel Urban Comfort",
+      "link": "https://www.bluepillow.com/search/67a23f5a905c444f2d08cbe8?dest=ago&cat=Vacation+rental+(other)&lat=19.10263&lng=72.88967&language=en",
+      "property_token": "ChkQ7PHW_9-LnOohGg0vZy8xMW1jd2h4bm40EAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQ7PHW_9-LnOohGg0vZy8xMW1jd2h4bm40EAI&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.102630615234375,
+        "longitude": 72.8896713256836
+      },
+      "rate_per_night": {
+        "lowest": "₹755",
+        "extracted_lowest": 755,
+        "before_taxes_fees": "₹755",
+        "extracted_before_taxes_fees": 755
+      },
+      "total_rate": {
+        "lowest": "₹755",
+        "extracted_lowest": 755,
+        "before_taxes_fees": "₹755",
+        "extracted_before_taxes_fees": 755
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹755",
+            "extracted_lowest": 755
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 20"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "18 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "26 min"
+            }
+          ]
+        },
+        {
+          "name": "Modern Kitchen & Bar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/M8aSwhbSNESNRYtvaH_yGBOARmOefYPGVMAwX7bKS2R84nKhGS1Gm_uzJdqsvca58Kc2ehVJmdxf-SXobSnp1DUco_HNpBrun5a9IzzgeLn9mPUzshG2jMw9z_opHhsQahnec_FmPaXQRszcniB14CLR2L7bvA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/586314475.jpg?k=307cafe76269d3cd18e10ce1f785e2f066cd522b78cbe57f8ef56b5c3d1fb492&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/N9AguzS_1MNVcE7WS72UZ9re2Crn4wy2upHaGDvy9-UAtbTmwSc2ZPbay5ZR4zIEMxM0zmDk2-GSw6sbQDPDPayfA0lx68n9Hb3-X39BI2JIr3-BvNlFlLi5KIKrd6TYu7QlHdZBJiv272hInXE18h1zuUCOaNk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/585833458.jpg?k=9e74ac661c995e58e186b8e2f87ecfe11a9d88acc557bc08dc94e5dc43700f61&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/XUFhy2x0vrou33vJDsGPcaldrow19jsW_n2URiH3ykK9mOUNGKJos2axEjuimZ9L-7h2wkAwuwaMcMej57FKfmveSrR30aMN4u_h9Fb_NIbySTSR2RyI51GDTJ5PRVOU0DNiQjzd37SHLe-Obb137_XL8k3kkw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/585833224.jpg?k=6fe13d8a89b0fc7c922e4ef29ab1481553d5a19d7df39cdf0b487b70a3f3e9ac&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/W2YbJ8xPm1enKFsgKgmcoEuKdd22MWJeVSpfgt8Ztih7aswpEtTOBOsCaaNuoBmiIVcjCse1yPte0QZQHveYKWEOo3cstx6kaTdb5Zofb9Vt4wugl-OenQEnLEgirSRrQ-1l6r3gBfLVqSW0qMmxBSYze3Sn2g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/585833486.jpg?k=4bba7b199b79ecd07f9b4227cda204081d542ec66e89f2d0e5e30ba7881a3f3c&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/gkD2qkzyp1VjK1TYZ4gnZstJkecN3-9zGyxU_gQ0l2zPTAToIa-WlLK8AeIu9zvcr_QRWEPPuk3fDG7iq_m0Hbu5amzX5o-Cs6eV3yvE0I-0ecLuij67_vDrRNoydTwlFzJmSfB4QvxDqX8JM7Vq7bnEssE_3Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/585833256.jpg?k=a5ab79fdcd2dd1e625719318403cc934910914d7d19d46be56d46d1212cdde13&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/IpKLHvxl2Yu6fClEgU-hG2U9IIK9LheOl2ZAFFWmchkmQBqradO15Z7JZ8vd8eJE277Gy_Pjn6zgkCWmk19UnFmSo-iVETzgOH9okQ5fEcwRNB8ZB01OMpO_CHc8cHeanyrPk5zjgvDxzCsucu4JRMjcAH8-kA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/585833387.jpg?k=228f376b7e50223688025c13e0ceb3f3e33e13593829f0bf738b24e81165bc8b&o=&s=312x"
+        }
+      ],
+      "location_rating": 4.3,
+      "amenities": [
+        "Air conditioning",
+        "Kid-friendly",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No parking"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "10 bedrooms",
+        "10 bathrooms",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Comfy room close to us embassy BKC Priavte Room JS",
+      "link": "https://www.agoda.com/comfy-room-close-to-us-embassy-bkc/hotel/mumbai-in.html",
+      "property_token": "ChkQ9puT9LCMu_p5Gg0vZy8xMW1jc2tkcjRmEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQ9puT9LCMu_p5Gg0vZy8xMW1jc2tkcjRmEAI&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.053943634033203,
+        "longitude": 72.84418487548828
+      },
+      "rate_per_night": {
+        "lowest": "₹3,169",
+        "extracted_lowest": 3169,
+        "before_taxes_fees": "₹3,001",
+        "extracted_before_taxes_fees": 3001
+      },
+      "total_rate": {
+        "lowest": "₹3,169",
+        "extracted_lowest": 3169,
+        "before_taxes_fees": "₹3,001",
+        "extracted_before_taxes_fees": 3001
+      },
+      "prices": [
+        {
+          "source": "Agoda",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/e89db943-92ad-48bd-9bd7-da844fa32f2d.png",
+          "num_guests": 3,
+          "rate_per_night": {
+            "lowest": "₹3,169",
+            "extracted_lowest": 3169,
+            "before_taxes_fees": "₹3,001",
+            "extracted_before_taxes_fees": 3001
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 15",
+          "free_cancellation_until_time": "11:59 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Bandra Station (E)",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "20 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "25 min"
+            }
+          ]
+        },
+        {
+          "name": "Foo Bandra"
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/KUJi42801jP5l3_PaRcBucTVL5WDUfgnQzn361lhrcCrnSlFlxglAjerehVIKjYLjCOcvGZZ_3ejjylsEi6k9cebiO8-XF0pSvOVtl_ro4O0_ZwFsxgCJGwsvJEFg7K8q6zKD91Zp6gp5y0WqkSff_AB2xMmde0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/agoda-homes/18186925/253543aac6942d9d8751fdcb840d0d69.jpg?ca=14&ce=1"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/6ZvHLmII87a-H0xEXgMEwsF5t8bIAZFTFFPAGm_-4FCxsagJwfeD6wkB74Cae_CflvRu0xAUKOq85MKWmdpDmtBMmCFWApsO3Ai9R9pZeGOJ_NJQOAEGcWxW0NunSkxWJZTuCMBWYpSQcz9W5Cg-Lp096-JXh1g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/agoda-homes/18186925/5f2427209af5612770079cd8fdc254c8.jpg?ca=14&ce=1"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/CJZfGiW5DflkM7VxjRgME6q81LkMqLGi076qGP-zAJOSWTJAXm6WFsrPRJgEl8c9YVn2Zka8IfiUT55IEMGiuOhHtNkKUMxGvxPjEbFtiLiOYtqr48B9Tf0frI3vUyGUg7dNUUoz48ZfznJHClLmOR6dJnohcw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/agoda-homes/18186925/8d062ee9c2c7f940729ec0863a27ce5f.jpg?ca=14&ce=1"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/hQLCYn3aaCM18gOe-k1pZ-9cXCekAqDBG_b6uDxrbTu_xJlgeAkc3EvOEMvuX0nQ2aPB6HTTky4OI-5HYAJuzvcWaM7j9JZRfZK74cfvTr3AC2G10-UqhyCNzmWPKC9_0b5kksrRDsgB6TIb4xSBHzWdjrJ1Qw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/agoda-homes/18186925/ae82f0789857b2cc381729c78564174e.jpg?ca=14&ce=1"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/RXtyFbiY99c2cVpS88742KZc7r6VrlFkoHYjGeDaxgTrqnNOB4fYz3LnwSf0b5N7DIAtu7Tsq_5max3IxKjE9xl9SuwsE5V862PHM6T2Fl5Q3OP3sG3cyRZ61A1dcVjDn7x8BUujzAtzqFAGailcn3GM3OLG0g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/geo/poi/140114/2_140114_03.jpg?ca=7&ce=1"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/t8CybNZF1v2tA-sFyhnAge9Minxe_bn8_mAlGmLNfYvogVvSCq75kJKnqVe0ksXipGaRzgMRPj2-jz7AAs9vO-9kTtRXVJhkWZQT-syesXsNwDONY1zmdSgcRhNwykBjDF6kjcXp4moZiBrwnSqiBCeuqPBSGuQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/agoda-homes/18186925/96630c4f43adeb2fab520a592b6e2980.jpg?ca=14&ce=1"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/YyyUtCZEKPeTXOhMHAoIsb41PhtJLEvBwIDbfjmRdqUORg54LAHNxWKfFAFbPkd9i0pVM5TqNrNI53EXRvlYBJrMIaIYbUmX2Od69vxRBvWTmUGnfEhLg5lbUEDnK3EUyjBXgxqlcKczyJhlrNS9eD_8GvUml9Y=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/geo/poi/26596/2_26596.jpg?ca=6&ce=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/ASb2vFtDoC8Q-ZdZTZKhEp6NQ6Pz2uJ1yAIggEOapJGZUoEBJw2VEn14OWtaACG_JaRIZpSI2FteXT2JkCTENuok2yg8x6wDuIhYa4JsQijz9_8cuUO3xdlaDoz_j4P5pyXtw_AW45c8BT-uCThpOtMZrTcnCg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/geo/poi/207121/7c393b8709a7dbed0abf5fadf1fbcc9d.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/1GszEqybPkWcEddMviOE7L21d7wTyg8RHI7pOZ0Kn23_a0sf0CE2Eg1NuB0S45R18qdkDJPL75Rdyxyxj0QbmJ4IHK9Fze2mLq4WZ0jmPYCTPCwT_JnkflfnPMaDwWaKkOJItLrn5nf7loJQZlja9IJjFM6LWBg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/geo/poi/212351/2_212351.jpg?ca=6&ce=1"
+        }
+      ],
+      "location_rating": 4.2,
+      "amenities": [
+        "Elevator",
+        "Kitchen",
+        "Microwave",
+        "Oven stove",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No indoor pool",
+        "No outdoor pool"
+      ],
+      "essential_info": [
+        "Sleeps 3",
+        "1 bedroom",
+        "1 bathroom",
+        "28 sq m"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Hotel Victoria Palace - South Mumbai",
+      "link": "https://www.bluepillow.com/search/67a24039905c444f2d09d986?dest=ago&cat=Vacation+rental+(other)&lat=18.95183&lng=72.83753&language=en",
+      "property_token": "ChkQ0q39zvz8jvNaGg0vZy8xMXhmdDZnMmRiEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQ0q39zvz8jvNaGg0vZy8xMXhmdDZnMmRiEAI&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 18.95182991027832,
+        "longitude": 72.83753204345703
+      },
+      "rate_per_night": {
+        "lowest": "₹2,514",
+        "extracted_lowest": 2514,
+        "before_taxes_fees": "₹2,514",
+        "extracted_before_taxes_fees": 2514
+      },
+      "total_rate": {
+        "lowest": "₹2,514",
+        "extracted_lowest": 2514,
+        "before_taxes_fees": "₹2,514",
+        "extracted_before_taxes_fees": 2514
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹2,514",
+            "extracted_lowest": 2514
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 20"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "52 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 14 min"
+            }
+          ]
+        },
+        {
+          "name": "Patel Restaurant Family Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/DCZvyOMay2uSmXqz0j2G8It8cw_HtIvQ-5L7f4XN_80O8elQAwmM5SLvz8l5rJrhmAAMiZegy2Y6AgDQPQjSFkmJZGB02_k2SJ2Vt4XkN3GAT6K3u5QOUiD-url-D7yfghVf4X6Rtudv8aZi0aKb5DTcwHyC4k0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594766748.jpg?k=0f2f999e568aa5c8d4c332f011dc67a545ffb9a76d95511b68e0cfb65652dc17&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/bnGO9cGiaBDkyde3_7oRrZ9eLTSoynid_MUofWHNRizV9nmCXgYkozWwSLKzZ139nZNsJGn3wWzhRGFuviOqRjsYZeXOfDlo6dHrE6E_Erh_WVPRIlK2kSimYwQmhuGgEAlBeobr6apNHaFbs6r5k--xbj9xqQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594767208.jpg?k=2853318d1725bf65ada353b07b913320aee6c03e9319a6f167f67ead1752c077&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ImGkF1V9nBgBW14iAs_UdNOAwoisxCdbZS1FbLmazmn5_D2huKZbWe7066ieAK-O1h457Lzrpx_GuNFq9kzJJtIC4ronaDGYKEX9r4a4ebQg4xQhdOQxVr0Nrg86fwXy5cir0ZKlK90EVMmHqHzGgx9QQAY2UQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594766652.jpg?k=808e494253238d018ab0da4d5c781e9e12f6fced79f8f20cab9bf8d3a5138ce1&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/tTGnJvSPRD9GZXoA5HQrTFFb0QbpgNCaCO3QfVIdVK7kNISV0Cn5isOWooZZsF3aaa2FIWNSAmb0BYuY4-q6jLqipGr9vW-ZpWb3j-NjjVLZCHtN2Zjk5t4cbEO9I6x0favzCBeSSy-arS8KLyANnmmgyza4PJI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594567615.jpg?k=ba1156a7001cb3543d80e99a80abe55b04d89f7ff314d1d9d3a932473b9a7b57&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/F6C7XJarDrrVSx9-HJ1mKQfnVtnmalykXxV2GAJmQ4j1_BAYOQNF8QlRxCVXxp9k9Ex69RHhYuit46C8rH5VnxcYbYSeEqyfk1crTbkEO02Tj_4sJBgCwOJSTN7Zi_nOTMnktG-HE95zpHpo4yEWW8z8bzFInA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594767138.jpg?k=acd97a104d05c0af68e2895cbeb73525b875c00a1099ad4bdea4326adae522f0&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/oD9p-7OJHis7OP9-zYdyXA31vdyqEKzSJ1hgAauN7a-jV2yuNC8B332h90p8X54WtWUYuVwJfioHMyTGhyxM0hTpvTAHgKwkTYM2R7DFuvIoU9KG0u6PZVVbtRutwRc2fPp74lGyz4OOPmFiaqHBtngkFAuBLg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594768937.jpg?k=23ec06a487a730dc2d21711e18c1cb7d99a387cf3467f8b49fd129eb2c26fbc7&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/v6Hx-onFPlrtcnA7lZrNPfndbPRKgv4YQ4y2GZJvTom4UY-ZhCvNLPzguRv_k207BPyjHzJoIAE0hkGbmpfmw_iouN0cAiRQ-yYSzWmcSNLEfYYTNqsh_MhIMbcBbE7RoqR-jrNKHSst8m_GTKOH6t4WAYx7NA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594895311.jpg?k=aa66a5d48be4af5b3ecfe7e7d20cd732224f96804665858d4db73f81ac0c6036&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/nMj1_R9MHSO6iLcpLZPSIQ12peW-B_UtjEAk2dZ2X871dqgFbnkTPv224EnRTgUFDMGn_9qhWwDSYjbciiGVOMWBNDCPRKwjfK4xI1SoEL_zFfpQHbKzJDB3Lzb1jzJl7aohq_noPjAQ9-tEXiAhGZQxSMGpHA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594771083.jpg?k=e57c3c8b284cb7a229e1c48456d9f7daa75452dc4f25892f0a11d956f68d4f8a&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/F9iUipe0LiRcfIeUPsllxPXnb2l5K-iNWc2tMDsZ7wHVsIDHwcFEgVagmHnsAT77zylvqqh93u7g4JLjDfJAyCEEPQ1ybYnE-BeO5Ur--H1Zcfsl_gVZH-Q9XjnxMaoiD9nbxPE62GSRUhL_OgEQ0e1_A5LT7Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/594894542.jpg?k=44c3469ee1767d95fe58d09caece5d7ffbc0b7ce6fe25a84997252c33ed80ebc&o=&s=312x"
+        }
+      ],
+      "location_rating": 4.1,
+      "amenities": [
+        "Air conditioning",
+        "Kid-friendly",
+        "Ironing board",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Wheelchair accessible",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "10 bedrooms",
+        "10 bathrooms",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Nook- The Bombay Home Company",
+      "property_token": "ChoQ24OggM7W8J-MARoNL2cvMTF0eHFta3dxOBAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQ24OggM7W8J-MARoNL2cvMTF0eHFta3dxOBAC&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.063159942626953,
+        "longitude": 72.82987976074219
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹3,368",
+        "extracted_lowest": 3368,
+        "before_taxes_fees": "₹3,030",
+        "extracted_before_taxes_fees": 3030
+      },
+      "total_rate": {
+        "lowest": "₹3,368",
+        "extracted_lowest": 3368,
+        "before_taxes_fees": "₹3,030",
+        "extracted_before_taxes_fees": 3030
+      },
+      "prices": [
+        {
+          "source": "MakeMyTrip.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/262bcb61-0a00-4d53-8f6e-59e8c295a0e9.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "₹3,368",
+            "extracted_lowest": 3368,
+            "before_taxes_fees": "₹3,030",
+            "extracted_before_taxes_fees": 3030
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Pali Market",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "35 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "35 min"
+            }
+          ]
+        },
+        {
+          "name": "Woodside Inn - Bandra",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/f6vLYSe8Q8SKHdjHvjwCPKpUra6LSsMx1bvMB2ByTDa6e7jnEWV4RMf9rp8obujQIkUXG8BR2F4TBifIpBZ8rkT87GDk7bcuKgji35Qsnm1z6GNPhUePz4Ijwk2iis1qK1bF3qdZpAis-fAacjRNL-rM-_wjLg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202210061332336981-e5f39482454911ed8a440a58a9feac02.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/XAXnird7j2z9VlZzScP6vRMN1CkdU_K6qcb7HLntOcQpKhCQm-4xpmsDs_C_6mty1iajQ5gl-D0b-icnv7t_K5HZIjgCeh3Gm3hotBeYw-iYGsOBbOo-mFWr5S2_fsPqHhLTcMsLry-vcU_Qqdu_2bmwwnRw1A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202210061332336981-e5cc96de454911ed8a260a58a9feac02.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/2G4ROnxuMOdzbUNZT_z81UjFMiQnthu_mPVmnggt02OQY41aOmwgkrLiHSQZ3rpH3OhTnixm3dYVBulqW4LJvLmxdEF9Ke4huqrJJuM7sVQvJMb16uV7UiQlKhqGdMNlwecqGGd2c-DtLaEZQj_jTthE-QS0mA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://gos3.ibcdn.com/e507d5d8454911ed862b0a58a9feac02.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/aid1YJO4STk_KWs9BlqmcSTvY1MtWxwdKOKq8XuRNrusRaWUvN5ICEBGrGHjED7zt5A8O7tCQm0M6ut7wCVJXlzXmHhVapPD8bOtUxzzJL8okrEa8d_OMPBW2E24m_P93eGtNpSpF95nFDHeGKUnQ1tNQ0aC5w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202210061332336981-f8cc2cc2454911ed8a440a58a9feac02.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/g0ch7DTtK9aJbx153XpbrOlEMxbqTd0cj66TjYZZjB4uV-TR1-ay81LEz4TUB2C7eSlVq-S23Ndj_jPxQapCAL4Gx_l4A3hah104vATVto1hX1Be0lqVn4XontKV1vSNBwSAm9xYCJ7gM7ZCh289lF4Zap5FDg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202210061332336981-f91f988a454911ed8fa70a58a9feac02.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/njZQz2sro_kYQmW9cXvIuwL4LQYSB3sFTEfcfugzIRAq8iwC-EpxxP7w80OBOq6lXg4WTR-pzTxYnkgIMnTJVBxSdzYFHFdS8vN0JpQDz99_UB2IUYYlUmukxAovhGvxSMmfRxTkVB8jjcvKK6Xk1FEPsA6ErVI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202210061332336981-e6a7da82454911edad5a0a58a9feac02.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/c19ug8o6z9FVrh1xP4KWk5DsxG7JMpRmOAAD9ghj8Eq5xPNaE6MfT-RZjU8HuaJdlrBHdSKxjG4hiIgzwy5ykHnNFI-FhnkIyvDdz-U1ZwxJrN6BnB6WRtpmoi2Lt_jXIpIzCj-jBaf8NYlPN-ZRtUa_CViXew=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202210061332336981-0ffc2a8c454a11ed8a260a58a9feac02.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/G8usozujNaW7-EvOh4zeCDKd9zNZYtferUe5w1UQiBIvycwsuzBOeDi_EcicUGSm_C3hJuJGwjeLFcywxgXOSK6-NNdFWg897yUW5Eahr-f1SE5RO-0C7KA5ZdVCRXW6G6rHAy6PGho2tHJVOfN1pO8ATOCYJAk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202210061332336981-f87cf918454911ed862b0a58a9feac02.jpg"
+        }
+      ],
+      "location_rating": 4.4,
+      "amenities": [
+        "Kitchen",
+        "Paid parking"
+      ],
+      "excluded_amenities": [
+        "No air conditioning",
+        "No crib",
+        "No elevator",
+        "No fireplace",
+        "No fitness center",
+        "No ironing board",
+        "No microwave",
+        "No outdoor grill",
+        "No oven stove",
+        "Not pet-friendly",
+        "Not smoke-free",
+        "No cable TV",
+        "No washer",
+        "Not wheelchair accessible",
+        "No Wi-Fi"
+      ],
+      "essential_info": [
+        "Sleeps 2",
+        "1 bedroom"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "TIM Santacruz Mumbai Airport",
+      "property_token": "ChoQl66voM6QiJmhARoNL2cvMTF3d3QwX3N5bBAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQl66voM6QiJmhARoNL2cvMTF3d3QwX3N5bBAC&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.08171272277832,
+        "longitude": 72.8458480834961
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "10:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,838",
+        "extracted_lowest": 2838,
+        "before_taxes_fees": "₹2,704",
+        "extracted_before_taxes_fees": 2704
+      },
+      "total_rate": {
+        "lowest": "₹2,838",
+        "extracted_lowest": 2838,
+        "before_taxes_fees": "₹2,704",
+        "extracted_before_taxes_fees": 2704
+      },
+      "prices": [
+        {
+          "source": "Despegar",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/e1b47118-73f3-4ceb-b4f6-2302280889e4.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "₹2,838",
+            "extracted_lowest": 2838,
+            "before_taxes_fees": "₹2,704",
+            "extracted_before_taxes_fees": 2704
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Vakola Police Station",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "20 min"
+            }
+          ]
+        },
+        {
+          "name": "Grand The Dining Bar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/e6cJbP8DHU64kkTkP-rPV4uUsx_0hFVj52eNEy4b2f9j50I98AjX_CZYKRW5JeX1fet22SRye5na9lW_Fe7wcngOQ4JuqhxMBp0VagfS79nY-2TNnJzLI5DfMzRwfpDrkGksm340HxKnLpkHeEOs1UmbrD97xw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1920x1080/content/76/77/7677281d4f7d1468c4df8ba518f57cfad6d55d19.JPEG"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/NMMK35xS_5DE4LkMsNl-fsBVK2PZwKJlvhonBKZbJQaVeZeEl0F_alalF772_r9sJc9zXnVDpkGMy26PMu14go5fSRznRH36n8PnoaYfNYrRf9Wj3gzqq2Y34P4z7BoncXqAzuzs5UFT7TpK6JQUIoCPl0oSOg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/6ae2c1e6-1493-4984-a1e1-8d2047c95077"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/WqZxF8DdZUioazcYmbE1gZBsD2wX-5H5QlrTV-L8-sM10p9MobS1QvHo5bCdA2f23R3oAjKNJlqEwOax2Jny2mjlXSo-NQQwkSGS3Spl_m3ISu1Qvd5NUlzQQeth79cYjFwVcIK_urJ6WuYafUqNS7dnoC9WGQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111080000/111076300/111076244/675ee672.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/0s8Yo_kZmpFjz9Nie6uNFhsj-j4I2eMdH3vFU5rv683xqeyZsJc9frk2Qi1Z_6As4_BE5Xt0G_5J9sPdF7jwBBZDz5zj5DRVnMW0E3ahIC8_zp0Vhfl-uSb9_XI8SZAWvE6s3khU5iCTU6gNxKQMsmr5_SpuyA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/069cb8f3-6993-48dd-b11d-3e75a38a41b6"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/00QMa-xjtebao1RHgoPCf1b7bfIpdL6kZcR45tOQtyjJjmsDPeh9zaNt_eR3AEImLKYOxiXsaxzsqsaPTUT7n0SHuxgm7lBnw4C9eJ0J1OYi1InO_Trsa6HwXSFFryQbHcYk51RPuTA5ND0oF_N6-7ZBLxK2iYU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1920x1080/content/6e/32/6e32d8e1f72a167f6a2f88d91d984f9be7f5fc1f.JPEG"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/FZWvBQLnLlj-3Udqy2ioOv_ug-jv-HExMxwoxciui6pqS1J-0s-WJZkffVC27C_mkXuEJNACWAAxHUTtoVpEOE42OdtXTNGTnDWhyxeR1GNzIxFeKB_fHGg96ZHVB3lKMhUmNx8UqRFyWhuNe9d6iChjvRoyEg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/681001522.jpg?k=bd45f5504d2f4a511b3d651f66228adb442f596e25c485a87820e83a98b6a913&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/zfLSF3z7Dcar_LamHfkbL04oWitYCUSCf4VbCAj4E5emY1GZt6VI3v3rHpQQE5oKwGi4S-DdPoq3ZqgdKBOBAuckNfoS4gxG2vnFFNADppVn68hGLcbBtW-EVWxGhu8Fgpc-T4BibE_gDZGRGcafy7VaFXgeFA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/dd16b4b1-0f77-4474-956c-d713d1f1293d"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/wdV7hI4_2gSg0eIPfgr_6ebHoRyvuObZlnsrPpcApmfTzff4jn8Ubd4TvoqVffG2QLjA1cuLQey6Cj--5P8GHtEjfotZSKQQbLhSIpzs-HtCIPjzRSrwiNsgpbfpaOq4L2kFzD1aTXG5wz5ZHfeX7Wc0o9TgZn4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111080000/111076300/111076244/08835e57.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/oMyPnaZx_ALPjJp3n-WGsyWt_b7gOFETvufyrQPAUlZ11f2QrHoeu55bdkK4l2hDeW0oeXZvGiJqIYhHS0E7zlKa0jvvzGYKjS9gjFn2znx_IuFCbgya-CDQZIjc9LochX4jaHexMtq7s0eCSzwh5J4fnnQXPyY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1920x1080/content/22/ac/22ac225b007c545fa7536cf71bd19913bb7f76a8.JPEG"
+        }
+      ],
+      "location_rating": 3.9,
+      "amenities": [
+        "Air conditioning",
+        "Crib",
+        "Elevator",
+        "Ironing board",
+        "Kitchen",
+        "Microwave",
+        "Pet-friendly",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 2",
+        "5 bedrooms",
+        "1 bathroom",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Elite Stays at Marol Near Mumbai Airport",
+      "property_token": "ChkQ17mS8em78vEJGg0vZy8xMXg2cHRiOHl2EAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQ17mS8em78vEJGg0vZy8xMXg2cHRiOHl2EAI&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.116506576538086,
+        "longitude": 72.88667297363281
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹1,942",
+        "extracted_lowest": 1942,
+        "before_taxes_fees": "₹1,942",
+        "extracted_before_taxes_fees": 1942
+      },
+      "total_rate": {
+        "lowest": "₹1,942",
+        "extracted_lowest": 1942,
+        "before_taxes_fees": "₹1,942",
+        "extracted_before_taxes_fees": 1942
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹1,942",
+            "extracted_lowest": 1942
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Ashok Vihar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "25 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "35 min"
+            }
+          ]
+        },
+        {
+          "name": "Heritage Kitchen & Bar",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/oBm_aiMnN5d_MEmaPh09LTtES0-9VQWChX9Hh4Oz439NYxSHuFGVKNSl3B1KPTqPaHSuUcmHljYomlBRE4TjdQQcmCrXneEv3GapY9buzuRWn1WSGfogrC7H2gj1HVxlqOPvX85POapL9D1g9BITx4iG_0s93k0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZoIKYlhAC6CdiMBKxT8ZSsxbm9EbmFbXyqjWFA4zjtYmPVj9T57_NFFuwGzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvAhE3nG9m-EOYdDa2mQZLPtO20EzzJHoqbVDIUuv68O637CSYU8b-v9XoquYe2o9Fz1nHTWlaLkqe-13RFdM8ThxMhxmQibyYUENqISHLROjt7XeeUip7w7qHoQ"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/-8pvoMlIAhDY2JW5FyaweJbU7ynZ4ZUEPaQh_7YMYbgoti-ov4KsZj9F-yx3z1_QF-clbpbadDAtbUInvxbsI3Ud8G8KT697EIueMd4U8H5F3n4L9p09HfGiQWHQukqIzEztRHcge2i9CQ22GcgCheW0FDRb0A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zq8W04Cgi4VsIFimBeZtGzmjqqUDsIKyUgC33H4v1pO2yHEt-6a36O0PMKTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvAhE3nG9m-EOYdDa2mQZLPtO20EzzJHoqbVDIUuv68O637CSYU8b-v9XoquYe2o9Fz1nHSOIfPU-eO10RA9I8ThxMhxmQibyYUENqB4kfO137esnM57t9doIK3E"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/h3YtUpAZ4VEAMX3K1EOfA8Q6g-W9ErxLtVCHatU3qtoB9yW61AwgUp4faq4ijXJ3rPvUosQtTGIGqGj-4GFhTxmbR17RegSxyGDM_H-xdTxGm2FLM1EBuTvRZXfhSAO7jmDnpZoUnNiUccmjRSPEHsr4dx0yQXs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZssGngisH43QzCEmWd5d5yBjeuWPuQJeKq1TQEYPwt6m0QygQ6Oq-ChfOAzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvAhE3nG9m-EOYdDa2mQZLPtO20EzzJHoqbVDIUuv68O637CSYU8b-v9XoquYe2o9Fz1nHTTQb-U_a-pkUzFu8ThxMhxmQibyYUENqC9G0BhpQADfh0JE1t6YaNk"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/b7mfMzBaJVPQyjfS2hh6UphhhEoNahp3Zv3jZb7dDyL7HS5vHoKy5Pp3UkH3hZwzVFD9SvlRlj9NggB_27Mu-3F3CBA5ZXwYel3AJTccyJXjI66Yta3XoAvIHSHsJ7oeEx45z_No4Au7rh3pXgGZzBPIYQ4Juw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zi8CYtncK_kQLATaLf4cRyzXlkEDRO7qtvxjjCN_p-az4D1Z1q5v4Ukj2djF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvAhE3nG9m-EOYdDa2mQZLPtO20EzzJHoqbVDIUuv68O637CSYU8b-v9XoquYe2o9Fz1nHTTQb-AqUuJkRDFi8ThxMhxmQibyYUENqDqBu7xEnvDB6GdcWeNAAyg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/xxzcwGNbobmh1c1y-nS6ZpzEXci8JL3S4qoto1OQgEp-jFjgCyYg-ddC4vGgy0zQuAe63HZl3pRFJUUlqmXav1Hs68TOYhl_55uBDQLtFvkIXOFhAUkl9R-EftHRzS7IbHXwBFBuYUejPMutWEYFi1pG3o2BrA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/115000000/114410000/114406000/114405905/d4798535_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/bKV2iqFqeRtmLdqeKBDWKrvNGtmfYWa4v8H9htclBfmiMRv-rJI-CLTHYUk-zl3cBU-gj-qoeJB9bjrEfp1_UhlZMKQdDQUztla7AL6-HKCWCiJIEMAEAy0KDImluEoumG-NXqV54u5qlsi9TRcoWv3UCZ0O_24=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZgqK5kHwnsW44ES6BXYAVtg2GmVTIBI6zjRvPBNDnjLLlKCsU0Yj6VlfNJTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvAhE3nG9m-EOYdDa2mQZLPtO20EzzJHoqbVDIUuv68O637CSYU8b-v9XoquYe2o9Fz1nHTSIfLw_eOF5RzFA8ThxMhxmQibyYUENqG7x93D3kyW8osb25BkUYJs"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/-QayZz3tGxRWZlVSCwaUD421vqvKO0kFjC3erAqXz3Zbafs5mdxYT5EE6gUJcKd4GmsnRuZMzB0E_8iMFSBvpd_Wk4DRaDx-faZbfeR4Jupe9QeAqBSN5pnyykxzdPXXv7LGkM58XPRGh-4eIOjsxop6mAgr7nc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZvKeqmBgO5kQbZiDUWLdkyzjclmTyL4OA_RzKKpfaoZW-M15ywK71KlPfdjF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvAhE3nG9m-EOYdDa2mQZLPtO20EzzJHoqbVDIUuv68O637CSYU8b-v9XoquYe2o9Fz1nHTelf-EqVcN5Ux9m8ThxMhxmQibyYUENqAX84bkIhiHMqWjJvBGpXYQ"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/PHN9_p8Stnvl3RroN99KKH6JsNPp4zxBDgHd788z_vLMqu5BeU-pdqX_MVSvP6s3zYx8d4-sysCMoVmdt9lZaUCl7MtPaoxBZJRF1LeuC1CGk6kHQNfrlruF4vrkZUtNh8n30OBB4PnQ3Hrt1RgAIRok3Qa7pzA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/115000000/114410000/114406000/114405905/b2e47035.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/tya7sNNbkYX95vKL-7vd_XCi2WKXE7Wkk-NBwYMyeqZsHoV2iuCXxuIFFCLfwz15mVJ1uzc3bPdXH4FOqnNlMkdWHGQK2O7ne4R0H8fp6vU2tjaqpQ-IG1-_C3Wzd8IzxITDQtk9oU2ibYJBTHiav7Nm350oGQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZvYOrsgkmsUx_GjKlW7dC5hbvjnvJOrPmlAnZJL-kubi3Q15HzevFOQPuAzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGqAEVmr2qjQMPI095Pdv3pEtFPIxOxxOPC-YWoFEg4yVvAhE3nG9m-EOYdDa2mQZLPtO20EzzJHoqbVDIUuv68O637CSYU8b-v9XoquYe2o9Fz1nHTSYeL09ReZnUwhY8ThxMhxmQibyYUENqLh81zB5E3bQCB1yr8XT_68"
+        }
+      ],
+      "location_rating": 3.7,
+      "amenities": [
+        "Smoke-free",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No air conditioning",
+        "No airport shuttle",
+        "No beach access",
+        "No elevator",
+        "No fireplace",
+        "No fitness center",
+        "No hot tub",
+        "No indoor pool",
+        "No kitchen",
+        "No microwave",
+        "No outdoor pool",
+        "Not pet-friendly",
+        "No cable TV",
+        "Not wheelchair accessible"
+      ],
+      "essential_info": [
+        "Entire cottage",
+        "Sleeps 2",
+        "1 bedroom",
+        "1 bathroom",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Lime n nice private room",
+      "link": "https://www.bluepillow.com/search/68119f466178c7268f2b5635?dest=bkng&cat=Apartment&lat=19.06455&lng=72.82978&language=en",
+      "property_token": "ChkQnNyz05WjtfxIGg0vZy8xMXhmdDF6cDRwEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQnNyz05WjtfxIGg0vZy8xMXhmdDF6cDRwEAI&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.064550399780273,
+        "longitude": 72.82978057861328
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "10:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,991",
+        "extracted_lowest": 2991,
+        "before_taxes_fees": "₹2,991",
+        "extracted_before_taxes_fees": 2991
+      },
+      "total_rate": {
+        "lowest": "₹2,991",
+        "extracted_lowest": 2991,
+        "before_taxes_fees": "₹2,991",
+        "extracted_before_taxes_fees": 2991
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹2,991",
+            "extracted_lowest": 2991
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 19",
+          "free_cancellation_until_time": "6:29 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "L.I.C Colony (Khar-W)",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "30 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "31 min"
+            }
+          ]
+        },
+        {
+          "name": "Woodside Inn - Bandra",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/nsc-0usOquuSBAqSwVJRBJHRM4DxbzPwGnTT0S4TAANyi9TD0VSl21QZyWQPDbyEHeYSRykna4HSBUuO952fPhVJJcrM68F-h8yAYynjHYFoaLHPj6cH3TKYlgTPT_D1WGr7v5fQX0m8zkjp5DpcoZwadtbTVw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/593224222.jpg?k=2dd92cc96106b5da5fbf7641b2469fbc1820098e799b6617104c2fa9041bd288&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/NAHOvt7J8NyQnseoy6C4sNjt2Q1Zhd8DE_OTHgpvsKJDDTwDxR-2EaJjS-yoIhHwp9K_WrHu3DqHUrVMOHo2ptzjm-JxcfRy6Tl16RgwRj4JGUN8c53NideJHV_ZuNFzfqoJtLYknaopt9Iqxhpv3g539_1ZCw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/593224217.jpg?k=e7a274ffd04007e8dd54a849e4082466dfd8ba4312d0e45625c0b64d0a9aa8cf&o="
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/utWspOkshteuAarWtwSQ9jiXFBHg4-h4sobeXWseMqJ4as6rzE0Y2x0g6BXmPzTGSPbvPtIFpyWAH_NHMWL6badRMqZCCwBFf4c67eZTlgi3VrXE4moNM7lZ1M0NQ-L5rjfG0a3sMDK5RN5tiYENfus4dUs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/593224198.jpg?k=e764c4d467fc2e4c760d8c7032ce114d2b637048cc29a05ff3d2272b6fcdfa53&o="
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/TZI5FOmkgwYRPof4cen1VCzZVx1lf9TCq-bbOHVeEL-gNvxWtBdSXpzt9ZI4Ort4sJa19UkKPUQB_YF3xUC_RpfQwhuDRCHiRlYl-BkZL6hJvpIM1_2trBTvYKouHWKNz-um5ZMvN7mORrVh3sXMd672_Jb_mg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/593224203.jpg?k=eda3ee72c239de1645bfc3841318b62de1923c6c82030f4611c30a9b5b942eda&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/B65X-Pat-d-u-0iUmF_VZC-j1VaUZ3M33C2DOE6Gjy868FvJVaH6RTKM8gbq82AraRgRzsJjKOJiGHcKD0-QRe_vhBCoP5TXqXkeZ155iiIGaaOIQ-2HcJxkjICFB4sJU-ooLCYan8U7eGV1aBcMv3QY7LPRhg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/593224242.jpg?k=be21c79a09c4f6f27a4fb68c58173e76499b2b52e3e7fa028cab16dfb6f946f2&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/SlUwHTRsnqNqKcpDvJtZzrBcfO14-XiDSkFKJwDklvJfLZW-oUJv9AOdcCqM_1RGaIk4OQ78muwFTxaOjbEEDJUJ9pLnk_zGvedDa8pWsPSXxPSACLsi0VGKu81ZYTnX3ZJ0aZEt7pU5mgOBU1phmUALq8rYyQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/593224235.jpg?k=9e79a49378c47094f88b8bf96947404c8af3d968a9b3887444301e44da53c31a&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/mLo2pPIbV0-gj_5CVhFNIF71Q27Vw_WlxtsHee3kct9oXtSE5zeurrRgA6IZ0JFjM3QB1RABimply9G3rLQJjP4uavOmmQ6PLzVuXwfF_bMa4RT7cB0VUoqu3a5I1Fvc7jsO9iWEwS5oJpglP6AcZICSAxISxCA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/593224213.jpg?k=7df3b2a1a47e4906854e98b80db58e698dd0ea817e406148ecccff5240106a2e&o="
+        }
+      ],
+      "location_rating": 4.4,
+      "amenities": [
+        "Air conditioning",
+        "Kitchen",
+        "Cable TV",
+        "Washer"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No parking",
+        "No Wi-Fi"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 2",
+        "1 bedroom",
+        "1 bathroom",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Bed and Breakfast at Colaba",
+      "link": "https://www.bluepillow.com/search/59438a127c00cb0e64352e6a?dest=bkng&cat=House&lat=18.92032&lng=72.83186&language=en",
+      "property_token": "ChkQzqHs-q-G6fA7Gg0vZy8xMXZ0NmJ3enc5EAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQzqHs-q-G6fA7Gg0vZy8xMXZ0NmJ3enc5EAI&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 18.920320510864258,
+        "longitude": 72.83186340332031
+      },
+      "check_in_time": "1:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹3,264",
+        "extracted_lowest": 3264,
+        "before_taxes_fees": "₹3,264",
+        "extracted_before_taxes_fees": 3264
+      },
+      "total_rate": {
+        "lowest": "₹3,264",
+        "extracted_lowest": 3264,
+        "before_taxes_fees": "₹3,264",
+        "extracted_before_taxes_fees": 3264
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹3,264",
+            "extracted_lowest": 3264
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Colaba Depot",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "49 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 35 min"
+            }
+          ]
+        },
+        {
+          "name": "Smoke House Deli Colaba",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/C4JC0c0tdZjpgHNFEh0336C1FuyFqXbIqgQZiqgtDdZ_LLULm3eBvxYO3D4ghtX0f3glH0WdeLjcfG3DX41BOdw7nGhsUqrTbm1Z693S89BpEGGWVd1Hinnti6W0gaF-YzCz0NUXJC62L4eT8YjjMEjJ5HLV8Ig=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/103932651.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/HsODsF8JLRQRQx72d8SDzf5b8VNnafCHX1js4_vaqoNLtf4pifJ5DoQzTd3AF3bb65-un8dhsgg6mcJJEzZ61HG5NdiDuF0i62ah3ZxW49Leu2RuuegVKCSlFL9Wf1tU_Yk133X5tJqP-R0UAKc7boIn2FAfHAA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/103927768.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/JsubXD5M9Dknc_cBrvBnLgk8DLriNAmxcY2HXcUYUZIPgfYlGkHQ6JoKXrBkm-GGhLP_-iEQBvRJ_pCOVja_FDM8ezhi36vfx4X2yz1BKvRGtzeoxSXG9per0YCgcXeG5P2JuDH1wYEg3h6QeivvAfzLY4u0XXk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/103932616.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/E3jpOxtvjI8jvukz8cBN08pi5QhIJaqp6WU28VZ4pr8AF54Y_N8JerGUxB8NlHkaFOpXvLX6B-Oodye-oXlrCnvNkiYaRO4PI37Tv7NeGCl1sZNrq1giN-7iLMWhuHab1iV7KjGamQDz3IXb-PEIgDcq_R_vLQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/103929504.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/nOYfWwZUpyQf8Qz1G1UhSvibolZvoDzWkSp8MBob3XsmLi8r9RVcWPTemfP53DPztoMWMdqWEIR2lGN3MDUuR7gQ7G99a-Nruq1wqj36Dt0D6fXBSHJO95YS0Ey-RIUNXSIDau2IA9pp6nKh-1UsY6Oxq7CMPw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/103932626.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/kmM22fFw5rHY1yKHYw6UqyeF3UjIvr5xunsya1Mt_UyABZyC-yuN9-wXFV25lVjFR-7FusyHp0QE1jXOeEg2N3qt93AC8KjiNkXbomuYcBuxND9fE8uExuxs2tWS2qwdNTdLi1rm2-txhMfBipBineZtL3NlkSg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/103932640.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/x7K_YwA_vTQwmwALmsOnqKINFKR6MRl144gnP01NN4Gop6ZmNhupnx31XJDNAr3p_js72D0iPT5v1cbNCsfP94aeKWmg52iMO0gH51oXSdUy3tgmnc9uWvPwjzsSm-Bq5AXNX8zPStDtO8kTqezkjRet4nqa9EY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/103932667.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/SEL8npMB1Sk5xEh0gfNP66fvV_w0kTbZzoOcCRS-gy3e1nHHlgQF9w5a6VULVBTtKvmaKjEZ6sM5tJ-lYFbalqadtH0_CiGNOQ8Dct0obnr5-WUrvjOUEg0NKdVvqbzdQJU0idUqTNqafI4YiHNOAj2jVlVjmg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/103936352.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/6QyXfKIYRk9ekXh2UMlQxTEI2_6nPp5A_CILMveILRUNpMvngWEbW5JG_v_eRbYbCBkxHuV1Jlpb_WZnknp18TuAu0AphQgODXeM0hpeBsNruth4SBWJHtBnKhOP2uYEa_OkmCQp-U3JOm6CIJYGFjtIXOJMSQ0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/103928723.jpg"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 8,
+      "location_rating": 4.3,
+      "amenities": [
+        "Air conditioning",
+        "Kid-friendly",
+        "Elevator",
+        "Ironing board",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Wheelchair accessible",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No parking"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 6",
+        "11 bedrooms",
+        "3 bathrooms",
+        "6 beds"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "1 Bedroom Studio Apartment- Close to BKC",
+      "link": "https://www.booking.com/hotel/in/1-bedroom-studio-apartment-close-to-bkc.en.html?aid=2068758;label=seogooglelocal-link-imagesaow-hotel-11621737_grp-1_gendate-20240917;utm_source=seogooglelocal;utm_medium=description;utm_term=hotel-11621737;utm_campaign=en",
+      "property_token": "ChkQr6q219D6u8N5Gg0vZy8xMXd4MHkyNDhiEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQr6q219D6u8N5Gg0vZy8xMXd4MHkyNDhiEAI&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.053987503051758,
+        "longitude": 72.83770751953125
+      },
+      "check_in_time": "1:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹4,238",
+        "extracted_lowest": 4238,
+        "before_taxes_fees": "₹4,050",
+        "extracted_before_taxes_fees": 4050
+      },
+      "total_rate": {
+        "lowest": "₹4,238",
+        "extracted_lowest": 4238,
+        "before_taxes_fees": "₹4,050",
+        "extracted_before_taxes_fees": 4050
+      },
+      "prices": [
+        {
+          "source": "Booking.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/61aadbe1-e141-4d2e-a831-b6a18727e130.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "₹4,238",
+            "extracted_lowest": 4238,
+            "before_taxes_fees": "₹4,050",
+            "extracted_before_taxes_fees": 4050
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 6",
+          "free_cancellation_until_time": "11:59 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Bandra",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "30 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "40 min"
+            }
+          ]
+        },
+        {
+          "name": "Lucky Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "overall_rating": 4.35,
+      "reviews": 3,
+      "location_rating": 4.3,
+      "amenities": [
+        "Air conditioning",
+        "Microwave",
+        "Pet-friendly",
+        "Cable TV"
+      ],
+      "excluded_amenities": [
+        "No crib",
+        "No elevator",
+        "No fitness center",
+        "No heating",
+        "No ironing board",
+        "No kitchen",
+        "No outdoor grill",
+        "No oven stove",
+        "No patio",
+        "Not smoke-free",
+        "No washer",
+        "Not wheelchair accessible"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 2",
+        "1 bedroom",
+        "1 bathroom",
+        "1 bed",
+        "17 sq m"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Studio ground floor khar",
+      "link": "https://www.bluepillow.com/search/67a229fa5a2dfa15b18135f5?dest=bkng&cat=House&lat=19.06473&lng=72.83797&language=en",
+      "property_token": "ChoQyZP6vrXNjr3KARoNL2cvMTF4Y192bHIyMBAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQyZP6vrXNjr3KARoNL2cvMTF4Y192bHIyMBAC&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.064729690551758,
+        "longitude": 72.83796691894531
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "10:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,605",
+        "extracted_lowest": 2605,
+        "before_taxes_fees": "₹2,605",
+        "extracted_before_taxes_fees": 2605
+      },
+      "total_rate": {
+        "lowest": "₹2,605",
+        "extracted_lowest": 2605,
+        "before_taxes_fees": "₹2,605",
+        "extracted_before_taxes_fees": 2605
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹2,605",
+            "extracted_lowest": 2605
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 15",
+          "free_cancellation_until_time": "6:29 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Old Khar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "23 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "29 min"
+            }
+          ]
+        },
+        {
+          "name": "Khar Social",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/uKUbvAuikxFuhw4eHH70NygtCEb0K7ROMZeJYHwuitYaUGOEls8GqMLImXG3SP7OkMG2_L8iNBd-uJHflxY3c0pfxGFh3pIrG6OmKPBUY5S3dDG6oYIMOdDzvJLVmIJMpkYf0ibqeMd7SIwzNdeNRiwET32Say0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/568223411.jpg?k=949b1851d7154c40909954d41abf8bbfea4104e36b88e51d531c62a422f337ca&o="
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/cmwT81knQulRqXL5b-u1KnvLSRA6keGHZljNJXLk_isBEnExhFsVT7S1WRYu5U1JW-KRRjCkqHZpxeWt_k9wABFjIiIvJ-llJp_X2q9VyGdlc8enH9356hAzTMU05gPzId4uMzkPo2yIp6B9VwTKsX09P6YrIa4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/568223405.jpg?k=ba7c9e7a9338e3ae369261d98633bc0cf42d016c538ce2c9de1a654231a1d2aa&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/WvsDYsIPy0pcI2K0Lrk2__0BrNtWRcYqc9exoUuQgffDidg5RBAETY3eTxPn_DmvmamsOsoBuKsYrWrSHrj8YiYylQlEb7lznrkevHQacrmQ_aIsnb1ZHdp--QVp3L-ez6H5XvQNqa-aWeEdhotE5lyFT6kgbSU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/568223427.jpg?k=46e1f64f724cd42763ee03672fbff48ad11e640b8e1b6e92d439931105c00e13&o="
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/5U8VXWQRoUpXHH29U4QPFhrD2yd1TkXwZ9v5IodZVYZ4WSCDEaw2_et2CI3v8lHCNIJ2_xoIWQ9LVXAlgKJANKxeZIto1gbOQLrYa3kBorrxOMxmNSknIewz1DP9TQVIBCt46dap9yfQnb7GrEf0J70fZjEdKPo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/568223417.jpg?k=10e782894ed8113ff0c00693f7e5b565fc17147a6424844f82724754b48d1061&o="
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/eKGbSx2M4RildQDMUwr7uHZ96YtmznydcFWJsz5DwdcRLUIxmiZIhlIFATkI-z-rB6Rk8ytYAdGbkOJNttfSyCNJMgOuV3uELOgD2JSONXjcNQSaakCq3g2bbrtl4FJBPJylSZrLyEnf0kwBayU5l8yfUsUkx68=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/568223402.jpg?k=813c8edc967ccccb391f96352e528fad11a36b8729684a8241497e26ab493069&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/SlD2PG1JNKzEljALRKUaPaXqwkofPE48DiOrMyWwG09WHdcI7-GUFjLRsj24jqkf4vyVkl2RObaQiBTRo_4zdMzsmmYuHSVT7xATRU-A4tFBNqsyeA1YowaVli-0KRsh1COOfa8PNonXL-i9O2i9SqAvulOzp3A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/568223408.jpg?k=b6309be2fb42dfedd658a3f5b02bc9e64a14cceec4903ec35c53c7085281726a&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/2NEG5BLx8A5FUFksC-TtkFbfcJzLY6MGEZC76VXlVuW5N1HkOWTZQky-DjHbM0jnNXNr8js4Qi2JhHMXBdoQh-ktuWyuc-6B7uRDouJdYGayf_jzfpnW35TkmEG8BAQNlijZ7WMAW6I_Vf4YW_OD4x3nqyOjOQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/568223415.jpg?k=06aa8a63c119d3d046a9fdae7f97e60d1ccaaef4b6d9effe2ddf3278779ce5a2&o="
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/I4X-_x5uuoH_ot1Oie5d88Dsixi-sQ_3KLMDBzd9pylXt0KL88TPN2NvYniXmTFxbdl6R425hu3-VSD1mvN0f5XEGX4enXwQvbyM4yMi3sXPAfyY2OYPMLSNw-l_dMGgR5ro60Nm30N7kjnErfFjd6aQRkw-LQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/568223431.jpg?k=ccf2d4484855ad22fde1f78d9af35ab26d5a8ba22b9c2ceeddb490129cb652ef&o=&s=312x"
+        }
+      ],
+      "location_rating": 4.5,
+      "amenities": [
+        "Air conditioning",
+        "Kitchen",
+        "Cable TV"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No parking",
+        "No Wi-Fi"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 2",
+        "1 bedroom",
+        "1 bathroom",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Cleo- The Bombay Home Company",
+      "property_token": "ChoQ3PCJxtruwYjJARoNL2cvMTFrajVwZzVwdBAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQ3PCJxtruwYjJARoNL2cvMTFrajVwZzVwdBAC&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.074098587036133,
+        "longitude": 72.82575988769531
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹4,975",
+        "extracted_lowest": 4975,
+        "before_taxes_fees": "₹4,465",
+        "extracted_before_taxes_fees": 4465
+      },
+      "total_rate": {
+        "lowest": "₹4,975",
+        "extracted_lowest": 4975,
+        "before_taxes_fees": "₹4,465",
+        "extracted_before_taxes_fees": 4465
+      },
+      "prices": [
+        {
+          "source": "MakeMyTrip.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/262bcb61-0a00-4d53-8f6e-59e8c295a0e9.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "₹4,975",
+            "extracted_lowest": 4975,
+            "before_taxes_fees": "₹4,465",
+            "extracted_before_taxes_fees": 4465
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Dandpada",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "35 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "35 min"
+            }
+          ]
+        },
+        {
+          "name": "Poco Loco Tapas & Bar ,Khar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/7W0ZGMsgxvXIdSmbjz8t6nbRMAGOoWyY9DygpMvyCL56VmSE3jt7wUo6UexY40TV8VFmvJxcRM1Uvzo2cjZET_IRRzfTF3ORPWPGd4a1w2upNwIXlMofPlIxtn1ZAO6Lj2Dg0tMpK8haIxgU9t0V24KODD1H0A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://gos3.ibcdn.com/792698eabc6511eb98080242ac110004.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Zdv6tYDSWgluRnmvx2AR_PI5Tt5HZRgM6YOzb6Y1jBehrLTTAaQeyk9ftwi851dUPp-ka6fXgLr8PGc9d1E-jMmcGxB-nG575AxSvkU9BQuO1VHHoiqqAzP-zZPcsaPe5ZBpsoLEUu1bwTeilmq4hLNV2bxJDg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://gos3.ibcdn.com/674d8c8cbc6511ebbfd00242ac110004.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/oTyRLbfCaclzPjxXK2ZBqdEmYrbvBvRcXq3saxcf2IjL0MOpi3q7h0L1sp8zKxboN-LoDegCXdxlSn38dIE36IjxQXExlLy5Z_nPw9IgNOO1g5ip-KtIf1m0sxmuUaLs4XMht4EsSC6lLN5r6ZYpKY34HRPsig=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://gos3.ibcdn.com/6769ffcabc6511eb8bd20242ac110003.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/TiPcTCmS7byGlsGQvyMeIqaCYDK0idJUD8s1MJx6al_68_rDRcsV40PvK188_RDaGIiT1TNnxSQfaq1riN16UStsx17gJDqbFAShKiwt0vLXl5uGb-p5AG68efDrnjDm-5EsyASKHU8sXfpM3WPYwjbtbn7krcg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://gos3.ibcdn.com/674e3362bc6511ebaa380242ac110004.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/yaYw01ahRbUMZ3jI6WwMzqOc03-QdUYHhWTiP4cI7QrGd9Ugup-OQtLY4MLuoyUtR2BXjQ60NzPOvqdZd89Z9It3E8XKgdMU2_B-y4RdiwtKSQuybxiC7XHNgj3lmM3A0NBU2SvMk_ArbHSqam5PElP63uO4vmA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://gos3.ibcdn.com/5b36fdd4bc6511eb8aa90242ac110003.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/3WCB2tdPsomHLPHJt06lN9xLP3vcsJOacuDjDHdo6ohrVMVlHKjpbZQSxsw-pXeIcvHOclWnG-WZ-BGY-eCFY7sILAunRMdb_B9BZMOvhQw0JwflvHBRKIWiNctex5wXmLlr1GCMCCJnhNRm3JXLzGAIiVd70w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://gos3.ibcdn.com/676ac45abc6511eb8d850242ac110003.jpg"
+        }
+      ],
+      "overall_rating": 4.3,
+      "reviews": 32,
+      "location_rating": 3.4,
+      "amenities": [
+        "Air conditioning",
+        "Fireplace",
+        "Kitchen",
+        "Cable TV",
+        "Paid parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No crib",
+        "No elevator",
+        "No fitness center",
+        "No ironing board",
+        "No microwave",
+        "No outdoor grill",
+        "No oven stove",
+        "Not pet-friendly",
+        "Not smoke-free",
+        "No washer",
+        "Not wheelchair accessible"
+      ],
+      "essential_info": [
+        "Sleeps 2",
+        "1 bedroom"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Private 1 BHK Andheri West",
+      "property_token": "ChoQq7fyrbD74rX8ARoNL2cvMTFtY3NqaG00MxAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQq7fyrbD74rX8ARoNL2cvMTFtY3NqaG00MxAC&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.13997459411621,
+        "longitude": 72.8350830078125
+      },
+      "rate_per_night": {
+        "lowest": "₹3,630",
+        "extracted_lowest": 3630,
+        "before_taxes_fees": "₹3,630",
+        "extracted_before_taxes_fees": 3630
+      },
+      "total_rate": {
+        "lowest": "₹3,630",
+        "extracted_lowest": 3630,
+        "before_taxes_fees": "₹3,630",
+        "extracted_before_taxes_fees": 3630
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹3,630",
+            "extracted_lowest": 3630
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 20"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "30 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "40 min"
+            }
+          ]
+        },
+        {
+          "name": "Glocal Andheri",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/1DURWegFfiiphPY40ER6ASchw8OJNBUJHFTlkgGH2tJSiegWs1KNZpSzJisphO3BACkPT93-oHN6x8X-LC8kk6PPu5ewiEE0HSkp0_YlOPTElaL6lbbEZ2Bg3WbTHzCqeQdVW3YKO00Qr-SAcRLrG3rl6MIRaA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32789371/0/e4165ed0ef2efb03fc78054b6c33c8b9.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/VHHUlh_rDI3UlbKBcSQ89O8tS6cVeqdx7ySpb9e49R7c5hFeH1DeZgjv4y6YqIA6D1alCjNdSeRhSjHlO1EjDcUlc8kByT3t9q4fUaTxtqDqyKznsexr6mgHaPuExGee4jBrv2PmJSqIBrAPZ6bbvqY0_Oyavw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32789371/0/c7a16eb81b047fb22e8753268b97e46b.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/3in34ptv3fGiHV30_-uxlYWK_rq_DRv44nzKmkG81yrLlfl1L3BgDt-MPtMQYh8NVgrp1fmKNjH2ZxiqqfSq_kH9f_UDOGxqhdLAgHUfLSl9L6NNtgpn8Fay6UWyV-qafnkD1-iJZoHIJxOP_voEHMN7xtV0eg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32789371/0/c4921bbb35d4b86e501c97bee965e0ad.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/P2W5scsNRpsePqGstfUKCcKDyP4hMisqe948cvwHVmhEwmBuvFFqqxuEH6mEEWPD_oIfLP-Mw1X-MiENrYvAdFI2xYfVaTKDj2ddCHHwb1RKJenqRFW33uvienEy4M5o0KrZxTqZAltq1Tv_8D_MGVlYEz1WWHc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32789371/0/26a6bc36eca2a16d21863b8f550b97b6.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/kYHByLQyaqsPyBvlv51J9RNdZN7AP3VqQOVqbCYEUZykXDGP91na6_-HMFpO7VZg97VqwCMJngp9kt7boHrKR5gQ1Ptnc3i685BggZr6rda96Yf1rtpoREA3-yro_LHybne9Zltu7YythsBhAvUkSk6ovR5mcjY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32789371/0/e81b09e1f8b4b983b8370fb64ca744f6.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/qgEVlUJn5KrjLO6r1nTBgRfMvNhBvU4THki8Hn0ZAucT7UFw8pcxV3A7aoUFRLM_If-hbkKLp6Z099vUAYniBB23mDUKcYYHCB-7eDGozZj2yYeK6SHq0vxdextQCT4fCj94qVjGFoIdJxAzpP122rai8WuTUSg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32789371/0/d804826358debfedce81c20ad09ee94f.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/p6wmHv-NoyQidFsDg7ngJEoEDpRWQwtkShvb_Hg9V1gtoSL7ZwUATDa1LIX5tzMlBgrtCqUVjuQ6Ll9JPiYpNJjjq0NQtJnHzJHRy6joNMxnK2tu-OrDLXw-ceZNfcKiA7mfp02QpvCOD77fZQ2Kt6O66_-gNw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/geo/poi/140082/2_140082_03.jpg?ca=7&ce=1"
+        }
+      ],
+      "location_rating": 4.0,
+      "amenities": [
+        "Air conditioning",
+        "Kitchen"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No indoor pool",
+        "No outdoor pool",
+        "No parking",
+        "No Wi-Fi"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 2",
+        "10 bedrooms",
+        "1 bathroom",
+        "1 bed",
+        "4 sq m"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "WishTree Service Apartment BKC",
+      "property_token": "ChkQkMWesbzXrfNPGg0vZy8xMW1jc2pmbGozEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQkMWesbzXrfNPGg0vZy8xMW1jc2pmbGozEAI&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.072633743286133,
+        "longitude": 72.8653335571289
+      },
+      "rate_per_night": {
+        "lowest": "₹4,247",
+        "extracted_lowest": 4247,
+        "before_taxes_fees": "₹4,247",
+        "extracted_before_taxes_fees": 4247
+      },
+      "total_rate": {
+        "lowest": "₹4,247",
+        "extracted_lowest": 4247,
+        "before_taxes_fees": "₹4,247",
+        "extracted_before_taxes_fees": 4247
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹4,247",
+            "extracted_lowest": 4247
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 20"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Amar Brass & Steel Company",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "15 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "30 min"
+            }
+          ]
+        },
+        {
+          "name": "Hare Krishna Hotel",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/Zik9P7NB1vzh7Bmu3Iof4RSFdyMacdGHucfn0nufZnDlRVXTevLVEqph6l4usHdQo6MgOmwULanv_M7GV7yESU3V7U2oKDikpQfFVW0izkj5Zk4nTjKGAVkkjmpHKoF4cEox7wuACu_UWfWlVA0HluWb7dqXBdQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32905883/0/bbe2faf7157330a02a4bd2fde00c5233.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Jqxkk5GmG0hdSmJPU1mjUV2KGkRCy71rlAWs-NAMksfh2QkRFKdnu_OKDuzGLNV-ikP4MVsqP_Gsb0cdm6qQ1KdoPPggs2JNCbw5rqciGTZDm6s-D091-VKJqecVjsJWrp8KbopnrDlnUJcma66HunX0_T6ZiQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32905883/0/ab9f278e12d0af3a1b3749b19dd1794e.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/phbSJj4lvNdnHYl3Hc-8lAlPNWF9GVHfbW9V92y1Ka8tiIEW1Ww40l7-kkgsPgg3mlAJZisARMOj1sdYmPeJ6ihJIEA1dYhtIF1NLa7qE8ltIoLj18wO3poWWlPgKD_U8y88LRUcmaHSmzMV7HFhpQYBF28JzA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32905883/0/b29ac3be1157dd435002bec17f174885.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/JwvaZShg0s1vp-AYiXUZLNAPoh8jiwIPcSRg6vDkAONkQWZJUXGSkCRpQifS0B7FtKSvl4kwT2tfQYU1IOA_rYjLUhCM4anelIsDrwOMLCng_4hiPWGs_rAXxWX8x1SdVQkA4_87pAFXfbH25jdg9AXGCkdyt-c=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32905883/0/0ed670cd48c3fcc83a9064461ff5eb74.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/vJMZTxXmieW0O0BSpVINGYfoXRtjHxRnyr7hK7pYBUMWv0v_S0yTrCwO70I1S4LsHGBKvP2cJvdH7sPZcqjm1Y8aLunLZ2nDh1R2jNI0eS6_VE9_ZosVAWsqyS6fdYvzg6FWGiD2fs8oc0QkDDnyIKgFS8THWgA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32905883/0/8afdf04f5bb8ab85b2e7cb3a7c493ee5.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/Jht24FHHhlezLcjCeNV84d3k9FshTFcyy4LfC84t4uY4x2kb5wNErxfBgnvd2rUBlu-Z2w5ws2qZe8a27NTu-406y2-Ol6T25z4h0SBYqhHjlCFsNOHN0JchcDzsCKVwHnSSx7DzD7mzFPxndD3izQI4Vfw8EQg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32905883/0/108e12fa7785a5b2db4c4405dd21e7d0.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/Ec10QUY3RwC0G94WBjcmdtUdGkCWdqbLORHmfvaF_6CW1qgz_hH5XiVpHi5v1o7dB6kgSIsBezGbn00BOeA9pZbJlFaJZiO-kBcsYvHtFx-9jWOtxxnV-Wfuj5g5JRXa6YOx-riyRItCaH93ivU1pGYoPFYGkfw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32905883/0/ac37fbe654fed2ae91c9e71ac0badb9e.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/1XjXNq8kZowT6AYn7hmsXmkkVIkJSInw3ZYeco-x-UvV8oby17yW5MWWs5-gEAeHXkHNQl3TuB_q97_DoSCJlyCkbl4R-I9EqhdU6V0HGuKzGwug5OnfhhY17Bq1GNdEmyN493xFkqjBRUgz6gLmLNlvWAdXuRk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32905883/0/43b3a2c68f880e2e5a1ee2bc0cd238c0.jpg?ce=0"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/IFBh4em_XkkPQApKop0JHWN50-tVW-uQ2eiycLZLRL998X8ZMIt-mNQF6lGNTHEMidA4_To1U1TF9aoXDW0sWDVW8pag_rbE8MJ8q4Flk4UuTqfJD8mcY9pbOa6-RelgKyk86iE4MjG-52MYUMUB_rUZenrbSw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/32905883/0/c3960962e9ca2ed6ba5e3c6d8f741900.jpg?ce=0&s=312x"
+        }
+      ],
+      "location_rating": 4.2,
+      "amenities": [
+        "Air conditioning",
+        "Elevator",
+        "Ironing board",
+        "Kitchen",
+        "Microwave",
+        "Oven stove",
+        "Cable TV",
+        "Washer",
+        "Wheelchair accessible",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No indoor pool",
+        "No outdoor pool"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 2",
+        "1 bedroom",
+        "1 bathroom",
+        "1 bed",
+        "167 sq m"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Stay Luxe by WishTree Mumbai Airport",
+      "link": "https://www.bluepillow.com/search/67a23c79905c444f2d0724e4?dest=ago&cat=Vacation+rental+(other)&lat=19.09808&lng=72.84636&language=en",
+      "property_token": "ChoQyMSp8Lyo5P_EARoNL2cvMTF5Y2w5MDRnXxAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQyMSp8Lyo5P_EARoNL2cvMTF5Y2w5MDRnXxAC&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.098079681396484,
+        "longitude": 72.84635925292969
+      },
+      "rate_per_night": {
+        "lowest": "₹2,905",
+        "extracted_lowest": 2905,
+        "before_taxes_fees": "₹2,905",
+        "extracted_before_taxes_fees": 2905
+      },
+      "total_rate": {
+        "lowest": "₹2,905",
+        "extracted_lowest": 2905,
+        "before_taxes_fees": "₹2,905",
+        "extracted_before_taxes_fees": 2905
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹2,905",
+            "extracted_lowest": 2905
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 20"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Vile Parle Station (E)",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "17 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "20 min"
+            }
+          ]
+        },
+        {
+          "name": "Shiv Sagar Veg Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/1yWYIAElmNQOiUK4CE9m_4qPwsx44ta0iav6Q9LBMPcK664KwnNhtKyE6IFCly622LIunmELQdzArD14mkfvkENhHuJsOgGSHbvbBrFWmRZRcLfDP3Ayc2MUcp_rJHIkhkqB5aUVIhGL_L90jIFdPODafFNqMQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/56315627/0/b8ce55d051fed66c46977b4140d7c96e.jpg?ce=0&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/9fRKz533t3wv_W6M3NvTPROnATEMLs1P_r32sca-tJdf1sYIOSnFWI0JmkSUfxbqJ4Y07yaoQwrzZavE-rk-KSMLqtgRPEa7Qyqw7Fl9YumkYGrzp7ogLg9CPdz4XrpDwScdtqzsipnL8AmNwQf0oNhWQes82CA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://pix8.agoda.net/hotelImages/56315627/0/db488e03e4178c5da8f0c1e783526fba.jpg?ce=0&s=312x"
+        }
+      ],
+      "location_rating": 4.3,
+      "amenities": [
+        "Kid-friendly",
+        "Kitchen",
+        "Smoke-free",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "10 bedrooms",
+        "10 bathrooms",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Hotel Blue Terminal",
+      "link": "https://www.bluepillow.com/search/67a243e1905c444f2d0d61d0?dest=ago&cat=Vacation+rental+(other)&lat=19.09902&lng=72.87937&language=en",
+      "property_token": "ChoQkPeM_5mu27naARoNL2cvMTF5Y2t5MGprXxAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQkPeM_5mu27naARoNL2cvMTF5Y2t5MGprXxAC&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.09902000427246,
+        "longitude": 72.8793716430664
+      },
+      "rate_per_night": {
+        "lowest": "₹1,701",
+        "extracted_lowest": 1701,
+        "before_taxes_fees": "₹1,701",
+        "extracted_before_taxes_fees": 1701
+      },
+      "total_rate": {
+        "lowest": "₹1,701",
+        "extracted_lowest": 1701,
+        "before_taxes_fees": "₹1,701",
+        "extracted_before_taxes_fees": 1701
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹1,701",
+            "extracted_lowest": 1701
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "12 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "15 min"
+            }
+          ]
+        },
+        {
+          "name": "Persian Darbar",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/R_BIbyLUZYURYUBiCqwqYvKcvJaQ4HZBSki-gnH87HfqS5ByFQkXIGtQh1R6GtJob_OIZR9As_snn7DQXHS2kJJyh-DpB08SNNE5los3gbHWR1xzSxIsJeBiUTvZ_Z-tOuHE2nJU0FfnUOsMbNkgNaDbsCSufkw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/633504574.jpg?k=f6a7b0bed610fd97d8fde5f87ffde39496e8fc2788c3c0a9a4f6c11dd1b4d585&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/bSxIcuTe-Z_ubdO428jPfaunQ7UJo3RtklAh2rYkj7HzIKsqFW2wr8Zp4bx7tYTqmlJpuSbQaVB8Hn4qQx9OJ-6sCxyRnl-50nL3UTmk4WpYfb3JTU-Wxg_whOOUtPbjLtnhbmpELsMLs3ch_Pzy3PJ_sD1HWQ0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/633494765.jpg?k=cd70dc2e572df7748700e21095ac6cf737d792dfd5141d81deab5c94518d2dcb&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/wGoi6ostYrk8YdbV5K5Uo-effANfzM9E6xq0jOPM_IRX4Vr9yGLeYn9ZCrVzzkgsj_Z4InZZlFogv__DJz_D_a9i2rLBOlHm546S7CzRVKz3M-t7NtERCCS65AT1wNHZETFKkUWsmdnsNTtPxgMtJxf5CQ-e3g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/633505293.jpg?k=5cefab5d3e2c10682e250aba41fcbadbd09f759dfa5cd3916e8368b0e7f15d73&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/NjuII-VtaEc7kBHPI5Pj6DytML18G90zf5bP3HAxG6-Q0ioG7AWmMQAl5zCZwJtwm5Tsy8UTHrPgZIi2WRIG6yGzFpHa6S7_emNzPMLfwhRq7CQjeEb0-iGMU9Cti3CzI7ofwjo_ouX0RqYjmajiAS1l-0fJGk4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/633494885.jpg?k=91c195ef1e90e7b0a894f5e1067b4b595c3f12ba52fdece5320cfe81067e0743&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/_r1rOU2d00Uy15w0QbqqjwTwLmORgUV7zYDfiO2OqMtxlt-kAcjl81Jdfnp6Cgah96rT-gZX4s5hWDUiDyJpAWUttB0DbKFIF8_rB0MLGfXGoQVzXLbH3SQ9jFaVHI2QbUbUM3NgN04F4f_Ox0LGvR4zPXtNho4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/633494889.jpg?k=9fb43ec9f48d28319cb76a12c1d07ae755acae5fdfda4a723f4ecea50e1824f7&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/chLeNdKLHj03L1fRYiQbv-ZyZQ5UeiHO62w2yPXGCGJXZEh8CfPJzAocTFCQhnJKQ-Ky2Mv2YUWLqYnB5OBrQT9sM7r7Gb029CQnToIUPxCT0vsxGBr2Kp3OZxNIfBABn6dFiJHy2FYzlHvD777FH-9SsTzO_-s=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/633503623.jpg?k=e0ae00babb9b84d449d70b5a9f42199b88e7b0b5426cfd9da28f942974db43ad&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/AmTpagV8_ofOPKziGM4pr9dFoVkB97avUU-64jjsWU_ocwM8dcCxE9NWME_nfX5aObILHbGNiUqhvGT3HaNfcCUE-6T_JWaR6m6NeshZO7JHimSZM-rlHjOpdYBSY48xD6g2PbqcZkkZCB11JlyLnOPbiSuB4A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/633504904.jpg?k=e8f76835c3aaa468b4837063207caeaf712b7b7f812f831a080658dac5d3bc87&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/6O2boA4RiRmvfNPwPngI_u7BlGMcfyS5HoDs2lhRH4apul0lq5p7zB3srczHBMY9M2Gchha3T-Tr7ZEqVFegs4TWRfooBSEb7YQGesiuzdZmpugjirhWdM6EtjgSo5YzFO3n2Eg3DUla8uJMXC0dvKARN-6w_w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/633503712.jpg?k=b71f72d6f81b99c324da794df9b16cbd7cb560c703639e56bbf11d8c98dd3dcc&o=&s=312x"
+        }
+      ],
+      "location_rating": 3.7,
+      "amenities": [
+        "Air conditioning",
+        "Kid-friendly",
+        "Ironing board",
+        "Smoke-free",
+        "Cable TV",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No parking"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "10 bedrooms",
+        "10 bathrooms",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "HOTEL WINTON",
+      "link": "https://www.bluepillow.com/search/67a240cc905c444f2d0a4134?dest=ago&cat=Vacation+rental+(other)&lat=19.12572&lng=72.84712&language=en",
+      "property_token": "ChoQrdbhr7CHkpDaARoNL2cvMTF4ZnN4czJ2eRAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQrdbhr7CHkpDaARoNL2cvMTF4ZnN4czJ2eRAC&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.12571907043457,
+        "longitude": 72.84712219238281
+      },
+      "rate_per_night": {
+        "lowest": "₹576",
+        "extracted_lowest": 576,
+        "before_taxes_fees": "₹576",
+        "extracted_before_taxes_fees": 576
+      },
+      "total_rate": {
+        "lowest": "₹576",
+        "extracted_lowest": 576,
+        "before_taxes_fees": "₹576",
+        "extracted_before_taxes_fees": 576
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹576",
+            "extracted_lowest": 576
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 20"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Andheri Market",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "18 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "37 min"
+            }
+          ]
+        },
+        {
+          "name": "Arabian Mandi Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/O3vpvHEznvh3vxbYOSnsm5ddPGQ4Lf0cD_sk3aRQ7G_cgqX-1jz0a8wrwhI63jnjjQoQOI5vP2RNF9ZDmUMJMkphjXmREGbqDkj5DfCnk67jZD9vf7TVVijZosc81sl94lwOlB_2j-U3zrZfyTEX3n9D65STtA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/596903231.jpg?k=ae907e2d6bd85ef0a0742abcaa58e9839380675eb304be5828a5f2b3ecc67e6e&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/0gliDqx-O41sZzms2TofAZw-uQSsuVGgEWrioSgu_yy_fIBc6H0emEjydqG2i_wHZ8dmUhZcjbuOML6dip8wZryah8DHwLeEUcMWaaA3vIjMEo9QY0I8buiMpjJU2gPM20YTOXXLtWb4v7AvcTEjj8vU1eO8lH4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/596903228.jpg?k=1bfe1ddae8ae9013e0fc7cc4a54a6514c3a1a93bde7bd35d7a4e0ca673ef8e5e&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/kPKYCVYByVOCz6MQM28PCWJIO0Fwwzb8nD8CyPde5iMC1cFY-YPoDP9tnh6gNBwcHzdSzLdEtjBlwAWOd93zLlMtwyxaq9bcp2FYhOFKd3coz_1UzqNGyB5AkATWjhn4CK_UnyVUxdqR3GHwL_D5RLEsGpQQhg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/596903261.jpg?k=62eba3f69b566a3627318eaea004dc6c1d481dc2173188eddc9ec13015c1396c&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/k0YdyTVk6DmB6dycV1MqwQNt0kZKAyzg4WBSD7UMJavYy_2XDIaKJlyUNhFyPlZsVxVQRI1PjJ4mD7XEYB3eWO2UaiaOlZxBN9Y3SPqPwYWfIAX-pCreRFFrbUsKxeE00pWhgUPPR7__rdermbO7IkcgMZI5sCE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/596903250.jpg?k=98c4d9a55da2e0c52dcabe6639e82f8b5d1827ecc891746715e8ca4862903b32&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/RBvgLrIF8tJQpzh0TcLimCf47TxcE4-eHv0kPEf6OAGpgAmFRCdIK8da3JynjoIsmunufT1QkNB011UEMvz2Fnd1yxkToFG90U3RfPXSyfqF_Q1p7BHbX1WFWoN7Ds8kZcZNVwMrRtIEFebmCuHKl0l1FUAdbA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/596903210.jpg?k=6bcca5ebb9cd30a649e4474390be40d9e86273f96d0145451f396fe596b57f87&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/aR7j3QCXBUN0XXqS4xz7AgSrs_PYeXyYT6beBz_4gqfjxXgsjvCTTIVe45ihaxy-GXYn4kN6sKsc3-BLEzNmvWrLWvuGnEMRTfw3RAAud_Uxt7im7Bv1F1kcDR8_kVkbxKGuYgRENtmvLQzkWHjFZBihPbb9k5E=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/596903207.jpg?k=d241ba004d1b9df84b914d1e1e73f21a600f9bf3d20484be09146317dc360424&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/RTlEVveau7tIpIxhWsMdY7sKxPa7RlKOb57KWpVotYlvLLEJ8SLIWaKel33u8nQVdV51yeEAL84kvR1BRNPkng6H90ltBUPoEWqcbNpX-C4_sCn33iLqOxJPbL5Z4YolyXTqlexg5iTxCuUVzNO5oAK51rVAbZY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/596903247.jpg?k=3e31c5e4d2c304f1d44dbbbafb100c48ec494b95e493345906e3a5124a2c1b36&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/x4wuAbyARTo4uhKaAPFYeiGWe-oh565PcxtR-YD2qAWA2UfdeipfXPeckBoZLKmVmnpS79hVg0S99cHiCXIEZqdSJw5DH-lLyGaYs4ifwndzfRkEAZWynqT5v0MWZKegc_2-THI1XHTpQI2hFVDpbJKryUQgldA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/633927204.jpg?k=70cb38c410b94ea946c8eba8b5cccbc9f2ec2cf3d6ea526e0723d81aa892d144&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/x4RSuDjmV3GvMU3ZsZeCupyXQ9NOeuFdiE-B39N0r5ulJKehoM-yoF2Iay9tS8RM-46k9O_1dzdljuVz59nZksdUan9_YZic_YuLhURb5hJrvylFsjrhHwOgUwqC9zli2zA8FFE6JxmhexaRJuwwXrYFdpShlg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/596903203.jpg?k=aaf9b96b03932b5add70934060b29cfc6e94cfa63eb4cb36187c3b99cb1648fb&o=&s=312x"
+        }
+      ],
+      "location_rating": 4.0,
+      "amenities": [
+        "Kid-friendly",
+        "Smoke-free",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 12",
+        "10 bedrooms",
+        "10 bathrooms",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "AVIRAHI HOTEL",
+      "link": "https://www.bluepillow.com/search/5d6c8a75c162693e744a64af?dest=bkng&cat=House&lat=19.20317&lng=72.85124&language=en",
+      "property_token": "ChkQxMmy6qvqgqkxGg0vZy8xMXhkMnRsejkzEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-21T09%3A00%3A00%2B05%3A30&check_out_date=2025-10-22T09%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkQxMmy6qvqgqkxGg0vZy8xMXhkMnRsejkzEAI&q=hotels+near+Hyatt+Mumbai",
+      "gps_coordinates": {
+        "latitude": 19.203170776367188,
+        "longitude": 72.85124206542969
+      },
+      "check_in_time": "11:00 AM",
+      "check_out_time": "11:30 AM",
+      "rate_per_night": {
+        "lowest": "₹734",
+        "extracted_lowest": 734,
+        "before_taxes_fees": "₹734",
+        "extracted_before_taxes_fees": 734
+      },
+      "total_rate": {
+        "lowest": "₹734",
+        "extracted_lowest": 734,
+        "before_taxes_fees": "₹734",
+        "extracted_before_taxes_fees": 734
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹734",
+            "extracted_lowest": 734
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Kandivali Station (W)",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "38 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "55 min"
+            }
+          ]
+        },
+        {
+          "name": "Lata Family Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/gnOqB1f2D0moVuEoQkBKklJhtuO6kJFvNxxvQmnDRDtil3l8LbREB9SlRiH_blOZ3XKqMw-JobeMMpg_-J-AcI0o5EyxkojX5EYOY5jL_ovzqjed7r6rYU4prTqCktAQo-OJMU_WcIF6xYdfa6BfguYhA-kGoQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/430483048.jpg?k=b2aa8b86988fdac59ff65c55993d8c87cb41b1fe6fcf36252da9cb0d8fb97362&o="
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/8307RahUdyqrGD0FTrinGF4rUzGZh485A1W1G95ndez2Pa4RTaFxX3m8R2KH9_BH4HNIUqJqH8h3rYN0h9IuPAP8AS7wt55PNt03XrB4olc5vl2ct7zzf6VfYzCIhwJsjLPdLn9ichx3_Gzhoh6VoIx1oRJCBA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/430483064.jpg?k=3f0196f1a3be0ca2dd95fdb7669ff2ef23617e11052def256482c68161625b64&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/jo7HzOjLfEoqItAFTM0awB6Ip6gWFxfIE861wyEQkWdSxzeRtarROsZqsQDtU_Y0BmiJPyR8HnghRL2Uc2MDBg40aYHmhHGSuHoPPirswRN-S6xdRwsJYgOMw3faAstxKC8doL0GJTTQiL7WWU6gZOZCqAtgPQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/430485463.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/at7tAkLHoRvrCmDwnwTzLlVhWIiiR9KqP8nQrMIEcpkxKN03UxlyPZLb40GWnaKN5IoyaFeagRjytfXszkYCdLx2VpY2g_b317Ze7A1AwkGAmcz_iAylqsEQE7Nz9p_Jmm-zFjIwlG010AeAOqg78XtKPtBHiBI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/430483069.jpg?k=f3efec4246c397990e37731773b02349423e0306e5a696f28d3491249c2e261b&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/aXLrmdUiM_jTuvTuVW_WrScBDX7lLthBDd3VEwm9L_qPik9s5RcQR8gjj2ckB4yx_xUQVBOHAZe0tSU9y1Gd9-m5FaAn30kSogKvewq_l4LLmc2raGR4X7Mu3epvSGnSnBZGwc6jaydmWdSu3bAz0cslsANcfQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/430482865.jpg?k=17a607b5b8c2ae67d86b303510cd4271f391cd852a38d98fed67c6182ce44dd5&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/yeGklD6SIFAMobNkPe_BNcF6AWKjKYzekVOv6EpZnnJCoWpE1jF8bxXng24sVr2ZumXCzlwUTwrPi2uExEKK9arU5Mcpmtgh-eVYWlEbahXFcinAdt-RJz-BGvVned-7TfpXOWe9tFIfzuAaLACKvep1kfiUew=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/430482854.jpg?k=dd4c0b45b71935c698f8b3d355c294421e1cda88370d245fa5d2ec96eba75f9e&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/7w0CtleMjfXrXQvsHJMGIOGGO4KA82OFC2bKUVNK8qGCDgeGUCvIs2yNggm8Rs_Xlio21UFOWL6YwpvaA8lQ5rqpeVR_bCW7UmlDKR8wJC5FjPxSwAx5EQ33AIj5OcovVBQcUVrBdfP8XRY_0vHrrKchRd2ObsU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/430484363.jpg?k=fb8b9f6edd855dd27c0bda495e7bfdaf4e57e226ff7e2e86a498c639be9e8eb6&o="
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/aX-JPFIzIVNoURZtNh4YsIIxpQQ_WQ-yOcXTsgCC0uAUCF9pJ07tC0jrK4ydfZwytxMf35ZiHh0dbEATqZk_xECFnDK1_YQAA04iV06AXKwvjrGdrufLjaucXWGqb3JZqTFRgRPcfQxaMZJv7Ayfms-N-aWUdRw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/430483060.jpg?k=05678952beccdc2860571eb1cccfb630673a39ec5b96174e4f2138128ed60170&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/bg-JWvnx4vQtv3dmoRPaPEYHxTTUuE-9SQf0jCl-263G4sKuNOvUuDKQ3uWzP_ZR77DAe2i9PnqsTWl9X8ph1w0701Is5dmh-xiIOw55pxc1SHBxahF1Kd-BSdjewPu9X2CFiVumg8cCj1NloQbDaHClgVPB9Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/430486707.jpg"
+        }
+      ],
+      "overall_rating": 3.4,
+      "reviews": 8,
+      "location_rating": 3.6,
+      "amenities": [
+        "Air conditioning",
+        "Kid-friendly",
+        "Ironing board",
+        "Kitchen",
+        "Cable TV",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 11",
+        "24 bedrooms",
+        "7 bathrooms",
+        "11 beds"
+      ]
+    }
+  ],
+  "serpapi_context": {
+    "search_metadata": {
+      "id": "68dec12713258343c0301e10",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/876df9da96991602/68dec12713258343c0301e10.json",
+      "created_at": "2025-10-02T18:15:03.943Z",
+      "processed_at": "2025-10-02T18:15:03.945Z",
+      "google_hotels_url": "https://www.google.com/_/TravelFrontendUi/data/batchexecute?rpcids=AtySUc&source-path=/travel/search&hl=en&gl=in&rt=c&soc-app=162&soc-platform=1&soc-device=1",
+      "raw_html_file": "https://serpapi.com/searches/876df9da96991602/68dec12713258343c0301e10.html",
+      "prettify_html_file": "https://serpapi.com/searches/876df9da96991602/68dec12713258343c0301e10.prettify",
+      "total_time_taken": {
+        "float": 1.989201307296753
+      }
+    },
+    "search_parameters": {
+      "engine": "google_hotels",
+      "q": "hotels near Hyatt Mumbai",
+      "gl": "in",
+      "hl": "en",
+      "currency": "INR",
+      "check_in_date": "2025-10-21T09:00:00+05:30",
+      "check_out_date": "2025-10-22T09:00:00+05:30",
+      "adults": 1,
+      "children": 0
+    },
+    "search_information": {
+      "total_results": 1453
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "cheapest": {
+    "mode": "flight",
+    "src": "IDR",
+    "dst": "DEL",
+    "depart": "2025-10-28 10:05",
+    "arrive": "2025-10-28 11:45",
+    "duration_hours": 1.7,
+    "price_inr": 3948.0,
+    "ref": "",
+    "provider": {
+      "name": "SerpAPI GoogleFlights"
+    },
+    "booking_link": "https://www.makemytrip.com/flight/search?itinerary=IDR-DEL-28/10/2025&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E"
+  },
+  "fastest": {
+    "mode": "flight",
+    "src": "IDR",
+    "dst": "DEL",
+    "depart": "2025-10-28 07:40",
+    "arrive": "2025-10-28 09:10",
+    "duration_hours": 1.5,
+    "price_inr": 5796.0,
+    "ref": "",
+    "provider": {
+      "name": "SerpAPI GoogleFlights"
+    },
+    "booking_link": "https://www.makemytrip.com/flight/search?itinerary=IDR-DEL-28/10/2025&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E"
+  },
+  "value": {
+    "mode": "flight",
+    "src": "IDR",
+    "dst": "DEL",
+    "depart": "2025-10-28 10:05",
+    "arrive": "2025-10-28 11:45",
+    "duration_hours": 1.7,
+    "price_inr": 3948.0,
+    "ref": "",
+    "provider": {
+      "name": "SerpAPI GoogleFlights"
+    },
+    "booking_link": "https://www.makemytrip.com/flight/search?itinerary=IDR-DEL-28/10/2025&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E"
+  },
+  "hotels_top5": [
+    {
+      "name": "The Leela Palace, New Delhi",
+      "price_inr": 36108.0,
+      "distance_km": null,
+      "rating": 4.6,
+      "city": "New Delhi",
+      "near": "The Leela Palace",
+      "checkin": "2025-10-29T10:00:00+05:30",
+      "checkout": "2025-10-30T10:00:00+05:30",
+      "ref": "ChoI96_Lrs_A_M6jARoNL2cvMTFiYzc0NXpfNRAB",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.theleela.com/the-leela-palace-new-delhi/?utm_source=GMBlisting&utm_medium=organic"
+      }
+    },
+    {
+      "name": "jaypee",
+      "price_inr": 9023.0,
+      "distance_km": null,
+      "rating": 4.1,
+      "city": "New Delhi",
+      "near": "The Leela Palace",
+      "checkin": "2025-10-29T10:00:00+05:30",
+      "checkout": "2025-10-30T10:00:00+05:30",
+      "ref": "ChkItbDQjce68Oc9Gg0vZy8xMXkxZ2IzOTI4EAE",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": null
+      }
+    },
+    {
+      "name": "Ginger Chanakyapuri",
+      "price_inr": 11787.0,
+      "distance_km": null,
+      "rating": 4.4,
+      "city": "New Delhi",
+      "near": "The Leela Palace",
+      "checkin": "2025-10-29T10:00:00+05:30",
+      "checkout": "2025-10-30T10:00:00+05:30",
+      "ref": "ChkItNuNwtyJsbZKGg0vZy8xMXdoeDZwMWJwEAE",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.gingerhotels.com/hotels/ginger-delhi-chanakyapuri?utm_source=google&utm_medium=hotelgmb&utm_campaign=chanakyapuri_gmb"
+      }
+    },
+    {
+      "name": "Iris Park Hotel",
+      "price_inr": 5355.0,
+      "distance_km": null,
+      "rating": 3.9,
+      "city": "New Delhi",
+      "near": "The Leela Palace",
+      "checkin": "2025-10-29T10:00:00+05:30",
+      "checkout": "2025-10-30T10:00:00+05:30",
+      "ref": "ChcIjtXmnMmyr59YGgsvZy8xdnE5a25yNRAB",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.irisparkhotels.com/"
+      }
+    },
+    {
+      "name": "Sky Bloom Luxury Homestay",
+      "price_inr": 3472.0,
+      "distance_km": null,
+      "rating": 4.9,
+      "city": "New Delhi",
+      "near": "The Leela Palace",
+      "checkin": "2025-10-29T10:00:00+05:30",
+      "checkout": "2025-10-30T10:00:00+05:30",
+      "ref": "ChkIou3j66aRjOsiGg0vZy8xMXd0dndkZmo4EAE",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://skybloomhotels.com/"
+      }
+    }
+  ],
+  "hotel_value": {
+    "name": "The South Manor",
+    "price_inr": 2625.0,
+    "distance_km": null,
+    "rating": 4.5,
+    "city": "New Delhi",
+    "near": "The Leela Palace",
+    "checkin": "2025-10-29T10:00:00+05:30",
+    "checkout": "2025-10-30T10:00:00+05:30",
+    "ref": "ChoIuJb4q936pbaAARoNL2cvMTF4MHlqNzVrOBAB",
+    "provider": {
+      "name": "SerpAPI GoogleHotels",
+      "link": null
+    }
+  },
+  "hotel_cheapest": {
+    "name": "The South Manor",
+    "price_inr": 2625.0,
+    "distance_km": null,
+    "rating": 4.5,
+    "city": "New Delhi",
+    "near": "The Leela Palace",
+    "checkin": "2025-10-29T10:00:00+05:30",
+    "checkout": "2025-10-30T10:00:00+05:30",
+    "ref": "ChoIuJb4q936pbaAARoNL2cvMTF4MHlqNzVrOBAB",
+    "provider": {
+      "name": "SerpAPI GoogleHotels",
+      "link": null
+    }
+  },
+  "debug": [
+    "IATA resolved: Indore → IDR (as Indore)",
+    "IATA resolved: New Delhi → DEL (as New Delhi)",
+    "Flights: 13 options on 2025-10-28.",
+    "Trains: 1 options.",
+    "Buses: 2 options.",
+    "Hotels: 18 options.",
+    "LLM itinerary generated (2343 chars)."
+  ],
+  "iata": {
+    "from": "IDR",
+    "to": "DEL"
+  },
+  "base_city": "Indore",
+  "destination_city": "New Delhi"
+}

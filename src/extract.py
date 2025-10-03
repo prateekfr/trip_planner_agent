@@ -16,7 +16,7 @@ MAX_TEXT_CHARS = int(os.getenv("MAX_BODY_CHARS", "8000"))
 LOCAL_TZ_NAME = os.getenv("TIMEZONE", "Asia/Kolkata")
 LOCAL_TZ = dateutil_tz.gettz(LOCAL_TZ_NAME) or dateutil_tz.gettz("Asia/Kolkata")
 DEPARTURE_BUFFER_HOURS = float(os.getenv("DEPARTURE_BUFFER_HOURS", "12"))   # earliest_departure = start - 12h
-ARRIVAL_BUFFER_HOURS   = float(os.getenv("ARRIVAL_BUFFER_HOURS", "3"))      # latest_arrival   = start - 3h
+ARRIVAL_BUFFER_HOURS   = float(os.getenv("ARRIVAL_BUFFER_HOURS", "2"))      # latest_arrival   = start - 3h
 RETURN_BUFFER_HOURS    = float(os.getenv("RETURN_BUFFER_HOURS", "7"))       # latest_return    = start + 7h
 
 _LLM_SYSTEM = (

@@ -1,4 +1,3 @@
-# providers/train_server.py
 from __future__ import annotations
 import json, os, re, sys, math
 from datetime import datetime, timedelta
@@ -24,9 +23,87 @@ DATA_ROOT = Path(os.getenv("DATA_ROOT", "./data")).resolve()
 TRAIN_DIR = (DATA_ROOT / "trains"); TRAIN_DIR.mkdir(parents=True, exist_ok=True)
 REQ_TIMEOUT = 35
 
-RE_RUPEES = re.compile(r"(?:₹|INR)\s*([0-9][0-9,]*)", re.IGNORECASE)
-RE_HOURS  = re.compile(r"\b(\d{1,2}(?:\.\d{1,2})?)\s*(?:hrs?|hours?)\b", re.IGNORECASE)
-RE_HH_MM  = re.compile(r"\b(\d{1,2})\s*[:h]\s*(\d{2})\b")
+# ------------------ Nominatim geocoding (no hardcoded coords) -----------------
+NOMINATIM_URL = os.getenv("NOMINATIM_URL", "https://nominatim.openstreetmap.org/search")
+GEOCODER_UA   = os.getenv("GEOCODER_UA", "train-assistant/1.0 (set GEOCODER_UA with your contact)")
+GEO_CACHE_PATH = DATA_ROOT / "geo_cache_trains.json"
+try:
+    _GEO_CACHE: Dict[str, Dict[str, float]] = json.loads(GEO_CACHE_PATH.read_text("utf-8"))
+    if not isinstance(_GEO_CACHE, dict):
+        _GEO_CACHE = {}
+except Exception:
+    _GEO_CACHE = {}
+
+def _geo_cache_get(name: str) -> Optional[tuple[float, float]]:
+    key = (name or "").strip().lower()
+    rec = _GEO_CACHE.get(key)
+    if isinstance(rec, dict) and "lat" in rec and "lon" in rec:
+        try:
+            return float(rec["lat"]), float(rec["lon"])
+        except Exception:
+            return None
+    return None
+
+def _geo_cache_put(name: str, lat: float, lon: float) -> None:
+    key = (name or "").strip().lower()
+    _GEO_CACHE[key] = {"lat": float(lat), "lon": float(lon)}
+    try:
+        GEO_CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+        GEO_CACHE_PATH.write_text(json.dumps(_GEO_CACHE, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception:
+        pass
+
+def _geocode_city(name: str) -> Optional[tuple[float, float]]:
+    if not name:
+        return None
+    cached = _geo_cache_get(name)
+    if cached:
+        return cached
+    try:
+        params = {
+            "q": name,
+            "format": "json",
+            "limit": 1,
+        }
+        headers = {"User-Agent": GEOCODER_UA, "Accept-Language": "en"}
+        r = requests.get(NOMINATIM_URL, params=params, headers=headers, timeout=REQ_TIMEOUT)
+        r.raise_for_status()
+        data = r.json()
+        if isinstance(data, list) and data:
+            item = data[0]
+            lat = float(item.get("lat"))
+            lon = float(item.get("lon"))
+            _geo_cache_put(name, lat, lon)
+            return (lat, lon)
+    except Exception:
+        pass
+    return None
+
+def _haversine_km(a: tuple[float,float], b: tuple[float,float]) -> float:
+    R = 6371.0
+    lat1, lon1 = math.radians(a[0]), math.radians(a[1])
+    lat2, lon2 = math.radians(b[0]), math.radians(b[1])
+    dlat, dlon = lat2 - lat1, lon2 - lon1
+    h = math.sin(dlat/2)**2 + math.cos(lat1)*math.cos(lat2)*math.sin(dlon/2)**2
+    return 2 * R * math.asin(math.sqrt(h))
+
+def _city_km(src: str, dst: str) -> Optional[float]:
+    s = _geocode_city(src)
+    d = _geocode_city(dst)
+    if not s or not d: return None
+    return _haversine_km(s, d)
+
+# ------------------ Regex (hardened) ------------------------------------------
+RE_RUPEES       = re.compile(r"(?:₹|INR|Rs\.?)\s*([0-9][0-9,]*)", re.IGNORECASE)
+RE_RUPEES_RANGE = re.compile(r"(?:₹|INR|Rs\.?)\s*([0-9][0-9,]*)\s*[-–]\s*(?:₹|INR|Rs\.?)\s*([0-9][0-9,]*)", re.IGNORECASE)
+RE_RUPEES_K     = re.compile(r"(?:₹|INR|Rs\.?)\s*([0-9]+(?:\.[0-9]+)?)\s*[kK]\b", re.IGNORECASE)
+
+RE_H_M       = re.compile(r"\b(\d{1,2})\s*h(?:ours?)?\s*(\d{1,2})\s*m(?:in(?:s)?)?\b", re.IGNORECASE)
+RE_HRS_MINS  = re.compile(r"\b(\d{1,2})\s*hrs?\s*(\d{1,2})\s*mins?\b", re.IGNORECASE)
+RE_HH_MM     = re.compile(r"\b(\d{1,2})\s*[:h]\s*(\d{2})\b")
+RE_HOURS     = re.compile(r"\b(\d{1,2}(?:\.\d{1,2})?)\s*(?:hrs?|hours?)\b", re.IGNORECASE)
+RE_RANGE_H   = re.compile(r"\b(\d{1,2})\s*[-–]\s*\d{1,2}\s*(?:hrs?|hours?)\b", re.IGNORECASE)
+RE_MIN_ONLY  = re.compile(r"\b(\d{2,3})\s*(?:m|min|mins|minute|minutes)\b", re.IGNORECASE)
 
 def _safe(s: str | None) -> str:
     if not s: return ""
@@ -55,20 +132,54 @@ def _to_int(s: Optional[str]) -> Optional[int]:
     except Exception: return None
 
 def _parse_price(text: str) -> Optional[int]:
-    m = RE_RUPEES.search(text or "")
-    return _to_int(m.group(1)) if m else None
+    t = text or ""
+    mr = RE_RUPEES_RANGE.search(t)
+    if mr:
+        lo = _to_int(mr.group(1))
+        if lo: return lo
+    mk = RE_RUPEES_K.search(t)
+    if mk:
+        try:
+            return int(round(float(mk.group(1)) * 1000))
+        except Exception:
+            pass
+    m = RE_RUPEES.search(t)
+    if m:
+        return _to_int(m.group(1))
+    return None
 
 def _parse_duration(text: str) -> Optional[float]:
     t = text or ""
-    m = RE_HOURS.search(t)
+    for rx in (RE_H_M, RE_HRS_MINS):
+        m = rx.search(t)
+        if m:
+            try:
+                h = int(m.group(1)); mm = int(m.group(2))
+                return round(h + mm/60.0, 2)
+            except Exception:
+                pass
+    m = RE_HH_MM.search(t)
     if m:
-        try: return float(m.group(1))
-        except Exception: pass
-    m2 = RE_HH_MM.search(t)
-    if m2:
         try:
-            h = int(m2.group(1)); mm = int(m2.group(2))
-            return round(h + mm/60.0, 2)
+            return round(int(m.group(1)) + int(m.group(2))/60.0, 2)
+        except Exception:
+            pass
+    mr = RE_RANGE_H.search(t)
+    if mr:
+        try:
+            return float(mr.group(1))
+        except Exception:
+            pass
+    mh = RE_HOURS.search(t)
+    if mh:
+        try:
+            return float(mh.group(1))
+        except Exception:
+            pass
+    mm = RE_MIN_ONLY.search(t)
+    if mm:
+        try:
+            return round(int(mm.group(1)) / 60.0, 2)
         except Exception:
             pass
     return None
@@ -79,30 +190,50 @@ def _serpapi_search(q: str, gl="in", hl="en", num=20) -> Dict[str, Any]:
     r.raise_for_status()
     return r.json()
 
-_COORDS = {
-    "indore": (22.7196, 75.8577), "bengaluru": (12.9716, 77.5946), "bangalore": (12.9716, 77.5946),
-    "mumbai": (19.0760, 72.8777), "delhi": (28.6139, 77.2090), "pune": (18.5204, 73.8567),
-    "hyderabad": (17.3850, 78.4867), "chennai": (13.0827, 80.2707), "ahmedabad": (23.0225, 72.5714),
-    "jaipur": (26.9124, 75.7873), "lucknow": (26.8467, 80.9462), "kolkata": (22.5726, 88.3639),
-    "goa": (15.2993, 74.1240), "surat": (21.1702, 72.8311), "nagpur": (21.1458, 79.0882),
-    "kochi": (9.9312, 76.2673), "coimbatore": (11.0168, 76.9558), "bhopal": (23.2599, 77.4126),
-    "noida": (28.5355, 77.3910), "gurgaon": (28.4595, 77.0266), "gurugram": (28.4595, 77.0266),
-}
+# ------------------ Structured API (optional fast path from the repo idea) ----
+RAIL_API_URL = os.getenv("RAIL_API_URL", "https://railwayapi.amithv.xyz")
+RAIL_API_KEY = os.getenv("RAIL_API_KEY")  # if absent, we skip structured path
 
-def _haversine_km(a: tuple[float,float], b: tuple[float,float]) -> float:
-    R = 6371.0
-    lat1, lon1 = math.radians(a[0]), math.radians(a[1])
-    lat2, lon2 = math.radians(b[0]), math.radians(b[1])
-    dlat, dlon = lat2 - lat1, lon2 - lon1
-    h = math.sin(dlat/2)**2 + math.cos(lat1)*math.cos(lat2)*math.sin(dlon/2)**2
-    return 2 * R * math.asin(math.sqrt(h))
+def _rail_post(path: str, payload: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    if not RAIL_API_KEY:
+        return None
+    try:
+        r = requests.post(
+            f"{RAIL_API_URL}{path}",
+            json=payload,
+            headers={"Content-Type": "application/json", "X-API-KEY": RAIL_API_KEY},
+            timeout=REQ_TIMEOUT,
+        )
+        r.raise_for_status()
+        return r.json()
+    except Exception:
+        return None
 
-def _city_km(src: str, dst: str) -> Optional[float]:
-    s = _COORDS.get((src or "").strip().lower())
-    d = _COORDS.get((dst or "").strip().lower())
-    if not s or not d: return None
-    return _haversine_km(s, d)
+def _parse_date_yyyy_mm_dd(date_str: Optional[str]) -> datetime:
+    # Accept "YYYY-MM-DD" else use UTC today
+    if date_str:
+        try:
+            return datetime.fromisoformat(date_str)
+        except Exception:
+            pass
+    return datetime.utcnow()
 
+def _compose_iso(date_dt: datetime, time_hh_mm: Optional[str]) -> str:
+    try:
+        hh, mm = (time_hh_mm or "09:00").split(":")[:2]
+        dt = datetime(year=date_dt.year, month=date_dt.month, day=date_dt.day,
+                      hour=int(hh), minute=int(mm))
+        return dt.isoformat()
+    except Exception:
+        return date_dt.replace(hour=9, minute=0).isoformat()
+
+def _add_hours_iso(depart_iso: str, hours: float) -> str:
+    try:
+        dt = datetime.fromisoformat(depart_iso)
+        return (dt + timedelta(hours=float(hours))).isoformat()
+    except Exception:
+        return depart_iso
+    
 TRAIN_PREFER = (
     "ixigo.com/trains", "trainman.in", "confirmtkt.com",
     "railyatri.in", "etrain.info", "yatra.com/trains", "paytm.com/train-tickets", "irctc.co.in"
@@ -119,6 +250,7 @@ def _extract_from_item(item: Dict[str, Any]) -> Dict[str, Optional[Any]]:
     snippet = item.get("snippet") or ""
     if isinstance(snippet, list): snippet = " ".join(snippet)
     text = f"{title} {snippet}"
+
     dur = _parse_duration(text)
     price = _parse_price(text)
 
@@ -127,9 +259,11 @@ def _extract_from_item(item: Dict[str, Any]) -> Dict[str, Optional[Any]]:
         links = sl.get("links") if isinstance(sl, dict) else sl
         if isinstance(links, list):
             for s in links:
-                desc = s.get("snippet") or s.get("desc") or ""
-                if not dur:   dur = _parse_duration(desc)
-                if not price: price = _parse_price(desc)
+                desc = s.get("snippet") or s.get("desc") or s.get("title") or ""
+                if not dur:
+                    d2 = _parse_duration(desc);  dur = d2 if d2 else dur
+                if not price:
+                    p2 = _parse_price(desc);     price = p2 if p2 else price
 
     rs = item.get("rich_snippet") or {}
     if isinstance(rs, dict):
@@ -138,17 +272,29 @@ def _extract_from_item(item: Dict[str, Any]) -> Dict[str, Optional[Any]]:
             exts = top.get("extensions") or []
             if isinstance(exts, list):
                 joined = " ".join(map(str, exts))
-                if not price: price = _parse_price(joined)
+                if not price:
+                    p3 = _parse_price(joined);   price = p3 if p3 else price
+                if not dur:
+                    d3 = _parse_duration(joined); dur = d3 if d3 else dur
 
     return {"url": url, "dur": dur, "price": price, "preferred": _looks_preferred(url)}
 
+def _estimate_train_duration(dist_km: Optional[float]) -> float:
+    if not dist_km:
+        return 18.0
+    avg_speed = 70.0 if dist_km >= 300 else 58.0
+    est = dist_km / avg_speed
+    buf = 0.5 if dist_km < 200 else (1.0 if dist_km < 600 else 1.5)
+    return round(max(3.0, min(55.0, est + buf)), 2)
+
 def _valid_train_duration(hours: Optional[float], dist_km: Optional[float]) -> bool:
-    if hours is None: return False
-    if hours < 6.0 or hours > 60.0: return False
+    if hours is None:
+        return False
     if dist_km:
-        if hours < (dist_km / 100.0 - 1.0):  # reject impossible fast
+        avg = dist_km / max(hours, 0.1)
+        if dist_km >= 300 and (avg > 110 or avg < 25):
             return False
-    return True
+    return 3.0 <= hours <= 60.0
 
 def _build_options(
     organic: List[Dict[str, Any]],
@@ -166,17 +312,18 @@ def _build_options(
         u, dur, price, pref = parsed["url"], parsed["dur"], parsed["price"], parsed["preferred"]
         if not u:
             continue
+        if dur is None:
+            dur = _estimate_train_duration(dist_km)
         items.append({"url": u, "dur": dur, "price": price, "preferred": pref})
 
-    items.sort(key=lambda z: (not z["preferred"], z["dur"] is None))
+    items.sort(key=lambda z: (not z["preferred"], z["dur"] is None, z["price"] is None, z.get("price", 1e9)))
 
     options: List[Dict[str, Any]] = []
     kept = 0
     for i, z in enumerate(items, 1):
         dur = z["dur"]
-        if dur is None and dist_km is not None:
-            dur = max(6.0, min(48.0, round(dist_km / 70.0, 1)))
         if not _valid_train_duration(dur, dist_km):
+            debug.append(f"drop_invalid_dur:{dur} url:{z['url']}")
             continue
         depart = base_dep + timedelta(hours=3*(kept))
         arrive = depart + timedelta(hours=dur or 18.0)
@@ -208,14 +355,13 @@ def search_trains(
     max_results: int = 12,
 ) -> str:
     """
-    Multi-pass Google search via SerpAPI; rich parsing + strong fallback.
+    Multi-pass Google search via SerpAPI; structured-data fast path if configured.
     Writes debug trail in the snapshot.
     """
     debug: List[str] = []
     try:
         if not SERPAPI_KEY:
             return json.dumps({"error": "Missing SERPAPI_KEY"})
-
         try:
             base_dep = datetime.fromisoformat(earliest_departure) if earliest_departure else None
         except Exception:
@@ -230,6 +376,55 @@ def search_trains(
             la = None
 
         dist_km = _city_km(src_city, dst_city)
+
+        if RAIL_API_KEY:
+            dt = _parse_date_yyyy_mm_dd(travel_date)
+            body = {"from_station": src_city, "to_station": dst_city}
+            body["date"] = dt.strftime("%Y%m%d")
+
+            data = _rail_post("/search-trains", body)
+            if data and isinstance(data.get("trains"), list):
+                options: List[Dict[str, Any]] = []
+                for i, t in enumerate(data["trains"], 1):
+                    dep_t = t.get("departureTime") or "09:00"
+                    dur_txt = t.get("duration") or ""
+                    dur_h  = _parse_duration(dur_txt) or _estimate_train_duration(dist_km)
+                    depart_iso = _compose_iso(dt, dep_t)
+                    arrive_iso = _add_hours_iso(depart_iso, dur_h)
+
+                    options.append({
+                        "mode": "train",
+                        "src": src_city, "dst": dst_city,
+                        "depart": depart_iso,
+                        "arrive": arrive_iso,
+                        "duration_hours": float(dur_h),
+                        "price_inr": None, 
+                        "ref": f"T{i:02d}",
+                        "provider": {
+                            "name": "IndianRail API",
+                            "link": f"https://www.ixigo.com/trains/{_slug(src_city)}-to-{_slug(dst_city)}",
+                        },
+                    })
+                    if len(options) >= max_results:
+                        break
+
+                sid = _search_id(src_city, dst_city, travel_date)
+                snapshot = {
+                    "search_metadata": {
+                        "search_id": sid,
+                        "src": src_city, "dst": dst_city,
+                        "travel_date": travel_date,
+                        "earliest_departure": earliest_departure,
+                        "latest_arrival": latest_arrival,
+                        "timestamp_utc": datetime.utcnow().isoformat(),
+                        "query_primary": "structured_api",
+                        "distance_km": dist_km,
+                    },
+                    "options": options,
+                    "debug": ["used_structured_api"],
+                }
+                _save_json(TRAIN_DIR, sid, snapshot)
+                return json.dumps({"search_id": sid, "count": len(options)})
 
         q1 = (f"{src_city} to {dst_city} trains time table fare duration "
               f"site:ixigo.com/trains OR site:trainman.in OR site:confirmtkt.com OR site:railyatri.in OR "
@@ -255,20 +450,19 @@ def search_trains(
             options = _build_options(organic1, src_city, dst_city, base_dep, None, dist_km, 2, debug)
 
         if not options:
-            est_h = 20.0
-            if dist_km: est_h = max(8.0, min(48.0, round(dist_km / 70.0, 1)))
-            est_price = int(max(200, min(3500, round((dist_km or 800) * 0.7))))
+            est_h = _estimate_train_duration(dist_km)
+            est_price = int(max(150, min(5000, round((dist_km or 800) * 0.9))))
             ixigo_url = f"https://www.ixigo.com/trains/{_slug(src_city)}-to-{_slug(dst_city)}"
             for j in range(1, 3+1):
                 d = base_dep + timedelta(hours=3*(j-1))
-                a = d + timedelta(hours=est_h + (j-1))
+                a = d + timedelta(hours=est_h + (j-1)*0.75)
                 if la and a > la: continue
                 options.append({
                     "mode": "train",
                     "src": src_city, "dst": dst_city,
                     "depart": d.isoformat(),
                     "arrive": a.isoformat(),
-                    "duration_hours": float(est_h + (j-1)),
+                    "duration_hours": float(est_h + (j-1)*0.75),
                     "price_inr": est_price,
                     "ref": f"T_FALLBACK_{j}",
                     "provider": {"name": "SerpAPI GoogleSearch", "link": ixigo_url},
@@ -336,4 +530,3 @@ def list_train_searches() -> str:
 
 if __name__ == "__main__":
     mcp.run(transport="stdio")
-

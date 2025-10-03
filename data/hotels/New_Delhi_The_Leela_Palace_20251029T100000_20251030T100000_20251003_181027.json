@@ -1,0 +1,3521 @@
+{
+  "search_metadata": {
+    "search_id": "New_Delhi_The_Leela_Palace_20251029T100000_20251030T100000_20251003_181027",
+    "city": "New Delhi",
+    "near": "The Leela Palace",
+    "checkin": "2025-10-29T10:00:00+05:30",
+    "checkout": "2025-10-30T10:00:00+05:30",
+    "adults": 1,
+    "children": 0,
+    "children_ages": null,
+    "currency": "INR",
+    "gl": "in",
+    "hl": "en",
+    "query": "hotels near The Leela Palace New Delhi",
+    "filters": {
+      "sort_by": null,
+      "hotel_class": null,
+      "amenities": null,
+      "property_types": null,
+      "brands": null,
+      "free_cancellation": false,
+      "special_offers": false,
+      "vacation_rentals": false,
+      "bedrooms": null
+    },
+    "timestamp_utc": "2025-10-03T18:10:27.541570"
+  },
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "The Leela Palace, New Delhi",
+      "description": "High-end hotel featuring a cafe, a spa & a rooftop infinity pool, plus 4 restaurants & free Wi-Fi.",
+      "link": "https://www.theleela.com/the-leela-palace-new-delhi/?utm_source=GMBlisting&utm_medium=organic",
+      "property_token": "ChoI96_Lrs_A_M6jARoNL2cvMTFiYzc0NXpfNRAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoI96_Lrs_A_M6jARoNL2cvMTFiYzc0NXpfNRAB&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.579866199999998,
+        "longitude": 77.18933059999999
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹36,108",
+        "extracted_lowest": 36108,
+        "before_taxes_fees": "₹30,600",
+        "extracted_before_taxes_fees": 30600
+      },
+      "total_rate": {
+        "lowest": "₹36,108",
+        "extracted_lowest": 36108,
+        "before_taxes_fees": "₹30,600",
+        "extracted_before_taxes_fees": 30600
+      },
+      "nearby_places": [
+        {
+          "name": "Dilli Haat - INA",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "M Block Sarojini Nagar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "22 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "43 min"
+            }
+          ]
+        },
+        {
+          "name": "The Qube",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNWtGI-mHhuiaEGEjv0RyBBJI9kteedg7CYDrVw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNWtGI-mHhuiaEGEjv0RyBBJI9kteedg7CYDrVw=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/09guxouPGjFxotalApP8CwCnj3XIg5tb41TnTU1HjBeSPqs_1TbLNnIl8EPJl1MqbyL1xEkpTS0SxM52SpvBUq1Nyw0SbRS8MdaS4AXmxfiuL4CUsjljYdXZudRXzXarHaki2HQlWR1yez7jskYZqi8VLZKhCQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://i.giatamedia.com/m.php?m=AQABAAAAla4KAEgITAQFAF6mwPJi12kX827bfnFlHCQ"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/Uw8sDN5ihhyJlr511h3xMZ-PJ8oMxLgJNJqVdp62kTces00r6jfAZdrgX58vS7jSTNSM84wSFv-fcSbgXBXOwwOjAxu9b2nIlYB6DMr0ODmW7BALn5Fo4WPJv82LtXJlytNChO7NYTAJVdDYNRNETFsfSaa4G5g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/4000000/3860000/3851700/3851663/591a48fe_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noO2xhAPI25C8-JxtQoZHB69ihH5Xpj65fSO-LSQWIx99zkq_2-yIjoOvbyf2HvqHUP5mZOgkFasi-xrPVIcFohWjc2R0FlUeIOQPypzYXVfT6JpkY6KerkKjOkjYXOYChSftuu=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDq9_rLcA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npOk76A92bX9xhwekx3AKYyPK7GCHadVgqpqpQ8WG8vqg1Vzvify7LB71LQEQEkdepOBeH0hFOnrJQ8SXORFNr5O0Ih7OfP8KqLs7qyfeTkJYKdv6WI8WXn2uSZDhxaSqZr=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDhn6tM=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no1u__DX37yrk09YLzEMvMOTblrU1-R-qxXeQjf2zYvuP78KTkxotr-_s_eKuUBoHSjDIHphMot6bEUh7j0LTtelxIUzfF-C8DlDCbsfi37P5P_FTJ5ugFccEv2QmUPliyZ_zUxrw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDhpczPvwE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqcXLaGXZhVO1Fk3hma--pmBJlaTV-46U6QLqbIBavBHsRWjCOx3rhUE4SMf1f6NfGwOHUmh2MQyta3JEpMuD2Ar-KHioJvmfmVIFFaTSRjAUCrMR065ckrkuvReCrNPUmKRenx1Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDB-r2_qQE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np1e62_QM4IWS5iM_RphaFieid7MqI0vdMbT2zXj7oidvGoGl1o5iV0lH0ICevGl6EKn5DSEXvcoLu0vcc-wGwUzufAvzHWtWsPwxMEZ6Ne4T46h7Ja0KAp7srFfDUzM0nLDCGP=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDR_8iRGA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nquP-aKmMsvMibsufbzo90JlrnxN5rBaUpgyTo3YxP4UkIUh-HlJnqEhJG93okK1UjwMg8Zf_-_rAd6XrCnWu109zolSPx0u1Z0DzI9pFD604to86jGDd_D0ZAWobKzqTH-A8RO=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgID6orDVYA=s10000"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 14452,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 10657
+        },
+        {
+          "stars": 4,
+          "count": 2713
+        },
+        {
+          "stars": 3,
+          "count": 549
+        },
+        {
+          "stars": 2,
+          "count": 166
+        },
+        {
+          "stars": 1,
+          "count": 367
+        }
+      ],
+      "location_rating": 4.0,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 2499,
+          "positive": 2411,
+          "negative": 48,
+          "neutral": 40
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 1516,
+          "positive": 1415,
+          "negative": 81,
+          "neutral": 20
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 842,
+          "positive": 821,
+          "negative": 9,
+          "neutral": 12
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 619,
+          "positive": 535,
+          "negative": 62,
+          "neutral": 22
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 260,
+          "positive": 229,
+          "negative": 19,
+          "neutral": 12
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 139,
+          "positive": 118,
+          "negative": 7,
+          "neutral": 14
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Wi-Fi",
+        "Free parking",
+        "Pool",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Corporate Point",
+      "description": "Unassuming rooms with warm decor & free Wi-Fi in an informal hotel offering a restaurant.",
+      "link": "http://www.hotelcorporatepoint.in/",
+      "property_token": "ChoIysyUpreBp6e8ARoNL2cvMTFiNmRxOHg0XxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoIysyUpreBp6e8ARoNL2cvMTFiNmRxOHg0XxAB&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.567510499999997,
+        "longitude": 77.1897017
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹2,187",
+        "extracted_lowest": 2187,
+        "before_taxes_fees": "₹2,187",
+        "extracted_before_taxes_fees": 2187
+      },
+      "total_rate": {
+        "lowest": "₹2,187",
+        "extracted_lowest": 2187,
+        "before_taxes_fees": "₹2,187",
+        "extracted_before_taxes_fees": 2187
+      },
+      "nearby_places": [
+        {
+          "name": "Dilli Haat - INA",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Bhikaji Cama Place",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "32 min"
+            }
+          ]
+        },
+        {
+          "name": "Amaya - The House Of Curries",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/I6tf90WRATH_YyjWnm-Rinul8tqFc4rSvEvSQ_NVImkfVzG4Cr6cJgejs3AfYdbA4fui60p9ATh8U6-SMAsp4iSnzLOi_R_PiZ_0UdUu38MP9_sAHk8lnNSkhWHKjaLzSv7F1rmEs_Lh-VOcraOFkaOuUIt-JQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/9d/e8/9de80095f6fbcb0e9cda79fd584d01c1ab0029e2.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npDLm9yDihRG69XivPuichdvdUyyYdVDBqSv1gkUJnS5ttQxBvGDwNIF1unrhAKwnYS7DJAWKYhz3GLYWXOeye2mAVtSDCjIT9o_AlnMAPPitm7OZjWH-WMvt9vRkVKY36A5hDF9w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDq6ebZxgE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNyme31GD1SwpPyE4r40G2QQoNJVvQxwn5DT3GV=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNyme31GD1SwpPyE4r40G2QQoNJVvQxwn5DT3GV=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPDvk1K7qaSYcj4u7n1Bo5m5SYHyjTDdgpi0TIv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPDvk1K7qaSYcj4u7n1Bo5m5SYHyjTDdgpi0TIv=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMOGpc4a94UnPt44XMhEapu9pjeApgdPzPcsGL3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMOGpc4a94UnPt44XMhEapu9pjeApgdPzPcsGL3=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM3rhkCTi7T-HUpUMhWQSXZ9A98CA41ce2WOKDU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM3rhkCTi7T-HUpUMhWQSXZ9A98CA41ce2WOKDU=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNQcuSuGbSV-C5gMDAq9Vy308bPzz938D0NS607=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNQcuSuGbSV-C5gMDAq9Vy308bPzz938D0NS607=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOG1uTe9vWWAUMq_zhnHjFffgA6d1ircQ2gbL0Z=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOG1uTe9vWWAUMq_zhnHjFffgA6d1ircQ2gbL0Z=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNV0r1tNCuIwMbMbD1zfuzJo6OmmPctm_dCjC1F=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNV0r1tNCuIwMbMbD1zfuzJo6OmmPctm_dCjC1F=s10000"
+        }
+      ],
+      "overall_rating": 3.7,
+      "reviews": 548,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 244
+        },
+        {
+          "stars": 4,
+          "count": 88
+        },
+        {
+          "stars": 3,
+          "count": 87
+        },
+        {
+          "stars": 2,
+          "count": 39
+        },
+        {
+          "stars": 1,
+          "count": 90
+        }
+      ],
+      "location_rating": 3.6,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 137,
+          "positive": 97,
+          "negative": 36,
+          "neutral": 4
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 115,
+          "positive": 70,
+          "negative": 41,
+          "neutral": 4
+        },
+        {
+          "name": "Parking",
+          "description": "Parking",
+          "total_mentioned": 13,
+          "positive": 8,
+          "negative": 5,
+          "neutral": 0
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 14,
+          "positive": 8,
+          "negative": 4,
+          "neutral": 2
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 37,
+          "positive": 26,
+          "negative": 11,
+          "neutral": 0
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 42,
+          "positive": 16,
+          "negative": 24,
+          "neutral": 2
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "jaypee",
+      "property_token": "ChkItbDQjce68Oc9Gg0vZy8xMXkxZ2IzOTI4EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkItbDQjce68Oc9Gg0vZy8xMXkxZ2IzOTI4EAE&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.5673932,
+        "longitude": 77.1640038
+      },
+      "rate_per_night": {
+        "lowest": "₹9,023",
+        "extracted_lowest": 9023,
+        "before_taxes_fees": "₹9,023",
+        "extracted_before_taxes_fees": 9023
+      },
+      "total_rate": {
+        "lowest": "₹9,023",
+        "extracted_lowest": 9023,
+        "before_taxes_fees": "₹9,023",
+        "extracted_before_taxes_fees": 9023
+      },
+      "nearby_places": [
+        {
+          "name": "Swami Malai Mandir",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "13 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "38 min"
+            }
+          ]
+        },
+        {
+          "name": "AKU's - The Burger Co. | Vasant Vihar",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "overall_rating": 4.1,
+      "reviews": 7,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 5
+        },
+        {
+          "stars": 4,
+          "count": 0
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 2
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 3.3,
+      "amenities": [
+        "Free breakfast",
+        "Wi-Fi",
+        "Pool",
+        "Air conditioning",
+        "Pet-friendly",
+        "Spa",
+        "Restaurant",
+        "Kitchen in some rooms",
+        "Airport shuttle",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Ginger Chanakyapuri",
+      "link": "https://www.gingerhotels.com/hotels/ginger-delhi-chanakyapuri?utm_source=google&utm_medium=hotelgmb&utm_campaign=chanakyapuri_gmb",
+      "property_token": "ChkItNuNwtyJsbZKGg0vZy8xMXdoeDZwMWJwEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkItNuNwtyJsbZKGg0vZy8xMXdoeDZwMWJwEAE&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.584001299999997,
+        "longitude": 77.18729929999999
+      },
+      "check_in_time": "2:00 PM",
+      "rate_per_night": {
+        "lowest": "₹13,097",
+        "extracted_lowest": 13097,
+        "before_taxes_fees": "₹11,099",
+        "extracted_before_taxes_fees": 11099
+      },
+      "total_rate": {
+        "lowest": "₹13,097",
+        "extracted_lowest": 13097,
+        "before_taxes_fees": "₹11,099",
+        "extracted_before_taxes_fees": 11099
+      },
+      "nearby_places": [
+        {
+          "name": "Dilli Haat - INA",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Rail Museum",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "19 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "52 min"
+            }
+          ]
+        },
+        {
+          "name": "The Potbelly Restaurant Bihar Nivas",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOtzhFE1VMk12k0FvkReYLNJmw0ovVMOp0at38R=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOtzhFE1VMk12k0FvkReYLNJmw0ovVMOp0at38R=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMw0RGwnWJAPkPBNtOBoZ4lpyuOpje3SuG0dSOD=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMw0RGwnWJAPkPBNtOBoZ4lpyuOpje3SuG0dSOD=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP9M7nG9ivHXqEb5_FJYJX5xP2-jNCPOaMVxyWJ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP9M7nG9ivHXqEb5_FJYJX5xP2-jNCPOaMVxyWJ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMoJ9wIZ_qUOa0kw5h9zH88lmkDNd4yLg2uQvWP=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMoJ9wIZ_qUOa0kw5h9zH88lmkDNd4yLg2uQvWP=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN_VHdGmcV7c-yBFYs9KbM5EFVvkHIFHaHJETJ3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN_VHdGmcV7c-yBFYs9KbM5EFVvkHIFHaHJETJ3=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMjIz4bWeCfMh1fCt0cLekvgX4WcXpMO7CfbzY-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMjIz4bWeCfMh1fCt0cLekvgX4WcXpMO7CfbzY-=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP_RGbp22WCRaY5vh3rfO34DMWHR-s_aP9cAJ-V=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP_RGbp22WCRaY5vh3rfO34DMWHR-s_aP9cAJ-V=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNS_0nN1erNIHGQvX9w0kqSEzTNPp2OaalmA1tt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNS_0nN1erNIHGQvX9w0kqSEzTNPp2OaalmA1tt=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMbB7f2NnnZ5dsLbQUnSxG42HzXgYWXPm5-5x-n=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMbB7f2NnnZ5dsLbQUnSxG42HzXgYWXPm5-5x-n=s10000"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 177,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 116
+        },
+        {
+          "stars": 4,
+          "count": 43
+        },
+        {
+          "stars": 3,
+          "count": 4
+        },
+        {
+          "stars": 2,
+          "count": 4
+        },
+        {
+          "stars": 1,
+          "count": 10
+        }
+      ],
+      "location_rating": 3.8,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 64,
+          "positive": 50,
+          "negative": 14,
+          "neutral": 0
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 20,
+          "positive": 17,
+          "negative": 1,
+          "neutral": 2
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 27,
+          "positive": 22,
+          "negative": 4,
+          "neutral": 1
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 26,
+          "positive": 17,
+          "negative": 5,
+          "neutral": 4
+        },
+        {
+          "name": "Restaurant",
+          "description": "Restaurant",
+          "total_mentioned": 8,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 3
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 44,
+          "positive": 35,
+          "negative": 7,
+          "neutral": 2
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Wi-Fi",
+        "Parking",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Iris Park Hotel",
+      "description": "Modern rooms in a laid-back venue featuring a 24-hour restaurant & room service.",
+      "link": "https://www.irisparkhotels.com/",
+      "property_token": "ChcIjtXmnMmyr59YGgsvZy8xdnE5a25yNRAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChcIjtXmnMmyr59YGgsvZy8xdnE5a25yNRAB&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.5659912,
+        "longitude": 77.19516639999999
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹5,355",
+        "extracted_lowest": 5355,
+        "before_taxes_fees": "₹4,845",
+        "extracted_before_taxes_fees": 4845
+      },
+      "total_rate": {
+        "lowest": "₹5,355",
+        "extracted_lowest": 5355,
+        "before_taxes_fees": "₹4,845",
+        "extracted_before_taxes_fees": 4845
+      },
+      "nearby_places": [
+        {
+          "name": "Dilli Haat - INA",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Green Field School",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "22 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "57 min"
+            }
+          ]
+        },
+        {
+          "name": "The Categorical Eat-Pham",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/GjHC7LNckvQVYond197GOqgA6fuL6TPA4wvZnlG70i9zhdqqU90vQrJcKd9xMQaNYjM-NnUYFIG1JHeHZkeCotnrLXjft2kdzpfJjexeyrIaRV0JeVkdrOXefWQSZYrY49T1ZNgXf9VpKE7Afom3taWXOXT9sTU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/13/131526/131526a_hb_a_008.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/2Y7Pf1J1P2HVu8LGDPkfna7RjGrZ_8NBlSaNxUG7scTM32jAMVMMAVPnUO5cBSdX3HNMOd0ynK4mtK94om0Kvl052GPnPNX_7bSq6RsbKidZ0ZA2zG5pSBYp8irmEdEFn0j2DdcUPYt_4SE-4rBHVOiiGfJ9dw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/13/131526/131526a_hb_w_010.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPR8SROTyyp_KFhz4qYy7-qKRttTjK00l5k9tPt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPR8SROTyyp_KFhz4qYy7-qKRttTjK00l5k9tPt=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMOSR5CqWsru2CcxQrjl73n5-RY1cZiGI4zZX_8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMOSR5CqWsru2CcxQrjl73n5-RY1cZiGI4zZX_8=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no3aXcLMhJIFsWVaq-93At_tR2owuBQ07HFYGG-QhbDG_NEu5Lu0xHV34THubuC7R44u8oZqt_yetPxVVIdzgUvISZ8s-DjPz6NNofCoDEWOBGGoJ4y2riGwO1l0rg6V7jwW7pl=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDGleDZfQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipObyudr7qrcdmrgBOB2Ek2YxVqt7yYLAVmOJw28=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipObyudr7qrcdmrgBOB2Ek2YxVqt7yYLAVmOJw28=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/mxemAo0z6u55XaVwP0gfCit4kTy-vtnrdm4_2X7oyCGtXqnPbYu9XviNDjifGVvZIwjehgPGdr_O70mGQQO-YghzpwbQu05E54a-mpzdbyY_iye08XMn9f087Va8NQLwh-rIcE6CaauzP7tFj5ylIthIm_esXJA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/13/131526/131526a_hb_a_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/W7UKmo1UYY2MpGlQ93vPKu4TsluqCAvWmvEZ8lUqLE4j4ueJI1z0YKPZk5L90Vp2NDmR_FQ8d5rB15BtfQ5aam2oV9VPB3NpoS599FdegV7WIQZuzOniTNWJKV-MLtJXcg7q7Xaoc5C8SAB2zlYT0Um7JGaJkRk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/5000000/4530000/4520900/4520885/2926466a_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/RFfrQh_HzbF3-akFPEHTt-qhlHR1thC3JZvA6nqHoE24aV8mMII4e-_JJ6f0iV3H3pwBCIVg4-ILLhKUmMfs4t1JAGx4r7PeYzPLlWXfePwqlrPq2fVSPc2_TLmrIIlRu-fpab1jkRpr1INbpxh4_B5OV9AFWg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/22/da/22da06f0f7861e7c0aadebcdc1013b0918c3701a.jpeg"
+        }
+      ],
+      "overall_rating": 3.9,
+      "reviews": 1492,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 621
+        },
+        {
+          "stars": 4,
+          "count": 426
+        },
+        {
+          "stars": 3,
+          "count": 281
+        },
+        {
+          "stars": 2,
+          "count": 66
+        },
+        {
+          "stars": 1,
+          "count": 98
+        }
+      ],
+      "location_rating": 4.0,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 257,
+          "positive": 194,
+          "negative": 44,
+          "neutral": 19
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 170,
+          "positive": 113,
+          "negative": 54,
+          "neutral": 3
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 52,
+          "positive": 28,
+          "negative": 19,
+          "neutral": 5
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 77,
+          "positive": 62,
+          "negative": 6,
+          "neutral": 9
+        },
+        {
+          "name": "Restaurant",
+          "description": "Restaurant",
+          "total_mentioned": 32,
+          "positive": 14,
+          "negative": 13,
+          "neutral": 5
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 22,
+          "positive": 11,
+          "negative": 3,
+          "neutral": 8
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Accessible",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Sky Bloom Luxury Homestay",
+      "link": "https://skybloomhotels.com/",
+      "property_token": "ChkIou3j66aRjOsiGg0vZy8xMXd0dndkZmo4EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkIou3j66aRjOsiGg0vZy8xMXd0dndkZmo4EAE&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.5588518,
+        "longitude": 77.1984535
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹3,486",
+        "extracted_lowest": 3486,
+        "before_taxes_fees": "₹3,486",
+        "extracted_before_taxes_fees": 3486
+      },
+      "total_rate": {
+        "lowest": "₹3,486",
+        "extracted_lowest": 3486,
+        "before_taxes_fees": "₹3,486",
+        "extracted_before_taxes_fees": 3486
+      },
+      "nearby_places": [
+        {
+          "name": "Dilli Haat - INA",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "38 min"
+            }
+          ]
+        },
+        {
+          "name": "Six Degree",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP9oh4WwYo_VMYrHxXZ6UnwAWVaoh_lZagswFbL=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP9oh4WwYo_VMYrHxXZ6UnwAWVaoh_lZagswFbL=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMbQoxk3oG0BwDuq5R44IRIsucPa8W481IGKDOP=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMbQoxk3oG0BwDuq5R44IRIsucPa8W481IGKDOP=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP2qdI3yBWFdSuv69KxiniWAOagBi9rMYmCHDNG=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP2qdI3yBWFdSuv69KxiniWAOagBi9rMYmCHDNG=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPmkX8ebfNhqARKqiLbfwVWsvMCMMLO9O8fjRiD=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPmkX8ebfNhqARKqiLbfwVWsvMCMMLO9O8fjRiD=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipORiA6lh03CTxoZ8oPJJzDijZvCqjyzUWoZLJjP=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipORiA6lh03CTxoZ8oPJJzDijZvCqjyzUWoZLJjP=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNk6FArzBmCqOYPh6L9v9e-zx3kSmB3T0b0ZJ4Y=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNk6FArzBmCqOYPh6L9v9e-zx3kSmB3T0b0ZJ4Y=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMm2XQk0dD_uMxjrd6NKLbzAuXh0P5n2uQZusM0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMm2XQk0dD_uMxjrd6NKLbzAuXh0P5n2uQZusM0=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMExy4bgxNH5UtrXBTz_NaOvWIxAm7apY5Wo1HE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMExy4bgxNH5UtrXBTz_NaOvWIxAm7apY5Wo1HE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP6d2Lq5v8Ie66fzq5z8T7piVcwHEzIvTIVhCD9=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP6d2Lq5v8Ie66fzq5z8T7piVcwHEzIvTIVhCD9=s10000"
+        }
+      ],
+      "overall_rating": 4.9,
+      "reviews": 18,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 17
+        },
+        {
+          "stars": 4,
+          "count": 1
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 5,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Room service",
+        "Kitchen",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Embassy suites chankya puri",
+      "property_token": "ChkI1Yqpj9339a1AGg0vZy8xMWg5Mjd6dzZ5EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkI1Yqpj9339a1AGg0vZy8xMWg5Mjd6dzZ5EAE&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.602831000000002,
+        "longitude": 77.1888828
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹3,229",
+        "extracted_lowest": 3229,
+        "before_taxes_fees": "₹3,033",
+        "extracted_before_taxes_fees": 3033
+      },
+      "total_rate": {
+        "lowest": "₹3,229",
+        "extracted_lowest": 3229,
+        "before_taxes_fees": "₹3,033",
+        "extracted_before_taxes_fees": 3033
+      },
+      "nearby_places": [
+        {
+          "name": "India Gate",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "17 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "35 min"
+            }
+          ]
+        },
+        {
+          "name": "Sana-di-ge Delhi - Seafood Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr4ZLRFF9p9lZmlwDV5lf-LK0Yt-bVJNve4_CqRsM8rQzYuueMI1XkVvxM4QIBh5KyoCeE7ZKg4JpQgK0npsoFlpJzfhXnwGxqiz3VpfFQax1NTwxui4rpdnqsBhkPhxQ2nx_g3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDqifT-TA=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/ug7IB35IZU7idokTauB4Wb7-ygBw60YJ3N29TMjDTLGHwTcYJIigjFHoFPZBz-Tn6Wdg2SiJbX3LlGeElK3B-0CHQgd8um0DlkcASzDfhs6bRr58a9WBEZqCH4rG2H-0h-IjdzyTNWD5FwwOsuBXMDKG0mVbSkw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/2b/81/b2/getlstd-property-photo.jpg?w=1300&h=900&s=1"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/SDYYeeAy-YymCPFNQ23DY1BFz2wKMguHp3_z9x_s96JP3-oUqWXQJMkbL9l45C5Mui8jdyF8DhxlY0fBJ3uu-kGbgkkYTFcVBzzPRQ5bt0cle-e31wxSrJoS_blhl9ub2yzDpMI7Wn-gddMsgvYcKcbXtnf1_KE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/37/c9/37c997b445f80f1796d0e23caa164b98bfa61bb2.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Ft8emtgDmJiuslsKC_jQb270_yZlKOPc162me6jo4-iqf_1Fm2bnMavprItsw2Adr51cjFMJX4tT2xTIGHzOgVnVzaoAI1x3Y5Cm4dsbfCKT4FqSJi2NAesbp1lVFtgoEP-_3Y2z3koU9RdyeE0Hvaa8LC0cYA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/bc/fd/c1/caption.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrV2_XpaOgPP1tAsE8IAmTBT7LkSy5f8SnboYI0skOJWgAGcwgBxSyfLucHyZntPL3dp2brtz3zEcYU9ZBXjz0zHqsCiRvs5IkClD6_bNve-W_fyTynCpZFm3gYI5EpprKzaqV70g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDqifTxwgE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no2NlcTt8dU6W-x85KWH6Wj-uFm8n9Bi5lSZOjFxjhmoK0XXHHCVu9bb-Mllyfw_H3D3zVQTVShvCWev_e2iRIuHQx0Izio5d-Uui9koo6-Zrch0BfFZZdF2yLZB2y-v7gbPFCt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDs1tXnKQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np9Nbcb5B1JdajbaDQNggMQwhso7WgDM0tPjpvdkW5QiOt-kt57lcvHkYsRlMmqXf6xv2J9qvaVrZo2VL0Q2PjqtfnfQLArLdJ8tEW05c9vXcOQsTt-chNP2iHVK2afXqRtR93T=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICt7srffg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrESdq_VHQGgdXNXKSgd1yPGU9JKO__KHw7X9FwCCtirEf82cVhhBbTZLFCPc0mOIqMDtOM0PxCGF2VJvN67poIKWBPasv3gMwlI4ydByG2Byn94sfmGHtYDmnUIID8X2aRocRg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIC3rNSzugE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/14YOh4SJuqjYSDWr43QjKFxX-OR7gH_O3Y8VcdMjVGh_I-0jegbXpy_SdqeuLnQTpUENRkJLnJoNZFOQw2kE4keWcBUZya7kIKCW2rpRRoQcVQ2-IqRrobQFdShrnrl2PDogTM3gInYyQM2tn60PFuY5l_CrqKE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/bc/fd/be/caption.jpg?w=2100&h=1400&s=1"
+        }
+      ],
+      "overall_rating": 3.3,
+      "reviews": 214,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 82
+        },
+        {
+          "stars": 4,
+          "count": 26
+        },
+        {
+          "stars": 3,
+          "count": 37
+        },
+        {
+          "stars": 2,
+          "count": 18
+        },
+        {
+          "stars": 1,
+          "count": 51
+        }
+      ],
+      "location_rating": 4.0,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 50,
+          "positive": 27,
+          "negative": 15,
+          "neutral": 8
+        },
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 24,
+          "positive": 5,
+          "negative": 15,
+          "neutral": 4
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 65,
+          "positive": 35,
+          "negative": 25,
+          "neutral": 5
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 50,
+          "positive": 30,
+          "negative": 19,
+          "neutral": 1
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 14,
+          "positive": 3,
+          "negative": 8,
+          "neutral": 3
+        },
+        {
+          "name": "Safety",
+          "description": "Safety",
+          "total_mentioned": 7,
+          "positive": 4,
+          "negative": 2,
+          "neutral": 1
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Wi-Fi",
+        "Kitchen in some rooms",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "FabHotel Sentinel Suites - Hotel in Safdarjung Enclave, New Delhi",
+      "link": "https://www.fabhotels.com/hotels-in-new-delhi/fabhotel-sentinel-suites-ii.html?utm_source=GMB&utm_medium=organic&utm_campaign=GMB_Traffic",
+      "property_token": "ChkIv86Mhd-a3KFxGg0vZy8xMXNzYmxzeV8xEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkIv86Mhd-a3KFxGg0vZy8xMXNzYmxzeV8xEAE&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.56695,
+        "longitude": 77.1896
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,755",
+        "extracted_lowest": 2755,
+        "before_taxes_fees": "₹2,755",
+        "extracted_before_taxes_fees": 2755
+      },
+      "total_rate": {
+        "lowest": "₹2,755",
+        "extracted_lowest": 2755,
+        "before_taxes_fees": "₹2,755",
+        "extracted_before_taxes_fees": 2755
+      },
+      "nearby_places": [
+        {
+          "name": "Dilli Haat - INA",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Mohammad Pur",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "33 min"
+            }
+          ]
+        },
+        {
+          "name": "Amaya - The House Of Curries",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/xITzeha3GnPVfDOZSy5N3BeEn10uwjMcEsLMPTCAKwVA2DAxWZIRRjddtt6G1EPusAb06Z-9Wd7Pi4PFUDzWARxpGt1gWz9G6WusTQKlsysippP9wDFdD9zcJtgeRJeStgfN-XCjzX-aFsDWoLh9RlkQQacocQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/dd/06/dd06afa12359e7066be68eb35efa7e87493981f1.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/I0XYAji2WsWOtwfRit6V6L8faKzprlMRDzsKDZ5Gnx3VizJRjLcqb23JgjeiPxIJvAAIGrszRFIbwuctH6Z63C5n-nqvDqQ6dLQw1cLi-4MkYrn-8PfRWTYYa3X3UuZw3NA5U1AH6TOkNh6RLfTin3hYbAqb9A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/a2/00/a20005b6424b4b330bdab4625ce20bb05caff6ae.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/yODOba4f8r74jswiUpe-Uox1vd7TROanQ7s-QTCyOeNPY8CLs-a8RUQ9Gs3nwSFuhOxe8a_euPaItVul32bBZALkT4vnaBSlj-EqNFeHjIBwCcA6WQPQ5VaxXHhbIhyMGc0SzaFVbxUqrDA1k_aSV07C_PKIhA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/22/73/22735a8491371cf82fb87d384a3dad773c8675fa.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Ezw9D8dmnGBBOAd57wd8mevkxR686XER1RtLS6UUk5Pig4Hx_fzd7kNvB9yOrFi9-ywlvNYhSaa8NHguz-1HEbXFRlJK8OlhwjpZKnyqBPUHNgkOu70OiqHX3HM1eTuQZvH3JPtBi8axE-T8yGzC5T3ue1MzQmQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/45/54/45543283c74563c681457b0a6055908d5e419aa4.jpeg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/7CMicFMMgwgoYsqA-xb5ezoaI7m0ir3mVU_TtyV5XOeKD24_IaTQrGamnl_GXPODUe16EuTkkOUmWuRfT19Q0HbJlUtrCpZuMBsgeW_rsOKuiCYycouw97asdSpYClyzhmUpTwRilQPAFZslJL6EhBjB9XEN0Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/42/07/4207ed618ca228632a11908471797dc5ec46eeeb.jpeg"
+        },
+        {
+          "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=D06klNx50xn-6xLxmLRxlw&cb_client=search.estubs.gps&w=287&h=192&yaw=171.27344&pitch=0&thumbfov=100&scale=2",
+          "original_image": "https://lh5.googleusercontent.com/p/D06klNx50xn-6xLxmLRxlw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqITposg-zygqFM06t6I4wd9Gz11FPDSGHJ3bcDBGIpMIthGrHJEjZKAIjENjbBeKWoEdj0ugCxFVlffgJiId6NjUbax3o55F1UHcLN0iWrqHhz28ETGIBCWaqgETg0mnS0-QIy=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgMCol9y0bg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nosyJh0OHNDs-7Eb5aAyCLzTXfGgExSrlGI_W8_l5f2WNCf17mPb3AtFbcwlYau_6Pqrr5_HPMGRtVqGlfAbajf6qhzXsR6KN43dq8uRNsFHCTuMgJvlergypcw8rw70jegfuKVx6n9VBms=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhAGrVHC2vnAyvje5Rx6en4o=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrL_41YoyBuyBQI8U8EmGyhCGCjf8PlWeQCzZVjq2ao8CrOwDujgTPpBEsOLQS3OxwHOv-jTC4pQIGVqdfpAV0lPXHvpinpn3AOfgJsQ7_X9IhH6tTbtw4saQHoML_29KxY1KKT-COmbcF4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhCMQFEVC0bkxR8cGkf87RIE=s10000"
+        }
+      ],
+      "overall_rating": 3.3,
+      "reviews": 208,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 96
+        },
+        {
+          "stars": 4,
+          "count": 21
+        },
+        {
+          "stars": 3,
+          "count": 8
+        },
+        {
+          "stars": 2,
+          "count": 11
+        },
+        {
+          "stars": 1,
+          "count": 72
+        }
+      ],
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "Accessibility",
+          "description": "Accessibility",
+          "total_mentioned": 15,
+          "positive": 0,
+          "negative": 15,
+          "neutral": 0
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 75,
+          "positive": 31,
+          "negative": 44,
+          "neutral": 0
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 61,
+          "positive": 31,
+          "negative": 28,
+          "neutral": 2
+        },
+        {
+          "name": "Air Conditioning",
+          "description": "Air conditioning",
+          "total_mentioned": 16,
+          "positive": 1,
+          "negative": 14,
+          "neutral": 1
+        },
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 23,
+          "positive": 2,
+          "negative": 21,
+          "neutral": 0
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 15,
+          "positive": 2,
+          "negative": 13,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "The South Manor",
+      "property_token": "ChoIuJb4q936pbaAARoNL2cvMTF4MHlqNzVrOBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoIuJb4q936pbaAARoNL2cvMTF4MHlqNzVrOBAB&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.5666448,
+        "longitude": 77.1971488
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,625",
+        "extracted_lowest": 2625,
+        "before_taxes_fees": "₹2,500",
+        "extracted_before_taxes_fees": 2500
+      },
+      "total_rate": {
+        "lowest": "₹2,625",
+        "extracted_lowest": 2625,
+        "before_taxes_fees": "₹2,500",
+        "extracted_before_taxes_fees": 2500
+      },
+      "nearby_places": [
+        {
+          "name": "Dilli Haat - INA",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Trauma Center",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "56 min"
+            }
+          ]
+        },
+        {
+          "name": "Rajinder Da Dhaba",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqPme6HD5U0QD8CeTTfbOlLQxFOhdjfme0rZShGJ0g-kyHsjuqRvSqOJWiOcDt1RYgLYO7F4WBm03JVkEru3xVistUDCyuU_iZRlCiQDU6J-D15ru6ar3MvjYGK725plxRJZASJEawlUkRb=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhAGbzzgih_etGfVrioADNr5=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nodjNLuQPINilsGjjL1bhAbvMR1YHW-LFUyGP2IphXvRJJxv7QdPHAP7D4VaHQhiaFwy7DR2VvCNR5L0Wmc8KHln4Vb66tYwKc0maEW1JHzv-B4qIsCnxRqeoYNnvXx6hSrBc3SpA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEL7m7obFxpW5gwE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr1cFwWbQvX3fn7PL7MOmaN2c6InMTiOeo3etm9lYeFG3p21_JPukNoQ-edzI3ldTnl5xUY-Pp2u7TrNhmeQ0l6RYP7uWlKgTX-3zENjBAeG_hEu2l1J83qU-eLJGJhD-68sh6k=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgMDIhKmeCw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrcx_vuMzk38ppzJlFyhjhZFSiW62eppUCi-rK7oXK-IPnjjMbZEGg474AfFb7XGsT79Phwq_2SXtJKZwShRD8hC69ONpv0cWLNEksnMdiFqth63-fd31_0ukH7NLXn67VwDxgO=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgMDIhKmecw=s10000"
+        },
+        {
+          "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=xTSfgX_GRUesZrUodD1zEw&cb_client=search.estubs.gps&w=287&h=192&yaw=202.93817&pitch=0&thumbfov=100&scale=2",
+          "original_image": "https://lh5.googleusercontent.com/p/xTSfgX_GRUesZrUodD1zEw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np8Nfm5-uXrO4XZrRGCXyg4DcP98YxNx1C3HgKCbzxpLiOrgGHULTb9hjC7E3OCzLHT161Fr5FJQ_43HVGpK9eatOIljAUD4Rmaa-0inY5bFDrvNavCA_J3NlxHkAkc-T-7KQP6YA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEK7b7tj2xuj3igE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npEwC3aA5Koe4AnzQ537qwe99k_j_1H45bLK4sAewE0--MG6hQjtdu02ahO-DD1lB2BjhSkvrTiPCJ_Xkw_QiLS5xvTt4RZnPGQmeljSNwdY-e2U-eKoe_Dpjpi6w0HJ1AkrrA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgMDQvdmCOg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrnFKPSFs2tZZiGuwYf4NgrzPqWzehDfZL4eCkNf87lBL6YP8Yv3kLxucV4DapGFFpm9729rcKhtwV49FZ8Q5PER9sO16LPG9crfMLzR3d97SviflZcXau6EN5i2y1pAv-Ik3DTvA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgMDQvdmC2gE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq1X1hlrEAYLgBljDYUFdgh7lET0xstPfO_jCB4o-iUniA0B-EsBGGEnokRdqNhZb8rl1VXrtolH-nssFXWL1fLY1UP8IZbBnA4_DGiXlSO5cBQQUQFI9qow0efSeXdO2ie4hnY_Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgMDIhKmeswE=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 86,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 62
+        },
+        {
+          "stars": 4,
+          "count": 15
+        },
+        {
+          "stars": 3,
+          "count": 4
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 5
+        }
+      ],
+      "location_rating": 4.1,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 31,
+          "positive": 28,
+          "negative": 2,
+          "neutral": 1
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 20,
+          "positive": 19,
+          "negative": 1,
+          "neutral": 0
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 16,
+          "positive": 13,
+          "negative": 0,
+          "neutral": 3
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 33,
+          "positive": 30,
+          "negative": 3,
+          "neutral": 0
+        },
+        {
+          "name": "Safety",
+          "description": "Safety",
+          "total_mentioned": 5,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Family",
+          "description": "Family friendly",
+          "total_mentioned": 5,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 0
+        }
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hyatt Regency Delhi",
+      "description": "Warm rooms & suites in a polished hotel offering 5 restaurants, an outdoor pool & a casual lounge.",
+      "link": "https://www.hyatt.com/hyatt-regency/en-US/delrd-hyatt-regency-delhi?src=corp_lclb_google_seo_delrd&utm_source=google&utm_medium=organic&utm_campaign=lmr",
+      "property_token": "ChYI7ND159XwvYk7GgovbS8wXzg2dzZ2EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChYI7ND159XwvYk7GgovbS8wXzg2dzZ2EAE&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.569412099999997,
+        "longitude": 77.18490280000002
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹21,891",
+        "extracted_lowest": 21891,
+        "before_taxes_fees": "₹17,668",
+        "extracted_before_taxes_fees": 17668
+      },
+      "total_rate": {
+        "lowest": "₹21,891",
+        "extracted_lowest": 21891,
+        "before_taxes_fees": "₹17,668",
+        "extracted_before_taxes_fees": 17668
+      },
+      "nearby_places": [
+        {
+          "name": "National Rail Museum",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Hyatt Hotel (GAIL)",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "19 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "49 min"
+            }
+          ]
+        },
+        {
+          "name": "Only Bar Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPYDU02srj_L54vJBCnpS6KuGPTUGcFvu95BPAz=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPYDU02srj_L54vJBCnpS6KuGPTUGcFvu95BPAz=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO9Vfq7nBS9vrzXgFk7IDbypNcMZ6K15ZnEsK5t=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO9Vfq7nBS9vrzXgFk7IDbypNcMZ6K15ZnEsK5t=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOd7YY51O1iu-j3T8UhGA3a3oaK05mBEDIVBjTK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOd7YY51O1iu-j3T8UhGA3a3oaK05mBEDIVBjTK=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrYBQ6jBDez8zZyvPt7vryKSQ1Mfb3nDT8cl1adxnJzxpoeGTgXVgcH01aum-jfeL8e_gwtO4yLOGPOw4pHqyEF-xqV4T5BcOvZS52GYAZkEEopcUgENGT8i2ANXgg9PbKY81mR0g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDxwqX1vAE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqD-40GfrKuc1HYXvEBT-Wp7oEJ07ue0ZEFYMrXyTeBaSEyU2ZpO9_mRgCLvuAQLaDBjeAH6JemFqotRb329LXEUpL2cSMXioC-PHSj5WLgqRIUX7Q-LrNYiAePqyGbpeGUgSYn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIC-0tjB6QE=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/8RU6w-HyvOvLufguWOsbF-JRRbz_Qpp7MxTtqriyNEJAIJLieTe_Rggskuik24yTKa1KEncPgDNflWDFvjHagIlfL7v_xyVOCtp4XBlLCuses72S-kCFzjfAtCXpwt2ayjQuypR9F9bRvZy_L1gGrIalsCVqvek=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-49814-f62589560_XXLejpg/India/NEW-DELHI/HYATT-REGENCY-DELHI/Photo/HYATT-REGENCY-DELHI-NEW-DELHI-Undefined-Guest-Room.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPAu5kzysuU3qNq9WCHcBSwACyzV9ujTlVbtVEL=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPAu5kzysuU3qNq9WCHcBSwACyzV9ujTlVbtVEL=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMZnuhSnvIiMGdzmN7vHE00WCPdzEW6755keBP7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMZnuhSnvIiMGdzmN7vHE00WCPdzEW6755keBP7=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipODV6raa78169Hz3Yx2rcwzoy21NhKwkDqaYfcw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipODV6raa78169Hz3Yx2rcwzoy21NhKwkDqaYfcw=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 17718,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 11929
+        },
+        {
+          "stars": 4,
+          "count": 3770
+        },
+        {
+          "stars": 3,
+          "count": 1026
+        },
+        {
+          "stars": 2,
+          "count": 315
+        },
+        {
+          "stars": 1,
+          "count": 678
+        }
+      ],
+      "location_rating": 3.5,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 916,
+          "positive": 743,
+          "negative": 121,
+          "neutral": 52
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 2374,
+          "positive": 2100,
+          "negative": 183,
+          "neutral": 91
+        },
+        {
+          "name": "Parking",
+          "description": "Parking",
+          "total_mentioned": 248,
+          "positive": 35,
+          "negative": 166,
+          "neutral": 47
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 299,
+          "positive": 214,
+          "negative": 32,
+          "neutral": 53
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 1644,
+          "positive": 1266,
+          "negative": 306,
+          "neutral": 72
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 440,
+          "positive": 348,
+          "negative": 60,
+          "neutral": 32
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Pool",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "Azurra Hotels",
+      "description": "Relaxed rooms with flat-screen TVs & free Wi-Fi in a low-key hotel offering a restaurant.",
+      "property_token": "ChoIlq_D1oLS0IaVARoNL2cvMTFmNWx5azExdBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoIlq_D1oLS0IaVARoNL2cvMTFmNWx5azExdBAB&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.565575,
+        "longitude": 77.19704
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹3,150",
+        "extracted_lowest": 3150,
+        "before_taxes_fees": "₹3,000",
+        "extracted_before_taxes_fees": 3000
+      },
+      "total_rate": {
+        "lowest": "₹3,150",
+        "extracted_lowest": 3150,
+        "before_taxes_fees": "₹3,000",
+        "extracted_before_taxes_fees": 3000
+      },
+      "nearby_places": [
+        {
+          "name": "Dilli Haat - INA",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Green Field School",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "22 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "58 min"
+            }
+          ]
+        },
+        {
+          "name": "Rajinder Da Dhaba",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/f1XfkVli_KZAfE4HBrAeV28XMDz0dhx_Q2b8NLrzuPR9ieQqZDQqnM63_TVFzKRxCIPOhOz0oSSIU97JjM5BKjqpdc1CHTH1RK_6-pVT2kGIR-_YsIwCApiGQ34ZdBpw5D08_qgK9DvPys-bBalLGdwdrYACP-c=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/f8/af/ec/hotel-mint-safdarjung.jpg?w=1200&h=800&s=1"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/zDCN8GW6Qx3PG41_iyRB_V5VJt-nohDUAHfIN6s1McKi_fDoQLKWW7MVZOc3_5MqvCohHR-9rHGnP6aYvo_TqAmSiWDgX8UAYno_nYuV3I7EHPWmHU9I2htcomv_DBDflMR_Y4sFqTkLG3sQPEkWGu5BVjy3hHg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/39/8f/4b/hotel-mint-safdarjung.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/Mdco0MbzatPbJ4mb6UlxFS8byQhcG0AfjVtBAEDCIaqmUhUqD4nI0blIFVBWiHKLiOJmtmWyY6nzYCNmwF8TRamPiHQ19TXFX99fO8Q46gTYpl13btORkohPu-O5jPby2dBBYVov0K7E-Itswf7gFqnRik_YCuw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/39/93/21/hotel-mint-safdarjung.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nplb3q0WcquKMM8bhwzQJprmo6E8n5C1HGFZnqondsr6upMbXMuPS8_1UWHn3UHTopHZQNjA_kwL89BbB5tSjM6n825tR_kJvu_ajf53RBW7c0dztZGmclrccnBJRS3ZaBqgHv75A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICEh-zmoQE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqEghcG0wmfFFznY6xYV084k4XUm-l0NY7gHWZ-kzxJREYeXKVJZAmFiUTWXULslM-41xEfCsrRMIpp8tWFBa0zKFv0h-qJL62KXkwwiR7PcizGVNa9tkpiL65Q1bKAfffWyQMmDA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDEp5W8hAE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrZt73Pqiz5FJXNXlwckg0O2PmwUdTUp0m3hDQKI5KQ9M4J-CceFEjc4KWeJhd5ZMGK0J070zREFCV9X6q84VpY4WuF-j2EHvbCXC0E4oDYCCW7CrXO8836IvUpZOyk9zhJ9eEOkQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICMqMT1rQE=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/5FhrH7RyM3OGuujWXzAK8exeRNu0x0xzneY_ryP3haPl04sHR0caz_kOCGwojMzuLPWj1tKBG6z5yKobaQJ7AJ8-JPF_ycO4ndW-KIiOwSUBd3Y21mwBhR-SUOTo9ijv-BNEKQBj0m8w72IWDiPTkWIiHllkQQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/22/83/1b/hotel-mint-safdarjung.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/ebHRpPoSFzI9UCvGKYAjsUqWzy753sRgiH91x77IL7i0eXrGqAgRL7R5NrnX_I2VUyG2pceBnmtxF8Jf1L7ygJn-y0e5cgButb9RkwfoOLdsjBklZYq1Z92rmi65FHLEt9TM3NlymhgCGMlzo71cj_mGrLSfWRU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/39/9d/99/hotel-mint-safdarjung.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/OxDKw8IeFaRyXyOEKBZhv3uKydHMHOJLl-dp9ahyzIAo0w8ZN7ghkLrC0YRDK3eHFviKV2RqK22VNU3xxKAMWkU8gxozOwA0NQ6heXJAY-g1g_g57ox2OUw0YWXMsl1BPD6OdafNJxXI1OcF1hxfaO5zAHylhA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/39/ab/d3/hotel-mint-safdarjung.jpg?w=2100&h=1400&s=1"
+        }
+      ],
+      "overall_rating": 4.1,
+      "reviews": 426,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 205
+        },
+        {
+          "stars": 4,
+          "count": 120
+        },
+        {
+          "stars": 3,
+          "count": 61
+        },
+        {
+          "stars": 2,
+          "count": 18
+        },
+        {
+          "stars": 1,
+          "count": 22
+        }
+      ],
+      "location_rating": 4.1,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 91,
+          "positive": 72,
+          "negative": 15,
+          "neutral": 4
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 98,
+          "positive": 83,
+          "negative": 7,
+          "neutral": 8
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 24,
+          "positive": 17,
+          "negative": 4,
+          "neutral": 3
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 37,
+          "positive": 32,
+          "negative": 1,
+          "neutral": 4
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 27,
+          "positive": 14,
+          "negative": 6,
+          "neutral": 7
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 43,
+          "positive": 38,
+          "negative": 2,
+          "neutral": 3
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Avatar Living @Safdarjung Enclave",
+      "property_token": "ChoI5eij1NyltLnDARoNL2cvMTFyemZ0MGg4aBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoI5eij1NyltLnDARoNL2cvMTFyemZ0MGg4aBAB&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.5643472,
+        "longitude": 77.1914826
+      },
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹5,175",
+        "extracted_lowest": 5175,
+        "before_taxes_fees": "₹4,928",
+        "extracted_before_taxes_fees": 4928
+      },
+      "total_rate": {
+        "lowest": "₹5,175",
+        "extracted_lowest": 5175,
+        "before_taxes_fees": "₹4,928",
+        "extracted_before_taxes_fees": 4928
+      },
+      "nearby_places": [
+        {
+          "name": "Mohammad Pur",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "33 min"
+            }
+          ]
+        },
+        {
+          "name": "Mizo Diner",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPsd4e4WeSyZAfLEZOj1p8_3NG81Ok8XunCijSf=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPsd4e4WeSyZAfLEZOj1p8_3NG81Ok8XunCijSf=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPC3vNxILHAjkJ5bw5guHjIKk8pgpm32LCQSFiY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPC3vNxILHAjkJ5bw5guHjIKk8pgpm32LCQSFiY=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMJcc1r1Q_No8rMVlsKHZGrtBb59ro08HDc6C5t=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMJcc1r1Q_No8rMVlsKHZGrtBb59ro08HDc6C5t=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no9NR1c8Nu40CQHsyMZSMeOLjJ6aL2UmYhJralqH6icyu14GXsZ94c8keWdcZdtgNUMz2Iia7nw5TKyzlDzAeI2wWyYD3B6Wu3_3yahYxYEqqXOQnSjknEhaczXxoc6VJbtnElIDg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICLqqSJ7QE=s10000"
+        },
+        {
+          "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=KDdcMrwBF_EIvwfkFzTsRw&cb_client=search.estubs.gps&w=287&h=192&yaw=203.39447&pitch=0&thumbfov=100&scale=2",
+          "original_image": "https://lh5.googleusercontent.com/p/KDdcMrwBF_EIvwfkFzTsRw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npJD_ZivKZaHd9ZeSUkzlZd2e6uQxfWteSgBmVBRFE9F8B7g4-De9RB29-WKr3zsQY1DhELyh648aDF5i7G6K2mo_YQDWAw8a7NccHmb2dBbgfCgP6yx5qmMJRpidQVb6NP0GGg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICOjIjpOg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nor26DqyPi13w0yTNvUpKz3Js9uf9C0iZooHYwktvPW0BzPv-PvNnD36FkMrJqIVLHTEMj7OrCJOlnF5EWepHXARAMY33k3a7D5XTjSfA1MhFzMhie-Y7VHILxwEpVJrVoRCG_j-6To3FKB=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhAa0sUdhjm5k69lrudbDbLT=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqutkWfJWuD6PL7Ve2unmpOHoeIrjWo7uPExmlep16gu2yCKoEFlOBVEBPm7HzV3DvIlnRYfhcBaBux4am8SI43uqmaOGhJS1CAyOvxJQcTegmwKrJgH2remml0XeWFLyUPGuA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICOjOjDGw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noRcO2OcxxukopgrpbRu5EOclohDXWpk9MOc61z1zFD44hPEoTUwizpFmEHdyZTdd-7sQOcoTJ99kkYH_Bbd7BAjcY2eS1IwNOaUEFjOjHkcWAUXpHRmQviivL7eJ_bKKS1ueXlH-mlRk8Z=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhBOrMQtPHQ8M_kZw4PGhDFi=s10000"
+        }
+      ],
+      "overall_rating": 4.3,
+      "reviews": 92,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 59
+        },
+        {
+          "stars": 4,
+          "count": 18
+        },
+        {
+          "stars": 3,
+          "count": 6
+        },
+        {
+          "stars": 2,
+          "count": 3
+        },
+        {
+          "stars": 1,
+          "count": 6
+        }
+      ],
+      "location_rating": 4.1,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 40,
+          "positive": 38,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Safety",
+          "description": "Safety",
+          "total_mentioned": 8,
+          "positive": 6,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 23,
+          "positive": 22,
+          "negative": 1,
+          "neutral": 0
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 10,
+          "positive": 6,
+          "negative": 3,
+          "neutral": 1
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 33,
+          "positive": 26,
+          "negative": 5,
+          "neutral": 2
+        },
+        {
+          "name": "Restaurant",
+          "description": "Restaurant",
+          "total_mentioned": 7,
+          "positive": 4,
+          "negative": 3,
+          "neutral": 0
+        }
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "JRD Exotica || Business Hotel",
+      "description": "Refined hotel offering warmly decorated rooms, a polished restaurant & a chic open-air bar.",
+      "link": "https://www.jrdhotels.com/jrd-exotica-new-delhi/",
+      "property_token": "ChoI2Y-bsui2qYSnARoNL2cvMTFxMnY3eW1zNxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoI2Y-bsui2qYSnARoNL2cvMTFxMnY3eW1zNxAB&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.5669258,
+        "longitude": 77.1993095
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearby_places": [
+        {
+          "name": "Dilli Haat - INA",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Trauma Center",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "58 min"
+            }
+          ]
+        },
+        {
+          "name": "Rajinder Da Dhaba",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/u6Hxehza-Kk0UKp7zpp8oQlErYS2DwgN403HMR9m4lfmBd1jp9l9DcmakOb1JyQchkOntmQ9BDh7RjIKoMwonkpEpehsoVZfz51YgA4UHsFEOc1UEG_0dYXk6-I07qerf2ElGp0Mc60i555HkmjZ1qe3_dQ7cPY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/ad/c2/31/fabhotel-safdarjung-enclave.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/Iq90N_I1dyyUfPuY1bLxJ4xZknEUjx_PRkimcczB4gyR9Wf6mX5hcf3Mc5fqMW9Oqw5v13X0XyYOCIqF-tBO9iC9WC_FO9t_poQIFHOfAvalsT4CkZZTB3c6xMsuBUKi1ILpJDEkVFKq6SSHQmMLkKtP0iM0L7g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/13000000/12850000/12843400/12843358/9d7d8720_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/DuzdrMfBIG9IMSREzZs9arsyru4MAzbYQxbv7XWKE8AAc5RRr1iJPLo-68ZIeMH1K-H3SS3uMsA1pu6hrmZnpb8u2MTdZYdlFCn4JQv5Ho89ncCFXS46KScaATsEon_Ia1gONbxB8dOoaExNmZG0qJiGzjGwZRA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/d2/5d/e0/jrd-exotica.jpg?w=2000&h=1300&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMKL89RetyjCZoP9MJkkgC3aFDjD9iHYUPnVG3O=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMKL89RetyjCZoP9MJkkgC3aFDjD9iHYUPnVG3O=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/qeCLewPWGR9EIFYTf-yGfY8__luk5nX_1p9buvhTKh1b4gwVk3-Ss2UKa3eEj7yxHDF_BomcY5jMwIp7Y5Kvr4FUBwHe8d0lZR1Ir_txemjA387QJfwjBE8npFGan1RODvkFsCsF6rq43jTZEaWDNNp4WMhCcjU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/13000000/12850000/12843400/12843358/d875fde4_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/sHF3XX1sUO451jTG_H8QL-lRLid4mMu54wwlQDOSlu7MkF-jiDiUJXHmWjX4QYmdjZBflxkaEPRogLFwKPZCOpvZJ1x53kpm1C8HizlCCIjDZhtkhU9VruCxeCiVzIQXjyevSuglnjCTQ4C4kOEEoTZ_Uombdw4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/d2/5f/e4/jrd-exotica.jpg?w=2000&h=1300&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNi5suzd0ZR8laLnsFIjaFG9NZcke9WLXI8N1Ws=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNi5suzd0ZR8laLnsFIjaFG9NZcke9WLXI8N1Ws=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMyYY3H9lLHAs92VTRpF8Pv2G-m-ao86m8QHLtj=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMyYY3H9lLHAs92VTRpF8Pv2G-m-ao86m8QHLtj=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP3QTuT_ex2AKG-opucRR1yKCi8Y8D54Gh_Ujb8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP3QTuT_ex2AKG-opucRR1yKCi8Y8D54Gh_Ujb8=s10000"
+        }
+      ],
+      "overall_rating": 4.1,
+      "reviews": 1500,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 804
+        },
+        {
+          "stars": 4,
+          "count": 330
+        },
+        {
+          "stars": 3,
+          "count": 196
+        },
+        {
+          "stars": 2,
+          "count": 62
+        },
+        {
+          "stars": 1,
+          "count": 108
+        }
+      ],
+      "location_rating": 4.2,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 298,
+          "positive": 220,
+          "negative": 64,
+          "neutral": 14
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 245,
+          "positive": 194,
+          "negative": 45,
+          "neutral": 6
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 46,
+          "positive": 29,
+          "negative": 12,
+          "neutral": 5
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 67,
+          "positive": 48,
+          "negative": 16,
+          "neutral": 3
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 71,
+          "positive": 58,
+          "negative": 7,
+          "neutral": 6
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 24,
+          "positive": 17,
+          "negative": 4,
+          "neutral": 3
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Wi-Fi",
+        "Parking",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Elvilla Safdarganj Enclave",
+      "property_token": "ChoIls_Rxo7lhcvbARoNL2cvMTF4bGh3bF9yOBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoIls_Rxo7lhcvbARoNL2cvMTF4bGh3bF9yOBAB&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.5665829,
+        "longitude": 77.18988519999999
+      },
+      "rate_per_night": {
+        "lowest": "₹2,076",
+        "extracted_lowest": 2076,
+        "before_taxes_fees": "₹1,950",
+        "extracted_before_taxes_fees": 1950
+      },
+      "total_rate": {
+        "lowest": "₹2,076",
+        "extracted_lowest": 2076,
+        "before_taxes_fees": "₹1,950",
+        "extracted_before_taxes_fees": 1950
+      },
+      "nearby_places": [
+        {
+          "name": "SJ Enclave",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "44 min"
+            }
+          ]
+        },
+        {
+          "name": "Amaya - The House Of Curries",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wRqhytfMe8sXuPD7KZnVwA&cb_client=search.estubs.gps&w=287&h=192&yaw=359.83517&pitch=0&thumbfov=100&scale=2",
+          "original_image": "https://lh5.googleusercontent.com/p/wRqhytfMe8sXuPD7KZnVwA=s10000"
+        }
+      ],
+      "overall_rating": 3.9,
+      "reviews": 19,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 14
+        },
+        {
+          "stars": 4,
+          "count": 0
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 5
+        }
+      ],
+      "location_rating": 3.1,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 12,
+          "positive": 7,
+          "negative": 5,
+          "neutral": 0
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 14,
+          "positive": 10,
+          "negative": 3,
+          "neutral": 1
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 6,
+          "positive": 4,
+          "negative": 2,
+          "neutral": 0
+        }
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "The Ashok",
+      "description": "Polished rooms & suites in a high-end hotel featuring a nightclub, a spa & 6 restaurants.",
+      "link": "http://www.theashokhotel.com/",
+      "property_token": "ChoIzJv3rYTKpoTfARoNL2cvMTFjM2szMTc3NhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoIzJv3rYTKpoTfARoNL2cvMTFjM2szMTc3NhAB&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.5970601,
+        "longitude": 77.1958281
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹15,359",
+        "extracted_lowest": 15359,
+        "before_taxes_fees": "₹12,479",
+        "extracted_before_taxes_fees": 12479
+      },
+      "total_rate": {
+        "lowest": "₹15,359",
+        "extracted_lowest": 15359,
+        "before_taxes_fees": "₹12,479",
+        "extracted_before_taxes_fees": 12479
+      },
+      "nearby_places": [
+        {
+          "name": "India Gate",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Ashoka Hotel",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "18 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "57 min"
+            }
+          ]
+        },
+        {
+          "name": "The Samavar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPbjMla2PCq5bfLOjzRbl8jJ50ltIEwZ3NSkO6j=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPbjMla2PCq5bfLOjzRbl8jJ50ltIEwZ3NSkO6j=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrH5AkamnU7m95UtQyuQPGJayBWTHKd-m_bCrKF_24dRJmNgWY31MBMg1T4emA8xCYH0dRRvg4eDjHhtB2DW-vL4ccCdXin7faIPSJbTP7nEPiC6PHMuq7pQvinF9hiwV3ZDI-2=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDR7o7Hbw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMskoGKxkKCtSotDdRLR6HYTmbktPhlAucpUVzh=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMskoGKxkKCtSotDdRLR6HYTmbktPhlAucpUVzh=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMTDu2-IXlpozFsOzeBa3x7mZ04Q2nBKqQzZFeN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMTDu2-IXlpozFsOzeBa3x7mZ04Q2nBKqQzZFeN=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPAfNjOS_7EPI8Q2QwOB3Awa59arjmY3rYEBEsM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPAfNjOS_7EPI8Q2QwOB3Awa59arjmY3rYEBEsM=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNg8aVqb45tb734w-u8WlNGnxu88-8V3PGX1d8g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNg8aVqb45tb734w-u8WlNGnxu88-8V3PGX1d8g=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOs7XtzbenQVh7RnnIq1Qq_ERtaIT6dETzERAjh=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOs7XtzbenQVh7RnnIq1Qq_ERtaIT6dETzERAjh=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMnB0htN8tVfnENUKlb7jLLhPfOAtOSyQaokote=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMnB0htN8tVfnENUKlb7jLLhPfOAtOSyQaokote=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/Dq2USTL7lqPJ0NE1GESCkojHptOrTxzrOG07VKpJbmBU16tya73EqeMGY_sOHAwWyhU2mWKop2N5LtrvOgX9ePO5ONH4zYcC0eibkkdiViBOX-iKxkkQtofpejjW1zGsRfEiCYsipsvRfTzm2jqNTlE_U1gxtw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/80000/75800/75752/2093dcc1_z.jpg"
+        }
+      ],
+      "overall_rating": 4.3,
+      "reviews": 19080,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 10832
+        },
+        {
+          "stars": 4,
+          "count": 4825
+        },
+        {
+          "stars": 3,
+          "count": 1972
+        },
+        {
+          "stars": 2,
+          "count": 644
+        },
+        {
+          "stars": 1,
+          "count": 807
+        }
+      ],
+      "location_rating": 3.7,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 2809,
+          "positive": 2158,
+          "negative": 447,
+          "neutral": 204
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 720,
+          "positive": 459,
+          "negative": 201,
+          "neutral": 60
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 275,
+          "positive": 202,
+          "negative": 22,
+          "neutral": 51
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 1286,
+          "positive": 741,
+          "negative": 455,
+          "neutral": 90
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 680,
+          "positive": 595,
+          "negative": 40,
+          "neutral": 45
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 570,
+          "positive": 437,
+          "negative": 64,
+          "neutral": 69
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "ITC Maurya, a Luxury Collection Hotel, New Delhi",
+      "description": "Upscale hotel with posh rooms & suites, as well as 5 restaurants, 2 bars, an outdoor pool & a spa.",
+      "link": "https://www.marriott.com/en-us/hotels/dellc-itc-maurya-a-luxury-collection-hotel-new-delhi/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      "property_token": "ChcIlITT__HJ9ql_GgsvZy8xdGZtNTEwXxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChcIlITT__HJ9ql_GgsvZy8xdGZtNTEwXxAB&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.597279,
+        "longitude": 77.1734089
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹29,500",
+        "extracted_lowest": 29500,
+        "before_taxes_fees": "₹25,000",
+        "extracted_before_taxes_fees": 25000
+      },
+      "total_rate": {
+        "lowest": "₹29,500",
+        "extracted_lowest": 29500,
+        "before_taxes_fees": "₹25,000",
+        "extracted_before_taxes_fees": 25000
+      },
+      "nearby_places": [
+        {
+          "name": "National Rail Museum",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "ITC Maurya",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "12 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "26 min"
+            }
+          ]
+        },
+        {
+          "name": "The Pavilion",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMSWxGIhw0lzhei0nYk-mv8TG27oxf71f47bm8v=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMSWxGIhw0lzhei0nYk-mv8TG27oxf71f47bm8v=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOZzOFHVz3FyV--d6Z4sda_b1Eurq60-Rmg2dvR=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOZzOFHVz3FyV--d6Z4sda_b1Eurq60-Rmg2dvR=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/0w_HkT5dAmfJ3KppTYZ_rrdNY1R42io7URlcusajZs1lB6DqKpaYZrugVeD2hRnfnKOO2rMF5F8JUtTFR-Kvs8QW7LzIJoMGAt5kl_sbJLgDd0Jvi7NXsAJiHXvZkJHmGDX-4T1cSmwBs3CWTSwryOVEAEpCGS4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/108624/108624a_hb_a_039.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOP-m3_lWQVbdMoDhwDqmMjVk1SCZOtrw8hKylW=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOP-m3_lWQVbdMoDhwDqmMjVk1SCZOtrw8hKylW=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNEWIj0Vi_g3H6miiBOwMhRaroPmLBNHrq38mp2=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNEWIj0Vi_g3H6miiBOwMhRaroPmLBNHrq38mp2=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/fUrNqiD9mUfY4_EQk-0XxFjs13drNj3uaUkk2pJXlmk38sBkoilGZV5Cee1Dg2HpQ3fbQ8ykd0jb_gtS9-ONbYrBRvkAwRRp-cd7ZBSdx6nYXvNVwPuY73_YcUWVSGjBbsELsOnFv3U-SnrpPdq92nHFv9E2Mw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/108624/108624a_hb_k_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/RqmJgFaCobBCDmArr0Fat4SW23O6sJVsxeeduBdeMsztm6neyIuRoqkaWsH3nyC55H00sECBfUvjz0BpBTyFaaGe1IzIumdj10NmVf8UfxpLK0f4-YaRwy7CyqdMlx2E-E6P2P8adi8IYwE4ahUQsld5b9Hctg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/108624/108624a_hb_l_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMlUvIO6h-KB18xTzNmkyhUq3Lch0G0oed81zDm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMlUvIO6h-KB18xTzNmkyhUq3Lch0G0oed81zDm=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPre3CKChDdjLx1vfHEf0vcqZUjBvqCfLdgmMQq=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPre3CKChDdjLx1vfHEf0vcqZUjBvqCfLdgmMQq=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 30867,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 25500
+        },
+        {
+          "stars": 4,
+          "count": 3632
+        },
+        {
+          "stars": 3,
+          "count": 824
+        },
+        {
+          "stars": 2,
+          "count": 271
+        },
+        {
+          "stars": 1,
+          "count": 640
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 5931,
+          "positive": 5491,
+          "negative": 302,
+          "neutral": 138
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 2369,
+          "positive": 2127,
+          "negative": 167,
+          "neutral": 75
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 4566,
+          "positive": 4238,
+          "negative": 216,
+          "neutral": 112
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 1548,
+          "positive": 1500,
+          "negative": 21,
+          "neutral": 27
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 917,
+          "positive": 811,
+          "negative": 79,
+          "neutral": 27
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 193,
+          "positive": 157,
+          "negative": 23,
+          "neutral": 13
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "Samrat Hotel",
+      "description": "Warmly decorated rooms in a relaxed venue with a restaurant, 2 lounges & an outdoor pool.",
+      "link": "http://hotelsamratnewdelhi.com/",
+      "property_token": "ChkI0uuT69Da4bAlGg0vZy8xMWJ3NXpxcXo4EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkI0uuT69Da4bAlGg0vZy8xMWJ3NXpxcXo4EAE&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.596429099999998,
+        "longitude": 77.19762539999999
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearby_places": [
+        {
+          "name": "India Gate",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Ashoka Hotel",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "18 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "57 min"
+            }
+          ]
+        },
+        {
+          "name": "Sagar Ratna Restaurant, Ashoka Hotel",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noEbiL1KJzmyCNZBlrP6vk0uJEGGXUqWiakIoBdOraX-UY_ItcYn3xYvKi4vLbeEljyBNnlR8cKy923Tyg35ZIy7NeEWYGREevvFGRL9DQaKO-356z0iUTeJQavpbgg9ng-F4ht=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICc6azpLw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/yG9SjOyUkeE1djuvu21zhPWDrOa4s0ZiwSDaU0t9LC1ukWZ3xDsjFNLntABeUrcHw5jyQ-FCJD2a2k5lWroux9zWoI_4kAvm2YWbp8Z4I-gtDynCjNZN3B64IaIpiJuJ0nPJFYB2UNBhKLtaW7pbtMi3bHw2-PQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/3000000/2810000/2806200/2806186/334dc06e_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/ZQdBGCIEErNLNiy4OrLgY2IQrsfUcHLf0lksgJJbxe_IdUZ85xDI3tBeHVwwsjmU-eJ879vyh-mFlZKSD_z46S376Y2i127QITtxi1BhOAsCCcANCWFu4a82uTjTtmbi3_C_mJXGS1Yt8Agaij1cEPF7L418Wx0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/53/b6/53b66d3479a58aa848631dd3343f753db5935677.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrBWp0R9R_9NUqPZQe2bW6U-30ILuO9XwNzXJ40GODZHwvb1gKDyu90o9YAqK1nddn5FBgDx610mAX-SSHLRbgjirEGhE76TIYMXTzBmiczCmSqbdypdiKO8NovRLS6aCFwPG1DzQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICOo-P5rAE=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/KIRKGNrMWwFANn1Sw1P-SpY68RPrIVnUe_10E0RiSVpDTspTA7NEUtHRaDFUxGCMPE-kdlAZucsQvDNipZCRqUt8gehfREj1s8aonB4rUMUtEyYCXYfM39eVa5iidlOHIhTbAabLMr9M8j8d8Nrt4g_92OHixqE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/15/86/1586847aed1b94f6d16569d9d680987f85582a52.jpeg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/KpQGOQivLe6-rue-bn4csr1UsKIh5mGKq_aQH7PgoeNa25CHClk0Pz6Wjeg35Xj9oDBsJQDUYKWfUb4kTnxaRby8cziuY3jWK19DA2cv5CmBrfvqLDLuNsgBqLJUzsGbWIWR1HsubOtc08BcII5JV5wEwfe1Tw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/3000000/2810000/2806200/2806186/3f5ec897_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqJCwtOwCMgwUMmFPQ8nR-gufHdDqNsnakW4CJ3aTzjknwLcObyn36qbklK0pjkuFQ1NrvanCgwN5iMsJO2Cbw0gPshvYukXF3bAJqc9r0k3Yrw74ZyBHhfcZwKUFs_iyBcgbo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICu3euteg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noMRMCdDjVNS4D_m3BZVzWtYxBPg3B3QcsVYngLE20vX76ytN_xpdD-g9P1pw4ZC7WFmTH5bb9R9nqwRyUdkf-Q4gwjf3knnSTaXXWSKyFQAufUu9lYlW3FPNGwDMju1Qssjae9=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICBm5a4JA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqPJTK7WcVVs0EATONkhrweaCQ996ihJ0kO5nqhq-g0gLLBeIztPaq8YfuxONr6xqGRR4MiC1LwlF2YSUOfkf1kt5bSiFyQJrG6SOD4QeNNeEcZEt0fxHa0mVn7s1ZlOHT4_aBguQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIChh8uUgwE=s10000"
+        }
+      ],
+      "overall_rating": 4,
+      "reviews": 7053,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 3377
+        },
+        {
+          "stars": 4,
+          "count": 1694
+        },
+        {
+          "stars": 3,
+          "count": 963
+        },
+        {
+          "stars": 2,
+          "count": 364
+        },
+        {
+          "stars": 1,
+          "count": 655
+        }
+      ],
+      "location_rating": 4.1,
+      "reviews_breakdown": [
+        {
+          "name": "Nightlife",
+          "description": "Nightlife",
+          "total_mentioned": 109,
+          "positive": 71,
+          "negative": 22,
+          "neutral": 16
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 1061,
+          "positive": 650,
+          "negative": 334,
+          "neutral": 77
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 511,
+          "positive": 264,
+          "negative": 206,
+          "neutral": 41
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 288,
+          "positive": 186,
+          "negative": 52,
+          "neutral": 50
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 187,
+          "positive": 102,
+          "negative": 66,
+          "neutral": 19
+        },
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 156,
+          "positive": 17,
+          "negative": 125,
+          "neutral": 14
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Air conditioning",
+        "Fitness center",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Nature View Green Park",
+      "link": "https://www.booking.com/hotel/in/lords-inn-greater-kailash-delhi-couple-friendly-local-ids-accepted.en-gb.html?aid=2371013",
+      "property_token": "ChkImKXE5Y_w1aY8Gg0vZy8xMXM2MWJyeWwxEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChkImKXE5Y_w1aY8Gg0vZy8xMXM2MWJyeWwxEAE&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.560768,
+        "longitude": 77.1969329
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "rate_per_night": {
+        "lowest": "₹3,150",
+        "extracted_lowest": 3150,
+        "before_taxes_fees": "₹3,000",
+        "extracted_before_taxes_fees": 3000
+      },
+      "total_rate": {
+        "lowest": "₹3,150",
+        "extracted_lowest": 3150,
+        "before_taxes_fees": "₹3,000",
+        "extracted_before_taxes_fees": 3000
+      },
+      "nearby_places": [
+        {
+          "name": "Dilli Haat - INA",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "40 min"
+            }
+          ]
+        },
+        {
+          "name": "Lha Kitchen",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOrnoxeQkGnnYWlGafJQUfG924ZASFEejCw55kk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOrnoxeQkGnnYWlGafJQUfG924ZASFEejCw55kk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMwCM7KixgkfRKbqaSP9Zy5O5YcZ6PGCEx-GA4c=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMwCM7KixgkfRKbqaSP9Zy5O5YcZ6PGCEx-GA4c=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP6TNF4bxKbAYqKPJFIrmMXvjGA-bXg181y28vZ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP6TNF4bxKbAYqKPJFIrmMXvjGA-bXg181y28vZ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNkyc9DO_mWME7bz28XNQUrl-uSlGriZN1vNgPI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNkyc9DO_mWME7bz28XNQUrl-uSlGriZN1vNgPI=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNp3FH0LypPc6fwMo4N2QBTg8rTlQ0_3NiiDwaN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNp3FH0LypPc6fwMo4N2QBTg8rTlQ0_3NiiDwaN=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO74-gforfmLx-MTgE_B0kP9XzN6Iw4B4DX66Tt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO74-gforfmLx-MTgE_B0kP9XzN6Iw4B4DX66Tt=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPvWD8M6TrhLKoCiO2gDdqd8BuCExX-jlUdhIJl=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPvWD8M6TrhLKoCiO2gDdqd8BuCExX-jlUdhIJl=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNKW7aVPvSZhi7NzDB_ikyU28G0K11gmCqgM_40=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNKW7aVPvSZhi7NzDB_ikyU28G0K11gmCqgM_40=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN3gT71d7KZ3kCWrwEPKG449vijLIR8JvQd5RWv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN3gT71d7KZ3kCWrwEPKG449vijLIR8JvQd5RWv=s10000"
+        }
+      ],
+      "overall_rating": 4.1,
+      "reviews": 156,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 100
+        },
+        {
+          "stars": 4,
+          "count": 20
+        },
+        {
+          "stars": 3,
+          "count": 10
+        },
+        {
+          "stars": 2,
+          "count": 7
+        },
+        {
+          "stars": 1,
+          "count": 19
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 58,
+          "positive": 51,
+          "negative": 5,
+          "neutral": 2
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 30,
+          "positive": 24,
+          "negative": 1,
+          "neutral": 5
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 49,
+          "positive": 40,
+          "negative": 8,
+          "neutral": 1
+        },
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 5,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 21,
+          "positive": 18,
+          "negative": 3,
+          "neutral": 0
+        },
+        {
+          "name": "Kitchen",
+          "description": "Kitchen",
+          "total_mentioned": 5,
+          "positive": 4,
+          "negative": 1,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Pet-friendly",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "DEER PARK LUXURY HOMESTAY (Safdarjang Enclave)",
+      "link": "https://www.bluepillow.com/search/65cac224671b07d23c6fb32a?dest=bkng&cat=House&lat=28.55988&lng=77.2001&language=en",
+      "property_token": "ChoQ4_ufn4aQzP2KARoNL2cvMTF4ZnN5YmpwaBAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQ4_ufn4aQzP2KARoNL2cvMTF4ZnN5YmpwaBAC&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.559879302978516,
+        "longitude": 77.20010375976562
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:30 AM",
+      "rate_per_night": {
+        "lowest": "₹6,304",
+        "extracted_lowest": 6304,
+        "before_taxes_fees": "₹6,304",
+        "extracted_before_taxes_fees": 6304
+      },
+      "total_rate": {
+        "lowest": "₹6,304",
+        "extracted_lowest": 6304,
+        "before_taxes_fees": "₹6,304",
+        "extracted_before_taxes_fees": 6304
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹6,304",
+            "extracted_lowest": 6304
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 27",
+          "free_cancellation_until_time": "6:29 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "23 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "40 min"
+            }
+          ]
+        },
+        {
+          "name": "Six Degree",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Ly-mcaZMiXRzGv3t46jAaL2cD2khKdZNFrxCs9dosxGFX2tiJZfK7vJTJ8NrtbW2QTfrdFK2vk6ggUvix4KUTWnNJoKbj8wrR_HOonxtAydAGDMBWOrcmP5l_Ims-8o9Irwa1CuXGpmtEs-CamA6-aG8m-xyQQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/577928328.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/goA5ldnzZfkJ9UhysorUOKfJU5WxLRKh5jnhoDxoqqtzvVL5CwSrzjQyAtY6C0Zw5K3tiJrYd6v3kSLak1Jgld5QElPmHVrNw7zT0IFOJboHxW0m8XIvUpJAQ6_BUjQki9QZrbuiTKjO3JinW9EXh0TfU3zHdqk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/577928532.jpg?k=88fd81811c0f506340198cb0ae3bb46da1fe335324f81d0dc0f99431ae5dfc31&o="
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/KppojrGAPrXJuyrObS8DdXMgJvMWaUYaoiM83XKgIYg1OfQmScbaxRzaS1FIHvX3pAEWZBskfSIh2Wh1QRCaYvh0Ww7xqYht_8sBHago1FdQkSxpx1a1reek79HpDWEmGv6-s1KEQsJfgQnpuQUNf_dwZuIZrA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/577928206.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/YsgJNOOh3ex5zPPHDRydoCsTnBu1BrvC5n-D4Y4Ku4qc4KnY3Z65n9YBiOIaDL7sJH5_U2YdKYDu_gaFYqvOChGVttvemniT1J2QKmjuFyTROOk3_m6JfIgh01RQzfbn8tqElBN8eBEhgSZArEJKRs6k_9sHKA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/577928301.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ZFlRUp_jf3OB1fZiPG1DrIE5tdmeEcu-irU2qo3SXVWhaYuqILajLnZnswcev0nhzxJbzPHF87XYpC2uE2Gi1bApz6pjSEylCgQ-3dWhcuc7YyofzLY1z_NLgxo4-giezTOvaMKHttUM68AjmKCNUQasnXHrvbU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/577928247.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/biF3IHoWmq_nMUrBF0Tv1nRZfVab_zbjdGV8yK40bv3GlYfcyeBjx0mhE5YQZW0vOFgZXuhtH1jOtlY2cw6hJBxP_P0ViqYO9Fy7ezWpauBLKJtFfejvPq30hKUZ_Qbw9g-c2NY-fsIeqcMvFAf-chn-kDW0-m8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/577928346.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/UfZFr5hN_n1CZv0eed35mSSwnvTS1GAOvSBSxrCM8l8tp1oSefrKXcWhuVxasol0vWrSkxaTOKk8nqOo86BA6931bW50TlJw1fn6OyprzcoC5KK51Ib1RUFBqVdcBM0K80f2VEe2wcmHewq1TejBtTN7grdwdQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/577928313.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/rYOAkOTiUFVEEh7CJQ6kYyHWeMzqZkzUbArPZJ2cNAEaKtLWanGry9AOEILJKjeo0YBW4t6s8KgXsQq8gSXmXn_rNv_zD-4ZW1W2Waa_ZQSBM9g3Ol2vqlLfirkVupCtta26d7oAvwG8E3Ee3CBaug647LogJpY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/577928205.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/sH05YGaEVAobWR7cIUxgdXjXcMQHmbPJQqtQ8oz642a9-PiyESs_FeiZMMH0vVRRLs1wGOn7-LMM1m_io-uKP6uqkRSAOLDz2KdVg-OX1G18NGFv9ZjhjM0wPcRWP88ImSqLt68HEv5SR2QQI6invf6YWXq5FsM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/577928232.jpg"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 8,
+      "location_rating": 4.4,
+      "amenities": [
+        "Air conditioning",
+        "Airport shuttle",
+        "Crib",
+        "Fitness center",
+        "Kitchen",
+        "Microwave",
+        "Patio",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 3",
+        "2 bedrooms",
+        "1 bathroom",
+        "1 bed"
+      ]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Som Vihar",
+      "link": "https://app.privatebnb.com/listing/property/300",
+      "property_token": "ChoQpPzahpO01qXlARoNL2cvMTF5OTRqaG53ehAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-29T10%3A00%3A00%2B05%3A30&check_out_date=2025-10-30T10%3A00%3A00%2B05%3A30&children=0&currency=INR&engine=google_hotels&gl=in&hl=en&property_token=ChoQpPzahpO01qXlARoNL2cvMTF5OTRqaG53ehAC&q=hotels+near+The+Leela+Palace+New+Delhi",
+      "gps_coordinates": {
+        "latitude": 28.564159393310547,
+        "longitude": 77.18250274658203
+      },
+      "rate_per_night": {
+        "lowest": "₹8,875",
+        "extracted_lowest": 8875,
+        "before_taxes_fees": "₹8,875",
+        "extracted_before_taxes_fees": 8875
+      },
+      "total_rate": {
+        "lowest": "₹8,875",
+        "extracted_lowest": 8875,
+        "before_taxes_fees": "₹8,875",
+        "extracted_before_taxes_fees": 8875
+      },
+      "prices": [
+        {
+          "source": "PrivateBnB",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/16337368935723929560.png",
+          "official": true,
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "₹8,875",
+            "extracted_lowest": 8875
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Oct 28",
+          "free_cancellation_until_time": "2:00 PM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "R.K. Puram Sector-4 (F.P.A. India)",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "25 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "55 min"
+            }
+          ]
+        },
+        {
+          "name": "Khalsa Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/pUd8cejPgD6j6iNVkf2o2AlNCJNHxC8Cu-K37zrxXE1jENRjKbyUEHiIbOE752M01nyCqDY3e-ZeCEOL-po2NwXJLAoj1iUJmUs4SK-M-vsGZ8x4n6H2HUcCZ4WNXSd0Q5bTTG9XktohtSV7mP2GaTBSJvhQgQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://prodsot.blob.core.windows.net/assets/5f797da6-e19e-4f4c-ff89-08dce300ddb2.jpg?h=72793954"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/EFF7zx45miHwOVRHh08WgKZW1m3q-kOPmRC1gjZBLTTuhe5VLK5L9kA5nBD6SWtvX-lLaxCkzhJnKaw8NETMuHejzVdkmEU-UjKYZtnjqun_PPQdQLrAY7FnAt2lJ6nPJYwI1SQXZPiTKuM3iNamhS4QjEnBUw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://prodsot.blob.core.windows.net/assets/9a3bebcc-96ae-42ef-ff83-08dce300ddb2.jpg?h=54096575"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/OYW7DncYh20Ve4c3wjWf8D67I1YOEeRXyPC_sr1SiYzLGWnESF7eS7o9uBKm0zKG5UJVcqA_dnJ7EAAHCVrssfDVNhYWPqwpaqTb5Th5y0vuCeTJQpS_Jegrggy9j6bROzyvroCQaXGOXVSoRgGrb4y3k0Ldzmw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://prodsot.blob.core.windows.net/assets/01941dd6-3e6c-4524-ff84-08dce300ddb2.jpg?h=3788048"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/7ZjXQht7m9n8esg__I4iutMOVIGtkL3STvUZXuoH8IjpaNHq4fITpcHV3dlqoFx7qYQUYLDjXwCO4qUv2ObNaTE-ne9IocNXTsjSwnrHbzppCkwmAXSzaVa0cl03MzHmM4AYnxkuixxF60HlluFrhHuRcwt0IA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://prodsot.blob.core.windows.net/assets/d5c53b99-b02f-4188-ff88-08dce300ddb2.jpg?h=59079818"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/7WyCAxBVUoxfWYyXrs7U0GDIXIBamBDaVQnxvQENmpev7x92IbDYC916nuYxrVdDHHDMaRezlAYWN8KljVJ_lqYOZxAoa3TXIKVMgBOY5fNkqF4LHDaw7_HaPrtFSTFyn-lohLeEIh3gIuZOizpIF3yShURF54s=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://prodsot.blob.core.windows.net/assets/09691803-f89e-47fe-ff85-08dce300ddb2.jpg?h=90532107"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/rh9DWmPMfbXgQBtqnuda7lPW0DmXpj5Dcu6zZkO-Uw7x9hRTaoFYgpG-Plgs_5wnP9VPwvzz5CfCCffidcVClF92GR_n_IUBXopCMvtimCHx7kBdKC4Funi2zMZ8Kv7G5wQ41lHCUn49GTVknoSlDnw6zIaxCw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://prodsot.blob.core.windows.net/assets/69f5861e-806c-4c90-ff8a-08dce300ddb2.jpg?h=61678138"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/YdUtLTw-OcVO1xhI1vlcsPmnJiuxTwkwHXUHKDx6sQTDJ9XVuWvySvf0FWJV_YNILXlt1gJu2plnvQ9MF32Q_CIumnJZblPV8MfRkwLQ_0oKIKX4QvkOtx9n7mmEQJC3F4OfZDdRTL6p8Tx_N5BwZSB_WWcFdw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://prodsot.blob.core.windows.net/assets/64f505b8-4457-4610-ff86-08dce300ddb2.jpg?h=88285323"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/0w2lnVgKEjYl6oVrel2SKBhZM8dyfQdsA_8WGCGXvjO60c-S2bhi0954pxXv80K8UmJebKd_dplgIDY6hvsUwE19bfsJNXA9VBAR0-2RdGMl0rzDyZmC_J5yBblIqQhe0bP8VqWtSB14_MydQ_022J2cXYkXDg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://prodsot.blob.core.windows.net/assets/47d87f90-bd79-4984-ff87-08dce300ddb2.jpg?h=19464129"
+        }
+      ],
+      "location_rating": 3.7,
+      "amenities": [
+        "Air conditioning",
+        "Beach access",
+        "Kid-friendly",
+        "Crib",
+        "Elevator",
+        "Fireplace",
+        "Free breakfast",
+        "Fitness center",
+        "Indoor pool",
+        "Outdoor grill",
+        "Outdoor pool",
+        "Pet-friendly",
+        "Cable TV",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No balcony",
+        "No heating",
+        "No hot tub",
+        "No ironing board",
+        "No kitchen",
+        "No microwave",
+        "No oven stove",
+        "No patio",
+        "Not smoke-free",
+        "No washer"
+      ],
+      "health_and_safety": {
+        "groups": [
+          {
+            "title": "Minimized contact",
+            "list": [
+              {
+                "title": "No-contact check-in and check-out",
+                "available": true
+              }
+            ]
+          }
+        ]
+      },
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 4",
+        "4 bedrooms",
+        "4 bathrooms",
+        "5 beds"
+      ]
+    }
+  ],
+  "serpapi_context": {
+    "search_metadata": {
+      "id": "68e0119195e0b39fc7002872",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/876df9da96991602/68e0119195e0b39fc7002872.json",
+      "created_at": "2025-10-03T18:10:25.391Z",
+      "processed_at": "2025-10-03T18:10:25.392Z",
+      "google_hotels_url": "https://www.google.com/_/TravelFrontendUi/data/batchexecute?rpcids=AtySUc&source-path=/travel/search&hl=en&gl=in&rt=c&soc-app=162&soc-platform=1&soc-device=1",
+      "raw_html_file": "https://serpapi.com/searches/876df9da96991602/68e0119195e0b39fc7002872.html",
+      "prettify_html_file": "https://serpapi.com/searches/876df9da96991602/68e0119195e0b39fc7002872.prettify",
+      "total_time_taken": {
+        "float": 2.0078372955322266
+      }
+    },
+    "search_parameters": {
+      "engine": "google_hotels",
+      "q": "hotels near The Leela Palace New Delhi",
+      "gl": "in",
+      "hl": "en",
+      "currency": "INR",
+      "check_in_date": "2025-10-29T10:00:00+05:30",
+      "check_out_date": "2025-10-30T10:00:00+05:30",
+      "adults": 1,
+      "children": 0
+    },
+    "search_information": {
+      "total_results": 129
+    }
+  }
+}

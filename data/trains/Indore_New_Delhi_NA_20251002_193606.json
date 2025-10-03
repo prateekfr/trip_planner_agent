@@ -1,0 +1,90 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_New_Delhi_NA_20251002_193606",
+    "src": "Indore",
+    "dst": "New Delhi",
+    "travel_date": null,
+    "earliest_departure": "2025-10-28T22:00:00+05:30",
+    "latest_arrival": "2025-10-29T07:00:00+05:30",
+    "timestamp_utc": "2025-10-02T19:36:06.138297",
+    "distance_km": 672.2530202242672
+  },
+  "options": [
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "New Delhi",
+      "depart": "2025-10-28T22:00:00+05:30",
+      "arrive": "2025-10-29T04:49:48+05:30",
+      "duration_hours": 6.83,
+      "price_inr": 570,
+      "ref": "T08",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.ixigo.com/trains/19337"
+      }
+    },
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "New Delhi",
+      "depart": "2025-10-28T22:00:00+05:30",
+      "arrive": "2025-10-29T03:30:00+05:30",
+      "duration_hours": 5.5,
+      "price_inr": 570,
+      "ref": "T05",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://tickets.paytm.com/trains/indore-to-delhi-trains"
+      }
+    }
+  ],
+  "debug": [
+    "distance: 672.2530202242672km",
+    "search_results: 10",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.railyatri.in/indore-jn%20bg-to-new-del",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.confirmtkt.com/trains/indore-to-new-de",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.railyatri.in/indore-jn%20mg-to-new-del",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.ixigo.com/trains/12415",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.railyatri.in/indore-jn%20bg-to-old-del",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.ixigo.com/trains/20957",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.confirmtkt.com/train-schedule/12415-IN",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.trainman.in/train/12415",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.railyatri.in/trains-between-stations-v",
+    "trying_broader_search",
+    "broader_search_results: 10",
+    "estimated_duration: 10.3h for 672.2530202242672km",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.confirmtkt.com/trains/indore-to-new-de",
+    "estimated_duration: 10.3h for 672.2530202242672km",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.railyatri.in/indore-jn%20bg-to-new-del",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.ixigo.com/by-train-rail/indore-to-new-",
+    "exceeds_latest_arrival: https://www.redbus.in/train-tickets/indore-to-delh",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.easemytrip.com/railways/indore-jn-bg-t",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.redbus.in/train-tickets/indore-to-newd",
+    "estimated_duration: 10.3h for 672.2530202242672km",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.makemytrip.com/railways/indore-delhi-t",
+    "estimated_duration: 10.3h for 672.2530202242672km",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.goibibo.com/trains/indore-to-delhi-tra",
+    "estimated_duration: 10.3h for 672.2530202242672km",
+    "estimated_price: ₹570 for 672.2530202242672km",
+    "exceeds_latest_arrival: https://www.makemytrip.com/railways/indore-new-del"
+  ]
+}

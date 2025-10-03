@@ -43,7 +43,7 @@ PINCODE = re.compile(r"\b\d{6}\b")
 
 _SYSTEM_PROMPT = (
     "You are an email triage assistant for a trip-planning tool.\n"
-    "INPUT: One email’s text (subject + snippet + body).\n"
+    "INPUT: One email's text (subject + snippet + body).\n"
     "TODAY (UTC): {TODAY_ISO}\n\n"
     "GOAL: Decide if the email is relevant for planning an IN-PERSON TRIP IN THE FUTURE.\n"
     "Mark keep=true ONLY if the email clearly implies the user may need to physically travel and the meeting/event/trip is not already in the past relative to TODAY.\n\n"

@@ -1,0 +1,64 @@
+{
+  "cheapest": {
+    "mode": "flight",
+    "src": "IDR",
+    "dst": "DEL",
+    "depart": "2025-10-29 07:40",
+    "arrive": "2025-10-29 09:10",
+    "duration_hours": 1.5,
+    "price_inr": 5796.0,
+    "ref": "",
+    "provider": {
+      "name": "SerpAPI GoogleFlights"
+    },
+    "booking_link": "https://www.makemytrip.com/flight/search?itinerary=IDR-DEL-29/10/2025&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E"
+  },
+  "fastest": {
+    "mode": "flight",
+    "src": "IDR",
+    "dst": "DEL",
+    "depart": "2025-10-29 07:40",
+    "arrive": "2025-10-29 09:10",
+    "duration_hours": 1.5,
+    "price_inr": 5796.0,
+    "ref": "",
+    "provider": {
+      "name": "SerpAPI GoogleFlights"
+    },
+    "booking_link": "https://www.makemytrip.com/flight/search?itinerary=IDR-DEL-29/10/2025&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E"
+  },
+  "value": {
+    "mode": "flight",
+    "src": "IDR",
+    "dst": "DEL",
+    "depart": "2025-10-29 07:40",
+    "arrive": "2025-10-29 09:10",
+    "duration_hours": 1.5,
+    "price_inr": 5796.0,
+    "ref": "",
+    "provider": {
+      "name": "SerpAPI GoogleFlights"
+    },
+    "booking_link": "https://www.makemytrip.com/flight/search?itinerary=IDR-DEL-29/10/2025&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E"
+  },
+  "hotels_top5": [],
+  "hotel_value": {},
+  "hotel_cheapest": {},
+  "debug": [],
+  "iata": {
+    "src": "IDR",
+    "dst": "DEL"
+  },
+  "base_city": "Indore",
+  "destination_city": "New Delhi",
+  "last_mile": {
+    "from": "Flight",
+    "to": "The Leela Palace",
+    "mode": "cab",
+    "minutes": 40,
+    "approx_fare_inr": 880,
+    "leave_by_local": "2025-10-29 09:05",
+    "eta_at_venue_local": "2025-10-29 09:50",
+    "maps_link": "https://www.google.com/maps/dir/?api=1&origin=Flight&destination=The+Leela+Palace&travelmode=driving"
+  }
+}

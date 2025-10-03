@@ -248,7 +248,7 @@ def invites_fetch(
     return {"count": len(invites), "invites": invites}
 
 HELP_TEXT = (
-    "Hi, I’m **Soumya**, your trip planner.\n"
+    "Hi, I'm **Soumya**, your trip planner.\n"
     "I can fetch your invites, set your base city, and plan an itinerary for a selected invite.\n\n"
     "Try:\n"
     "• **fetch my invites** — pull recent invitation emails from Gmail\n"

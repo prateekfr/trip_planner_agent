@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_New_Delhi_NA_20251003_114243",
+    "src": "Indore",
+    "dst": "New Delhi",
+    "travel_date": null,
+    "earliest_departure": "2025-10-28T22:00:00+05:30",
+    "latest_arrival": "2025-10-29T08:00:00+05:30",
+    "timestamp_utc": "2025-10-03T11:42:43.410938",
+    "query_primary": "Indore to New Delhi bus tickets price duration site:redbus.in OR site:abhibus.com OR site:intrcity.com OR site:zingbus.com OR site:paytm.com/bus-tickets OR site:makemytrip.com/bus-tickets OR site:yatra.com/bus",
+    "distance_km": 672.2530202242672
+  },
+  "options": [
+    {
+      "mode": "bus",
+      "src": "Indore",
+      "dst": "New Delhi",
+      "depart": "2025-10-28T22:00:00+05:30",
+      "arrive": "2025-10-29T07:25:12+05:30",
+      "duration_hours": 9.42,
+      "price_inr": 500,
+      "ref": "B02",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.abhibus.com/buses/19763/Indore-Delhi"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10",
+    "drop_by_la: https://www.redbus.in/bus-tickets/indore-to-delhi",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/indore-delhi-bus-ticket-booking.html",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/sleeper-buses-from-indore-to-delhi-online-ticket-booking.html",
+    "drop_by_la: https://www.redbus.in/online-bus/indore-to-delhi-operator-ashok-travels-regd",
+    "drop_by_la: https://www.redbus.in/online-bus/indore-to-delhi-operator-hans-travels-online",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/volvo-ac-sleeper-buses-from-indore-to-delhi-online-ticket-booking.html",
+    "drop_by_la: https://www.abhibus.com/buses/19763/Indore-Delhi",
+    "drop_by_la: https://www.redbus.in/online-bus/indore-to-delhi-operator-raj-ratan-tours-and-travels",
+    "drop_by_la: https://www.intrcity.com/bus-booking/indore-to-delhi-buses",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/non-ac-sleeper-buses-from-indore-to-delhi-online-ticket-booking.html",
+    "pass2_organic: 10",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/indore-delhi-bus-ticket-booking.html",
+    "drop_by_la: https://www.redbus.in/bus-tickets/indore-to-delhi",
+    "drop_by_la: https://www.makemytrip.com/bus-tickets/volvo-ac-sleeper-buses-from-indore-to-delhi-online-ticket-booking.html",
+    "drop_by_la: https://www.intrcity.com/bus-booking/indore-to-delhi-buses",
+    "drop_by_la: https://www.redbus.in/online-bus/indore-to-delhi-operator-raj-ratan-tours-and-travels",
+    "drop_by_la: https://www.easemytrip.com/bus/indore-to-delhi-bus-tickets/",
+    "drop_by_la: https://www.flixbus.in/bus-routes/indore-delhi",
+    "drop_by_la: https://www.goibibo.com/bus/indore-to-delhi-volvo-bus-ticket-booking/"
+  ]
+}

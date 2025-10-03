@@ -1,0 +1,52 @@
+{
+  "search_metadata": {
+    "search_id": "Indore_New_Delhi_NA_20251003_162523",
+    "src": "Indore",
+    "dst": "New Delhi",
+    "travel_date": null,
+    "earliest_departure": "2025-10-28T22:00:00+05:30",
+    "latest_arrival": "2025-10-29T08:00:00+05:30",
+    "timestamp_utc": "2025-10-03T16:25:23.337801",
+    "query_primary": "Indore to New Delhi trains time table fare duration site:ixigo.com/trains OR site:trainman.in OR site:confirmtkt.com OR site:railyatri.in OR site:etrain.info OR site:yatra.com/trains OR site:paytm.com/train-tickets OR site:irctc.co.in",
+    "distance_km": 672.2530202242672
+  },
+  "options": [
+    {
+      "mode": "train",
+      "src": "Indore",
+      "dst": "New Delhi",
+      "depart": "2025-10-28T22:00:00+05:30",
+      "arrive": "2025-10-29T04:49:48+05:30",
+      "duration_hours": 6.83,
+      "price_inr": null,
+      "ref": "T09",
+      "provider": {
+        "name": "SerpAPI GoogleSearch",
+        "link": "https://www.ixigo.com/trains/19337"
+      }
+    }
+  ],
+  "debug": [
+    "pass1_organic: 10",
+    "drop_by_la: https://www.railyatri.in/indore-jn%20bg-to-new-delhi-trains",
+    "drop_by_la: https://www.railyatri.in/indore-jn%20bg-to-old-delhi-trains",
+    "drop_by_la: https://www.confirmtkt.com/trains/indore-to-new-delhi-train-tickets",
+    "drop_by_la: https://tickets.paytm.com/train-tickets/indore-to-new-delhi-trains",
+    "drop_by_la: https://www.ixigo.com/trains/12415",
+    "drop_by_la: https://www.ixigo.com/trains/20957",
+    "drop_by_la: https://www.confirmtkt.com/train-schedule/12415-INDB-NDLS-EXP",
+    "drop_by_la: https://www.trainman.in/train/12415",
+    "drop_by_la: https://www.railyatri.in/trains-between-stations-v2?from_code=INDB&to_code=DLI&utm_source=ttb_seo",
+    "pass2_organic: 10",
+    "drop_by_la: https://www.confirmtkt.com/trains/indore-to-new-delhi-train-tickets",
+    "drop_by_la: https://www.railyatri.in/indore-jn%20bg-to-new-delhi-trains",
+    "drop_by_la: https://www.redbus.in/train-tickets/indore-to-delhi-trains",
+    "drop_by_la: https://www.goibibo.com/trains/indore-to-delhi-trains/",
+    "drop_by_la: https://www.goibibo.com/trains/20957-detail/",
+    "drop_by_la: https://www.redbus.in/train-tickets/indore-to-newdelhi-trains",
+    "drop_by_la: https://www.ixigo.com/by-train-rail/indore-to-new-delhi-by-train",
+    "drop_by_la: https://www.makemytrip.com/railways/indore-delhi-train-tickets.html",
+    "drop_by_la: https://www.makemytrip.com/railways/indore-new-delhi-train-tickets.html",
+    "drop_by_la: https://tickets.paytm.com/trains/indore-to-delhi-trains"
+  ]
+}

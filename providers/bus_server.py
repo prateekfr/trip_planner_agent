@@ -1,4 +1,3 @@
-# providers/bus_server.py
 from __future__ import annotations
 import json, os, re, sys, math
 from datetime import datetime, timedelta
@@ -19,9 +18,71 @@ except Exception:
 SERPAPI_KEY = os.getenv("SERPAPI_KEY") or os.getenv("SERP_API_KEY")
 if not SERPAPI_KEY:
     print("[MCP bus] Missing SERPAPI_KEY", file=sys.stderr)
+
 DATA_ROOT = Path(os.getenv("DATA_ROOT", "./data")).resolve()
 BUS_DIR = (DATA_ROOT / "buses"); BUS_DIR.mkdir(parents=True, exist_ok=True)
 REQ_TIMEOUT = 35
+NOMINATIM_URL = os.getenv("NOMINATIM_URL", "https://nominatim.openstreetmap.org/search")
+GEOCODER_UA   = os.getenv("GEOCODER_UA", "bus-assistant/1.0 (set GEOCODER_UA with your contact)")
+GEO_CACHE_PATH = DATA_ROOT / "geo_cache.json"
+try:
+    _GEO_CACHE: Dict[str, Dict[str, float]] = json.loads(GEO_CACHE_PATH.read_text("utf-8"))
+    if not isinstance(_GEO_CACHE, dict):
+        _GEO_CACHE = {}
+except Exception:
+    _GEO_CACHE = {}
+
+def _geo_cache_get(name: str) -> Optional[tuple[float, float]]:
+    key = (name or "").strip().lower()
+    rec = _GEO_CACHE.get(key)
+    if isinstance(rec, dict) and "lat" in rec and "lon" in rec:
+        try:
+            return float(rec["lat"]), float(rec["lon"])
+        except Exception:
+            return None
+    return None
+
+def _geo_cache_put(name: str, lat: float, lon: float) -> None:
+    key = (name or "").strip().lower()
+    _GEO_CACHE[key] = {"lat": float(lat), "lon": float(lon)}
+    try:
+        GEO_CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+        GEO_CACHE_PATH.write_text(json.dumps(_GEO_CACHE, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception:
+        pass
+
+def _geocode_city(name: str) -> Optional[tuple[float, float]]:
+    """
+    Resolve a city/place name to (lat, lon) using OpenStreetMap Nominatim.
+    Uses on-disk cache; returns None if not found or on error.
+    """
+    if not name:
+        return None
+    cached = _geo_cache_get(name)
+    if cached:
+        return cached
+    try:
+        params = {
+            "q": name,
+            "format": "json",
+            "limit": 1,
+        }
+        headers = {
+            "User-Agent": GEOCODER_UA,
+            "Accept-Language": "en",
+        }
+        r = requests.get(NOMINATIM_URL, params=params, headers=headers, timeout=REQ_TIMEOUT)
+        r.raise_for_status()
+        data = r.json()
+        if isinstance(data, list) and data:
+            item = data[0]
+            lat = float(item.get("lat"))
+            lon = float(item.get("lon"))
+            _geo_cache_put(name, lat, lon)
+            return (lat, lon)
+    except Exception as e:
+        pass
+    return None
 RE_RUPEES = re.compile(r"(?:₹|INR)\s*([0-9][0-9,]*)", re.IGNORECASE)
 RE_HOURS  = re.compile(r"\b(\d{1,2}(?:\.\d{1,2})?)\s*(?:hrs?|hours?)\b", re.IGNORECASE)
 RE_HH_MM  = re.compile(r"\b(\d{1,2})\s*[:h]\s*(\d{2})\b")
@@ -77,16 +138,6 @@ def _serpapi_search(q: str, gl="in", hl="en", num=20) -> Dict[str, Any]:
     r.raise_for_status()
     return r.json()
 
-_COORDS = {
-    "indore": (22.7196, 75.8577), "bengaluru": (12.9716, 77.5946), "bangalore": (12.9716, 77.5946),
-    "mumbai": (19.0760, 72.8777), "delhi": (28.6139, 77.2090), "pune": (18.5204, 73.8567),
-    "hyderabad": (17.3850, 78.4867), "chennai": (13.0827, 80.2707), "ahmedabad": (23.0225, 72.5714),
-    "jaipur": (26.9124, 75.7873), "lucknow": (26.8467, 80.9462), "kolkata": (22.5726, 88.3639),
-    "goa": (15.2993, 74.1240), "surat": (21.1702, 72.8311), "nagpur": (21.1458, 79.0882),
-    "kochi": (9.9312, 76.2673), "coimbatore": (11.0168, 76.9558), "bhopal": (23.2599, 77.4126),
-    "noida": (28.5355, 77.3910), "gurgaon": (28.4595, 77.0266), "gurugram": (28.4595, 77.0266),
-}
-
 def _haversine_km(a: tuple[float,float], b: tuple[float,float]) -> float:
     R = 6371.0
     import math
@@ -97,8 +148,12 @@ def _haversine_km(a: tuple[float,float], b: tuple[float,float]) -> float:
     return 2 * R * math.asin(math.sqrt(h))
 
 def _city_km(src: str, dst: str) -> Optional[float]:
-    s = _COORDS.get((src or "").strip().lower())
-    d = _COORDS.get((dst or "").strip().lower())
+    """
+    Uses OpenStreetMap Nominatim to geocode src/dst and returns haversine km.
+    Falls back to None if geocoding fails (downstream code already handles None).
+    """
+    s = _geocode_city(src)
+    d = _geocode_city(dst)
     if not s or not d: return None
     return _haversine_km(s, d)
 

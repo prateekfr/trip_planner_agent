@@ -18,6 +18,42 @@ LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.0"))
 IATA_COUNTRY_BIAS = os.getenv("IATA_COUNTRY_BIAS", "IN")
 _IATA_CACHE: Dict[str, Dict[str, Any]] = {}
 
+def _arrival_point_name(r: Dict[str, Any]) -> str:
+    # Try structured fields first
+    for k in ("arrival_airport", "arrival_station", "arrival_terminal",
+              "arrival_stop", "arrival_point", "to_name"):
+        v = r.get(k)
+        if isinstance(v, dict):
+            name = v.get("name") or v.get("short") or v.get("code")
+            if name: return str(name)
+        elif isinstance(v, str) and v.strip():
+            return v.strip()
+    # Fall back by mode + city
+    city = (r.get("arrival_city") or r.get("to_city") or "").strip()
+    mode = (r.get("mode") or "").strip().lower()
+    if city:
+        if mode == "flight": return f"{city} Airport"
+        if mode == "train":  return f"{city} Railway Station"
+        if mode == "bus":    return f"{city} Bus Stand"
+    return (r.get("mode") or "arrival").title()
+
+def _google_maps_link(origin: str, destination: str, travelmode: str = "driving") -> str:
+    import urllib.parse as _up
+    o = _up.quote_plus(origin or "")
+    d = _up.quote_plus(destination or "")
+    tm = _up.quote_plus(travelmode)
+    return f"https://www.google.com/maps/dir/?api=1&origin={o}&destination={d}&travelmode={tm}"
+
+def _coarse_travel_minutes(origin_name: str, dest_text: Optional[str]) -> int:
+    o = (origin_name or "").lower()
+    if "airport" in o: return 50      # metro-ish default
+    if any(x in o for x in ("railway", "station", "bus", "stand", "terminal")): return 35
+    return 40
+
+def _rough_cab_fare_inr(minutes: int) -> int:
+    return int(round(minutes * 22, 0))
+
+
 def _normalize_option_headers(text: str) -> str:
     def fix_line(lbl: str, s: str) -> str:
         s = re.sub(rf"(?mi)^\s*•\s*{lbl}\s*:\s*(.+?)\s*$", rf"{lbl}\n• Mode: \1", s)
@@ -26,6 +62,74 @@ def _normalize_option_headers(text: str) -> str:
     for lbl in ("Value", "Fastest", "Cheapest"):
         s = fix_line(lbl, s)
     return s
+
+def _normalize_duration_units(text: str) -> str:
+    return re.sub(
+        r"(?mi)^\s*•\s*Duration:\s*([0-9]+(?:\.[0-9]+)?)\s*$",
+        r"• Duration: \1 hours",
+        text
+    )
+
+def _ensure_option_subheaders(text: str) -> str:
+    kinds = ["Value", "Fastest", "Cheapest"]
+    header_pat = re.compile(r"^\s*(Value|Fastest|Cheapest)\s*$", re.I)
+    mode_pat = re.compile(r"^\s*•\s*Mode:", re.I)
+    m = re.search(r"(?m)^\s*\*{0,2}\s*Options\s*\*{0,2}\s*$", text)
+    if not m:
+        return text
+    start = m.end()
+    m2 = re.search(
+        r"(?m)^\s*\*{0,2}\s*(Hotels|Soumya's Suggested Plan|Cheapest Plan|Next Steps)\s*\*{0,2}\s*$",
+        text[start:]
+    )
+    end = start + (m2.start() if m2 else len(text[start:]))
+    block = text[start:end]
+    lines = block.splitlines()
+    used_headers: List[str] = []
+    out: List[str] = []
+
+    def is_header(s: str) -> bool:
+        return bool(header_pat.match(s))
+
+    def last_nonempty(arr: List[str]) -> str:
+        for L in reversed(arr):
+            if L.strip():
+                return L
+        return ""
+    for line in lines:
+        if is_header(line):
+            hdr = line.strip().title()
+            if not (out and out[-1].strip().title() == hdr):
+                out.append(hdr)
+            if hdr not in used_headers:
+                used_headers.append(hdr)
+            continue
+        if mode_pat.match(line):
+            prev = last_nonempty(out)
+            if not is_header(prev):
+                for k in kinds:
+                    if k not in used_headers:
+                        out.append(k)
+                        used_headers.append(k)
+                        break
+        out.append(line)
+
+    new_block = "\n".join(out)
+    return text[:start] + new_block + text[end:]
+
+def _normalize_city_phrase(city_phrase: str) -> Tuple[str, Optional[str]]:
+    s = (city_phrase or "").strip()
+    if not s:
+        return "", None
+    resolved = _llm_resolve_iata(s, IATA_COUNTRY_BIAS)
+    if resolved:
+        norm = (resolved.get("normalized_city") or "").strip()
+        iata = (resolved.get("primary_iata") or "").strip().upper() or None
+        if norm:
+            return norm, iata
+        if iata and len(s) == 3 and s.isalpha():
+            return s.upper(), iata
+    return s.title(), None
 
 def _compute_default_rationale(kind: str, route: Dict[str, Any]) -> str:
     base = {
@@ -344,6 +448,7 @@ class AgentState(TypedDict, total=False):
     hotels: List[Dict[str, Any]]
     hotel_value: Dict[str, Any]
     hotel_cheapest: Dict[str, Any]
+    venue_latlng: Optional[Tuple[float, float]]                   
     cheapest: Dict[str, Any]
     fastest: Dict[str, Any]
     value: Dict[str, Any]
@@ -351,6 +456,7 @@ class AgentState(TypedDict, total=False):
     debug: List[str]
     itinerary_text: str
     summary_json: Dict[str, Any]
+    last_mile: Dict[str, Any]  
 
 class ToolMux:
     def __init__(self):
@@ -516,14 +622,44 @@ def plan_outbound(state: "AgentState") -> "AgentState":
 def suggest_hotels(state: "AgentState") -> "AgentState":
     checkin = state.get("meeting_start")
     checkout = state.get("meeting_end") or (checkin + timedelta(hours=2) if checkin else None)
-    if checkin and checkin.date() < date.today(): checkin = datetime.combine(date.today(), checkin.time())
-    if checkout and checkout.date() < date.today(): checkout = datetime.combine(date.today() + timedelta(days=1), checkout.time())
+
+    def _first_route_dt() -> Optional[datetime]:
+        for key in ("value", "fastest", "cheapest"):
+            r = state.get(key) or {}
+            d = r.get("arrive") or r.get("depart")
+            if d:
+                try:
+                    from dateutil import parser as dtp
+                    x = dtp.isoparse(d)
+                    return x.replace(tzinfo=LOCAL_TZ) if x.tzinfo is None else x.astimezone(LOCAL_TZ)
+                except Exception:
+                    pass
+        return None
+
+    if not checkin:
+        cand = _first_route_dt() or state.get("latest_arrival")
+        if isinstance(cand, datetime):
+            checkin = cand
+    if not checkout and isinstance(checkin, datetime):
+        checkout = checkin + timedelta(days=1)
+
+    if checkin and checkin.date() < date.today():
+        checkin = datetime.combine(date.today(), (checkin.time() if isinstance(checkin, datetime) else datetime.min.time()))
+    if checkout and checkout.date() <= (checkin.date() if isinstance(checkin, datetime) else date.today()):
+        checkout = (checkin + timedelta(days=1)) if isinstance(checkin, datetime) else datetime.combine(date.today() + timedelta(days=1), datetime.min.time())
+
+    if not checkin:
+        checkin = datetime.combine(date.today(), datetime.min.time()).replace(tzinfo=LOCAL_TZ)
+    if not checkout:
+        checkout = (checkin + timedelta(days=1)) if isinstance(checkin, datetime) else datetime.combine(date.today() + timedelta(days=1), datetime.min.time()).replace(tzinfo=LOCAL_TZ)
+
     hotels: List[Dict[str, Any]] = []
     h_search = _tools.call(
         "search_hotels",
         city=state.get("dest_city_norm") or state.get("destination_city"),
         near=state.get("venue_text"),
-        checkin=_iso(checkin), checkout=_iso(checkout),
+        checkin=_iso(checkin),
+        checkout=_iso(checkout),
         adults=1, currency="INR", country="in", language="en",
     )
     if isinstance(h_search, dict) and "search_id" in h_search:
@@ -534,6 +670,7 @@ def suggest_hotels(state: "AgentState") -> "AgentState":
             state.setdefault("debug", []).append("Hotels normalize returned non-list/empty.")
     else:
         state.setdefault("debug", []).append(f"Hotels search returned no search_id: {h_search!r}")
+
     def price_of(h): return float(h.get("price_inr")) if isinstance(h.get("price_inr"), (int, float)) else 1e12
     def rating_of(h):
         r = h.get("rating")
@@ -543,11 +680,10 @@ def suggest_hotels(state: "AgentState") -> "AgentState":
             return 0.0
     def value_score(h):
         return price_of(h) / max(rating_of(h), 2.5)
-    hotel_cheapest = min(hotels, key=price_of) if hotels else {}
-    hotel_value = min(hotels, key=value_score) if hotels else {}
+
     state["hotels"] = hotels
-    state["hotel_cheapest"] = hotel_cheapest
-    state["hotel_value"] = hotel_value
+    state["hotel_cheapest"] = min(hotels, key=price_of) if hotels else {}
+    state["hotel_value"] = min(hotels, key=value_score) if hotels else {}
     return state
 
 def _num_or(val: Any, default: float) -> float:
@@ -695,6 +831,25 @@ _SYSTEM_PROMPT = (
     "• Do NOT add any preface or explanation.\n"
     "• Do NOT add anything after the 'Next Steps' section.\n"
     "\n"
+    "• Do not invent data; use values as provided. If unknown, use the exact placeholders below.\n"
+    "\n"
+    "OPTIONS SECTION — NON-NEGOTIABLE LAYOUT:\n"
+    "• The “Options” section must contain EXACTLY THREE blocks, in this ORDER: Value, Fastest, Cheapest.\n"
+    "• Each block header MUST be a bare line (no bullets, no colon, no extra words): one of: Value / Fastest / Cheapest.\n"
+    "• Never repeat Value/Fastest/Cheapest headers anywhere; they appear once each, inside “Options”, in that order.\n"
+    "• Inside each block render EXACTLY SEVEN bullet lines, in THIS order (no extras, no omissions, no repeats):\n"
+    "  • Mode: <text>\n"
+    "  • Depart: <datetime or —>\n"
+    "  • Arrive: <datetime or —>\n"
+    "  • Duration: <X.Y hours or —>\n"
+    "  • Price: <₹ 12,345 or ₹ (no price available)>\n"
+    "  • Rationale: <text or —>\n"
+    "  • Booking Link: <url or empty>\n"
+    "• Never output “• Value: …”, “• Fastest: …”, or “• Cheapest: …”.\n"
+    "• Never output more than one “• Mode:” line in any block.\n"
+    "• If Duration is a bare number, append “ hours”. If unknown, use “—”.\n"
+    "• If price is missing/null, render exactly: “₹ (no price available)”.\n"
+    "\n"
     "ROUTES & CONSTRAINTS:\n"
     "- If a route has note 'arrives_after_latest_arrival' or field after_window=true, set its Rationale to "
     "'Arrives after preferred window (optional)'.\n"
@@ -717,6 +872,10 @@ _SYSTEM_PROMPT = (
     "     • Price: <₹ ... or ₹ (no price available)>\n"
     "     • Rationale: <one short line; if not provided, write '—'>\n"
     "     • Booking Link: <booking_link>\n"
+    "     • Transfer: <last_mile[Key].from> → <last_mile[Key].to> (<last_mile[Key].minutes> min by <last_mile[Key].mode>; ~₹ <last_mile[Key].approx_fare_inr>)\n"
+    "     • Leave By: <last_mile[Key].leave_by_local or '—'>; ETA at venue: <last_mile[Key].eta_at_venue_local or '—'>\n"
+    "     • Maps Link: <last_mile[Key].maps_link>\n"
+    "   (Where Key is Value/Fastest/Cheapest matching the subsection.)\n"
     "3) Section “Hotels”\n"
     "   - List up to 5 hotels as '<Name>: ₹ <price>, <rating>/5'\n"
     "   - If a Booking Link is available for a hotel, add a new line immediately after: 'Booking Link: <url>'\n"
@@ -725,17 +884,29 @@ _SYSTEM_PROMPT = (
     "   - THEN add two bullets for hotel integration:\n"
     "     • Hotel Suggestion: <value_hotel_name> (₹ <price>, <rating>/5)\n"
     "     • Hotel Link: <value_hotel_link_or_city_link>\n"
+    "   - THEN add the three last-mile bullets using last_mile['value']:\n"
+    "     • Transfer: ...\n"
+    "     • Leave By: ...\n"
+    "     • Maps Link: ...\n"
     "5) Section “Cheapest Plan”\n"
     "   - Render the cheapest route details with the SAME seven bullet lines\n"
     "   - THEN add:\n"
     "     • Hotel Suggestion: <cheapest_hotel_name> (₹ <price>, <rating>/5)\n"
     "     • Hotel Link: <cheapest_hotel_link_or_city_link>\n"
+    "   - THEN add the three last-mile bullets using last_mile['cheapest'].\n"
     "6) Section “Next Steps” (final; nothing after this)\n"
     "   - Exactly these bullets:\n"
     "     1) Book your {mode of travel} and hotel with the links\n"
     "     2) Reach the hotel and freshen up\n"
     "     3) Enjoy your trip\n"
-    "   - {mode of travel} = Value’s mode; if missing use Fastest; else Cheapest.\n"
+    "   - {mode of travel} = Value's mode; if missing use Fastest; else Cheapest.\n"
+    "\n"
+    "MANDATORY SELF-CHECK (before sending):\n"
+    "• Options has exactly three headers (Value, Fastest, Cheapest) in that order, each exactly once, no bullets/colons.\n"
+    "• Each Options block has exactly seven bullets and only one “• Mode:”.\n"
+    "• No Value/Fastest/Cheapest headers appear outside Options.\n"
+    "• Duration units are normalized (e.g., “1.5 hours”) or “—”.\n"
+    "• No extra text anywhere; sections appear only in the specified order.\n"
 )
 
 def _hotel_fallback_link(city: Optional[str]) -> str:
@@ -789,6 +960,58 @@ def _inject_plan_hotels(text: str,
         text = "".join(parts)
     return text
 
+def add_last_mile_transfers(state: "AgentState") -> "AgentState":
+    venue = (state.get("venue_text") or "").strip()
+    if not venue:
+        state["last_mile"] = {}
+        return state
+
+    def _calc_for(r: Dict[str, Any]) -> Dict[str, Any]:
+        if not r:
+            return {}
+        origin = _arrival_point_name(r)
+        minutes = _coarse_travel_minutes(origin, venue)
+        fare = _rough_cab_fare_inr(minutes)
+        maps = _google_maps_link(origin, venue, travelmode="driving")
+
+        leave_by = None
+        try:
+            if state.get("meeting_start"):
+                lb = state["meeting_start"]
+                if lb.tzinfo is None:
+                    lb = lb.replace(tzinfo=LOCAL_TZ)
+                lb = lb - timedelta(minutes=minutes + 15)  # buffer
+                leave_by = lb.astimezone(LOCAL_TZ).strftime("%Y-%m-%d %H:%M")
+        except Exception:
+            pass
+
+        eta = None
+        try:
+            if r.get("arrive"):
+                from dateutil import parser as dtp
+                arr = dtp.isoparse(r["arrive"])
+                arr = arr.replace(tzinfo=LOCAL_TZ) if arr.tzinfo is None else arr.astimezone(LOCAL_TZ)
+                eta = (arr + timedelta(minutes=minutes)).strftime("%Y-%m-%d %H:%M")
+        except Exception:
+            pass
+
+        return {
+            "from": origin,
+            "to": venue,
+            "mode": "cab",
+            "minutes": minutes,
+            "approx_fare_inr": fare,
+            "leave_by_local": leave_by,         # may be None
+            "eta_at_venue_local": eta,          # may be None
+            "maps_link": maps,
+        }
+
+    lm = {}
+    for key in ("value", "fastest", "cheapest"):
+        lm[key] = _calc_for(state.get(key) or {})
+    state["last_mile"] = lm
+    return state
+
 def llm_itinerary(state: "AgentState") -> "AgentState":
     summary = {
         "base_city": state.get("base_city_norm") or state.get("base_city"),
@@ -805,6 +1028,7 @@ def llm_itinerary(state: "AgentState") -> "AgentState":
         "top_hotels": (state.get("hotels") or [])[:5],
         "hotel_value": state.get("hotel_value") or {},
         "hotel_cheapest": state.get("hotel_cheapest") or {},
+        "last_mile": state.get("last_mile") or {},
         "notes": state.get("debug", []),
         "links_provided": True,
         "iata": {"from": state.get("base_iata"), "to": state.get("dest_iata")},
@@ -837,6 +1061,8 @@ def llm_itinerary(state: "AgentState") -> "AgentState":
             base_iata=(state.get("base_iata") or None),
             dest_iata=(state.get("dest_iata") or None),
         )
+        text = _ensure_option_subheaders(text)
+        text = _normalize_duration_units(text) 
         text = _force_bullets_in_options(text)
         text = _bold_static_headers(text)
         text = _inject_plan_hotels(
@@ -904,8 +1130,13 @@ def _canonical_city_from_text(text: str) -> Optional[str]:
     return None
 
 def _validated_set_base(city_phrase: Optional[str], full_utterance: str) -> Optional[str]:
-    if city_phrase and city_phrase.strip(): return city_phrase.strip().title()
-    return _canonical_city_from_text(full_utterance)
+    raw = (city_phrase or "").strip()
+    if not raw:
+        raw = (_canonical_city_from_text(full_utterance) or "").strip()
+        if not raw:
+            return None
+    norm, _ = _normalize_city_phrase(raw)
+    return norm or None
 
 def llm_intent(user_msg: str) -> Dict[str, Any]:
     if QUESTION_PAT.search(user_msg) or WEATHER_PAT.search(user_msg):
@@ -952,12 +1183,14 @@ def _build_graph():
     g.add_node("plan_outbound", plan_outbound)
     g.add_node("suggest_hotels", suggest_hotels)
     g.add_node("rank_routes", rank_routes)
+    g.add_node("add_last_mile_transfers", add_last_mile_transfers)
     g.add_node("llm_itinerary", llm_itinerary)
     g.set_entry_point("gather_constraints")
     g.add_edge("gather_constraints", "plan_outbound")
     g.add_edge("plan_outbound", "suggest_hotels")
     g.add_edge("suggest_hotels", "rank_routes")
-    g.add_edge("rank_routes", "llm_itinerary")
+    g.add_edge("rank_routes", "add_last_mile_transfers")
+    g.add_edge("add_last_mile_transfers", "llm_itinerary") 
     g.add_edge("llm_itinerary", END)
     return g.compile()
 
@@ -1071,16 +1304,19 @@ class ChatAgent:
             return {"reply": ("I can fetch your invites, set your base city, and plan a trip for a specific invite.\n"
                               "Try: **fetch my invites**, **set my base to Indore**, or **plan trip for invite 2**.")}
         if intent_name == "SET_BASE":
-            city = intent.get("city")
-            if not city or not city.strip():
-                city = _canonical_city_from_text(user_msg or "")
-                if not city: return {"reply": self.SOUMYA_NEED_BASE}
-            session["base_city"] = city.strip().title()
+            city = (intent.get("city") or "").strip()
+            if not city:
+                city = (_canonical_city_from_text(user_msg or "") or "").strip()
+                if not city:
+                    return {"reply": self.SOUMYA_NEED_BASE}
+            norm_city, _ = _normalize_city_phrase(city)
+            session["base_city"] = norm_city
             pending_idx = session.pop("pending_plan_index", None)
             session["awaiting_base_city"] = False
             if isinstance(pending_idx, int):
                 return self._try_plan_by_index(pending_idx, session, user_email, extract_trip_facts_fn, plan_fn)
             return {"reply": f"Got it — base city set to **{session['base_city']}**."}
+
         if intent_name == "FETCH_INVITES":
             invites = fetch_invites_fn()
             session["invites"] = invites
@@ -1094,8 +1330,9 @@ class ChatAgent:
                 session["invites"] = invites
                 session["awaiting_plan_index"] = True
                 invite_count = len(invites)
-                prefix = f"Here are your recent invites ({invite_count} found):" if invite_count else "I couldn’t find any invites right now."
+                prefix = f"Here are your recent invites ({invite_count} found):" if invite_count else "I couldn't find any invites right now."
                 return {"reply": prefix + "\n\nPlease tell me the invite number (e.g., **2**).", "invites": invites}
             session["awaiting_plan_index"] = True
             return {"reply": "Which invite number should I plan for? (e.g., **2** or **invite 2**)."}
         return {"reply": self.SOUMYA_IRRELEVANT}
+

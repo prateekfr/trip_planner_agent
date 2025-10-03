@@ -1,0 +1,172 @@
+{
+  "cheapest": {
+    "mode": "bus",
+    "src": "Indore",
+    "dst": "Bangalore",
+    "depart": "2025-10-11 05:00",
+    "arrive": "2025-10-12 02:30",
+    "duration_hours": 21.5,
+    "price_inr": 2550,
+    "ref": "B01",
+    "provider": {
+      "name": "SerpAPI GoogleSearch",
+      "link": "https://www.redbus.in/bus-tickets/indore-to-bangalore"
+    },
+    "notes": [
+      "arrives_after_latest_arrival"
+    ],
+    "after_window": true,
+    "booking_link": "https://www.redbus.in/bus-tickets/indore-to-bangalore"
+  },
+  "fastest": {
+    "mode": "flight",
+    "src": "IDR",
+    "dst": "BLR",
+    "depart": "2025-10-11 07:10",
+    "arrive": "2025-10-11 09:10",
+    "duration_hours": 2.0,
+    "price_inr": 4930.0,
+    "ref": "",
+    "provider": {
+      "name": "SerpAPI GoogleFlights"
+    },
+    "booking_link": "https://www.makemytrip.com/flight/search?itinerary=IDR-BLR-11/10/2025&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E"
+  },
+  "value": {
+    "mode": "flight",
+    "src": "IDR",
+    "dst": "BLR",
+    "depart": "2025-10-11 07:10",
+    "arrive": "2025-10-11 09:10",
+    "duration_hours": 2.0,
+    "price_inr": 4930.0,
+    "ref": "",
+    "provider": {
+      "name": "SerpAPI GoogleFlights"
+    },
+    "booking_link": "https://www.makemytrip.com/flight/search?itinerary=IDR-BLR-11/10/2025&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E"
+  },
+  "hotels_top5": [
+    {
+      "name": "Grand Mercure Bangalore",
+      "price_inr": 7371.0,
+      "distance_km": null,
+      "rating": 4.5,
+      "city": "Bangalore",
+      "near": "Koramangala",
+      "checkin": "2025-10-11T17:00:00+05:30",
+      "checkout": "2025-10-12T17:00:00+05:30",
+      "ref": "ChcI4qOYp9f5wIUyGgsvZy8xdGZrcDVqehAB",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=7155&merchantid=seo-maps-IN-7155&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+      }
+    },
+    {
+      "name": "Regenta Inn Grand Koramangala",
+      "price_inr": 3656.0,
+      "distance_km": null,
+      "rating": 4.5,
+      "city": "Bangalore",
+      "near": "Koramangala",
+      "checkin": "2025-10-11T17:00:00+05:30",
+      "checkout": "2025-10-12T17:00:00+05:30",
+      "ref": "ChkIqsnhjISphshhGg0vZy8xMWxzejhfcTA2EAE",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": null
+      }
+    },
+    {
+      "name": "BluPetal Hotel",
+      "price_inr": 3452.0,
+      "distance_km": null,
+      "rating": 4.3,
+      "city": "Bangalore",
+      "near": "Koramangala",
+      "checkin": "2025-10-11T17:00:00+05:30",
+      "checkout": "2025-10-12T17:00:00+05:30",
+      "ref": "ChgI4Ieigvan7NOqARoLL2cvMXRtMTExODQQAQ",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "http://www.blupetalhotel.com/"
+      }
+    },
+    {
+      "name": "Hotel Davanam Sarovar Portico Suites",
+      "price_inr": 5177.0,
+      "distance_km": null,
+      "rating": 4.2,
+      "city": "Bangalore",
+      "near": "Koramangala",
+      "checkin": "2025-10-11T17:00:00+05:30",
+      "checkout": "2025-10-12T17:00:00+05:30",
+      "ref": "ChkI9ezercak_oqKARoML2cvMXB0emYydHZ3EAE",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.sarovarhotels.com/davanam-sarovar-portico-suites-bangalore/"
+      }
+    },
+    {
+      "name": "The Grand Krishna Rooms",
+      "price_inr": 1717.0,
+      "distance_km": null,
+      "rating": 4.1,
+      "city": "Bangalore",
+      "near": "Koramangala",
+      "checkin": "2025-10-11T17:00:00+05:30",
+      "checkout": "2025-10-12T17:00:00+05:30",
+      "ref": "ChgIzrXo982jlt-nARoLL2cvMXRua192bGQQAQ",
+      "provider": {
+        "name": "SerpAPI GoogleHotels",
+        "link": "https://www.grandkrishna.com/meetings-events/banquet-hall.html"
+      }
+    }
+  ],
+  "hotel_value": {
+    "name": "The Hosteller Bangalore, Koramangala",
+    "price_inr": 564.0,
+    "distance_km": null,
+    "rating": 4.7,
+    "city": "Bangalore",
+    "near": "Koramangala",
+    "checkin": "2025-10-11T17:00:00+05:30",
+    "checkout": "2025-10-12T17:00:00+05:30",
+    "ref": "ChkIq-nC3_2a_dAJGg0vZy8xMXR4djk3NXFyEAE",
+    "provider": {
+      "name": "SerpAPI GoogleHotels",
+      "link": "https://www.thehosteller.com/hostels/the-hosteller-bangalore"
+    }
+  },
+  "hotel_cheapest": {
+    "name": "The Hosteller Bangalore, Koramangala",
+    "price_inr": 564.0,
+    "distance_km": null,
+    "rating": 4.7,
+    "city": "Bangalore",
+    "near": "Koramangala",
+    "checkin": "2025-10-11T17:00:00+05:30",
+    "checkout": "2025-10-12T17:00:00+05:30",
+    "ref": "ChkIq-nC3_2a_dAJGg0vZy8xMXR4djk3NXFyEAE",
+    "provider": {
+      "name": "SerpAPI GoogleHotels",
+      "link": "https://www.thehosteller.com/hostels/the-hosteller-bangalore"
+    }
+  },
+  "debug": [
+    "IATA resolved: Indore → IDR (as Indore)",
+    "IATA resolved: Bangalore → BLR (as Bangalore)",
+    "Flights: 9 options on 2025-10-11.",
+    "Trains: 2 options.",
+    "Buses: 2 options.",
+    "Hotels: 20 options.",
+    "Relaxed latest_arrival for bus/train to expose cheaper surface options.",
+    "LLM itinerary generated (2587 chars)."
+  ],
+  "iata": {
+    "from": "IDR",
+    "to": "BLR"
+  },
+  "base_city": "Indore",
+  "destination_city": "Bangalore"
+}
